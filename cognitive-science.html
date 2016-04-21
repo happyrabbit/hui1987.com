@@ -19,7 +19,7 @@
 
 <meta name="author" content="Hui Lin">
 
-<meta name="date" content="2016-04-19">
+<meta name="date" content="2016-04-20">
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -99,6 +99,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="2.1.19" data-path="cognitive-science.html"><a href="cognitive-science.html#ch19-the-illusion-of-understanding"><i class="fa fa-check"></i><b>2.1.19</b> Ch19 The illusion of understanding</a></li>
 <li class="chapter" data-level="2.1.20" data-path="cognitive-science.html"><a href="cognitive-science.html#ch20-the-illusion-of-validity"><i class="fa fa-check"></i><b>2.1.20</b> Ch20 The illusion of validity</a></li>
 <li class="chapter" data-level="2.1.21" data-path="cognitive-science.html"><a href="cognitive-science.html#ch21-intuitions-vs.formulas"><i class="fa fa-check"></i><b>2.1.21</b> Ch21 Intuitions vs. Formulas</a></li>
+<li class="chapter" data-level="2.1.22" data-path="cognitive-science.html"><a href="cognitive-science.html#ch22-expert-intuition-when-can-we-trust-it"><i class="fa fa-check"></i><b>2.1.22</b> Ch22 Expert Intuition: When can we trust it?</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="cognitive-science.html"><a href="cognitive-science.html#mental-framework"><i class="fa fa-check"></i><b>2.2</b> Mental Framework</a><ul>
 <li class="chapter" data-level="2.2.1" data-path="cognitive-science.html"><a href="cognitive-science.html#section-2.2.1"><i class="fa fa-check"></i><b>2.2.1</b> 信息海啸中独善其身之法</a></li>
@@ -699,22 +700,43 @@ MathJax.Hub.Config({
 <div id="ch21-intuitions-vs.formulas" class="section level3">
 <h3><span class="header-section-number">2.1.21</span> Ch21 Intuitions vs. Formulas</h3>
 <ul>
+<li>Each of these domains <strong>entails a significant degree of uncertainty and unpredictability</strong>. We describe them as <strong>“low-validity environments”</strong>. In every case, the accuracy of experts was matched or exceeded by a simple algorithm. [当一个领域有很强的不确定性和不可预见性，也就是“有效性低的环境”时，公式运算比人工判断往往会更加有效]
+<ul>
 <li>Medical: longevity of cancer patients; length of hospital stays; diagnosis of cardiac disease; susceptibility of babies to sudden infant death syndrome</li>
 <li>Economic: prospects of success for new businesses; evaluation of credit risks by banks; future career satisfaction of workers</li>
 <li>Government agency: assessments of the suitability of foster parents; odds of recidivism among juvenile offenders; likelihood of other forms of violent behavior</li>
 <li>Others: evaluation of scientific presentations; winners of football games; future prices of Bordeaux wine</li>
+</ul></li>
 </ul>
-<p>当一个领域有很强的不确定性和不可预见性，也就是“有效性低的环境”时，公式运算比人工判断往往会更加有效 Why? 专家想“聪明”地跳出思维的条条框框，复杂化问题，复杂化的问题能够影响稀奇古怪的事情，但是会降低总体的准确率（用机器学习的观点看，也就是过多关注于hard negative，导致了过拟合吗？） 对复杂信息的最终判断很难达成一致，做两次判断，结果都可能不一样 但是人们依然不喜欢用公式，因为人们对非天然的人工物有抵触感（毕竟自诩为万物之灵啊），而且人们更多的是关注因果，公式的因果解释往往比不上直觉的因果解释。 作者想告诉我们的事：不要简单相信直觉判断，无论是自己的还是他人的，但是也不要万全抛开它。我们可以做“闭眼决策”</p>
-<!--第22章 专家型直觉
-专家型什么时候是可信的？是在预测的环境是有规律可循的时候
-情感是可以快速习得的，比如巴甫洛夫的狗——习得的希望，路过斜坡想起被骂——习得的恐惧。而且通常恐惧更加容易习得。
-情感习得很快，但是专业技能习得可能很慢（专家的一万小时定律）
-习得技能的两个基本条件
-一个可预测、有足够规律可循的环境
-一次通过长期训练学习这些规律的机会
-在环境缺乏牢固的规律时候，不要相信直觉
-临床心理学家、股票投资者以及经济学这都掌握了各自领域的直觉性技能，但是他们无法鉴别因直觉导致错误的情景跟任务，这是他们预测环境的局限性，所以他们对技能的过分自信是不合理的，他们的预测不会有他们想象的那么准确（当然，用公式运算出来的结果也不会强多少，因为环境是“低效度”的）
-第23章 外部意见
+<p>Why? 1. Experts try to be clever, think outside the box, and consider complex combinations of features in making their predictions. Complexity may work in the odd case, but more often than not it reduces validity. 1. Humans are incorrigibly inconsistent in making summary judgements of complex information. When asked to evaluate the same information twice, they frequently give different answers.</p>
+<ul>
+<li><p>To maximize predictive accuracy, final decisions should be left to formulas, especially in <strong>low-validity</strong> environments.</p></li>
+<li><p>The aversion to algorithms making decisions that affect humans is rooted in the strong preference that many people have for the natural over the synthetic or artificial…The prejudice against algorithms is magnified when the decisions are consequential…for most people, <strong>the cause of a mistake matters.</strong> [人们更多的是关注因果，公式的因果解释往往比不上直觉的因果解释。]</p></li>
+</ul>
+<p>作者想告诉我们的事：不要简单相信直觉判断，无论是自己的还是他人的，但是也不要万全抛开它。我们可以做“闭眼决策”</p>
+</div>
+<div id="ch22-expert-intuition-when-can-we-trust-it" class="section level3">
+<h3><span class="header-section-number">2.1.22</span> Ch22 Expert Intuition: When can we trust it?</h3>
+<ul>
+<li>专家型什么时候是可信的？
+<ul>
+<li>When both of the conditions are satisfied, intuitions are likely to be skilled [环境有规律可循时，直觉才可信。]:</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>An environment that is sufficiently regular to be predictable [一个可预测、有足够规律可循的环境]</li>
+<li>An opportunity to learn these regularities through prolonged practice [一次通过长期训练学习这些规律的机会]</li>
+</ol>
+<ul>
+<li>Differnt environments;</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Regular: chess, bridge, poker</li>
+<li>Zero-validity: stick, politics</li>
+<li>Worse than zero irregular: learn wrong lessons from experience [ex. Lewis Thomas, physician in early 19C, typhoid(伤寒)， palpate the patient’s tongue] 情感是可以快速习得的，比如巴甫洛夫的狗——习得的希望，路过斜坡想起被骂——习得的恐惧。而且通常恐惧更加容易习得。 情感习得很快，但是专业技能习得可能很慢（专家的一万小时定律）</li>
+</ol></li>
+</ul>
+<p>在环境缺乏牢固的规律时候，不要相信直觉 临床心理学家、股票投资者以及经济学这都掌握了各自领域的直觉性技能，但是他们无法鉴别因直觉导致错误的情景跟任务，这是他们预测环境的局限性，所以他们对技能的过分自信是不合理的，他们的预测不会有他们想象的那么准确（当然，用公式运算出来的结果也不会强多少，因为环境是“低效度”的）</p>
+<!--第23章 外部意见
 比起外部意见，我们更加偏向内部意见
 然而，内部意见使用的外推法往往是错误的，会过于乐观地估计结果（规划谬误）
 外部意见不一定比内部意见要准确，只有当选择了适当的参考内别，才能够起到作用
