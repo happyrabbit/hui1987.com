@@ -19,7 +19,7 @@
 
 <meta name="author" content="Hui Lin">
 
-<meta name="date" content="2016-04-24">
+<meta name="date" content="2016-04-26">
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -389,7 +389,9 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="9.8" data-path="proses-essays-and-poems.html"><a href="proses-essays-and-poems.html#essay-"><i class="fa fa-check"></i><b>9.8</b> Essay 其它（刘瑜）</a></li>
 <li class="chapter" data-level="9.9" data-path="proses-essays-and-poems.html"><a href="proses-essays-and-poems.html#essay-"><i class="fa fa-check"></i><b>9.9</b> Essay 在平淡和奢华之间摇摆（南妮）</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="statistics.html"><a href="statistics.html"><i class="fa fa-check"></i><b>10</b> Statistics</a></li>
+<li class="chapter" data-level="10" data-path="statistics.html"><a href="statistics.html"><i class="fa fa-check"></i><b>10</b> Statistics</a><ul>
+<li class="chapter" data-level="10.1" data-path="statistics.html"><a href="statistics.html#asa-on-p-value"><i class="fa fa-check"></i><b>10.1</b> ASA on p-value</a></li>
+</ul></li>
 <li class="chapter" data-level="11" data-path="self-development.html"><a href="self-development.html"><i class="fa fa-check"></i><b>11</b> Self-development</a><ul>
 <li class="chapter" data-level="11.1" data-path="self-development.html"><a href="self-development.html#make-friend-with-time-"><i class="fa fa-check"></i><b>11.1</b> Make friend with time [把时间当作朋友，李笑来]</a></li>
 <li class="chapter" data-level="11.2" data-path="self-development.html"><a href="self-development.html#section-11.2"><i class="fa fa-check"></i><b>11.2</b> 暗时间</a></li>
@@ -475,7 +477,34 @@ MathJax.Hub.Config({
             <section class="normal" id="section-">
 <div id="statistics" class="section level1">
 <h1><span class="header-section-number">Chapter 10</span> Statistics</h1>
+<div id="asa-on-p-value" class="section level2">
+<h2><span class="header-section-number">10.1</span> ASA on p-value</h2>
+<blockquote>
+<p>It is science’s dirtiest secret: The ‘scientific method’ of testing hypotheses by statistical analysis stands on a flimsy foundation. (Siegfried, 2010)</p>
+</blockquote>
+<blockquote>
+<p>The problem is not that people use p-value poorly; it is that the vast majority of data analysis is not performed by people properly trained to perform data analysis. (Leek, 2014)</p>
+</blockquote>
+<p>The statistical community has been deeply concerned about issues of reproducibility and replicability of scientific conclusions.</p>
+<p>Clarify some widely agreed principles:</p>
+<ol style="list-style-type: decimal">
+<li><p>P-values can indicate how incompatible the data are with a specified statistical model<br />The incompatibility can be interpreted as casting doubt on or providing evidence against the null hypothesis or the underlying assumptions.</p></li>
+<li><p>P-values do not measure the probability that the studied hypothesis is true, or the probability that the data were produced by random chance alone It is a statement about data in relation to a specified hypothetical explanation and is not a statement about the explanation itself.</p></li>
+<li><p>Scientific conclusions and business or policy decisions should not be based only on whether a p-value passes a specific threshold Need to consider other factors: (1) design of a study (2) quality of the measurement (3) external evidence for the phenomenon under study (4) validity of assumptions that underlie the data analysis.</p></li>
+<li>Proper inference requires full reporting and transparency
+<ul>
+<li>Also need to disclose: number of hypotheses explored, all data collection decisions, all statistical analyses conducted, p-values computed</li>
+<li>Avoid: cherry-picking (aka: data dredging, significance chasing and significance questing, selective inference, p-hacking)</li>
+</ul></li>
+<li><p>A p-value or statistical significance does not measure the size of an effect or the importance of a result Smaller p-values do not necessarily imply the presence of larger or more important effects. Larger p-values do not imply a lack of importance or even lack of effect. Any effect, no matter tiny can produce a small p-value if the sample size or measurement precision is high enough and large effects may produce unimpressive p-values if the sample size is small or measurements are imprecise (does large p-value indicate uncertainty of making conclusion from the data using current model?)</p></li>
+<li>By itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.
+<ul>
+<li>Also try other available methods</li>
+<li>Other approaches: confidence, credibility or prediction intervals (?), Bayesian methods, likelihood ratios (?) or Bayes Factors, decision-theoretic modeling (?) and false discovery rates (?).</li>
+</ul></li>
+</ol>
 
+</div>
 </div>
             </section>
 
