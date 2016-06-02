@@ -28,9 +28,10 @@ library(psych)
 # plyr: 可以将数据分割成更小的数据，然后对分割后的数据进行些操作，最后把操作的结果汇总
 library(plyr)
 
-#sim.dat<-read.csv("https://raw.githubusercontent.com/happyrabbit/DataScientistR/master/Data/SegData.csv")
-sim.dat<-read.csv("/Users/happyrabbit/Documents/GitHub/DataScientistR/Data/SegData.csv")
+sim.dat<-read.csv("https://raw.githubusercontent.com/happyrabbit/DataScientistR/master/Data/SegData.csv")
+#sim.dat<-read.csv("/Users/happyrabbit/Documents/GitHub/DataScientistR/Data/SegData.csv")
 str(sim.dat)
+summary(sim.dat)
 ##---------------------------------------------
 # 将错误的年龄观测设置为缺失值
 sim.dat$age[which(sim.dat$age>100)]<-NA

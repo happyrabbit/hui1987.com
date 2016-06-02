@@ -8,7 +8,7 @@
   <title>Reading Notes</title>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="This is my reading notes since 2009">
-  <meta name="generator" content="bookdown 0.0.60 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.0.72 and GitBook 2.6.7">
 
   <meta property="og:title" content="Reading Notes" />
   <meta property="og:type" content="book" />
@@ -17,16 +17,21 @@
   <meta property="og:description" content="This is my reading notes since 2009" />
   <meta name="github-repo" content="happyrabbit/hui1987.com" />
 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Reading Notes" />
+  
+  <meta name="twitter:description" content="This is my reading notes since 2009" />
+  
+
 <meta name="author" content="Hui Lin">
 
-<meta name="date" content="2016-06-01">
+<meta name="date" content="2016-06-02">
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   TeX: { equationNumbers: { autoNumber: "AMS" } }
 });
 </script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +41,7 @@ MathJax.Hub.Config({
 <link rel="prev" href="society-and-culture.html">
 <link rel="next" href="history.html">
 
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
@@ -48,8 +54,7 @@ MathJax.Hub.Config({
 
 
 
-<script src="libs/htmlwidgets-0.5/htmlwidgets.js"></script>
-<script src="libs/jquery-1.11.1/jquery.min.js"></script>
+<script src="libs/htmlwidgets-0.6/htmlwidgets.js"></script>
 <script src="libs/datatables-binding-0.1/datatables.js"></script>
 <script src="libs/datatables-1.10.7/jquery.dataTables.min.js"></script>
 <link href="libs/datatables-default-1.10.7/dataTables.extra.css" rel="stylesheet" />
@@ -285,6 +290,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="3.60.2" data-path="philosophy-psychology.html"><a href="philosophy-psychology.html#ch2-"><i class="fa fa-check"></i><b>3.60.2</b> Ch2 苹果的滋味</a></li>
 </ul></li>
 <li class="chapter" data-level="3.61" data-path="philosophy-psychology.html"><a href="philosophy-psychology.html#section-3.61"><i class="fa fa-check"></i><b>3.61</b> 希望感和绝望感</a></li>
+<li class="chapter" data-level="3.62" data-path="philosophy-psychology.html"><a href="philosophy-psychology.html#section-3.62"><i class="fa fa-check"></i><b>3.62</b> 脆弱</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="society-and-culture.html"><a href="society-and-culture.html"><i class="fa fa-check"></i><b>4</b> Society and Culture</a><ul>
 <li class="chapter" data-level="4.1" data-path="society-and-culture.html"><a href="society-and-culture.html#much-depends-on-dinner-margaret-visser"><i class="fa fa-check"></i><b>4.1</b> Much Depends on Dinner [Margaret Visser]</a><ul>
@@ -789,7 +795,7 @@ When reading her words, your heart may skip a beat from time to time. As I said 
 <a href="society-and-culture.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="history.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
 
-<script src="libs/gitbook-2.6.7/js/app.js"></script>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -825,7 +831,17 @@ gitbook.start({
 });
 </script>
 
-
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    if (location.protocol !== "file:" && /^https?:/.test(script.src))
+      script.src  = script.src.replace(/^https?:/, '');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

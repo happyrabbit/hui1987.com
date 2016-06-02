@@ -7,6 +7,7 @@ output: ioslides_presentation
 
 ## 介绍
 
+- 幻灯片&R代码：http://scientistcafe.com
 - 什么是数据科学家
     - 澄清定义：行业现状，分布，教育技能要求等
     - http://www.xueqing.tv/course/55
@@ -18,9 +19,8 @@ output: ioslides_presentation
 
 ## 数据分析一般流程
 
-```{r, out.width = 800, fig.retina = NULL,echo=FALSE}
-knitr::include_graphics("/Users/happyrabbit/Documents/GitHub/linhui.org/book/Figure/GernalProcess.png")
-```
+<img src="/Users/happyrabbit/Documents/GitHub/linhui.org/book/Figure/GernalProcess.png" width="800px" />
+
 
 ## 问题到数据
 
@@ -102,6 +102,8 @@ knitr::include_graphics("/Users/happyrabbit/Documents/GitHub/linhui.org/book/Fig
     1. 了解缺失的原因
     1. 建模的目的：解释和推断 v.s 预测
     
+[Ton de Waal, Sander Scholtus, Jeroen Pannekoek. 2011. Handbook of Statistical Data Editing and Imputation. John Wiley & Sons.]
+    
 - 中位数或众数填补
 
     1. `imputeMissings`包中的函数`impute()`
@@ -115,9 +117,11 @@ knitr::include_graphics("/Users/happyrabbit/Documents/GitHub/linhui.org/book/Fig
     1. K-近邻方法建立在距离的定义之上（通常时欧几里德距离）
     1. `preProcess()`实现
     
-- **注意：算法无法对整行缺失的观测进行填补**
+    - **注意：算法无法对整行缺失的观测进行填补**
 
 - 袋状树填补
+    - Bagging [Bootstrap aggregation的缩写]
+    - Bagging, Random Forest and Boosting
 
 ## 数据变换
 
