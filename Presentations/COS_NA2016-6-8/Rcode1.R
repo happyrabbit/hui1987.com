@@ -55,6 +55,7 @@ dplyr::glimpse(sim.dat)
 ##
 ## 数据截选（按行／列）
 ## 提取出满足条件的行
+library(magrittr)
 dplyr::filter(sim.dat, income >300000) %>%
   dplyr::tbl_df()
 ## 将`%>%`左边的对象传递给右边的函数，作为第一个选项的设置（或剩下唯一一个选项的设置）
