@@ -98,6 +98,40 @@ dplyr::slice(sim.dat, 10:15)
 ## 选取收入最高的两个观测
 dplyr::top_n(sim.dat,2,income)
 
+## 通过列名选取变量
+## 选取 sim.dat数据框中的income，age和store_exp列
+dplyr::select(sim.dat,income,age,store_exp)
+## 选取列名中含有某字符串（_）的列
+## 该命令将选取store_exp，online_exp，store_trans和online_trans
+dplyr::select(sim.dat, contains("_"))
+## 选取以某字符串（e）结尾的列
+## 结果选取了age，income和house
+## 类似的starts_with指以某字符串开始的列
+dplyr::select(sim.dat, ends_with("e"))
+## 选取列Q1，Q2，Q3，Q4和Q5
+select(sim.dat, num_range("Q", 1:5)) 
+## 选取列名在某字符串中的列
+dplyr::select(sim.dat, one_of(c("age", "income")))
+## 选取两个列名之间的列，包含头尾两列
+dplyr::select(sim.dat, age:online_exp)
+## 选出出了某列（age）以外的其它列
+dplyr::select(sim.dat, -age)
+## -----------------------------------------
 ## 数据总结
+## 这里的操作类似于`apply()`和`ddply()`， 可以对数据框的每一列进行某个函数操作；
+## 或者按照某个分类变量将观测分组，然后对每组观测按列进行函数操作。
+
+## 对列online_trans取均值，返回的是一个单一值
+dplyr::summarise(sim.dat, avg_online = mean(online_trans)) 
+## 对数据框中的每一列应用函数anyNA()
+dplyr::summarise_each(sim.dat, funs_(c("anyNA")))
+## 若要根据某分类变量对观测进行分组总结，可以使用`group_by()`函数。比如：
+## 对每个消费者类别对应变量应用anyNA()函数
+sim.dat %>% group_by(segment) %>% summarise_each(funs_(c("anyNA")))
+
+## 你在数据总结操作中赋予各种总结函数，如`mean()`，`sd()`等。
+## 但注意这里的总结函数是作用于向量，返回单一值。
+## 比如函数`is.na()`，作用于向量，但返回的也是向量，就不可以在此使用。
+## -----------------------------------------
 ## 生成新变量
 ## 合并数据集
