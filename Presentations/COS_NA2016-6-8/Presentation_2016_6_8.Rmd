@@ -1,0 +1,64 @@
+---
+title: "数据整合和辅助建模技术（1）"
+author: "林荟 (杜邦先锋商业数据科学家)"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 前情提要
+
+1. 什么是数据科学家
+    - 澄清定义：行业现状，分布，教育技能要求等
+    - http://www.xueqing.tv/course/55
+1. 数据预处理
+    - 数据分析的一般流程：问题到数据，数据到信息，信息到价值  
+    - 数据预处理
+    - http://www.xueqing.tv/course/66 或者 http://scientistcafe.com
+1. 补充
+    - 相关文献
+    - 做一个知道在哪里划线的人
+    - 问题和反馈: longqiman@gmail.com
+
+## 介绍
+
+- 幻灯片 & R代码：http://scientistcafe.com
+- 数据整合
+    - `psych`包中的`describle()`函数
+    - `apply()`、`lapply()`和`sapply()`
+    - `plyr`包中的`ddply()`函数
+    - `dplyr`包
+    - `tidyr`包
+- 建模技术
+    - 有监督 v.s 无监督
+    - 误差极其来源和影响
+    - 数据划分和再抽样
+
+
+## 数据整合
+
+- `psych`包中的`describle()`函数
+- `base`包中的 `apply()`、`lapply()`和`sapply()`
+
+    1. 依次对某一对象的某一部分重复应用一个指定的函数
+    1. 返回对象不同
+    1. 有针对性的得到想要的输出结果
+    
+- `plyr`包中的`ddply()`函数
+    
+    1. `summarize`
+    1. `transform`
+    1. `subset`
+
+## 数据整合
+    
+- `dplyr`包: `ddply()`等函数的强化版，专门处理数据框（dataframe）对象，大幅提高了速度, 并且提供了更稳健的与其它数据库对象间的接口
+
+   1. 数据框显示
+   1. 数据截选（按行／列）
+   1. 数据总结
+   1. 生成新变量
+   1. 合并数据集
