@@ -47,16 +47,16 @@
 <h1>介绍</h1>
 <ul>
 <li>幻灯片 &amp; R代码：<a href="http://scientistcafe.com" class="uri">http://scientistcafe.com</a></li>
-<li>数据整合
+<li>数据整合 (Rcode1.R)
 <ul>
-<li><code>psych</code>包中的<code>describle()</code>函数</li>
+<li><code>psych</code>包中的<code>describe()</code>函数</li>
 <li><code>apply()</code>、<code>lapply()</code>和<code>sapply()</code></li>
 <li><code>plyr</code>包中的<code>ddply()</code>函数</li>
 <li><code>dplyr</code>包</li>
 <li>*<code>reshape2</code>包</li>
 <li>*<code>tidyr</code>包</li>
 </ul></li>
-<li>建模技术
+<li>建模技术 (Rcode2.R)
 <ul>
 <li>有监督 v.s 无监督</li>
 <li>误差极其来源和影响</li>
@@ -159,7 +159,7 @@ E(\mathbf{y}-\hat{\mathbf{y}})^{2}=E[f(\mathbf{X})+\mathbf{\epsilon}-\hat{f}(\ma
 <ul>
 <li>反映在随机误差（<span class="math inline">\(\mathbf{\epsilon}\)</span>）中</li>
 <li>使得均方根误差（RMSE）和<span class="math inline">\(R^2\)</span>有相应的上下限</li>
-<li><p>假设我们希望利用消费记录变量建立关于消费者收入的预测模型:</p></li>
+<li><p>假设我们希望利用消费记录变量建立关于消费者收入的预测模型</p></li>
 <li><p>在应变量年收入（<code>income</code>）上添加不同程度的噪音（均方根误差的0到3倍）：</p></li>
 </ul>
 <p><span class="math display">\[ RMSE \times (0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0) \]</span></p>
@@ -227,18 +227,23 @@ E(\mathbf{y}-\hat{\mathbf{y}})^{2}=E[f(\mathbf{X})+\mathbf{\epsilon}-\hat{f}(\ma
 <ul>
 <li>Ton de Waal, Sander Scholtus, Jeroen Pannekoek. 2011. Handbook of Statistical Data Editing and Imputation. John Wiley &amp; Sons.</li>
 <li>Jolliffe, I.T. 2002. Principla Component Analysis. 2nd ed. New York: Springer.</li>
-<li>Geladi P, Kowalski B. 1986. “Partial Least-Squares Regression: A Tutorial.” Analytica Chimica Acta, no. 185: 1–17.</li>
-<li>Mulaik, S.A. 2009. Foundations of Factor Analysis. 2ND ed. Boca Raton: Chapman&amp;Hall/CRC.</li>
 <li>Box G, Cox D. 1964. “An Analysis of Transformations.” Journal of the Royal Statistical Society Series B (Methodological): 211–52.</li>
 <li>Iglewicz, Boris, and David Hoaglin. 1993. “How to Detect and Handle Outliers.” The ASQC Basic References in Quality Control: Statistical Techniques 16.</li>
 <li>Serneels S, Espen PV, Nolf ED. 2006. “Spatial Sign Pre-Processing: A Simple Way to Impart Moderate Robustness to Multivariate Estimators.” Journal of Chemical Information and Modeling 46 (3): 1402–9.</li>
 <li>Kjell Johnston, Max Kuhn &amp;. 2013. Applied Predictive Modeling. Springer.</li>
 </ul>
+<!--
+- Mulaik, S.A. 2009. Foundations of Factor Analysis. 2ND ed. Boca Raton: Chapman&Hall/CRC.
+-->
 </div>
 <div class="slide section level2">
-<h1>参考文献（数据整合）</h1>
+<h1>参考文献（数据整合，建模辅助技术）</h1>
 <ul>
-<li>RStudio Cheat Sheet</li>
+<li>RStudio Cheat Sheet: <a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf</a></li>
+<li>Introducing dplyr, <a href="https://blog.rstudio.org/2014/01/17/introducing-dplyr/" class="uri">https://blog.rstudio.org/2014/01/17/introducing-dplyr/</a></li>
+<li>Do Faster Data Manipulation using These 7 R Packages, <a href="http://www.analyticsvidhya.com/blog/2015/12/faster-data-manipulation-7-packages/" class="uri">http://www.analyticsvidhya.com/blog/2015/12/faster-data-manipulation-7-packages/</a></li>
+<li>Geladi P, Kowalski B. 1986. “Partial Least-Squares Regression: A Tutorial.” Analytica Chimica Acta, no. 185: 1–17.</li>
+<li>An Introduction to Statistical Learning, by Gareth James, Robert Tibshirani, and Trevor Hastie, <a href="https://web.stanford.edu/~hastie/local.ftp/Springer/ISLR_print1.pdf" class="uri">https://web.stanford.edu/~hastie/local.ftp/Springer/ISLR_print1.pdf</a></li>
 </ul>
 </div>
 
