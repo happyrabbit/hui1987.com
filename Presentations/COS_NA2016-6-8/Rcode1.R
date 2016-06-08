@@ -134,4 +134,38 @@ sim.dat %>% group_by(segment) %>% summarise_each(funs_(c("anyNA")))
 ## 比如函数`is.na()`，作用于向量，但返回的也是向量，就不可以在此使用。
 ## -----------------------------------------
 ## 生成新变量
+## dplyr包中的mutate()函数可以进行列计算，然后将结果添加到原数据集上。
+dplyr::mutate(sim.dat, total_exp = store_exp + online_exp)
+# 这里的min_rank等价于rank(ties.method = "min")
+# mutate_each()对每列应用指定的窗口函数
+dplyr::mutate_each(sim.dat, funs(min_rank)) 
+## 只返回新生成的列，删除原始列。
+dplyr::transmute(sim.dat, total_exp = store_exp + online_exp) 
+## -----------------------------------------
 ## 合并数据集
+## 这里先随机抽取两个小数据集来展示数据集合并
+x<-data.frame(cbind(ID=c("A","B","C"),x1=c(1,2,3)))
+y<-data.frame(cbind(ID=c("B","C","D"),y1=c(T,T,F)))
+x
+y
+
+## 从y到x合并数据
+## 自行尝试right_join()
+left_join(x,y,by="ID")
+
+## y和x中都可以匹配的观测
+inner_join(x,y,by="ID")
+
+## y或x中含有的观测
+full_join(x,y,by="ID")
+
+## 对x中的观测进行筛选，找到那些同时在y中可以匹配的观测
+## 没有将y的变量y1合并进来
+semi_join(x,y,by="ID")
+
+## 对x中的观测进行筛选，找到那些在y中无法匹配的观测
+anti_join(x,y,by="ID")
+
+## dplyr`包中还有各种针对数据框的交（`intersect()`）、并（`union()`）和补（`setdiff()`）运算
+## 以及将一个数据框按照行或者列添加到另一个数据框上的操作（`bind_rows()`，`bind_cols()`
+

@@ -1,7 +1,7 @@
 ---
 title: "数据分析一般流程和数据预处理"
 author: "林荟 (杜邦先锋商业数据科学家)"
-date: "`r Sys.Date()`"
+date: "2016-6-2"
 output: ioslides_presentation
 ---
 
