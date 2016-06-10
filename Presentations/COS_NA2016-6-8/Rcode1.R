@@ -12,7 +12,7 @@ describe(sim.dat,na.rm = T, skew = F)
 ## 之前通过`preProcess()`函数对数据进行KNN填补时用过
 ## 提取数据框中所有的数值变量
 ## 这里不能用`apply()`函数是因为`apply()`函数自动将对象转化成矩阵，这样就会丢失每列的类别信息
-apply(sim.dat,class)
+apply(sim.dat,2,class)
 sdat<-sim.dat[,!lapply(sim.dat,class)=="factor"]
 ## --------------------------------------------------------
 ## 现在的数据框`sdat`中只包括数值型的变量
