@@ -15,12 +15,13 @@ knitr::opts_chunk$set(echo = TRUE)
 1. 数据整合和辅助建模技术（1）
     - 数据整合
         - `psych`包中的`describle()`函数
-        - `apply()`、`lapply()`和`sapply()`
+        - `apply()`[**纠正错误**]、`lapply()`和`sapply()` 
         - `plyr`包中的`ddply()`函数
         - `dplyr`包
     - 建模技术
         - 有监督 v.s 无监督
         - 误差极其来源和影响
+        
 
 ## 介绍
 
