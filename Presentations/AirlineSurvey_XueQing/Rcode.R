@@ -94,6 +94,7 @@ fa.score.mean<-fa.score%>%
 
 row.names(fa.score.mean)<-as.character(fa.score.mean$Airline)
 fa.score.mean<-select(fa.score.mean,-Airline)
+
 heatmap.2(as.matrix(fa.score.mean),
           col=brewer.pal(9,"YlGn"),trace="none",key=FALSE,dend="none",cexCol=0.6,cexRow =1)
 title(family ="Songti SC",
