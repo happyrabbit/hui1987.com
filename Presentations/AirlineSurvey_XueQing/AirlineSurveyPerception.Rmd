@@ -9,7 +9,6 @@ output: slidy_presentation
 knitr::opts_chunk$set(echo = FALSE)
 library(readr)
 library(dplyr)
-
 ```
 
 ## 介绍
@@ -23,6 +22,9 @@ library(dplyr)
     - http://www.xueqing.tv/course/66
 - 数据整合操作和建模辅助技术
     - http://www.xueqing.tv/course/67
+- 用R进行市场调查和消费者感知分析
+    - 相对完整的分析框架
+    - 理解数据分析的一般流程
 
 ## 数据分析一般流程
 
