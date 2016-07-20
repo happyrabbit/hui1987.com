@@ -94,7 +94,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>理解客户的问题：谁是客户（某航空公司）？交流，交流，交流！ <!--假设你是某航空公司市场部的数据科学家，关于数据科学家，商业分析师，统计师的区别，我在之前什么是数据科学家那集视频里有讲到。感兴趣的在雪晴数据网上出门左转就可以看到。--></li>
 <li>问题要具体
 <ul>
-<li>某航空公司: 乘客体验如何？哪方面需要提高？ <!--假设领导关心，领导需要。领导不关心的问题短期内是没有未来的，我说的短期可能是大部分人的有生之年。这在中国美国都一样。人性的问题。扯远了。这里假设这是一个政治正确的问题。看过我之前视频的可能马上意识到，这个问题其实很模糊。哪方面的乘客体验？--> <!--微信居然能打赏，我真心很兴奋--></li>
+<li>某航空公司: 乘客体验如何？哪方面需要提高？ <!--假设领导关心，领导需要。领导不关心的问题短期内是没有未来的，我说的短期可能是大部分人的有生之年。这在中国美国都一样。人性的问题。扯远了。以后我们可以专门找个时间，开个负能量专场什么的哈。这里假设这是一个政治正确的问题。看过我之前视频的可能马上意识到，这个问题其实很模糊。哪方面的乘客体验？--> <!--微信居然能打赏，我真心很兴奋--></li>
 <li>类别：比较、描述、聚类，判别还是回归</li>
 <li>需要什么样的数据：现有数据，数据质量，需要收集的数据，自变量，因变量</li>
 <li>哪些方面的满意度？哪些主要竞争对手？</li>
@@ -104,59 +104,38 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="-" class="slide section level2">
 <h1>问题到数据-设计问卷</h1>
-<table>
-<thead>
-<tr class="header">
-<th align="left">空航服务相关</th>
-<th align="left">购票体验相关</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">礼貌（Courtesy）</td>
-<td align="left">购票容易度（Easy_Reservation）</td>
-</tr>
-<tr class="even">
-<td align="left">友善（Friendliness）</td>
-<td align="left">座椅选择（Preferred_Seats）</td>
-</tr>
-<tr class="odd">
-<td align="left">能够提供需要的帮助（Helpfulness）</td>
-<td align="left">航班选择（Flight_Options）</td>
-</tr>
-<tr class="even">
-<td align="left">食物饮料服务（Service）</td>
-<td align="left">票价（Ticket_Prices）</td>
-</tr>
-</tbody>
-</table>
-<p></br></p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">机舱设施</th>
-<th align="left">总体评估指数</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">座椅舒适度（Seat_Comfort）</td>
-<td align="left">总体满意度（Satisfaction）</td>
-</tr>
-<tr class="even">
-<td align="left">位置前后空间（Seat_Roominess）</td>
-<td align="left">再次选择次航空公司（Fly_Again）</td>
-</tr>
-<tr class="odd">
-<td align="left">随机行李存放（Overhead_Storage）</td>
-<td align="left">向朋友推荐此航空公司（Recommend）</td>
-</tr>
-<tr class="even">
-<td align="left">食机舱清洁（Clean_Aircraft）</td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
+<p>礼貌（Courtesy）<br />
+友善（Friendliness）<br />
+能够提供需要的帮助（Helpfulness）<br />
+食物饮料服务（Service）<br />
+购票容易度（Easy_Reservation）<br />
+座椅选择（Preferred_Seats）<br />
+航班选择（Flight_Options）<br />
+票价（Ticket_Prices）<br />
+座椅舒适度（Seat_Comfort）<br />
+位置前后空间（Seat_Roominess）<br />
+随机行李存放（Overhead_Storage）<br />
+机舱清洁（Clean_Aircraft）<br />
+总体满意度（Satisfaction）<br />
+再次选择次航空公司（Fly_Again）<br />
+向朋友推荐此航空公司（Recommend）</p>
+<!--
+|空航服务相关|购票体验相关|
+|----------|----------|
+|礼貌（Courtesy）|购票容易度（Easy_Reservation）|
+|友善（Friendliness）|座椅选择（Preferred_Seats）|
+|能够提供需要的帮助（Helpfulness）|航班选择（Flight_Options）|
+|食物饮料服务（Service）|票价（Ticket_Prices）|
+
+</br>
+
+|机舱设施|总体评估指数|
+|----------|----------|
+|座椅舒适度（Seat_Comfort）|总体满意度（Satisfaction）|
+|位置前后空间（Seat_Roominess）|再次选择次航空公司（Fly_Again）|
+|随机行李存放（Overhead_Storage）|向朋友推荐此航空公司（Recommend）|
+|机舱清洁（Clean_Aircraft）| |
+-->
 </div>
 <div class="slide section level2">
 <h1>数据到信息</h1>
@@ -166,9 +145,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>建模和评估：
 <ul>
 <li>分析用户感知：特征提取 <!--特征提取是一项用不同变量的组合代替原变量的技术。它的目的是自动地构建新的特征，将原始特征转换为一组具有明显物理意义或者统计意义的特征。比如通过变换特征取值来减少原始数据中某个特征的取值个数等。--></li>
-<li>PCA，CFA <!--我们考虑3个常用的可以对数据降维的特征提取方法。主成分分析（PCA）试图找到原变量的不相关线性组合，这些线性组合能够最大限度的解释原数据中变量方差。解释性因子分析（EFA）同样试图在尽量小的维度上解释原数据中尽可能多的方差。高维标度化（MDS）将观测见的相似度映射到低维度上，如2维平面。MDS能够作用于非数值型变量，如分类变量或者有序数据预测变量。接下来我们通过模拟的航空公司数据集来展示不同的特征提取方法。在市场营销中这类消费者调查问卷中，虽然初始问题很多，但通常存在多个调查项共同反应少数几个潜在因子。
-有时间会讲CFA--></li>
-<li>数据划分和再抽样，<strong>评估标准</strong></li>
+<li>PCA，EFA <!--我们考虑3个常用的可以对数据降维的特征提取方法。主成分分析（PCA）试图找到原变量的不相关线性组合，这些线性组合能够最大限度的解释原数据中变量方差。解释性因子分析（EFA）同样试图在尽量小的维度上解释原数据中尽可能多的方差。高维标度化（MDS）将观测见的相似度映射到低维度上，如2维平面。MDS能够作用于非数值型变量，如分类变量或者有序数据预测变量。接下来我们通过模拟的航空公司数据集来展示不同的特征提取方法。在市场营销中这类消费者调查问卷中，虽然初始问题很多，但通常存在多个调查项共同反应少数几个潜在因子。
+有时间会讲EFA--></li>
+<li><strong>评估标准</strong></li>
 </ul></li>
 </ul>
 </div>
