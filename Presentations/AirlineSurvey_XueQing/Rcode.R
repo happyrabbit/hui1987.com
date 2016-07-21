@@ -9,7 +9,6 @@ library(RColorBrewer)
 
 # 可以从网站下载该数据
 airline<-read.csv("https://raw.githubusercontent.com/happyrabbit/DataScientistR/master/Data/AirlineRating.csv")
-# airline<-read.csv("/Users/happyrabbit/Documents/GitHub/DataScientistR/Data/AirlineRating.csv")
 glimpse(airline)
 #######-----------------------------------------------
 # 我们用`corrplot()`函数检查问卷调查问题的相关性：
