@@ -277,4 +277,3 @@ heatmap.2(as.matrix(fa.score.mean),
 - 下周六晚上 郎大为会给大家介绍 REmap 就是一个用R语言生成echarts图的包
 - http://www.xueqing.tv/cms/article/10 
 
-<!--啤酒和尿布那个是谣言，给你们讲个真事，判断葡萄酒评级-->

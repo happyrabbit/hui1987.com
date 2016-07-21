@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
   <meta name="author" content="林荟" />
-  <meta name="date" content="2016-07-20" />
+  <meta name="date" content="2016-07-21" />
   <title>用R进行市场调查和消费者感知分析</title>
   <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">
@@ -55,7 +55,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
   <p class="author">
 林荟
   </p>
-  <p class="date">2016-07-20</p>
+  <p class="date">2016-07-21</p>
 </div>
 <div class="slide section level2">
 <h1>介绍</h1>
@@ -144,7 +144,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>建模和评估：
 <ul>
 <li>分析用户感知：特征提取 <!--特征提取是一项用不同变量的组合代替原变量的技术。它的目的是自动地构建新的特征，将原始特征转换为一组具有明显物理意义或者统计意义的特征。比如通过变换特征取值来减少原始数据中某个特征的取值个数等。--></li>
-<li>PCA，EFA <!--我们考虑3个常用的可以对数据降维的特征提取方法。主成分分析（PCA）试图找到原变量的不相关线性组合，这些线性组合能够最大限度的解释原数据中变量方差。解释性因子分析（EFA）同样试图在尽量小的维度上解释原数据中尽可能多的方差。高维标度化（MDS）将观测见的相似度映射到低维度上，如2维平面。MDS能够作用于非数值型变量，如分类变量或者有序数据预测变量。接下来我们通过模拟的航空公司数据集来展示不同的特征提取方法。在市场营销中这类消费者调查问卷中，虽然初始问题很多，但通常存在多个调查项共同反应少数几个潜在因子。
+<li>PCA，EFA <!--我们考虑3个常用的可以对数据降维的特征提取方法。主成分分析（PCA）试图找到原变量的不相关线性组合，这些线性组合能够最大限度的解释原数据中变量方差。探索性因子分析（EFA）同样试图在尽量小的维度上解释原数据中尽可能多的方差。高维标度化（MDS）将观测见的相似度映射到低维度上，如2维平面。MDS能够作用于非数值型变量，如分类变量或者有序数据预测变量。接下来我们通过模拟的航空公司数据集来展示不同的特征提取方法。在市场营销中这类消费者调查问卷中，虽然初始问题很多，但通常存在多个调查项共同反应少数几个潜在因子。
 有时间会讲EFA--></li>
 <li><strong>评估标准</strong></li>
 </ul></li>
@@ -302,7 +302,6 @@ Factor 3: 购票体验感知<br />
 <li>讲故事的能力</li>
 </ul>
 <p><strong>预告：</strong> - 下周六晚上 郎大为会给大家介绍 REmap 就是一个用R语言生成echarts图的包 - <a href="http://www.xueqing.tv/cms/article/10" class="uri">http://www.xueqing.tv/cms/article/10</a></p>
-<!--啤酒和尿布那个是谣言，给你们讲个真事，判断葡萄酒评级-->
 </div>
 
   <!-- dynamically load mathjax for compatibility with self-contained -->
