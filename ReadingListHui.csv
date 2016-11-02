@@ -174,7 +174,7 @@
 "算法之道(第2版)",,"P","NO",,"IT","IT","NA",,,"IT0.02"
 "计算机原理简明教程  ",,"P","NA",,"IT","IT","NA",,,"IT0.03"
 "构建云应用:概念、模式和实践(详述如何打造性 能、可扩展性、可用性俱佳的云计算架构模式)(云计算技术系列丛书) ",,"P","NA",,"IT","IT","NA",,,"IT0.04"
-"黑客与画家(Heckers and Painters-Big Ideas from the Computer Age)",,"E","NO","Paul Graham","IT","IT","NA",,,"IT0.07"
+"黑客与画家(Heckers and Painters-Big Ideas from the Computer Age)",20.00%,"P","NO","Paul Graham","IT","IT","NA",,,"IT0.07"
 "中国法律法规中英对照系列4——中国公司企业法律法规（中英对照法规）","20%","P","P",,"Law","LAW","NA",,,"LAW0.03"
 "高等学校法学双语教材——国际法（英文版） ",,"NA","P",,"Law","LAW","NA",,,"LAW0.01"
 "高等学校双语教材－国际商法 第二版 （英文版） ",,"NA","P",,"Law","LAW","NA",,,"LAW0.02"
@@ -211,6 +211,7 @@
 "中国传奇","20%","P","NA",,"Novels and Plays","NVL","NA",,,"NVL0.86"
 "孤独之酒","20%","P","NA",,"Novels and Plays","NVL","NA",,,"NVL0.87"
 "白夜","50%","P","NA","陀思妥耶夫斯基","Novels and Plays","NVL",2,,"刻画了19世纪俄国地主贵族两代人的人生旅程和精神状态","NVL0.27"
+"白痴",100.00%,"NO","P","陀思妥耶夫斯基","Novels and Plays","NVL",,,,
 "Unbearable Lightness of Being","100%","P","NO"," Milan Kundera","Novels and Plays","NVL","NA",,,"NVL0.29"
 "One Hundred Years of Solitude-百年孤独","100%","P","NO","Gabriel García Márquez","Novels and Plays","NVL","NA",,,"NVL0.3"
 "The Lover ","100%","P","NO","Marguerite Duras","Novels and Plays","NVL","NA",,,"NVL0.31"
@@ -581,7 +582,7 @@
 "Applied Predictive Modeling","100%","NO","P","Max Kuhn & Kjell Johnston","Statistics","STAT","NA",,,"STAT0.3"
 "statistical inference","100%","NO","P",,"Statistics","STAT","NA",,,"STAT0.31"
 "Probabilistic Graphical Models: Principles and Techniques",,"NA","P"," Daphne Koller","Statistics","STAT",,2,,
-"R Packages",20.00%,"NA","P"," Hadley Wickham","Statistics","STAT",,3,,
+"R Packages","20.00%","NA","P"," Hadley Wickham","Statistics","STAT",,3,,
 "Data Analysis Using Regression and Multilevel/Hierarchical Models ","2%","NA","P","Andrew Gelman","Statistics","STAT","NA",,,"STAT0.14"
 "Applied Statistics: A Handbook of Techniques ","50%","NA","P"," Lothar Sachs","Statistics","STAT",,"NA",,
 "Advances in Longitudinal Methods in the Social and Behavioral Sciences ",,"NA","P"," Jeffrey R Harring","Statistics","STAT",,"NA",,
@@ -601,7 +602,7 @@
 "The Call","100%","P","NA","Adam Hamilton","Philosophy and Psychology","PPY",,,,
 "24 Hours that changed the world","100%","P","NA","Adam Hamilton","Philosophy and Psychology","PPY",,,,
 "重新定义公司—谷歌是如何运营的 (How Google Works)","15%","NO","E","Eric Schmidt and Jonathan Rosenberg","Business & Economics","BEO",,,,
-"Leadership Pipeline","100%","NO","P"," Stephen Drotter & James Noel & Ram Charan","Business & Economics","BEO",,,,
+"Leadership Pipeline","100%","NO","P","Stephen Drotter & James Noel & Ram Charan","Business & Economics","BEO",,,,
 "逻辑学导论 (Introduction of Logic)","1%","P","P","Irving M. Copi and Carl Cohen","Philosophy and Psychology","PPY",,,,
 "Christian and World Religions","100%","P","NA","Adam Hamilton","Philosophy and Psychology","PPY",,,,
 "重来（rework）","100%","NO","P","37Signals","Self-development","SDP",,,,
@@ -612,10 +613,10 @@
 "Asking the Right Questions: A Guide to Critical Thinking 9th Edition","100%","P","NO","M. Neil Browne","Self-development","SDP",,,,
 "How To Solve It: A New Aspect of Mathematical Method",,"P","NO","George Polya","Self-development","SDP",,,,
 "How To Think Straight About Psychology (9th Edition)",,"P","NO","Keith E. Stanovich","Philosophy and Psychology","PPY",,,,
-"What Intelligence Tests Miss: The Psychology of Rational Thought","5%","P","NO","Keith E. Stanovich","Philosophy and Psychology","PPY",,,,
-"如何阅读一本书(How to read a book)","100%","P","P",,"Self-development","SDP",,,,
+"What Intelligence Tests Miss: The Psychology of Rational Thought",100.00%,"P","NO","Keith E. Stanovich","Philosophy and Psychology","PPY",,,,
+"如何阅读一本书(How to read a book)","100%","P","P","Mortimer J. Adler","Self-development","SDP",,,,
 "Thing Explainer: Complicated Stuff in Simple Words","2%","P","NO","Randall Munroe","Self-development","SDP",,,,
-"What If?: Serious Scientific Answers to Absurd Hypothetical Questions",30.00%,"P","NO","Randall Munroe","Other","OTH",,,,
+"What If?: Serious Scientific Answers to Absurd Hypothetical Questions","30.00%","P","NO","Randall Munroe","Other","OTH",,,,
 "xkcd: volume 0",,"P","NA","Randall Munroe","Other","OTH",,,,
 "Practical Text Analytics: Interpreting Text and Unstructured Data for Business Intelligence","1%","P","NA","Steven Struhl","Data Science","DAT",,,,
 "Sentiment Analysis","1%","P","NA","Bing Liu","Statistics","STAT",,,,
@@ -625,12 +626,12 @@
 "Twelve Plays by Shakespeare",,"P","NO","William Sharkspeare ","Novels and Plays","NVL",,,,
 "The Joy of Reading: A Passionate Guide to 189 of the World's Best Authors and Their Works",,"P","NO","Charles Van Doren","Self-development","SDP",,,,
 "The Trouble with the Truth: Balancing Truth and Grace",,"P","NO","Rob Renfroe","Philosophy and Psychology","PPY",,,,
-"The Jesus I Never Knew",50.00%,"P","NO"," Philip Yancey","Philosophy and Psychology","PPY",,,,
+"The Jesus I Never Knew","50.00%","P","NO"," Philip Yancey","Philosophy and Psychology","PPY",,,,
 "Who Is This Man?",,"P","NO"," John Ortberg","Philosophy and Psychology","PPY",,,,
 "Blockbusters: Hit-making, Risk-taking, and the Big Business of Entertainment",,"P","NO"," Anita Elberse","Business & Economics","BEO",,,,
 "The Alliance: Managing Talent in the Networked Age",,"P","NO","Reid Hoffman","Business & Economics","BEO",,,,
 "Postcards from Ed",,"P","NO"," Edward Abbey","Proses Essays and Poems","PEP",,,,
-"Skin Aging",,,,"Gilchrest, Barbara A.","Beauty&Health","BTH",,,,
+"Skin Aging",,"P","NO","Gilchrest, Barbara A.","Beauty&Health","BTH",,,,
 "Cosmeceuticals and Cosmetic Ingredients",,"P","NO","Baumann, Leslie","Beauty&Health","BTH",,,,
 "A Consumer's Dictionary of Cosmetic Ingredients, 7th Edition",,"P","NO","Winter, Ruth","Beauty&Health","BTH",,,,
 "In Cold Blood",,"P","NO","Truman Capote","Novel","NVL",,,,
