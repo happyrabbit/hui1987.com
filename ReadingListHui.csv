@@ -602,7 +602,7 @@
 "The Descent of Woman: The Classic Study of Evolution ",,"NO","P"," Elaine Morgan","Society and Culture","SOC",,"NA",,
 "The Age Of The Unthinkable: Why The New Global Order Constantly Surprises Us And What To Do About It","1%","E","P",,"Society and Culture","SOC","NA",,,"SOC0.6"
 "支配社会学",,"E","NA","韦伯","Society and Culture","SOC","NA",,,"SOC0.62"
-"娱乐至死(Amusing ourselves to death)","2%","E","P","Nell Postman","Society and Culture","SOC","NA",,,"SOC0.63"
+"娱乐至死(Amusing ourselves to death)",10.00%,"E","P","Nell Postman","Society and Culture","SOC","NA",,,"SOC0.63"
 "中国国民性演变历程",,"E","NA","张宏杰","Society and Culture","SOC","NA",,,"SOC0.65"
 "春秋大义",,"E","NA","熊逸","Society and Culture","SOC","NA",,,"SOC0.66"
 "心外传奇",,"E","NA","李清晨","Society and Culture","SOC","NA",,,"SOC0.67"
@@ -638,6 +638,11 @@
 "Regular Expressions Cookbook",,"NO","P"," Jan Goyvaerts","Statistics","STAT",,"NA",,
 "Regular Expression Pocket Reference: Regular Expressions for Perl  Ruby  PHP  Python C  Java and .NET ",,"NO","P","Tony Stubblebine","Statistics","STAT",,"NA",,
 "An Introduction to Statistical Learning","50%","P","NA","  T. Hastie D. Witten &  G. James  Tibshirani","Statistics","STAT",,,,
-"Statistical Rethinking: A Bayesian Course with Examples in R and Stan","2%","P","NA"," Richard McElreath","Statistics","STAT",,,,
+"Statistical Rethinking: A Bayesian Course with Examples in R and Stan",5.00%,"P","NA"," Richard McElreath","Statistics","STAT",,,,
 "Causality: Models Reasoning and Inference","1%","P","NO","Judea Pearl","Statistics","STAT",,,,
 "Sentiment Analysis","1%","P","NA","Bing Liu","Statistics","STAT",,,,
+"自卑与超越","100.00%","NO","P","Alfred Adler","Philosophy and Psychology","PPY",,,,
+"不正常人类研究所","100.00%","NA","P","冈田尊司","Philosophy and Psychology","PPY",,,,
+"痛苦心理学",,"NA","P","林昆辉","Philosophy and Psychology","PPY",,,,
+"生活中的道德怪圈","33.00%","NO","P","Rainer Erlinger","Philosophy and Psychology","PPY",,,,
+"人情与面子：中国人的权力游戏","30.00%","NA","P","黄光国","Society and Culture","SOC",,,,
