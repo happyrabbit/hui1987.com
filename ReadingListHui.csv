@@ -494,12 +494,12 @@
 "3:16 Bible Texts Illuminated",,"P","NO","Donald E Knuth","Religion","REL",,,,
 "The Trouble with the Truth: Balancing Truth and Grace",,"P","NO","Rob Renfroe","Religion","REL",,,,
 "The Jesus I Never Knew","50.00%","P","NO","Philip Yancey","Religion","REL",,,,
-"Who Is This Man?","5.00%","P","NO","John Ortberg","Religion","REL",,,,
+"Who Is This Man?",70,"P","NO","John Ortberg","Religion","REL",,,,
 "The case for faith","5.00%","P","NO","Lee Strobel","Religion","REL",,,,
 "低智商社会","1%","E","NA","大前研一","Self-development","SDP",1,,,"SDP0.27"
 "专业主义","50%","E","NA","大前研一","Self-development","SDP",1,"这本书着实看不下去，感觉作者十足的马后炮，夸夸其谈。",,"SDP0.25"
 "沃顿商学院最受欢迎的谈判课(Getting More)","25%","E","NO","Stuart Diamond","Self-development","SDP","NA",,,"SDP0.01"
-"Style: Lessons in Clarity and Grace","50%","NA","P"," Joseph M Williams","Self-development","SDP",,3,,
+"Style: Lessons in Clarity and Grace","50%","NA","P"," Joseph M Williams","English","ENG",,3,,
 "Secrets to Winning at Office Politics: How to Achieve Your Goals and Increase Your Influence at Work","100%","NA","P","Marie G. McIntyre","Self-development","SDP",2,,,"SDP0.06"
 "Simply your work life","100%","NA","NO","Elaine St. James","Self-development","SDP","NA",,,"SDP0.1"
 "影响力(Influence)","100%","E","NO","Robert B Cialdini","Self-development","SDP","NA",,,"SDP0.11"
@@ -602,7 +602,7 @@
 "The Descent of Woman: The Classic Study of Evolution ",,"NO","P"," Elaine Morgan","Society and Culture","SOC",,"NA",,
 "The Age Of The Unthinkable: Why The New Global Order Constantly Surprises Us And What To Do About It","1%","E","P",,"Society and Culture","SOC","NA",,,"SOC0.6"
 "支配社会学",,"E","NA","韦伯","Society and Culture","SOC","NA",,,"SOC0.62"
-"娱乐至死(Amusing ourselves to death)",10.00%,"E","P","Nell Postman","Society and Culture","SOC","NA",,,"SOC0.63"
+"娱乐至死(Amusing ourselves to death)","10.00%","E","P","Nell Postman","Society and Culture","SOC","NA",,,"SOC0.63"
 "中国国民性演变历程",,"E","NA","张宏杰","Society and Culture","SOC","NA",,,"SOC0.65"
 "春秋大义",,"E","NA","熊逸","Society and Culture","SOC","NA",,,"SOC0.66"
 "心外传奇",,"E","NA","李清晨","Society and Culture","SOC","NA",,,"SOC0.67"
@@ -625,7 +625,7 @@
 "概率论","100%","P","NA",,"Statistics","STAT","NA",,,"STAT0.19"
 "Applied Predictive Modeling","100%","NO","P","Max Kuhn & Kjell Johnston","Statistics","STAT","NA",,,"STAT0.3"
 "statistical inference","100%","NO","P",,"Statistics","STAT","NA",,,"STAT0.31"
-"Probabilistic Graphical Models: Principles and Techniques",,"NA","P"," Daphne Koller","Statistics","STAT",,2,,
+"Probabilistic Graphical Models: Principles and Techniques",5.00%,"NA","P"," Daphne Koller","Statistics","STAT",,2,,
 "R Packages","20.00%","NA","P"," Hadley Wickham","Statistics","STAT",,3,,
 "Data Analysis Using Regression and Multilevel/Hierarchical Models ","2%","NA","P","Andrew Gelman","Statistics","STAT","NA",,,"STAT0.14"
 "Applied Statistics: A Handbook of Techniques ","50%","NA","P"," Lothar Sachs","Statistics","STAT",,"NA",,
@@ -638,7 +638,7 @@
 "Regular Expressions Cookbook",,"NO","P"," Jan Goyvaerts","Statistics","STAT",,"NA",,
 "Regular Expression Pocket Reference: Regular Expressions for Perl  Ruby  PHP  Python C  Java and .NET ",,"NO","P","Tony Stubblebine","Statistics","STAT",,"NA",,
 "An Introduction to Statistical Learning","50%","P","NA","  T. Hastie D. Witten &  G. James  Tibshirani","Statistics","STAT",,,,
-"Statistical Rethinking: A Bayesian Course with Examples in R and Stan",5.00%,"P","NA"," Richard McElreath","Statistics","STAT",,,,
+"Statistical Rethinking: A Bayesian Course with Examples in R and Stan","5.00%","P","NA"," Richard McElreath","Statistics","STAT",,,,
 "Causality: Models Reasoning and Inference","1%","P","NO","Judea Pearl","Statistics","STAT",,,,
 "Sentiment Analysis","1%","P","NA","Bing Liu","Statistics","STAT",,,,
 "自卑与超越","100.00%","NO","P","Alfred Adler","Philosophy and Psychology","PPY",,,,
