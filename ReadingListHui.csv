@@ -1,30 +1,30 @@
 "Name","Progress","ProDetail","KnowledgeType","Topic","Summary","Author","Category","CATE_CODE","Priority","Chinese.Version","English.Version","Audio"
-"艺用人体结构运动学",0.01,,,,,,"Art","ART",0,"P","NA",
-"建筑的七盏明灯(architecture)",0.01,,,,,,"Art","ART",0,"P","NA",
-"CEO西服学(最具时尚魅力和知识含量的西服全 书) ",0.05,,,,,,"Art","ART",0,"P","NA",
-"名画的故事",0.1,,,,,,"Art","ART",0,"P","NA",
-"我的风格小黑皮书--美国《ELLE》主编倾心讲述 有关风格、有关装扮的一切秘密",1,,,,,,"Art","ART",0,"P","NA",
-"旗袍(BOOK+DVD) ",1,,,,,,"Art","ART",0,"P","NA",
-"工笔线描－蔓陀罗",1,,,,,,"Art","ART",0,"P","NA",
-"基础图案",1,,,,,,"Art","ART",0,"P","NA",
-"瑞兽图案",1,,,,,,"Art","ART",0,"P","NA",
-"明代绘画艺术鉴赏",1,,,,,,"Art","ART",0,"P","NA",
-"结构素描1－单个静物(Structure Sketching-----Still Life)",1,,,,,,"Art","ART",0,"P","NA",
-"结构素描2－几何形体(Structure Sketching-----Geometric Form)",1,,,,,,"Art","ART",0,"P","NA",
-"结构素描3－石膏五官(Structure Sketching-----Facial Features)",1,,,,,,"Art","ART",0,"P","NA",
-"基础素描全程训练——应试篇上：素描头像",1,,,,,,"Art","ART",0,"P","NA",
-"基础素描教程第四册",1,,,,,,"Art","ART",0,"P","NA",
-"基础美术阶梯训练教材——石膏像：素描",1,,,,,,"Art","ART",0,"P","NA",
-"手绘的奇思妙想：49位设计师的创意速写簿",1,,,,,,"Art","ART",0,"P","NA",
-"凡高素描",1,,,,,,"Art","ART",0,"P","NA",
-"速写风景画法",1,,,,,,"Art","ART",0,"P","NA",
-"米开朗基罗素描",1,,,,,,"Art","ART",0,"P","NA",
-"园林钢笔画",1,,,,,,"Art","ART",0,"P","NA",
-"席勒素描",1,,,,,,"Art","ART",0,"P","NA",
-"素描速写含马克笔、彩铅笔",1,,,,,,"Art","ART",0,"P","NA",
-"美院视界——色彩静物教学现场",1,,,,,,"Art","ART",0,"P","NA",
-"Adult Piano Adventures All-in-One Lesson Book 1",1,,,,," Nancy Faber","Art","ART",0,"NA","P",
-"奢侈、宁静&享乐",1,,,,,"桑贝","Art","ART",0,"P","NA",
+"艺用人体结构运动学",0.01,"PartialReading",,,,,"Art","ART",0,"P","NA",
+"建筑的七盏明灯(architecture)",0.01,"PartialReading",,,,,"Art","ART",0,"P","NA",
+"CEO西服学(最具时尚魅力和知识含量的西服全 书) ",0.05,"PartialReading",,,,,"Art","ART",0,"P","NA",
+"名画的故事",0.1,"PartialReading",,,,,"Art","ART",0,"P","NA",
+"我的风格小黑皮书--美国《ELLE》主编倾心讲述 有关风格、有关装扮的一切秘密",1,"ThroughReading","Fastfood-knowledge",,,,"Art","ART",0,"P","NA",
+"旗袍(BOOK+DVD) ",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"工笔线描－蔓陀罗",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"基础图案",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"瑞兽图案",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"明代绘画艺术鉴赏",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"结构素描1－单个静物(Structure Sketching-----Still Life)",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"结构素描2－几何形体(Structure Sketching-----Geometric Form)",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"结构素描3－石膏五官(Structure Sketching-----Facial Features)",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"基础素描全程训练——应试篇上：素描头像",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"基础素描教程第四册",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"基础美术阶梯训练教材——石膏像：素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"手绘的奇思妙想：49位设计师的创意速写簿",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"凡高素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"速写风景画法",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"米开朗基罗素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"园林钢笔画",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"席勒素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"素描速写含马克笔、彩铅笔",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"美院视界——色彩静物教学现场",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
+"Adult Piano Adventures All-in-One Lesson Book 1",1,"ReferenceBook",,,," Nancy Faber","Art","ART",0,"NA","P",
+"奢侈、宁静&享乐",1,"ThroughReading",,,,"桑贝","Art","ART",0,"P","NA",
 "听朱光潜讲美学 ","NA",,,,,,"Art","ART",0,"P","NA",
 "世界美术全鉴——巴洛克与罗可可艺术","NA",,,,,,"Art","ART",0,"P","NA",
 "造型设计基础(毕留举)","NA",,,,,,"Art","ART",0,"P","NA",
@@ -34,33 +34,32 @@
 "中国少数民族服饰(图文并茂） ","NA",,,,,,"Art","ART",0,"P","NA",
 "家庭园艺DIY系列——家庭种菜最健康",0.02,,,,,,"Art","ART",0,"P","NA",
 "艺术词典 (Art dictionary)","NA",,,,,,"Art","ART",0,"P","NA",
-"中国现代十大名画家画集","NA",,,,,,"Art","ART",0,"P","NA",
 "西部布堆画艺术（英汉）","NA",,,,,,"Art","ART",0,"P","P",
 "中华风物系列丛书--中国亭子艺术","NA",,,,,,"Art","ART",0,"P","NA",
 "Listen to Music","NA",,,,,"Craig Wright","Art","ART",0,"P","NO",
-"维生素矿物质养生事典 ",0.2,,,,,,"Beauty&Health","BTH",0,"P","NA",
-"激活——给你能量的果蔬汁",1,,,,,,"Beauty&Health","BTH",0,"P","NA",
-"牛尔的爱美书：天然面膜DIY（美容教主《美丽俏佳人》美丽教练牛尔天然护肤秘笈全公开） ",1,,,,,,"Beauty&Health","BTH",0,"P","NA",
+"维生素矿物质养生事典 ",0.2,"ReferenceBook",,,,,"Beauty&Health","BTH",0,"P","NA",
+"激活——给你能量的果蔬汁",1,"ReferenceBook",,,,,"Beauty&Health","BTH",0,"P","NA",
+"牛尔的爱美书：天然面膜DIY（美容教主《美丽俏佳人》美丽教练牛尔天然护肤秘笈全公开） ",1,"ReferenceBook",,,,,"Beauty&Health","BTH",0,"P","NA",
 "常春藤:人体大百科",0.01,,,,,,"Beauty&Health","MED",0,"P","NA",
-"香草美人物语",1,,,,,"Kim Morrison & Fleur Welligan ","Beauty&Health","BTH",0,"P","NA",
-"吃遍全球——旅行膳食营养指南",1,,,,,,"Beauty&Health","BTH",0,"P","NA",
-"香水情氛----调出来的神秘",1,,,,,,"Beauty&Health","BTH",0,"P","NA",
+"香草美人物语",1,"ThroughReading",,,,"Kim Morrison & Fleur Welligan ","Beauty&Health","BTH",0,"P","NA",
+"吃遍全球——旅行膳食营养指南",1,"ThroughReading",,,,,"Beauty&Health","BTH",0,"P","NA",
+"香水情氛----调出来的神秘",1,"ThroughReading",,,,,"Beauty&Health","BTH",0,"P","NA",
 "花袭人(食花·花疗宝典) ","NA",,,,,,"Beauty&Health","BTH",0,"P","NA",
 "Skin Aging","NA",,,,,"Gilchrest, Barbara A.","Beauty&Health","BTH",0,"P","NO",
 "Cosmeceuticals and Cosmetic Ingredients","NA",,,,,"Baumann, Leslie","Beauty&Health","BTH",0,"P","NO",
 "A Consumer's Dictionary of Cosmetic Ingredients, 7th Edition","NA",,,,,"Winter, Ruth","Beauty&Health","BTH",0,"P","NO",
-"Steve Jobs ",0.01,,,,,"Walter Isaacson","Biography","BGY",0,"NO","P",
-"真相与传奇-杜拉斯唯一的传记影集 ",0.5,,,,,,"Biography","BGY",0,"P","NA",
-"曾国藩传",1,,,,,,"Biography","BGY",0,"P","NA",
-"曾国藩三部曲",1,,,,,,"Biography","BGY",0,"E","NA",
-"白宫首席金融智囊格林斯潘 (Alan Greenspan)",1,,,,,,"Biography","BGY",0,"P","NA",
-"龙夫人：慈禧故事",1,,,,,,"Biography","BGY",0,"P","NA",
+"Steve Jobs ",0.01,"PartialReading",,,,"Walter Isaacson","Biography","BGY",0,"NO","P",
+"真相与传奇-杜拉斯唯一的传记影集 ",0.5,"PartialReading",,,,,"Biography","BGY",0,"P","NA",
+"曾国藩传",1,"ThroughReading",,,,,"Biography","BGY",0,"P","NA",
+"曾国藩三部曲",1,"ThroughReading",,,,,"Biography","BGY",0,"E","NA",
+"白宫首席金融智囊格林斯潘 (Alan Greenspan)",1,"ThroughReading",,,,,"Biography","BGY",0,"P","NA",
+"龙夫人：慈禧故事",1,"ThroughReading",,,,,"Biography","BGY",0,"P","NA",
 "约翰·亚当斯 ","NA",,,,,,"Biography","BGY",0,"P","NO",
 "桥－奥巴马传记","NA",,,,,,"Biography","BGY",0,"P","NO",
 "华盛顿传","NA",,,,,,"Biography","BGY",0,"P","NO",
-"Biochemistry",0.3,,,,,"Jeremy M. Berg","Biology","BIO",0,"NA","P",
-"生命是什么",1,,,,,,"Biology","BIO",0,"P","NO",
-"自私的基因(The Selfish Gene)",0.2,,,,,"Richard Dawkins","Biology","BIO",0,"E","P",
+"Biochemistry",0.3,"PartialReading",,,,"Jeremy M. Berg","Biology","BIO",0,"NA","P",
+"生命是什么",1,"ThroughReading",,,,,"Biology","BIO",0,"P","NO",
+"自私的基因(The Selfish Gene)",0.2,"PartialReading",,,,"Richard Dawkins","Biology","BIO",1,"E","P","Audio"
 "精子战争(Sperm Wars)",0.01,,,,,,"Biology","BIO",0,"E","P",
 "神似祖先","NA",,,,,"郑也夫","Biology","BIO",0,"E","NA",
 "公司财务和治理机制",0.01,,,,,,"Business & Economics","BEO",0,"P","NA",
@@ -92,8 +91,8 @@
 "Issue Driven",1,,,,,,"Business & Economics","BEO",0,"NA","P",
 "Zero to One: Notes on Startups or How to Build the Future",1,,,,,"Peter Thiel","Business & Economics","BEO",0,"NO","P",
 "移动互联网时代",1,,,,,,"Business & Economics","BEO",0,"P","NA",
-"国富论(The Wealth of Nation)",1,,,,,"Adam Smith","Business & Economics","PPY",0,"P","P",
-"经济学原理(Principles of Economics)",1,,,,,"Marshall","Business & Economics","PPY",0,"P","P",
+"国富论(The Wealth of Nation)",1,"ThroughReading","Economics",,,"Adam Smith","Business & Economics","PPY",1,"P","P","Audio"
+"经济学原理(Principles of Economics)",1,"ThroughReading","Economics",,,"Marshall","Business & Economics","PPY",0,"P","P","Audio"
 "伯恩斯坦金融三部曲2：华尔街上的经济学家","NA",,,,,,"Business & Economics","BEO",0,"P","NO",
 "伯恩斯坦金融三部曲3：金融简史","NA",,,,,,"Business & Economics","BEO",0,"P","NO",
 "互联网商规11条摩根士丹利所推崇的商业战略思想","NA",,,,,,"Business & Economics","BEO",0,"P","NA",
@@ -325,7 +324,7 @@
 "乌合之众(The Crowd)",0.05,,,,,"Gustave Le Bon","Philosophy and Psychology","PPY",0,"E","P",
 "身份的焦虑(Status Anxiety)",1,,,,,"Alain de Botton","Philosophy and Psychology","PPY",0,"E","P",
 "智慧社会 (Social Physics)",0.2,,,,,"Alex Pentland  ","Philosophy and Psychology","PPY",0,"E","P",
-"Going Solo: The Extraordinary Rise and Surprising Appeal of Living Alone",0.2,"RoughReading","Hard-knowledge",,," Eric Klinenberg","Philosophy and Psychology","PPY",0,"NO","P","Audio"
+"Going Solo: The Extraordinary Rise and Surprising Appeal of Living Alone (单身社会)",0.2,"RoughReading","Hard-knowledge",,,"Eric Klinenberg","Philosophy and Psychology","PPY",1,"NO","P","Audio"
 "叙事疗法",0.2,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
 "亲密的陌生人",0.2,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
 "逻辑学(Science of Logic)",0.3,,,,,"Hegel","Philosophy and Psychology","PPY",0,"P","NO",
@@ -410,7 +409,7 @@
 "Honest Signals: How They Shape Our World","NA",,,,,"Alex Pentland","Philosophy and Psychology","PPY",0,"NO","P",
 "Blink: The Power of Thinking Without Thinking","NA",,,,,"Malcolm Gladwell","Philosophy and Psychology","PPY",0,"NO","P",
 "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets","NA",,,,,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",0,"NO","P",
-"黑天鹅(The Black Swan)",0.33,,,,,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",0,"E","P",
+"黑天鹅(The Black Swan)",0.33,"RoughReading","Hard-knowledge","Critical Thinking-Uncertainty",,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",0,"E","P","Audio"
 "怪诞现象学(How to think about weird things)","NA",,,,," Lewis Vaughn and Theodore Schick","Philosophy and Psychology","PPY",0,"P","NO",
 "世界为何存在(Why does the world exist?)",0.01,,,,,,"Philosophy and Psychology","PPY",0,"E","P",
 "习得性无助(Learned helplessness)","NA",,,,,"Christopher Peterson &  Steven F.Maier","Philosophy and Psychology","PPY",0,"E","NO",
@@ -528,7 +527,7 @@
 "重来（rework）",1,,,,,"37Signals","Self-development","SDP",0,"NO","P",
 "Asking the Right Questions: A Guide to Critical Thinking 9th Edition",1,,,,,"M. Neil Browne","Self-development","SDP",0,"P","NO",
 "How To Solve It: A New Aspect of Mathematical Method","NA",,,,,"George Polya","Self-development","SDP",0,"P","NO",
-"如何阅读一本书(How to read a book)",1,,,,,"Mortimer J. Adler","Self-development","SDP",0,"P","P",
+"如何阅读一本书(How to read a book)",1,"ThroughReading","Meta-Knowledge",,,"Mortimer J. Adler","Self-development","SDP",1,"P","P","Audio"
 "Thing Explainer: Complicated Stuff in Simple Words",0.02,,,,,"Randall Munroe","Self-development","SDP",0,"P","NO",
 "The Monographs",0.1,,,,,"Ben Cardall","Self-development","SDP",0,"P","NA",
 "The Joy of Reading: A Passionate Guide to 189 of the World's Best Authors and Their Works","NA",,,,,"Charles Van Doren","Self-development","SDP",0,"P","NO",
@@ -643,7 +642,114 @@
 "痛苦心理学","NA",,,,,"林昆辉","Philosophy and Psychology","PPY",0,"NA","P",
 "生活中的道德怪圈",0.33,,,,,"Rainer Erlinger","Philosophy and Psychology","PPY",0,"NO","P",
 "人情与面子：中国人的权力游戏",0.3,,,,,"黄光国","Society and Culture","SOC",0,"NA","P",
-"时间的形状",1,,,,,,"Physics","PHY",0,,,
-"每天最重要的2小时",1.00%,"RoughReading","Fastfood-knowledge","Self management",,,,,1,,,"Audio"
-"抗压力",1.00%,"RoughReading","Fastfood-knowledge","Self management",,,,,1,,,"Audio"
-"快节奏，慢生活",1.00%,"RoughReading","Fastfood-knowledge","Self management",,,,,1,,,"Audio"
+"时间的形状",1,"RoughReading",,,,,"Physics","PHY",0,,,"Audio"
+"每天最重要的2小时","1.00%","RoughReading","Fastfood-knowledge","Self management",,,,,1,,,"Audio"
+"抗压力","1.00%","RoughReading","Fastfood-knowledge","Self management",,,,,1,,,"Audio"
+"快节奏，慢生活","1.00%","RoughReading","Fastfood-knowledge","Self management",,,,,1,,,"Audio"
+"Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC",1,"E","P","Audio"
+"The Crowd",0.01,"RoughReading","Hard-knowledge","Social Psychology",,,"Philosophy and Psychology","PPY",0,"P","NA","Audio"
+"The Death and Life of Great American Cities",0.01,"RoughReading","Hard-knowledge",,,"Jacobs J","Society and Culture","SOC",0,,,"Audio"
+"Animal spirits",0.01,"RoughReading","Hard-knowledge",,,"George A.Akedof and Robert J.Shiller","Business & Economics","BEO",0,,,"Audio"
+"走到人生的边上",0.01,"RoughReading","Fastfood-knowledge",,,"Yang Jiang","Proses Essays and Poems","PEP",1,,,"Audio"
+"智慧书",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,,,"Audio"
+"沉思录",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,,,"Audio"
+"君主论",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,,,"Audio"
+"演说之禅",,,,"Public Speaking",,,"Self-development","SDP",,,,"Audio"
+"简单思考",,,,,,,,,,,,"Audio"
+"自控力",,,,,,,,,,,,"Audio"
+"微观经济学纵横谈",,,,,,,,,,,,"Audio"
+"离经叛道",,,,,,,,,,,,"Audio"
+"安静的力量",,,,,,,,,,,,"Audio"
+"上帝掷骰子吗？",,,,,,,,,,,,"Audio"
+"隐藏的现实：平行宇宙是什么？",,,,,,,,,,,,"Audio"
+"娱乐至死",,,,,,,,,,,,"Audio"
+"商业的本质",,,,,,,,,,,,"Audio"
+"重新定义公司",,,,"Marketing Management",,,,,,,,"Audio"
+"相约星期二",,,,,,,,,,,,"Audio"
+"文明的冲突",,,,,,,,,,,,"Audio"
+"魔鬼经济学",,,,,,,,,,,,"Audio"
+"耶路撒冷三千年",,,,,,,,,,,,"Audio"
+"悲剧的诞生",,,,,,,,,,,,"Audio"
+"第二性",,,,,,,,,,,,"Audio"
+"不平等的代价",,,,,,,,,,,,"Audio"
+"未来简史",0.01,"RoughReading","Hard-knowledge","Future",,,"Society and Culture","SOC",,,,"Audio"
+"菊与刀",0.01,"RoughReading",,,,,,,,,,"Audio"
+"乡土中国",,,,,,,,,,,,"Audio"
+"旧制度与大革命",,,,,,,,,,,,"Audio"
+"大设计",,,,,,,,,,,,"Audio"
+"格调",,,,,,,,,,,,"Audio"
+"刻意练习",,,,,,,,,,,,"Audio"
+"人类简史",,,,,,,,,,,,"Audio"
+"从0到1",,,,,,,,,,,,"Audio"
+"贫穷的本质",,,,,,,,,,,,"Audio"
+"关键时刻",0.01,"RoughReading",,,,,,,,,,"Audio"
+"决定未来的十种人",0.01,"RoughReading",,"How to innovate?",,,,,,,,"Audio"
+"沃顿商学院最受欢迎的谈判课",,,,,,,,,,,,"Audio"
+"细节：如何轻松影响他人",,,,,,,,,,,,"Audio"
+"这样和世界相处",,,,,,,,,,,,"Audio"
+"知道做到",,,,,,,,,,,,"Audio"
+"全新思维",,,,,,,,,,,,"Audio"
+"你的团队需要一个会讲故事的人",,,,,,,,,,,,"Audio"
+"出版人",,,,,,,,,,,,"Audio"
+"最重要的事，只有一件",,,,,,,,,,,,"Audio"
+"精益创业",,,,,,,,,,,,"Audio"
+"反直觉询问",,,,"Critical Thinking-Ask Question",,,,,,,,"Audio"
+"学会提问",,,,"Critical Thinking-Ask Question",,,,,,,,"Audio"
+"最小阻力之路",,,,,,,,,,,,"Audio"
+"理性选民的神话",,,,,,,,,,,,"Audio"
+"意志力",,,,,,,,,,,,"Audio"
+"逆转",,,,,,,,,,,,"Audio"
+"瞬变",,,,,,,,,,,,"Audio"
+"理性乐观派",,,,,,,,,,,,"Audio"
+"提问的艺术",,,,,,,,,,,,"Audio"
+"引爆点",,,,,,,,,,,,"Audio"
+"愚昧者的愚昧",,,,,,,,,,,,"Audio"
+"清醒思考的艺术",,,,"Critical Thinking-Rational",,,,,,,,"Audio"
+"创新者",,,,,,,,,,,,"Audio"
+"异类",,,,,,,,,,,,"Audio"
+"洗脑术",,,,,,,,,,,,"Audio"
+"沃顿商学院最受欢迎的成功课",,,,,,,,,,,,"Audio"
+"生猛的进化心理学",,,,,,,,,,,,"Audio"
+"演讲的力量",,,,"Public Speaking",,,,,,,,"Audio"
+"解决冲突的关键技巧",,,,,,,,,,,,"Audio"
+"情绪急救",,,,,,,,,,,,"Audio"
+"金钱不能买什么",,,,,,,,,,,,"Audio"
+"刻意练习",,,,"How to be an expert?",,,,,,,,"Audio"
+"颠覆式创新",,,,"How to innovate?",,,,,,,,"Audio"
+"智能时代",,,,,,,,,,,,"Audio"
+"失控",,,,,,,,,,,,"Audio"
+"蔡康永的说话之道",,,,,,,,,,,,"Audio"
+"科技想要什么",,,,,,,,,,,,"Audio"
+"抗压力",,,,"Emotion Management",,,,,,,,"Audio"
+"高绩效教练",,,,,,,,,,,,"Audio"
+"增长的本质",,,,,,,,,,,,"Audio"
+"输赢心理学",,,,,,,,,,,,"Audio"
+"谈钱不伤感情",,,,,,,,,,,,"Audio"
+"海都物语",,,,,,,,,,,,"Audio"
+"反脆弱",,,,,,,,,,,,"Audio"
+"慢思考：大脑超载时代的思考学",,,,,,,,,,,,"Audio"
+"请用数据说话",,,,"Critical Thinking-Data",,,,,,,,"Audio"
+"浪潮之巅",,,,,,,,,,,,"Audio"
+"超越智商",,,,,,,,,,,,"Audio"
+"无为",,,,,,,,,,,,"Audio"
+"快节奏，慢生活",,,,"Time Management",,,,,,,,"Audio"
+"翻转式学习",,,,,,,,,,,,"Audio"
+"每天最重要的2小时",,,,"Time Management",,,,,,,,"Audio"
+"混乱",,,,"Time Management",,,,,,,,"Audio"
+"技术奇点",,,,,,,,,,,,"Audio"
+"安静的力量",,,,,,,,,,,,"Audio"
+"极简人类史",,,,,,,,,,,,"Audio"
+"优秀的绵羊",,,,,,,,,,,,"Audio"
+"简单思考",,,,,,,,,,,,"Audio"
+"创业融资，从一个好故事开始",,,,,,,,,,,,"Audio"
+"从零开始学理财",,,,,,,,,,,,"Audio"
+"分享时代：如何缔造影响力",,,,,,,,,,,,"Audio"
+"耶路撒冷三千年",,,,,,,,,,,,"Audio"
+"为什么常识会撒谎",,,,,,,,,,,,"Audio"
+"男人来自火星，女人来自金星",,,,,,,,,,,,"Audio"
+"博恩·崔西的时间管理课",,,,"Time Management",,,,,,,,"Audio"
+"整合",,,,,,,,,,,,"Audio"
+"理财最重要的事",,,,,,,,,,,,"Audio"
+"设计思维玩转创业",,,,,,,,,,,,"Audio"
+"心思大开",,,,,,,,,,,,"Audio"
+"我们如何走到今天",,,,,,,,,,,,"Audio"
