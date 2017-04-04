@@ -1,750 +1,742 @@
-"Name","Progress","ProDetail","KnowledgeType","Topic","Summary","Author","Category","CATE_CODE","Priority","Chinese.Version","English.Version","Audio"
-"艺用人体结构运动学",0.01,"PartialReading",,,,,"Art","ART",0,"P","NA",
-"建筑的七盏明灯(architecture)",0.01,"PartialReading",,,,,"Art","ART",0,"P","NA",
-"CEO西服学(最具时尚魅力和知识含量的西服全 书) ",0.05,"PartialReading",,,,,"Art","ART",0,"P","NA",
-"名画的故事",0.1,"PartialReading",,,,,"Art","ART",0,"P","NA",
-"我的风格小黑皮书--美国《ELLE》主编倾心讲述 有关风格、有关装扮的一切秘密",1,"ThroughReading","Fastfood-knowledge",,,,"Art","ART",0,"P","NA",
-"旗袍(BOOK+DVD) ",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"工笔线描－蔓陀罗",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"基础图案",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"瑞兽图案",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"明代绘画艺术鉴赏",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"结构素描1－单个静物(Structure Sketching-----Still Life)",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"结构素描2－几何形体(Structure Sketching-----Geometric Form)",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"结构素描3－石膏五官(Structure Sketching-----Facial Features)",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"基础素描全程训练——应试篇上：素描头像",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"基础素描教程第四册",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"基础美术阶梯训练教材——石膏像：素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"手绘的奇思妙想：49位设计师的创意速写簿",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"凡高素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"速写风景画法",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"米开朗基罗素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"园林钢笔画",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"席勒素描",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"素描速写含马克笔、彩铅笔",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"美院视界——色彩静物教学现场",1,"ReferenceBook",,,,,"Art","ART",0,"P","NA",
-"Adult Piano Adventures All-in-One Lesson Book 1",1,"ReferenceBook",,,," Nancy Faber","Art","ART",0,"NA","P",
-"奢侈、宁静&享乐",1,"ThroughReading",,,,"桑贝","Art","ART",0,"P","NA",
-"听朱光潜讲美学 ",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"世界美术全鉴——巴洛克与罗可可艺术",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"造型设计基础(毕留举)",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"中西形象设计史:职业形象设计师通用培训教程",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"服饰配色设计原理与实例精解-服装综合设计原 理与实例精解丛书 ",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"萨特论艺术",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"中国少数民族服饰(图文并茂） ",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"家庭园艺DIY系列——家庭种菜最健康",0.02,"PartialReading",,,,,"Art","ART",0,"P","NA",
-"艺术词典 (Art dictionary)",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"西部布堆画艺术（英汉）",0,"HaveNotRead",,,,,"Art","ART",0,"P","P",
-"中华风物系列丛书--中国亭子艺术",0,"HaveNotRead",,,,,"Art","ART",0,"P","NA",
-"Listen to Music",0,"HaveNotRead","Hard-knowledge","Music Appreciation",,"Craig Wright","Art","ART",1,"P","NO",
-"维生素矿物质养生事典 ",0.2,"ReferenceBook",,,,,"Beauty&Health","BTH",0,"P","NA",
-"激活——给你能量的果蔬汁",1,"ReferenceBook",,,,,"Beauty&Health","BTH",0,"P","NA",
-"牛尔的爱美书：天然面膜DIY（美容教主《美丽俏佳人》美丽教练牛尔天然护肤秘笈全公开） ",1,"ReferenceBook",,,,,"Beauty&Health","BTH",0,"P","NA",
-"常春藤:人体大百科",0.01,"ReferenceBook",,,,,"Beauty&Health","MED",0,"P","NA",
-"香草美人物语",1,"ThroughReading",,,,"Kim Morrison & Fleur Welligan ","Beauty&Health","BTH",0,"P","NA",
-"吃遍全球——旅行膳食营养指南",1,"ThroughReading",,,,,"Beauty&Health","BTH",0,"P","NA",
-"香水情氛----调出来的神秘",1,"ThroughReading",,,,,"Beauty&Health","BTH",0,"P","NA",
-"花袭人(食花·花疗宝典) ",0,"HaveNotRead",,,,,"Beauty&Health","BTH",0,"P","NA",
-"Skin Aging",0.2,"PartialReading","Hard-knowledge","Beauty-Theory",,"Gilchrest, Barbara A.","Beauty&Health","BTH",1,"P","NO",
-"Cosmeceuticals and Cosmetic Ingredients",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",,"Baumann, Leslie","Beauty&Health","BTH",1,"P","NO",
-"A Consumer's Dictionary of Cosmetic Ingredients, 7th Edition",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",,"Winter, Ruth","Beauty&Health","BTH",1,"P","NO",
-"Steve Jobs ",0.01,"PartialReading","Fact-knowledge-Biography",,,"Walter Isaacson","Biography","BGY",0,"NO","P",
-"真相与传奇-杜拉斯唯一的传记影集 ",0.5,"PartialReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,"P","NA",
-"曾国藩传",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,"P","NA",
-"曾国藩三部曲",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,"E","NA",
-"白宫首席金融智囊格林斯潘 (Alan Greenspan)",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,"P","NA",
-"龙夫人：慈禧故事",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,"P","NA",
-"约翰·亚当斯 ",0,"HaveNotRead","Fact-knowledge-Biography",,,,"Biography","BGY",0,"P","NO",
-"桥－奥巴马传记",0,"HaveNotRead","Fact-knowledge-Biography",,,,"Biography","BGY",0,"P","NO",
-"华盛顿传",0,"HaveNotRead","Fact-knowledge-Biography",,,,"Biography","BGY",0,"P","NO",
-"Biochemistry",0.3,"PartialReading","Meta-Knowledge",,,"Jeremy M. Berg","Biology","BIO",0,"NA","P",
-"生命是什么",1,"ThroughReading","Meta-Knowledge",,,,"Biology","BIO",0,"P","NO",
-"自私的基因(The Selfish Gene)",0.2,"PartialReading","Hard-knowledge","Evolutionary psychology",,"Richard Dawkins","Biology","BIO",1,"E","P","Audio"
-"精子战争(Sperm Wars)",0.01,"PartialReading","Hard-knowledge","Evolutionary psychology",,,"Biology","BIO",1,"E","P",
-"神似祖先",0,"PartialReading","Hard-knowledge","Evolutionary psychology",,"郑也夫","Biology","BIO",1,"E","NA",
-"公司财务和治理机制",0.01,"PartialReading","Hard-knowledge","Company Finance",,,"Business & Economics","BEO",1,"P","NA",
-"互联网进化论",0.01,"RoughReading","Fastfood-knowledge",,,,"Business & Economics","BEO",0,"P","NA",
-"策略思维",0.01,"PartialReading","Hard-knowledge","Critical Thinking-Decision",,,"Business & Economics","BEO",0,"P","NO",
-"产业链阴谋III ",0.1,"PartialReading","Fastfood-knowledge","Chinese Economy ",,,"Business & Economics","BEO",0,"P","NA",
-"创新者的窘境(The Innovator's Dilemma)",0.1,"PartialReading","Hard-knowledge","How to innovate?",," C M Christensen","Business & Economics","BEO",0,"E","P",
-"品牌洗脑(Brand Washed)",1,"ThroughReading","Fastfood-knowledge","Negotiation or persuasion",,"Martin Lindstrom","Business & Economics","BEO",0,"P","NO",
-"中国经济缺什么（陈志武、茅于轼、斯蒂格利茨等15位经济学家分析中国经济大趋势，解局中国怎么办，共谋拯救中国经济之良策。）d11",0.2,"PartialReading","Fastfood-knowledge","Chinese Economy ",,,"Business & Economics","BEO",0,"P","NA",
-"Marketing Management (14e Edition)",0.4,"PartialReading","Meta-Knowledge","Marketing Management",,"Kotler and Keller","Business & Economics","BEO",1,"NA","P",
-"长尾理论",0.5,"PartialReading","Hard-knowledge","Marketing Management",,,"Business & Economics","BEO",0,"P","NA",
-"Free: How Today's Smartest Businesses Profit by Giving Something for Nothing ",0.5,"PartialReading","Hard-knowledge","Marketing Management",,,"Business & Economics","BEO",0,"NO","P",
-"场景革命",0.5,"PartialReading","Fastfood-knowledge","Marketing Management",,"吴声","Business & Economics","BEO",0,"E","NA",
-"伯恩斯坦金融三部曲1：繁荣的代价",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NO",
-"财富的秘密",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NO",
-"商业的常识",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NA",
-"2025年世界将发生什么",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NA",
-"自动自发 （《致加西亚的信》作者巅峰之作） ",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NO",
-"中国牛市",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NA",
-"管理的实践",1,"ThroughReading",,,,"德鲁克","Business & Economics","BEO",0,"P","NO",
-"罗伯特议事规则操作指南(美国民间流传近150年的会议组织指导手册)",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NO",
-"夏娃革命（引爆女性市场的八条黄金法则） ",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NO",
-"考验－－跨国公司败阵中国实录",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NO",
-"赢",1,"ThroughReading",,,,"杰克·韦尔奇","Business & Economics","BEO",0,"P","NO",
-"Competing on Analytics: The New Science of Winning",1,"ThroughReading",,,,"Thomas H","Business & Economics","BEO",0,"NA","NO",
-"Consumer Behavior: Buying having and being",1,"ThroughReading",,,,"Solomon Michael R","Business & Economics","BEO",0,"NA","P",
-"Issue Driven",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"NA","P",
-"Zero to One: Notes on Startups or How to Build the Future",1,"ThroughReading",,,,"Peter Thiel","Business & Economics","BEO",0,"NO","P",
-"移动互联网时代",1,"ThroughReading",,,,,"Business & Economics","BEO",0,"P","NA",
-"国富论(The Wealth of Nation)",1,"ThroughReading","Meta-Knowledge",,,"Adam Smith","Business & Economics","PPY",1,"P","P","Audio"
-"经济学原理(Principles of Economics)",1,"ThroughReading","Meta-Knowledge",,,"Marshall","Business & Economics","PPY",0,"P","P","Audio"
-"伯恩斯坦金融三部曲2：华尔街上的经济学家",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"P","NO",
-"伯恩斯坦金融三部曲3：金融简史",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"P","NO",
-"互联网商规11条摩根士丹利所推崇的商业战略思想",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"P","NA",
-"在路上：CCTV《赢在中国》首赛季12强创业启示录（励志创造人生 创业改变命运）",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"P","NA",
-"刀口上的管理(全球顶尖企业如何利用冲突管理引领行业创新风潮） ",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"P","NA",
-"巴菲特致股东的信：股份公司教程",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"P","NA",
-"把握公司财务报表",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"P","NA",
-"经济学通识",0.2,"PartialReading",,,,"薛兆丰","Business & Economics","BEO",0,"E","NA","Audio"
-"集装箱改变世界(The Box)",0,"HaveNotRead",,,,"Marc Levinson","Business & Economics","BEO",0,"E","P",
-"货币的祸害(Money Mischief)",0,"HaveNotRead",,,,"Milton Friedman","Business & Economics","BEO",0,"E","NO",
-"微革命",0,"HaveNotRead",,,,"金错刀","Business & Economics","BEO",0,"E","NA",
-"看不见的心(The invisible heart)",0,"HaveNotRead",,,,,"Business & Economics","BEO",0,"E","NO",
-"重新定义公司—谷歌是如何运营的 (How Google Works)",0.15,"RoughReading","Fastfood-knowledge",,,"Eric Schmidt and Jonathan Rosenberg","Business & Economics","BEO",0,"NO","E","Audio"
-"Leadership Pipeline",1,"ThroughReading",,,,"Stephen Drotter & James Noel & Ram Charan","Business & Economics","BEO",0,"NO","P",
-"Blockbusters: Hit-making, Risk-taking, and the Big Business of Entertainment",0,"HaveNotRead",,,," Anita Elberse","Business & Economics","BEO",0,"P","NO",
-"The Alliance: Managing Talent in the Networked Age",0,"HaveNotRead",,,,"Reid Hoffman","Business & Economics","BEO",0,"P","NO",
-"Text Analysis with R for Students of Literature ",1,"ThroughReading",,,," Matthew Jockers","Data Science","DAT",0,"NA","P",
-"看穿一切数字的统计学",0.01,"PartialReading",,,,,"Data Science","DAT",0,"P","NA",
-"Big Data ",1,"ThroughReading",,,,,"Data Science","DAT",0,"P","NO",
-"大数据的冲击",1,"ThroughReading",,,,"野村合作所","Data Science","DAT",0,"P","NA",
-"Mining of Massive Datasets",0.01,"PartialReading",,,,,"Data Science","DAT",0,"NA","E",
-"Mining the Social Web",0.01,"PartialReading",,,," Matthew A. Russell","Data Science","DAT",0,"NA","P",
-"Doing Data Science",0.05,"PartialReading",,,," Cathy O'Neil","Data Science","DAT",0,"P","NA",
-"Humanities Data in R",0.5,"PartialReading",,,,"Taylor Arnold","Data Science","DAT",0,"P","NA",
-"Political Analysis Using R",1,"ThroughReading",,,,"James E. Monogan III","Data Science","DAT",0,"P","NA",
-"Practical Text Analytics: Interpreting Text and Unstructured Data for Business Intelligence",0.01,"PartialReading",,,,"Steven Struhl","Data Science","DAT",0,"P","NA",
-"男人这东西",0.5,"PartialReading",,,,"渡边淳一","Gender","GND",0,"E","NA",
-"完全出轨手册",1,"ThroughReading",,,,,"Gender","GND",0,"P","NO",
-"享受单身",1,"ThroughReading",,,,,"Gender","GND",0,"P","NO",
-"滚床单心理学",1,"ThroughReading",,,,,"Gender","GND",0,"E","NA",
-"迎男而上",1,"ThroughReading",,,,"燕公子","Gender","GND",0,"E","NA",
-"世界简史 ",0.01,"PartialReading",,,,,"History","HTY",0,"P","NA",
-"传说时代 · 夏 · 商 · 西周",0.01,"PartialReading",,,,,"History","HTY",0,"P","NA",
-"忽必烈大帝 ",0.01,"PartialReading",,,,,"History","HTY",0,"P","NA",
-"人类简史——从动物到上帝[Sapiens: A Brief History of Humankind]",0.02,"PartialReading",,,,"Yuval Noah Harari","History","HTY",0,"P","P",
-"美国人民 —— 创建一个国家和一种社会（上卷 1492-1877 年第六版）",0.05,"PartialReading",,,,,"History","HTY",0,"P","NO",
-"人类的故事 (the history of mankind)",0.1,"PartialReading",,,,"Hendrik Willem Van Loon","History","HTY",0,"P","P",
-"何苦生在帝王家（大清公主命运实录 )",0.1,"PartialReading",,,,,"History","HTY",0,"P","NA",
-"《大国崛起》系列丛书 —— 日本",0.2,"PartialReading",,,,,"History","HTY",0,"p","NA",
-" 第三帝国的兴亡 (The Rise and Fall of the Third Reich)",0.25,"PartialReading",,,,"William L.Shirer ","History","HTY",0,"P","P",
-"上帝之鞭阿提拉 —— 挑战罗马帝国的匈人王",0.3,"PartialReading",,,,,"History","HTY",0,"P","NA",
-"百家讲坛 —— 说雍正",1,"ThroughReading",,,,,"History","HTY",0,"p","NA",
-"《大国崛起》系列丛书 ——美国",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"《大国崛起》系列丛书 —— 俄罗斯 ",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"Reading on road (American history)",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"历史的胭脂痕迹 : 触摸历史上命运多舛的红颜背后",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"历史深处的忧虑－近距离看美国之一",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"总统是靠不住的 - 近距离看美国之二",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"我也有一个梦想－近距离看美国之三",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"如彗星划过夜空 - 近距离看美国之四",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"《大国崛起》系列丛书 —— 德国",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"武则天正传",1,"ThroughReading",,,,"林语堂","History","HTY",0,"P","NA",
-"宗教简史 (A Brief History of Religion)",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"美国无法忘却的罪恶 —— 美利坚风雨二百年",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"探索古文明系列 —— 木乃伊",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"木乃伊：法老时代的生与死",1,"ThroughReading",,,,"覃东","History","HTY",0,"P","NA",
-"秦风作品系列——秦风老照片馆",1,"ThroughReading",,,,,"History","HTY",0,"P","NA",
-"邓小平时代",1,"ThroughReading",,,,"傅高义","History","HTY",0,"E","NA",
-"论中国(On China)",1,"ThroughReading",,,,"基辛格","History","HTY",0,"E","P",
-"《大国崛起》系列丛书 —— 法国",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"《大国崛起》系列丛书 —— 西班牙 / 葡萄牙",0,"HaveNotRead",,,,,"History","HTY",0,"p","NA",
-"《大国崛起》系列丛书 —— 荷兰",0,"HaveNotRead",,,,,"History","HTY",0,"p","NA",
-"亚洲简史 ",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"Universal history of world",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"彩色人文历史 —— 文学的历史",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"传播学史：一种传记式的方法",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"中国美术史",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"西方美术史",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"美洲简史",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"欧洲艺术史",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"1949 伯力大审判 —— 侵华日军使用细菌武器案庭审实录",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"彩色人文历史 —— 演艺的历史",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"影响人类历史的大审判",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"总统的力量 —— 从殖民地到超级大国",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"资治通鉴",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"20 世纪的精神教训",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"阿连德家族",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"茶叶之路    (The Tea Road China and Russia Meet Across the Steppe) ",0,"HaveNotRead",,,,"Martha Avery","History","HTY",0,"P","NA",
-"百年文字狱",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"何兆武文集——历史与历史学",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"琉璃宫史",0,"HaveNotRead",,,,,"History","HTY",0,"P","NA",
-"春秋大义",0,"HaveNotRead",,,,"熊毅","History","HTY",0,"E","NA",
-"战争改变历史 (War Made New)",0,"HaveNotRead",,,,"Max Boot","History","HTY",0,"E","NO",
-"机器学习",0.5,,,,,,"IT","IT",0,"P","NO",
-"Hadoop: The Definitive Guide ",0.01,,,,,"Tom White","IT","IT",0,"NA","P",
-"云计算与分布式系统:从并行处理到物联网(英 文版)",0,,,,,,"IT","IT",0,"NA","P",
-"算法之道(第2版)",0,,,,,,"IT","IT",0,"P","NO",
-"计算机原理简明教程  ",0,,,,,,"IT","IT",0,"P","NA",
-"构建云应用:概念、模式和实践(详述如何打造性 能、可扩展性、可用性俱佳的云计算架构模式)(云计算技术系列丛书) ",0,,,,,,"IT","IT",0,"P","NA",
-"黑客与画家(Heckers and Painters-Big Ideas from the Computer Age)",0.2,,,,,"Paul Graham","IT","IT",0,"P","NO",
-"Learning Python",0,,,,,"Mark Lutz","IT","IT",0,"NO","P",
-"中国法律法规中英对照系列4——中国公司企业法律法规（中英对照法规）",0.2,,,,,,"Law","LAW",0,"P","P",
-"高等学校法学双语教材——国际法（英文版） ",0,,,,,,"Law","LAW",0,"NA","P",
-"高等学校双语教材－国际商法 第二版 （英文版） ",0,,,,,,"Law","LAW",0,"NA","P",
-"中国法律法规中英对照系列5——中国对外贸易与经济合作法律法规（中英对照法规）",0,,,,,,"Law","LAW",0,"P","P",
-"Inside the Jury",0,,,,,"Hastie Reid & Steven D. Penrod &  Nancy Pennington","Law","LAW",0,"NA","P",
-"现代家庭实用宝典——中草药大全",0.01,,,,,,"Medicine","MED",0,"p","NA",
-"鲁滨逊漂流记",1,"ThroughReading",,,,,"Novel","NVL",0,,"NO",
-"海底两万里",1,"ThroughReading",,,,,"Novel","NVL",0,,"NA",
-"倾城之恋",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"半生缘",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"沉香屑 第一炉香",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"多少恨",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"金锁记",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"红玫瑰与白玫瑰",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"小艾",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"连环套",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"创世纪",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"浮花浪蕊",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,"NA",
-"福尔摩斯探案集",1,"ThroughReading",,,,"柯南道尔","Novel","NVL",0,,"NO",
-"希区柯克集",1,"ThroughReading",,,,"希区柯克","Novel","NVL",0,,"NO",
-"欧亨利短篇小说集",1,"ThroughReading",,,,"欧亨利","Novel","NVL",0,,"NO",
-"茶花女",1,"ThroughReading",,,,"小仲马","Novel","NVL",0,,"NO",
-"傲慢与偏见(Pride and Prejudice)",1,"ThroughReading",,,,"Jane Austen","Novel","NVL",0,,"NO",
-"巴黎圣母院",1,"ThroughReading",,,,"雨果","Novel","NVL",0,,"NO",
-"钢铁是怎样炼成的",1,"ThroughReading",,,,"尼古拉.奥斯特洛夫斯基","Novel","NVL",0,,"NO",
-"童年",1,"ThroughReading",,,,"高尔基","Novel","NVL",0,,"NO",
-"在人间",1,"ThroughReading",,,,"高尔基","Novel","NVL",0,,"NO",
-"我的大学",1,"ThroughReading",,,,"高尔基","Novel","NVL",0,,"NO ",
-"老人与海(The Old Man and The Sea)",1,"ThroughReading",,,," Ernest Hemingway","Novel","NVL",0,"NO","P",
-"三国演义",1,"ThroughReading",,,,,"Novel","NVL",0,"P","NA",
-"Complete Novels of Mark Twain",0.5,,,,,"Mark Twain","Novel","NVL",0,"NO","P",
-"For Whom the Bell Tolls ",0,,,,," Ernest Hemingway","Novel","NVL",0,"NO","P",
-"In Cold Blood",0,,,,,"Truman Capote","Novel","NVL",0,"P","NO",
-"安娜·卡列尼娜（中英对照缩写）",0.01,,,,,,"Novels and Plays","NVL",0,"P","P",
-"中国传奇",0.2,,,,,,"Novels and Plays","NVL",0,"P","NA",
-"孤独之酒",0.2,,,,,,"Novels and Plays","NVL",0,"P","NA",
-"白夜",0.5,,,,,"陀思妥耶夫斯基","Novels and Plays","NVL",0,"P","NA",
-"白痴",1,"ThroughReading",,,,"陀思妥耶夫斯基","Novels and Plays","NVL",0,"NO","P",
-"Unbearable Lightness of Being",1,"ThroughReading",,,," Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"One Hundred Years of Solitude-百年孤独",1,"ThroughReading",,,,"Gabriel García Márquez","Novels and Plays","NVL",0,"P","NO",
-"The Lover ",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,"P","NO",
-"La Musica",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,"P","NO",
-"Eden Cinema",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,"P","NO",
-"Savannah Bay",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,"P","NO",
-"India Song",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,"P","NO",
-"Laughable Loves",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Ignorance ",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Slowness",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Identity",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Immortality",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Jacques and his Master",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Arch of Triumph",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"活着",1,"ThroughReading",,,,"余华","Novels and Plays","NVL",0,"P","NA",
-"最后的情人",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"L'Assommoir",1,"ThroughReading",,,,"Émile Zola","Novels and Plays","NVL",0,"P","NO",
-"面孔之舞",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NA",
-"社交舞",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NA",
-"An Iceland Fisherman",1,"ThroughReading",,,,"Pierre Loti","Novels and Plays","NVL",0,"P","NO",
-"Madame Chrysanthème",1,"ThroughReading",,,,"Pierre Loti","Novels and Plays","NVL",0,"P","NO",
-"连环",1,"ThroughReading",,,,"亦舒","Novels and Plays","NVL",0,"P","NO",
-"The Confession of a Child of the Century",1,"ThroughReading",,,,"Alfredde Musset","Novels and Plays","NVL",0,"P","NO",
-"Night",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"床上的爱丽斯-苏珊.桑塔格文选(八幕剧)",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"The Little Prince",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"White Death",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"Mark Twain: Pudd' nhead Wilson ",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"Selected Short Stories of O Henry",1,"ThroughReading",,,,"O Henry","Novels and Plays","NVL",0,"P","NO",
-"动物凶猛",1,"ThroughReading",,,,"杨朔","Novels and Plays","NVL",0,"P","NA",
-"水岸",1,"ThroughReading",,,,"丹羽","Novels and Plays","NVL",0,"P","NA",
-"女记",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NA",
-"Selected Short Stories of Washington Irving",1,"ThroughReading",,,,"Washington Irving","Novels and Plays","NVL",0,"P","NO",
-"安格思首部曲:传奇初现",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NA",
-"小人得志",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NA",
-"温莎墓园日记",1,"ThroughReading",,,,"木心","Novels and Plays","NVL",0,"P","NA",
-"世事如烟",1,"ThroughReading",,,,"余华","Novels and Plays","NVL",0,"P","NA",
-"佛经故事",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NA",
-"长生殿 (The Palace of Eternal Youth)",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","P",
-"灵魂饭",1,"ThroughReading",,,,"余华","Novels and Plays","NVL",0,"P","NA",
-"琴声如诉",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NO",
-"王小波小说全集——早期作品/唐人故事/似水柔情",1,"ThroughReading",,,,"王小波","Novels and Plays","NVL",0,"P","NA",
-"三寸金莲",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,"P","NA",
-"被欺凌与被侮辱的",0,,,,,,"Novels and Plays","NVL",0,"P","NA",
-"Message in a Bottle",0,,,,,"NichoIas Sparks","Novels and Plays","NVL",0,"P","NO ",
-"美国佬",0,,,,,,"Novels and Plays","NVL",0,"P","NO",
-"Testaments Betrayed ",0,,,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Life is elsewhere",0,,,,,"Milan Kundera","Novels and Plays","NVL",0,"P","NO",
-"Digital Fortress",0,,,,,"Dan Brown","Novels and Plays","NVL",0,"P","NO",
-"We are Decoys  Baby",0,,,,,"Elfriede Jeline","Novels and Plays","NVL",0,"P","NO",
-"Selected Short Stories of Gide",0,,,,,"Guillaume Gide","Novels and Plays","NVL",0,"P","NO",
-"The Horse Whisperer",0,,,,,"Nicholas Evans","Novels and Plays","NVL",0,"P","NO",
-"William Sharkspeare Tragedy",0,,,,,"William Sharkspeare ","Novels and Plays","NVL",0,"P","NO",
-"William Sharkspeare Comedy ",0,,,,,"William Sharkspeare ","Novels and Plays","NVL",0,"P","NO",
-"The Murder of Roger Ackroyd",0,,,,,"Agatha Christie","Novels and Plays","NVL",0,"P","NO",
-"Nemesis",0,,,,,"Agatha Christie","Novels and Plays","NVL",0,"P","NO",
-"The Murder at The Vicarage",0,,,,,"Agatha Christie","Novels and Plays","NVL",0,"P","NO",
-"They Do It with Mirrors",0,,,,,"Agatha Christie","Novels and Plays","NVL",0,"P","NO",
-"宋明平话选",0,,,,,,"Novels and Plays","NVL",0,"P","NA",
-"不朽",0,,,,,,"Novels and Plays","NVL",0,"P","NA",
-"天香",0,,,,,"王安忆","Novels and Plays","NVL",0,"P","NA",
-"世界十大古典喜剧故事",0,,,,,,"Novels and Plays","NVL",0,"P","NA",
-"Twelve Plays by Shakespeare",0,,,,,"William Sharkspeare ","Novels and Plays","NVL",0,"P","NO",
-"The Chalk Circle Man",1,"ThroughReading",,,,"The Chalk Circle Man","Novels and Plays-detective","NVL",0,"P","NO",
-"The Last Coyote",1,"ThroughReading",,,,"The Last Coyote","Novels and Plays-detective","NVL",0,"P","NO",
-"The Moving Finger",1,"ThroughReading",,,,"Agatha Christie","Novels and Plays-detective","NVL",0,"P","NO",
-"旧墨记--世纪学人的墨迹与往事",0.01,,,,,,"Other","OTH",0,"P","NA",
-"Hillary's English-speaking World",0.3,,,,,,"Other","OTH",0,"P","P",
-"西方元典——西方经典电影(Western Films)",0.4,,,,,,"Other","OTH",0,"P","P",
-"K文件(1)",0.5,,,,,,"Other","OTH",0,"P","NA",
-"冰鉴",0.5,,,,,,"Other","OTH",0,"P","NA",
-"女人说话",1,"ThroughReading",,,,,"Other","OTH",0,"P","NA",
-"世界上最疼我的那个人去了",1,"ThroughReading",,,,,"Other","OTH",0,"P","NA",
-"闲看水浒：字缝里的梁山规则与江湖世界",1,"ThroughReading",,,,,"Other","OTH",0,"P","NA",
-"不畏将来不念过去",1,"ThroughReading",,,,"十二","Other","OTH",0,"E","NA",
-"裸女",0,,,,,,"Other","OTH",0,"P","NO",
-"翻译理论与实务丛书——跨文化旅游翻译",0,,,,,,"Other","OTH",0,"P","NA",
-"典籍英译研究(Studies on Translation of Chinese Classics into English)",0,,,,,,"Other","OTH",0,"P","NA",
-"季羡林谈翻译",0,,,,,,"Other","OTH",0,"P","NA",
-"美国白宫千年晚会演讲选集 ",0.1,,,,,,"Other","OTH",0,"p","NO",
-"The Adaptive Decision Maker ",0,,,,," John W Payne","Other","OTH",0,"NA","P",
-"How Not to Be Wrong: The Power of Mathematical Thinking ",0,,,,,"Jordan Ellenberg","Other","OTH",0,"NA","P",
-"The World Atlas of Wine 7th Edition",0.01,,,,,"Hugh Johnson","Other","OTH",0,"NA","P",
-"Delivering knock your socks off service",0,,,,,,"Other","OTH",0,"NA","P",
-"逻辑思维成大事者不纠结",0.02,,,,,"罗振宇","Other","OTH",0,"E","NA",
-"引爆流行( The Tipping Point)",1,"ThroughReading",,,," Malcolm Gladwell","Other","OTH",0,"E","P",
-"What If?: Serious Scientific Answers to Absurd Hypothetical Questions",0.3,,,,,"Randall Munroe","Other","OTH",0,"P","NO",
-"xkcd: volume 0",0,,,,,"Randall Munroe","Other","OTH",0,"P","NA",
-"How to Create a Mind: The Secret of Human Thought Revealed",0,,,,,"Kurzweil, Ray","Other","OTH",0,"P","NO",
-"我读《易经》(上)(Book Of Changes I)",0.01,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"北大哲学门经典文萃——冯友兰选集",0.01,,,,,"冯友兰","Philosophy and Psychology","PPY",0,"P","NA",
-"南怀瑾选集第三卷易经杂说易经系传别讲",0.01,,,,,"南怀瑾","Philosophy and Psychology","PPY",0,"P","NA",
-"正义之心",0.01,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"推理的迷宫(Labyrinths  of Reason)",0.01,,,,,"William Poundstone","Philosophy and Psychology","PPY",0,"P","NO",
-"漫画中国思想（蔡志忠漫画经典精选）",0.02,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"社会心理学",0.02,,,,,,"Philosophy and Psychology","PPY",0,"P","P",
-"心理学与生活",0.02,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"庄子諵譁.上",0.02,,,,,"南怀瑾","Philosophy and Psychology","PPY",0,"P","NA",
-"乌合之众(The Crowd)",0.05,,,,,"Gustave Le Bon","Philosophy and Psychology","PPY",0,"E","P",
-"身份的焦虑(Status Anxiety)",1,"ThroughReading",,,,"Alain de Botton","Philosophy and Psychology","PPY",0,"E","P",
-"智慧社会 (Social Physics)",0.2,,,,,"Alex Pentland  ","Philosophy and Psychology","PPY",0,"E","P",
-"Going Solo: The Extraordinary Rise and Surprising Appeal of Living Alone (单身社会)",0.2,"RoughReading","Hard-knowledge",,,"Eric Klinenberg","Philosophy and Psychology","PPY",1,"NO","P","Audio"
-"叙事疗法",0.2,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"亲密的陌生人",0.2,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"逻辑学(Science of Logic)",0.3,,,,,"Hegel","Philosophy and Psychology","PPY",0,"P","NO",
-"Confucius Said ",0.3,,,,,"Tom Te-wu Ma","Philosophy and Psychology","PPY",0,"P","NA",
-"天才在左疯子在右",0.3,,,,,"高铭","Philosophy and Psychology","PPY",0,"E","NA",
-"做一名优秀的心理咨询师",0.5,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"思考快与慢(Thinking Fast and Slow)",0.6,,,,,"Daniel Kahneman","Philosophy and Psychology","PPY",0,"P","P",
-"孙子兵法(The Art of War)",1,"ThroughReading",,,,"Sun Tzu","Philosophy and Psychology","PPY",0,"P","NO",
-"逃避自由(Escape from Freedom)",1,"ThroughReading",,,,"Erich Fromm","Philosophy and Psychology","PPY",0,"P","P",
-"幸福之路",1,"ThroughReading",,,,"罗素","Philosophy and Psychology","PPY",0,"P","NO",
-"武士道(Bushido) ",1,"ThroughReading",,,," Jnazo Nitobe","Philosophy and Psychology","PPY",0,"P","P",
-"博伽梵歌",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"道德箴言录",1,"ThroughReading",,,,"La Rochefoucald","Philosophy and Psychology","PPY",0,"P","P",
-"Idle Thoughts of an Idle Fellow",1,"ThroughReading",,,,"Jerome K.Jerome","Philosophy and Psychology","PPY",0,"P","P",
-"南怀瑾谈心兵难防",1,"ThroughReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,"P","NA",
-"Tolerance",1,"ThroughReading",,,,"Hendrik Willem Van Loon","Philosophy and Psychology","PPY",0,"P","NO",
-"On Old Age",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,"P","NO",
-"On Friendship",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,"P","NO",
-"On the Laws",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,"P","NO",
-"On the Nature of the Gods",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,"P","NO",
-"中庸洞见(An Insight of Chung-yung)",1,"ThroughReading",,,,"Tu Wei-ming","Philosophy and Psychology","PPY",0,"P","P",
-"欲望之源",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"论雄辩",1,"ThroughReading",,,,"François Fénelon","Philosophy and Psychology","PPY",0,"P","NO",
-"亡灵对话录",1,"ThroughReading",,,,"François Fénelon","Philosophy and Psychology","PPY",0,"P","NO",
-"南怀瑾选集（第二卷）",1,"ThroughReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,"P","NA",
-"老子他说",1,"ThroughReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,"P","NA",
-"百喻经(一部古老的佛教寓言经典)",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"图解心理学",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"道德情操论(The Theory of Moral Sentiments)",1,"ThroughReading",,,,"Adam Smith","Philosophy and Psychology","PPY",0,"P","NO",
-"重负与神恩(Gravity and Grace) ",1,"ThroughReading",,,,"Simone Weil","Philosophy and Psychology","PPY",0,"P","NO",
-"名家集注孙子兵法",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"谢尔顿作品集——众神的风车",1,"ThroughReading",,,,"谢尔顿","Philosophy and Psychology","PPY",0,"P","NA",
-"了凡四训",1,"ThroughReading",,,,"袁了凡","Philosophy and Psychology","PPY",0,"P","NA",
-"欲望心理学：看人看到骨头里",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"人格心理学 (Personality)",1,"ThroughReading",,,,"Jerry M. Burger","Philosophy and Psychology","PPY",0,"P","NO",
-"Escape from Freedom",1,"ThroughReading",,,," Erich Fromm","Philosophy and Psychology","PPY",0,"P","P",
-"爱的艺术(The Art of Loving)",1,"ThroughReading",,,," Erich Fromm","Philosophy and Psychology","PPY",0,"E","P",
-"怪诞行为学(Predictably Irrational)",1,"ThroughReading",,,," Dan Ariely","Philosophy and Psychology","PPY",0,"E","P",
-"反脆弱(Antifragile)",1,"ThroughReading","Hard-knowledge","Critical Thinking-Rational",,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",1,"E","P","Audio"
-"反直觉思考",1,"ThroughReading","Hard-knowledge","Critical Thinking-Rational",,,"Philosophy and Psychology","PPY",0,"P","NO",
-"直面内心的恐惧",1,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"选择的悖论",1,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"Predictably Irrational2",1,"ThroughReading",,,," Dan Ariely","Philosophy and Psychology","PPY",0,"E","NO",
-"三十六计",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"异类(Outliers)",1,"ThroughReading","Fastfood-knowledge",,,,"Other","OTH",0,"E","NO","Audio"
-"洗脑术：怎样有逻辑地说服他人",1,"ThroughReading",,,,"高德","Philosophy and Psychology","PPY",1,"P","NA","Audio"
-"乐观的偏见(The Optimism Bias)",1,"ThroughReading",,,,"Tali Sharot","Philosophy and Psychology","PPY",0,"E","P",
-"不靠谱的心理学(Psychobabble)",1,"ThroughReading",,,,"Stephen Briers","Philosophy and Psychology","PPY",0,"E","NO",
-"清醒思考的艺术",1,"ThroughReading",,,,"罗尔夫.多贝里","Philosophy and Psychology","PPY",0,"P","NA",
-"邪恶人性(People of the lie)",1,"ThroughReading",,,,"Scott Parker","Philosophy and Psychology","PPY",0,"P","NO",
-"Being Mortal",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,"NA","P",
-"亲密关系(Intimate Relationship)",1,"ThroughReading",,,,"Rowland S Miller and Daniel Perlman","Philosophy and Psychology","PPY",0,"P","P",
-"Leviathan",0,,,,,"Thomas Hobbes","Philosophy and Psychology","PPY",0,"P","NO",
-"悲剧心理学(The Psychology of Tragedy)",0,,,,,"朱光潜(Chu Kwang Tsien)","Philosophy and Psychology","PPY",0,"P","NA",
-"Interpretation of Dreams",0.01,,,,,"Sigismund Sholomo Freud","Philosophy and Psychology","PPY",0,"P","NO",
-"卢梭文集(The Eassys by Rousseau)",0,,,,,"Bertrand Russell","Philosophy and Psychology","PPY",0,"P","NO",
-"叔本华文选(Selected Readings of Schopenhauer) ",0,,,,,"Schopenhauer","Philosophy and Psychology","PPY",0,"P","NO",
-"纯粹理性批判(The Critique of Pure Reason)",0,,,,,"Kant","Philosophy and Psychology","PPY",0,"P","NO",
-"理想国(Republic) ",0,,,,,"Plato","Philosophy and Psychology","PPY",0,"P","NO",
-"疯癫与文明(Madness and Civilization)",0,,,,,"Michel Foucault ","Philosophy and Psychology","PPY",0,"P","NO",
-"Power: A New Social Analysis ",0,,,,,"Bertrand Russell","Philosophy and Psychology","PPY",0,"E","NO",
-"精神分析引论(A General Introduction To Psychoanalysis)",0.01,,,,,"Sigismund Sholomo Freud","Philosophy and Psychology","PPY",0,"P","NO",
-"我读《易经》(下)(Book Of Changes II)",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"荀子",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"尼采与形而上学 (Nietzsche and Metaphysics)",0,,,,,"周国平","Philosophy and Psychology","PPY",0,"P","NO",
-"雷蒙·塞邦赞(Apoiogie de Raimond de Sebonde) ",0,,,,,"Michel de Montaigne","Philosophy and Psychology","PPY",0,"P","NO",
-"文明·罗马的曙光——伊特鲁里亚(Etruscology)",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"尼金斯基手记",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"Christian Culture",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"西方哲学史",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"左传 吕氏春秋 战国策",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"生活的艺术",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"献给命运的紫罗兰——我的人生人生体悟",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"幸福的终结 ",0,,,,,"Harvie Ferguson","Philosophy and Psychology","PPY",0,"P","NA",
-"未死的沙威",0,,,,,"梁晓声","Philosophy and Psychology","PPY",0,"P","NA",
-"论法的精神",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"本尼迪克特文选",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NO",
-"哲学史思路:穿越两千年的欧洲思想史",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"墨子还原",0.01,,,,,"杨义","Philosophy and Psychology","PPY",0,"P","NA",
-"当代英美哲学地图",0,,,,,,"Philosophy and Psychology","PPY",0,"P","NA",
-"The Old Regime and the French Revolution ",0,,,,,"Alexis de Tocqueville","Philosophy and Psychology","PPY",0,"NA","P",
-"Honest Signals: How They Shape Our World",0,,,,,"Alex Pentland","Philosophy and Psychology","PPY",0,"NO","P",
-"Blink: The Power of Thinking Without Thinking",0,,,,,"Malcolm Gladwell","Philosophy and Psychology","PPY",0,"NO","P",
-"Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets",0,,,,,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",0,"NO","P",
-"黑天鹅(The Black Swan)",0.33,"RoughReading","Hard-knowledge","Critical Thinking-Uncertainty",,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",0,"E","P","Audio"
-"怪诞现象学(How to think about weird things)",0,,,,," Lewis Vaughn and Theodore Schick","Philosophy and Psychology","PPY",0,"P","NO",
-"世界为何存在(Why does the world exist?)",0.01,,,,,,"Philosophy and Psychology","PPY",0,"E","P",
-"习得性无助(Learned helplessness)",0,,,,,"Christopher Peterson &  Steven F.Maier","Philosophy and Psychology","PPY",0,"E","NO",
-"诱惑心理学(We have met the enemy: self-control in a age of excess)",0,,,,,"Daniel Akst","Philosophy and Psychology","PPY",0,"E","NO",
-"理性犯的错(The fallibility of human reason in everyday life)",0,,,,,"Thomas Gilovich","Philosophy and Psychology","PPY",0,"E","NA",
-"怪诞心理学(Quikology)",0,,,,,"Richard Wiseman","Philosophy and Psychology","PPY",0,"E","NO",
-"怪诞心理学2(Paranormality)",0,,,,,"Richard Wiseman","Philosophy and Psychology","PPY",0,"E","NO",
-"人对抗自己：自杀心理学研究(Man against himself)",0,,,,,"Karl Menninger","Philosophy and Psychology","PPY",0,"E","NO",
-"展现人格力量",0,,,,,"Abraham Maslow","Philosophy and Psychology","PPY",0,"E","NO",
-"后现代思想的数学根源(Mathematics and the Roots of Postmodern Thought)",0,,,,,"Vladimir Tasic","Philosophy and Psychology","PPY",0,"P","NO",
-"维特根斯坦读本",0,,,,,"陈嘉映","Philosophy and Psychology","PPY",0,"P","NA",
-"自我论",0,,,,,"科恩","Philosophy and Psychology","PPY",0,"P","NO",
-"四书 五经",0,,,,,"NA","Philosophy and Psychology","PPY",0,,"P",
-"逻辑学导论 (Introduction of Logic)",0.01,,,,,"Irving M. Copi and Carl Cohen","Philosophy and Psychology","PPY",0,"P","P",
-"The Social Animal",0,,,,,"Elliot Aronson","Philosophy and Psychology","PPY",0,"P","NO",
-"How To Think Straight About Psychology (9th Edition)",0,,,,,"Keith E. Stanovich","Philosophy and Psychology","PPY",0,"P","NO",
-"What Intelligence Tests Miss: The Psychology of Rational Thought",1,"ThroughReading",,,,"Keith E. Stanovich","Philosophy and Psychology","PPY",0,"P","NO",
-"An Illustrated Book of Bad Arguments",1,"ThroughReading",,,,"Ali Almossawi","Philosophy and Psychology","PPY",0,"P","NA",
-"Mind Hacks",0.1,,,,,"Tom Stafford","Philosophy and Psychology","PPY",0,"P","NO",
-"Working with Adoptive Parents: Research, Theory, and Therapeutic Interventions",0,,,,,"Brabender, Virginia M.","Philosophy and Psychology","PPY",0,"P","NO",
-"The Prince(君主论)",1,"ThroughReading",,,,"Niccolò Machiavelli","Politics","POL",0,"P","P","Audio"
-"论美国的民主(Democracy in America)",1,"ThroughReading",,,," Tocqueville","Politics","POL",0,"P","P",
-"论人类不平等的起源(On the origin of human inequality)",1,"ThroughReading",,,,"Rousseau","Politics","POL",0,"P","NO",
-"马基雅维利的事业(The Machiavellian Enterprise)",1,"ThroughReading",,,,"Leo Paul S.de Alvarez","Politics","POL",0,"P","NO",
-"道德理想国的覆灭",0,,,,,"朱学勤","Politics","POL",0,"E","NA",
-"瓦尔登湖",0.01,,,,,,"Proses Essays and Poems","PEP",0,"P","P",
-"The Collection of Gibran's Poems",0.01,,,,,,"Proses Essays and Poems","PEP",0,"P","P",
-"新月集",0.01,,,,,,"Proses Essays and Poems","PEP",0,"P","P",
-"当时只道是寻常",0.3,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"送你一颗子弹",1,"ThroughReading",,,,"刘瑜","Proses Essays and Poems","PEP",0,"P","NA",
-"""Existence”and“Obsequiousness""",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"纽约风景线（北美作家散文随笔选）",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"人在欧洲",1,"ThroughReading",,,,"龙应台","Proses Essays and Poems","PEP",0,"P","NA",
-"Stray Birds",1,"ThroughReading",,,,"Tagore","Proses Essays and Poems","PEP",0,"P","P",
-"在平淡与奢华之间摇摆",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"琼美卡随想录",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"即兴判断",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"肆无忌惮",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"温暖和百感交集的旅程",1,"ThroughReading",,,,"余华","Proses Essays and Poems","PEP",0,"P","NA",
-"园丁集(The Gardener)",1,"ThroughReading",,,,"Tagore","Proses Essays and Poems","PEP",0,"P","P",
-"我纷纷的情欲",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"毛泽东诗词书法艺术",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"幽梦影 围炉夜话",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"A collection of Qian Zhongshu's English essays",0,,,,,"钱钟书","Proses Essays and Poems","PEP",0,"NA","P",
-"钱钟书集——谈艺录",0,,,,,"钱钟书","Proses Essays and Poems","PEP",0,"P","NA",
-"Essays of Elia ",0,,,,,"Charles Lamb","Proses Essays and Poems","PEP",0,"P","P",
-"写在人生边上",0,,,,,"钱钟书","Proses Essays and Poems","PEP",0,"E","NA",
-"中国现代诗选(Model Chinese Poems)",0,,,,,,"Proses Essays and Poems","PEP",0,"P","P",
-"走了一万一千里路——顾城首度面世的诗手稿",0,,,,,"顾城","Proses Essays and Poems","PEP",0,"P","NA",
-"斑纹——兽皮上的地图(a collection of proses)",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"当代散文大家精品文库——二月兰",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"2005年中国散文精选",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"嫁衣之纫",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"七缀集",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"槐聚诗存",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"苗老汉聊天——雪泥爪印",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"词语的个人历史",0,,,,,,"Proses Essays and Poems","PEP",0,"P","NA",
-"Postcards from Ed",0,,,,," Edward Abbey","Proses Essays and Poems","PEP",0,"P","NO",
-"南怀瑾说佛:现代学佛者",0.01,,,,,,"Religion","REL",0,"P","NA",
-"中国佛学经典文库——禅诗精选（高僧卷）",0.02,,,,,,"Religion","REL",0,"P","NA",
-"天使的传言",1,"ThroughReading",,,,,"Religion","REL",0,"P","NO",
-"西藏生死书(The Tibet Book of Live and Death)",1,"ThroughReading",,,,"索甲仁波切","Religion","REL",0,"E","P",
-"大藏经",0,,,,,,"Religion","REL",0,"P","NA",
-"佛教各宗派小丛书——天台宗概说",0,,,,,,"Religion","REL",0,"P","NA",
-"中国佛教图鉴（通览中国佛教二千年历史）",0,,,,,,"Religion","REL",0,"P","NA",
-"答问青壮年参禅者",0,,,,,,"Religion","REL",0,"P","NA",
-"宗教教义与社会演化",0,,,,,"Niklas luhmann ","Religion","REL",0,"P","NA",
-"单纯理性限度内的宗教(Religion Within the Boundaries of Mere Reason)",0,,,,,"Kant","Religion","REL",0,"P","NO",
-"神学的科学(Theological Science) ",0,,,,,"Thomas F. Torrance","Religion","REL",0,"P","NO",
-"无形的宗教:现代社会中的宗教问题 ",0,,,,,"T. Luckmann","Religion","REL",0,"P","NA",
-"神学研究:一种百科全书式的定位",0,,,,,"G.Ebeling","Religion","REL",0,"P","NA",
-"宝积经",0,,,,,,"Religion","REL",0,"P","NA",
-"基督的二性 ",0.01,,,,,"马丁.开姆尼茨","Religion","REL",0,"P","NO",
-"The Call",1,"ThroughReading",,,,"Adam Hamilton","Religion","REL",0,"P","NA",
-"24 Hours that changed the world",1,"ThroughReading",,,,"Adam Hamilton","Religion","REL",0,"P","NA",
-"Christian and World Religions",1,"ThroughReading",,,,"Adam Hamilton","Religion","REL",0,"P","NA",
-"Things a Computer Scientist Rarely Talks About",1,"ThroughReading",,,,"Donald E Knuth","Religion","REL",0,"P","NO",
-"3:16 Bible Texts Illuminated",0,,,,,"Donald E Knuth","Religion","REL",0,"P","NO",
-"The Trouble with the Truth: Balancing Truth and Grace",0,,,,,"Rob Renfroe","Religion","REL",0,"P","NO",
-"The Jesus I Never Knew",0.5,,,,,"Philip Yancey","Religion","REL",0,"P","NO",
-"Who Is This Man?",0.7,,,,,"John Ortberg","Religion","REL",0,"P","NO",
-"The case for faith",0.05,,,,,"Lee Strobel","Religion","REL",0,"P","NO",
-"低智商社会",0.01,,,,,"大前研一","Self-development","SDP",0,"E","NA",
-"专业主义",0.5,,,,,"大前研一","Self-development","SDP",0,"E","NA",
-"沃顿商学院最受欢迎的谈判课(Getting More)",0.25,"PartialReading",,"Negotiation or persuasion",,"Stuart Diamond","Self-development","SDP",0,"E","NO","Audio"
-"Style: Lessons in Clarity and Grace",0.5,"PartialReading",,,," Joseph M Williams","English","ENG",0,"NA","P",
-"Secrets to Winning at Office Politics: How to Achieve Your Goals and Increase Your Influence at Work",1,"ThroughReading",,,,"Marie G. McIntyre","Self-development","SDP",0,"NA","P",
-"Simply your work life",1,"ThroughReading",,,,"Elaine St. James","Self-development","SDP",0,"NA","NO",
-"影响力(Influence)",1,"ThroughReading",,"Negotiation or persuasion",,"Robert B Cialdini","Self-development","SDP",0,"E","NO",
-"微动作读心术",1,"ThroughReading",,,,,"Self-development","SDP",0,"P","NA",
-"微表情读心术 ",1,"ThroughReading",,,,,"Self-development","SDP",0,"P","NA",
-"微反应读心术",1,"ThroughReading",,,,,"Self-development","SDP",0,"P","NA",
-"Corporate Confidential: 50 Secrets Your Company Doesn't Want You to Know---and What to Do About Them",1,"ThroughReading",,"Worldly wisdom",," Cynthia Shapiro","Self-development","SDP",0,"NA","P",
-"Nice Girls Don't Get the Corner Office: 101 Unconscious Mistakes Women Make That Sabotage Their Careers",1,"ThroughReading",,"Worldly wisdom",," Lois P Frankel","Self-development","SDP",0,"NA","P",
-"Getting Ahead: Three Steps to Take Your Career to the Next Level",1,"ThroughReading",,"Worldly wisdom",," Joel A Garfinkle","Self-development","SDP",0,"NA","P",
-"软能力",1,"ThroughReading",,,,,"Self-development","SDP",0,"P","NA",
-"心理操纵术",1,"ThroughReading",,,,,"Self-development","SDP",0,"P","NA",
-"自控力",1,"ThroughReading","Hard-knowledge","How to self-discipline?",,,"Philosophy and Psychology","PPY",0,"P","NO",
-"好好修养爱",1,"ThroughReading",,,,,"Self-development","SDP",0,"E","NA",
-"两个人的孤独",1,"ThroughReading",,,,,"Self-development","SDP",0,"E","NA",
-"赢",1,"ThroughReading",,,,,"Self-development","SDP",0,"E","NO",
-"好好爱自己",1,"ThroughReading",,,,"素黑","Self-development","SDP",0,"P","NA",
-"把时间当作朋友",1,"ThroughReading",,,,"李笑来","Self-development","SDP",0,"P","NA",
-"Difficult Conversations: How to Discuss What Matters Most",0.05,,,"Worldly wisdom",," Douglas Stone","Self-development","SDP",0,"NA","P",
-"The Secret Handshake: Mastering the Politics of the Business Inner Circle",0,,,"Worldly wisdom",,"Kathleen Kelly Reardon","Self-development","SDP",0,"NA","P",
-"Talking from 9 to 5: Women and Men at Work",0,,,"Worldly wisdom",,"Deborah Tannen","Self-development","SDP",0,"NA","P",
-"The Shadow Negotiation: How Women Can Master the Hidden Agendas That Determine Bargaining Success",0,,,"Worldly wisdom",," Deborah Kolb","Self-development","SDP",0,"NA","P",
-"What Leaders Really Do",0,,,"Worldly wisdom",," John P Kotter","Self-development","SDP",0,"NA","P",
-"Dealing with Difficult People",0,,,"Worldly wisdom",,"Sandra A Crowe","Self-development","SDP",0,"NA","P",
-"说真话的艺术(Telling each other the truth)",0,,,,,"William Backus","Self-development","SDP",0,"E","P",
-"细节营销(Marketing Revealed: Challenging the Myths)",0,,,,,"Willem Burgers","Self-development","SDP",0,"E","NO",
-"创新者的思考",0,,,"How to innovate?",,"大前研一","Self-development","SDP",0,"E","NA",
-"看清你的思维图谱 (Thinking Visually)",0.1,,,,,"Malcolm Craig","Self-development","SDP",0,"P","NO",
-"品红酒(The taste of red wine)",0.05,,,,,"Louis Guillem","Self-development","SDP",0,"P","NO",
-"重来（rework）",1,"ThroughReading","Fastfood-knowledge","Time Management",,"37Signals","Self-development","SDP",0,"NO","P",
-"Asking the Right Questions: A Guide to Critical Thinking 9th Edition",1,"ThroughReading",,,,"M. Neil Browne","Self-development","SDP",0,"P","NO",
-"How To Solve It: A New Aspect of Mathematical Method",0,,"Meta-Knowledge",,,"George Polya","Self-development","SDP",0,"P","NO",
-"如何阅读一本书(How to read a book)",1,"ThroughReading","Meta-Knowledge",,,"Mortimer J. Adler","Self-development","SDP",1,"P","P","Audio"
-"Thing Explainer: Complicated Stuff in Simple Words",0.02,,,,,"Randall Munroe","Self-development","SDP",0,"P","NO",
-"The Monographs",0.1,,,,,"Ben Cardall","Self-development","SDP",0,"P","NA",
-"The Joy of Reading: A Passionate Guide to 189 of the World's Best Authors and Their Works",0,,,,,"Charles Van Doren","Self-development","SDP",0,"P","NO",
-"The 9 Steps to Financial Freedom",0,,,"Wealth Management",,"Orman, Suze","Self-development","SDP",0,"P","NO",
-"Suze Orman's Financial Guidebook: Put the 9 Steps to Work",0,,,,,"Orman, Suze","Self-development","SDP",0,"P","NO",
-"不顾诸神：现代印度的奇怪崛起",0.01,,,,,,"Society and Culture","SOC",0,"P","NO",
-"图解中国茶经",0.01,,,,,,"Society and Culture","SOC",0,"P","NA",
-"图说天下·国家地理系列-全球最美的100个地方 (The top 100 beautiful places in the world )",0.01,,,,,,"Society and Culture","SOC",0,"P","NA",
-"话说中国大风一曲振河山",0.01,,,,,,"Society and Culture","SOC",0,"P","NA",
-"客厅文库休闲读物——礼品事典 ",0.01,,,,,,"Society and Culture","SOC",0,"P","NA",
-"实学简史（经典插图本）",0.01,,,,,,"Society and Culture","SOC",0,"P","NA",
-"科技想要什么 (What Technology Wants)",0.01,,,,,"Kevin Kelly","Society and Culture","SOC",0,"E","P",
-"失控(Out of Control)",0.01,"RoughReading","Hard-knowledge",,,"Kevin Kelly","Society and Culture","SOC",1,"E","P","Audio"
-"不可思议的年代(The age of the unthinkable)",0.01,,,,,"Joshua Ramo","Society and Culture","SOC",0,"E","P",
-"组织行为学",0.01,,,,,"边一民&徐力 etc","Society and Culture","SOC",0,"P","NA",
-"文明是副产品",0.01,,,,,"郑也夫","Society and Culture","SOC",0,"P","NA",
-"文人谈饮食",0.02,,,,,,"Society and Culture","SOC",0,"P","NA",
-"诸神的争吵:国际冲突中的宗教根源",0.05,,,,,,"Society and Culture","SOC",0,"P","NO",
-"大连接(Connected)",0.5,,,,," Nicholas A Christakis &  James H Fowler","Society and Culture","SOC",0,"E","P",
-"酱缸——搅动看真相",0.1,,,,,"柏杨","Society and Culture","SOC",0,"P","NA",
-"性学十三讲",0.3,,,,,,"Society and Culture","SOC",0,"P","NA",
-"美国政府概况(Introduction to American Government)",0.2,,,,,,"Society and Culture","SOC",0,"P","P",
-"不确定性(Uncertainty)",0.33,,,,,"Mitchell Small","Society and Culture","SOC",0,"P","NO",
-"The European coffeehouse culture",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NO",
-"Much depends on dinner",1,"ThroughReading",,,,"Margaret Visser ","Society and Culture","SOC",0,"P","NO",
-"你如此需要安慰——关于爱的对话 ",1,"ThroughReading",,,,"李银河","Society and Culture","SOC",0,"P","NA",
-"The Chrysanthemum and the Sword ",1,"ThroughReading",,,,"Pauling Kent ","Society and Culture","SOC",0,"P","P",
-"FBI教你破解身体语言",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"男人其实很忧郁",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NO",
-"揭秘美国医疗制度及其相关行业",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"中国人的精神",1,"ThroughReading",,,,"辜鸿铭","Society and Culture","SOC",0,"P","P",
-"书写的神话：西方文化中的文学",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NO",
-"知道点：世界文化 (World Culture)",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"八大胡同捌章",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"聆听西藏-以图片的方式 ",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"京城胡同留真",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"潜规则：中国历史中的真实游戏",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"隐蔽的秩序",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"P","NA",
-"与机器赛跑",1,"ThroughReading",,,,,"Society and Culture","SOC",0,"E","NA",
-"图说中国文化——图说中国舞蹈",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"明日之中国文化:中印欧文化十讲",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"图说天下·国家地理系列(2)-黄金典藏版.欧洲(Geography of Europe)",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"图说天下·国家地理系列(2)-黄金典藏版.亚洲大洋洲(Geography of Asia and Oceania)",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"A G-MAN'S LIFE: The FBI  Being 'Deep Throat'  and The Struggle For Honor in Washington",0,,,,,"Mark Felt","Society and Culture","SOC",0,"P","NO",
-"The Traditional Chinese Festival And Tales",0,,,,,,"Society and Culture","SOC",0,"P","P",
-"欧洲文化史(European Culture History)",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"惊世骇俗的另类幽默经典:魔鬼辞典 (Haven't gotten the English version)",0.01,,,,,,"Society and Culture","SOC",0,"P","NA",
-"岩松看美国",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中国人最易误解的文史常识",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"南怀瑾讲述--漫谈中国文化",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"林语堂文集——美国的智慧(精装)",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"林语堂文集——印度的智慧(精装)",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"茶文化系列丛书--茶香美食",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"客厅文库休闲读物——雪茄 ",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中国民俗文化丛书——玩具（弘扬中国传统文化 建设民族精神家园） ",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"漩涡·文化系列——婚俗与中国传统文化 ",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"家庭书架——话说中国人之三教九流",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"先民的歌唱-诗经",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"阅读城市",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中国文化杂说-茶酒文化卷",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中华民俗文化丛书：拱手·鞠躬·跪拜",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中华民俗文化丛书：车马·溜索·滑竿",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中华民俗文化丛书：猜拳·博戏·对舞",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中华民俗文化丛书：姻缘·良缘·孽缘",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中华民俗文化丛书：姓氏·名号·别称",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"中华民俗文化丛书：掮客·行商·钱庄",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"唐宋八大家集",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"The Descent of Woman: The Classic Study of Evolution ",0,,,,," Elaine Morgan","Society and Culture","SOC",0,"NO","P",
-"The Age Of The Unthinkable: Why The New Global Order Constantly Surprises Us And What To Do About It",0.01,,,,,,"Society and Culture","SOC",0,"E","P",
-"支配社会学",0,,,,,"韦伯","Society and Culture","SOC",0,"E","NA",
-"娱乐至死(Amusing ourselves to death)",0.5,"PartialReading",,,,"Nell Postman","Society and Culture","SOC",1,"E","P","Audio"
-"中国国民性演变历程",0,,,,,"张宏杰","Society and Culture","SOC",0,"E","NA",
-"春秋大义",0,,,,,"熊逸","Society and Culture","SOC",0,"E","NA",
-"心外传奇",0,,,,,"李清晨","Society and Culture","SOC",0,"E","NA",
-"技术元素(The Technium)",0,,,,,"Kevin Kelly","Society and Culture","SOC",0,"E","NO",
-"中国传统节日及传说",0,,,,,,"Society and Culture","SOC",0,"P","NA",
-"Advanced R",0.01,"PartialReading",,,,"Hadley Wickham","Statistics","STAT",0,"NA","P",
-"Bayesian Data Analysis",0.01,"PartialReading",,,," Andrew Gelman","Statistics","STAT",0,"NA","P",
-"XML and Web Technologies for Data Sciences with R",0.02,"PartialReading",,,," Deborah Nolan","Statistics","STAT",0,"NA","P",
-"Latent Variable Modeling with R",0.01,"PartialReading",,,," W. Holmes Finch","Statistics","STAT",0,"NA","P",
-"Learning Spark: Lightning-Fast Big Data Analysis",0.01,"PartialReading",,,," Holden Karau","Statistics","STAT",0,"NA","P",
-"Natural Language Processing with Python",0.1,"PartialReading",,,,"Steven Bird","Statistics","STAT",0,"NA","P",
-"Statistical Analysis of Network Data with R",0.1,"PartialReading",,,,"Eric D. Kolaczyk","Statistics","STAT",0,"NA","P",
-"Pattern Recognition and Machine Learning 1st Edition",0.1,"PartialReading",,,,"Christopher M. Bishop","Statistics","STAT",0,"NA","P",
-"Design of Experiments: An Introduction Based on Linear Models",0.1,"PartialReading",,,,"Max Morris","Statistics","STAT",0,"NA","P",
-"R for Marketing Research and Analytics ",1,"IntensiveReading",,,," Christopher N. Chapman","Statistics","STAT",0,"NA","P",
-"Model Assisted Survey Sampling",0.5,"PartialReading",,,," Carl-Erik Särndal","Statistics","STAT",0,"NA","P",
-"时间序列",0.5,"PartialReading",,,,,"Statistics","STAT",0,"P","NA",
-"Human side of statistical consulting",0.6,"PartialReading",,,,,"Statistics","STAT",0,"NA","P",
-"Measure Theory and Probability Theory",0.9,"PartialReading",,,,"Krishna B. Athreya","Statistics","STAT",0,"NA","P",
-"概率论",1,"ThroughReading",,,,,"Statistics","STAT",0,"P","NA",
-"Applied Predictive Modeling",1,"IntensiveReading",,,,"Max Kuhn & Kjell Johnston","Statistics","STAT",0,"NO","P",
-"statistical inference",1,"ThroughReading",,,,,"Statistics","STAT",0,"NO","P",
-"Probabilistic Graphical Models: Principles and Techniques",0.05,"PartialReading",,,," Daphne Koller","Statistics","STAT",0,"NA","P",
-"R Packages",0.2,"PartialReading",,,," Hadley Wickham","Statistics","STAT",0,"NA","P",
-"Data Analysis Using Regression and Multilevel/Hierarchical Models ",0.02,"PartialReading",,,,"Andrew Gelman","Statistics","STAT",0,"NA","P",
-"Applied Statistics: A Handbook of Techniques ",0.5,"PartialReading",,,," Lothar Sachs","Statistics","STAT",0,"NA","P",
-"Advances in Longitudinal Methods in the Social and Behavioral Sciences ",0,,,,," Jeffrey R Harring","Statistics","STAT",0,"NA","P",
-"Handbook of Structural Equation Modeling ",0,,,,," Rick H Hoyle","Statistics","STAT",0,"NA","P",
-"Taming Text: How to Find Organize and Manipulate It",0,,,,,"Grant S. Ingersoll","Statistics","STAT",0,"NA","P",
-"Foundations of Statistical Natural Language Processing",0.01,"PartialReading",,,,"Christopher D. Manning","Statistics","STAT",0,"NA","P",
-"Modern Optimization with R",0,,,,," Paulo Cortez","Statistics","STAT",0,"NA","P",
-"Mastering Regular Expressions",0,,,,," Jeffrey E. F. Friedl","Statistics","STAT",0,"NA","P",
-"Regular Expressions Cookbook",0,,,,," Jan Goyvaerts","Statistics","STAT",0,"NO","P",
-"Regular Expression Pocket Reference: Regular Expressions for Perl  Ruby  PHP  Python C  Java and .NET ",0,,,,,"Tony Stubblebine","Statistics","STAT",0,"NO","P",
-"An Introduction to Statistical Learning",0.5,"PartialReading",,,,"  T. Hastie D. Witten &  G. James  Tibshirani","Statistics","STAT",0,"P","NA",
-"Statistical Rethinking: A Bayesian Course with Examples in R and Stan",0.1,"PartialReading",,,," Richard McElreath","Statistics","STAT",0,"P","NA",
-"Causality: Models Reasoning and Inference",0.01,"PartialReading",,,,"Judea Pearl","Statistics","STAT",0,"P","NO",
-"Sentiment Analysis",0.01,"PartialReading",,,,"Bing Liu","Statistics","STAT",0,"P","NA",
-"自卑与超越",1,"ThroughReading","Meta-Knowledge",,,"Alfred Adler","Philosophy and Psychology","PPY",0,"NO","P",
-"不正常人类研究所",1,"ThroughReading","Hard-knowledge",,,"冈田尊司","Philosophy and Psychology","PPY",0,"NA","P",
-"痛苦心理学",0,,"Hard-knowledge",,,"林昆辉","Philosophy and Psychology","PPY",0,"NA","P",
-"生活中的道德怪圈",0.33,"PartialReading","Fastfood-knowledge",,,"Rainer Erlinger","Philosophy and Psychology","PPY",0,"NO","P",
-"人情与面子：中国人的权力游戏",0.3,"PartialReading","Hard-knowledge","Worldly wisdom",,"黄光国","Society and Culture","SOC",0,"NA","P",
-"时间的形状",0.01,"RoughReading","Hard-knowledge","Origin of the universe",,,"Physics","PHY",0,,,"Audio"
-"每天最重要的2小时",0.01,"RoughReading","Fastfood-knowledge","Self management",,,"Self-development","SDP",1,,,"Audio"
-"抗压力",0.01,"RoughReading","Fastfood-knowledge","Self management",,,"Self-development","SDP",1,,,"Audio"
-"快节奏，慢生活",0.01,"RoughReading","Fastfood-knowledge","Self management",,,"Self-development","SDP",1,,,"Audio"
-"Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC",1,"E","P","Audio"
-"The Crowd",0.01,"RoughReading","Hard-knowledge","Social Psychology",,,"Philosophy and Psychology","PPY",0,"P","NA","Audio"
-"The Death and Life of Great American Cities",0.01,"RoughReading","Hard-knowledge",,,"Jacobs J","Society and Culture","SOC",0,,,"Audio"
-"Animal spirits",0.01,"RoughReading","Hard-knowledge",,,"George A.Akedof and Robert J.Shiller","Business & Economics","BEO",0,,,"Audio"
-"走到人生的边上",0.01,"RoughReading","Fastfood-knowledge",,,"Yang Jiang","Proses Essays and Poems","PEP",1,,,"Audio"
-"智慧书",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,,,"Audio"
-"沉思录",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,,,"Audio"
-"演说之禅",,,,"Public Speaking",,,"Self-development","SDP",,,,"Audio"
-"简单思考",0.01,,,,,,"Self-development","SDP",,,,"Audio"
-"微观经济学纵横谈",,,,,,,"Business & Economics","BEO",,,,"Audio"
-"离经叛道",,,,,,,,,,,,"Audio"
-"安静的力量",0.01,,,"Spiritual practice",,,"Self-development","SDP",,,,"Audio"
-"上帝掷骰子吗？",,,,"Origin of the universe",,,"Physics","PHY",,,,"Audio"
-"隐藏的现实：平行宇宙是什么？",,,,"Origin of the universe",,,"Physics","PHY",,,,"Audio"
-"商业的本质",,,,"Marketing Management",,,"Business & Economics","BEO",,,,"Audio"
-"相约星期二",,,,,,,,,,,,"Audio"
-"文明的冲突",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC",,,,"Audio"
-"魔鬼经济学",0.01,"RoughReading","Fastfood-knowledge","Economics in life",,,"Business & Economics","BEO",,,,"Audio"
-"耶路撒冷三千年",0.01,"RoughReading","Hard-knowledge","History of religions",,,"History","HTY",,,,"Audio"
-"悲剧的诞生",,,"Meta-Knowledge",,,,"Philosophy and Psychology","PPY",,,,"Audio"
-"第二性",,,"Hard-knowledge",,,,,,,,,"Audio"
-"不平等的代价",,,,,,,,,,,,"Audio"
-"未来简史",0.01,"RoughReading","Hard-knowledge","Future",,,"Society and Culture","SOC",,,,"Audio"
-"菊与刀",0.01,"RoughReading",,,,,,,,,,"Audio"
-"乡土中国",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC",,,,"Audio"
-"旧制度与大革命",,,,,,,,,,,,"Audio"
-"大设计",0.01,"RoughReading","Hard-knowledge","Origin of the universe",,,"Physics","PHY",,,,"Audio"
-"格调",0.01,"RoughReading","Fastfood-knowledge",,,,,,,,,"Audio"
-"刻意练习",0.01,"RoughReading","Fastfood-knowledge",,,,,,,,,"Audio"
-"人类简史",0.5,"RoughReading","Hard-knowledge",,,,,,,,,"Audio"
-"从0到1",1,"ThroughReading","Fastfood-knowledge",,,,,,,,,"Audio"
-"贫穷的本质",0.01,"RoughReading","Fastfood-knowledge",,,,,,,,,"Audio"
-"关键时刻",0.01,"RoughReading",,,,,,,,,,"Audio"
-"决定未来的十种人",0.01,"RoughReading","Fastfood-knowledge","How to innovate?",,,"Self-development","SDP",,,,"Audio"
-"细节：如何轻松影响他人",0.01,"RoughReading","Fastfood-knowledge","Negotiation or persuasion",,,"Self-development","SDP",,,,"Audio"
-"这样和世界相处",,,,,,,,,,,,"Audio"
-"知道做到",,,,,,,,,,,,"Audio"
-"全新思维",0.01,"RoughReading","Fastfood-knowledge","How to innovate?",,,"Self-development","SDP",,,,"Audio"
-"你的团队需要一个会讲故事的人",,,,,,,"Self-development","SDP",,,,"Audio"
-"出版人",,,,,,,,,,,,"Audio"
-"最重要的事，只有一件",0.01,"RoughReading","Fastfood-knowledge","Time Management",,,"Self-development","SDP",,,,"Audio"
-"精益创业",,,,"Start business",,,,,,,,"Audio"
-"反直觉询问",,,,"Critical Thinking-Ask Question",,,"Self-development","SDP",,,,"Audio"
-"学会提问",,,,"Critical Thinking-Ask Question",,,"Self-development","SDP",,,,"Audio"
-"最小阻力之路",,,,,,,"Self-development","SDP",,,,"Audio"
-"理性选民的神话",,,,,,,,,,,,"Audio"
-"意志力",,,,,,,"Self-development","SDP",,,,"Audio"
-"逆转",,,,,,,,,,,,"Audio"
-"瞬变",,,,,,,,,,,,"Audio"
-"理性乐观派(The Rational Optimist)",0.02,"RoughReading","Hard-knowledge","Critical Thinking-Rational",,"Matt Ridley","Society and Culture","SOC",,,,"Audio"
-"提问的艺术",,,"Fastfood-knowledge","Critical Thinking-Ask Question",,,"Self-development","SDP",,,,"Audio"
-"引爆点",0.01,"RoughReading","Fastfood-knowledge","Social Impact",,,"Business & Economics","BEO",,,,"Audio"
-"愚昧者的愚昧",,,,,,,,,,,,"Audio"
-"清醒思考的艺术",1,"ThroughReading","Hard-knowledge","Critical Thinking-Rational",,,"Self-development","SDP",,,,"Audio"
-"创新者",,,,"How to innovate?",,,"Self-development","SDP",,,,"Audio"
-"异类",1,"ThroughReading","Fastfood-knowledge","How to be an expert?",,,"Other","OTH",,,,"Audio"
-"洗脑术",0.01,"RoughReading","Fastfood-knowledge","Negotiation or persuasion",,,"Self-development","SDP",,,,"Audio"
-"沃顿商学院最受欢迎的成功课",,,,,,,"Self-development","SDP",,,,"Audio"
-"生猛的进化心理学",,,,,,,"Philosophy and Psychology","PPY",,,,"Audio"
-"演讲的力量",,,"Fastfood-knowledge","Public Speaking",,,"Self-development","SDP",,,,"Audio"
-"解决冲突的关键技巧",,,"Fastfood-knowledge",,,,"Self-development","SDP",,,,"Audio"
-"情绪急救",,,,,,,"Self-development","SDP",,,,"Audio"
-"金钱不能买什么",0.01,"RoughReading","Fastfood-knowledge","Critical Thinking-ethical inquisition",,,"Society and Culture","SOC",,,,"Audio"
-"刻意练习",,,"Fastfood-knowledge","How to be an expert?",,,"Self-development","SDP",,,,"Audio"
-"颠覆式创新",,,"Fastfood-knowledge","How to innovate?",,,"Self-development","SDP",,,,"Audio"
-"智能时代",,,"Fastfood-knowledge",,,,"Society and Culture","SOC",,,,"Audio"
-"失控",,,"Hard-knowledge",,,,"Society and Culture","SOC",,,,"Audio"
-"蔡康永的说话之道",,,"Hard-knowledge",,,,"Self-development","SDP",,,,"Audio"
-"科技想要什么",,,"Hard-knowledge",,,,"Society and Culture","SOC",,,,"Audio"
-"抗压力",,,"Fastfood-knowledge","Emotion Management",,,"Self-development","SDP",,,,"Audio"
-"高绩效教练",,,"Fastfood-knowledge",,,,"Self-development","SDP",,,,"Audio"
-"增长的本质",,,"Fastfood-knowledge",,,,"Self-development","SDP",,,,"Audio"
-"输赢心理学",,,,,,,"Philosophy and Psychology","PPY",,,,"Audio"
-"谈钱不伤感情",,,,,,,,,,,,"Audio"
-"海都物语",,,,,,,,,,,,"Audio"
-"反脆弱",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",,,,"Audio"
-"慢思考：大脑超载时代的思考学",,,,"How to use your brain?",,,"Self-development","SDP",,,,"Audio"
-"请用数据说话",,,,"Critical Thinking-Data",,,"Data Science","DAT",,,,"Audio"
-"浪潮之巅",,,,,,,,,,,,"Audio"
-"超越智商",0.2,"RoughReading","Hard-knowledge","How to use your brain?",,,"Self-development","SDP",,,,"Audio"
-"无为",0.01,"RoughReading","Hard-knowledge","How to use your brain?",,,"Self-development","SDP",,,,"Audio"
-"快节奏，慢生活",0.01,"RoughReading","Fastfood-knowledge","Time Management",,,"Self-development","SDP",,,,"Audio"
-"翻转式学习",,,"Fastfood-knowledge","How to study?",,,"Self-development","SDP",,,,"Audio"
-"每天最重要的2小时",0.01,,"Fastfood-knowledge","Time Management",,,"Self-development","SDP",,,,"Audio"
-"混乱",0.01,,"Fastfood-knowledge","Time Management",,,"Self-development","SDP",,,,"Audio"
-"技术奇点",,,"Fastfood-knowledge",,,,"Society and Culture","SOC",,,,"Audio"
-"安静的力量",0.01,"RoughReading","Fastfood-knowledge",,,,"Self-development","SDP",,,,"Audio"
-"极简人类史",,,"Hard-knowledge","Human history",,,"History","HTY",,,,"Audio"
-"优秀的绵羊",,,"Fastfood-knowledge",,,,,,,,,"Audio"
-"创业融资，从一个好故事开始",,,"Fastfood-knowledge","Start business",,,"Business & Economics","BEO",,,,"Audio"
-"从零开始学理财",,,"Fastfood-knowledge","Wealth Management",,,"Self-development","SDP",,,,"Audio"
-"分享时代：如何缔造影响力",,,"Fastfood-knowledge","Social Impact",,,"Self-development","SDP",,,,"Audio"
-"为什么常识会撒谎",,,"Hard-knowledge","Critical Thinking-Rational",,,"Philosophy and Psychology","PPY",,,,"Audio"
-"男人来自火星，女人来自金星",,,"Fastfood-knowledge","Gender difference",,,"Gender","GND",,,,"Audio"
-"博恩·崔西的时间管理课",,,"Fastfood-knowledge","Time Management",,,"Self-development","SDP",,,,"Audio"
-"整合",,,"Fastfood-knowledge",,,,"Self-development","SDP",,,,"Audio"
-"理财最重要的事",,,"Fastfood-knowledge","Wealth Management",,,"Self-development","SDP",,,,"Audio"
-"设计思维玩转创业",,,"Fastfood-knowledge","Start business",,,"Self-development","SDP",,,,"Audio"
-"心思大开",0.01,"RoughReading","Hard-knowledge","How to use your brain?",,,"Philosophy and Psychology","PPY",,,,"Audio"
-"我们如何走到今天",0.01,"RoughReading","Fact-knowledge","History of technology",,,"History","SOC",,,,"Audio"
-"The 100-Year Life: Living and working in an age of longevity(百岁人生)",0.01,"RoughReading","Fastfood-knowledge","What is the future?",1,"Andrew Scott & Lynda Gratton","Society and Culture","SOC",,,,"Audio"
-"Your Survival Instinct Is Killing You (你的生存本能正在杀死你)",0.01,"RoughReading","Fastfood-knowledge","Evolutionary psychology",,"Marc Schoen & Kristin Loberg ","Philosophy and Psychology","PPY",,,,"Audio"
-"心灵的七种兵器",0.01,"RoughReading","Fastfood-knowledge","Subconscious ",,"武志红","Self-development","SDP",,,,"Audio"
-"成功的真谛",0.01,"RoughReading","Fastfood-knowledge","稻盛和夫哲学",,"稻盛和夫","Self-development","SDP",,,,
-"麦肯锡精英的思考习惯",,"RoughReading","Fastfood-knowledge","Emotion Management",,,"Self-development","SDP",,,,
+"Name","Progress","ProDetail","KnowledgeType","Topic","Summary","Author","Category","CATE_CODE","Priority","Audio","CN","EN"
+"艺用人体结构运动学",0.01,"PartialReading",,,,,"Art","ART",0,,"P","NA"
+"建筑的七盏明灯(architecture)",0.01,"PartialReading",,,,,"Art","ART",0,,"P","NA"
+"CEO西服学(最具时尚魅力和知识含量的西服全 书) ",0.05,"PartialReading",,,,,"Art","ART",0,,"P","NA"
+"名画的故事",0.1,"PartialReading",,,,,"Art","ART",0,,"P","NA"
+"我的风格小黑皮书--美国《ELLE》主编倾心讲述 有关风格、有关装扮的一切秘密",1,"ThroughReading","Fastfood-knowledge",,,,"Art","ART",0,,"P","NA"
+"旗袍(BOOK+DVD) ",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"工笔线描－蔓陀罗",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"基础图案",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"瑞兽图案",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"明代绘画艺术鉴赏",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"结构素描1－单个静物(Structure Sketching-----Still Life)",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"结构素描2－几何形体(Structure Sketching-----Geometric Form)",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"结构素描3－石膏五官(Structure Sketching-----Facial Features)",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"基础素描全程训练——应试篇上：素描头像",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"基础素描教程第四册",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"基础美术阶梯训练教材——石膏像：素描",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"手绘的奇思妙想：49位设计师的创意速写簿",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"凡高素描",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"速写风景画法",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"米开朗基罗素描",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"园林钢笔画",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"席勒素描",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"素描速写含马克笔、彩铅笔",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"美院视界——色彩静物教学现场",1,"ReferenceBook",,,,,"Art","ART",0,,"P","NA"
+"Adult Piano Adventures All-in-One Lesson Book 1",1,"ReferenceBook",,,," Nancy Faber","Art","ART",0,,"NA","P"
+"奢侈、宁静&享乐",1,"ThroughReading",,,,"桑贝","Art","ART",0,,"P","NA"
+"听朱光潜讲美学 ",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"世界美术全鉴——巴洛克与罗可可艺术",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"造型设计基础(毕留举)",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"中西形象设计史:职业形象设计师通用培训教程",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"服饰配色设计原理与实例精解-服装综合设计原 理与实例精解丛书 ",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"萨特论艺术",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"中国少数民族服饰(图文并茂） ",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"家庭园艺DIY系列——家庭种菜最健康",0.02,"PartialReading",,,,,"Art","ART",0,,"P","NA"
+"艺术词典 (Art dictionary)",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"西部布堆画艺术（英汉）",0,"HaveNotRead",,,,,"Art","ART",0,,"P","P"
+"中华风物系列丛书--中国亭子艺术",0,"HaveNotRead",,,,,"Art","ART",0,,"P","NA"
+"Listen to Music",0,"HaveNotRead","Hard-knowledge","Music Appreciation",,"Craig Wright","Art","ART",1,,"P","NO"
+"维生素矿物质养生事典 ",0.2,"ReferenceBook",,,,,"Beauty&Health","BTH",0,,"P","NA"
+"激活——给你能量的果蔬汁",1,"ReferenceBook",,,,,"Beauty&Health","BTH",0,,"P","NA"
+"牛尔的爱美书：天然面膜DIY（美容教主《美丽俏佳人》美丽教练牛尔天然护肤秘笈全公开） ",1,"ReferenceBook",,,,,"Beauty&Health","BTH",0,,"P","NA"
+"常春藤:人体大百科",0.01,"ReferenceBook",,,,,"Beauty&Health","MED",0,,"P","NA"
+"香草美人物语",1,"ThroughReading",,,,"Kim Morrison & Fleur Welligan ","Beauty&Health","BTH",0,,"P","NA"
+"吃遍全球——旅行膳食营养指南",1,"ThroughReading",,,,,"Beauty&Health","BTH",0,,"P","NA"
+"香水情氛----调出来的神秘",1,"ThroughReading",,,,,"Beauty&Health","BTH",0,,"P","NA"
+"花袭人(食花·花疗宝典) ",0,"HaveNotRead",,,,,"Beauty&Health","BTH",0,,"P","NA"
+"Skin Aging",0.2,"PartialReading","Hard-knowledge","Beauty-Theory",,"Gilchrest, Barbara A.","Beauty&Health","BTH",1,,"P","NO"
+"Cosmeceuticals and Cosmetic Ingredients",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",,"Baumann, Leslie","Beauty&Health","BTH",1,,"P","NO"
+"A Consumer's Dictionary of Cosmetic Ingredients, 7th Edition",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",,"Winter, Ruth","Beauty&Health","BTH",1,,"P","NO"
+"Steve Jobs ",0.01,"PartialReading","Fact-knowledge-Biography",,,"Walter Isaacson","Biography","BGY",0,,"NO","P"
+"真相与传奇-杜拉斯唯一的传记影集 ",0.5,"PartialReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"P","NA"
+"曾国藩传",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"P","NA"
+"曾国藩三部曲",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"E","NA"
+"白宫首席金融智囊格林斯潘 (Alan Greenspan)",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"P","NA"
+"龙夫人：慈禧故事",1,"ThroughReading","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"P","NA"
+"约翰·亚当斯 ",0,"HaveNotRead","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"P","NO"
+"桥－奥巴马传记",0,"HaveNotRead","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"P","NO"
+"华盛顿传",0,"HaveNotRead","Fact-knowledge-Biography",,,,"Biography","BGY",0,,"P","NO"
+"Biochemistry",0.3,"PartialReading","Meta-Knowledge",,,"Jeremy M. Berg","Biology","BIO",0,,"NA","P"
+"生命是什么",1,"ThroughReading","Meta-Knowledge",,,,"Biology","BIO",0,,"P","NO"
+"自私的基因(The Selfish Gene)",0.2,"PartialReading","Hard-knowledge","Evolutionary psychology",,"Richard Dawkins","Biology","BIO",1,"Audio","E","P"
+"精子战争(Sperm Wars)",0.01,"PartialReading","Hard-knowledge","Evolutionary psychology",,,"Biology","BIO",1,,"E","P"
+"神似祖先",0,"PartialReading","Hard-knowledge","Evolutionary psychology",,"郑也夫","Biology","BIO",1,,"E","NA"
+"公司财务和治理机制",0.01,"PartialReading","Hard-knowledge","Company Finance",,,"Business & Economics & Management","BEM",1,,"P","NA"
+"互联网进化论",0.01,"RoughReading","Fastfood-knowledge",,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"策略思维",0.01,"PartialReading","Hard-knowledge","Critical Thinking-Decision",,,"Business & Economics & Management","BEM",0,,"P","NO"
+"产业链阴谋III ",0.1,"PartialReading","Fastfood-knowledge","Chinese Economy ",,,"Business & Economics & Management","BEM",0,,"P","NA"
+"创新者的窘境(The Innovator's Dilemma)",0.1,"PartialReading","Hard-knowledge","How to innovate?",," C M Christensen","Business & Economics & Management","BEM",0,,"E","P"
+"品牌洗脑(Brand Washed)",1,"ThroughReading","Fastfood-knowledge","Negotiation or persuasion",,"Martin Lindstrom","Business & Economics & Management","BEM",0,,"P","NO"
+"中国经济缺什么（陈志武、茅于轼、斯蒂格利茨等15位经济学家分析中国经济大趋势，解局中国怎么办，共谋拯救中国经济之良策。）d11",0.2,"PartialReading","Fastfood-knowledge","Chinese Economy ",,,"Business & Economics & Management","BEM",0,,"P","NA"
+"Marketing Management (14e Edition)",0.4,"PartialReading","Meta-Knowledge","Marketing Management",,"Kotler and Keller","Business & Economics & Management","BEM",1,,"NA","P"
+"长尾理论",0.5,"PartialReading","Hard-knowledge","Marketing Management",,,"Business & Economics & Management","BEM",0,,"P","NA"
+"Free: How Today's Smartest Businesses Profit by Giving Something for Nothing ",0.5,"PartialReading","Hard-knowledge","Marketing Management",,,"Business & Economics & Management","BEM",0,,"NO","P"
+"场景革命",0.5,"PartialReading","Fastfood-knowledge","Marketing Management",,"吴声","Business & Economics & Management","BEM",0,,"E","NA"
+"伯恩斯坦金融三部曲1：繁荣的代价",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"财富的秘密",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"商业的常识",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"2025年世界将发生什么",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"自动自发 （《致加西亚的信》作者巅峰之作） ",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"中国牛市",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"管理的实践",1,"ThroughReading",,,,"德鲁克","Business & Economics & Management","BEM",0,,"P","NO"
+"罗伯特议事规则操作指南(美国民间流传近150年的会议组织指导手册)",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"夏娃革命（引爆女性市场的八条黄金法则） ",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"考验－－跨国公司败阵中国实录",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"赢",1,"ThroughReading",,,,"杰克·韦尔奇","Business & Economics & Management","BEM",0,,"P","NO"
+"Competing on Analytics: The New Science of Winning",1,"ThroughReading",,,,"Thomas H","Business & Economics & Management","BEM",0,,"NA","NO"
+"Consumer Behavior: Buying having and being",1,"ThroughReading",,,,"Solomon Michael R","Business & Economics & Management","BEM",0,,"NA","P"
+"Issue Driven",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"NA","P"
+"Zero to One: Notes on Startups or How to Build the Future",1,"ThroughReading",,,,"Peter Thiel","Business & Economics & Management","BEM",0,,"NO","P"
+"移动互联网时代",1,"ThroughReading",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"国富论(The Wealth of Nation)",1,"ThroughReading","Meta-Knowledge",,,"Adam Smith","Business & Economics & Management","BEM",1,"Audio","P","P"
+"经济学原理(Principles of Economics)",1,"ThroughReading","Meta-Knowledge",,,"Marshall","Business & Economics & Management","BEM",0,"Audio","P","P"
+"伯恩斯坦金融三部曲2：华尔街上的经济学家",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"伯恩斯坦金融三部曲3：金融简史",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"P","NO"
+"互联网商规11条摩根士丹利所推崇的商业战略思想",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"在路上：CCTV《赢在中国》首赛季12强创业启示录（励志创造人生 创业改变命运）",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"刀口上的管理(全球顶尖企业如何利用冲突管理引领行业创新风潮） ",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"巴菲特致股东的信：股份公司教程",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"把握公司财务报表",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"P","NA"
+"经济学通识",0.2,"PartialReading",,,,"薛兆丰","Business & Economics & Management","BEM",0,"Audio","E","NA"
+"集装箱改变世界(The Box)",0,"HaveNotRead",,,,"Marc Levinson","Business & Economics & Management","BEM",0,,"E","P"
+"货币的祸害(Money Mischief)",0,"HaveNotRead",,,,"Milton Friedman","Business & Economics & Management","BEM",0,,"E","NO"
+"微革命",0,"HaveNotRead",,,,"金错刀","Business & Economics & Management","BEM",0,,"E","NA"
+"看不见的心(The invisible heart)",0,"HaveNotRead",,,,,"Business & Economics & Management","BEM",0,,"E","NO"
+"重新定义公司—谷歌是如何运营的 (How Google Works)",0.15,"RoughReading","Fastfood-knowledge",,,"Eric Schmidt and Jonathan Rosenberg","Business & Economics & Management","BEM",0,"Audio","NO","E"
+"Leadership Pipeline",1,"ThroughReading",,,,"Stephen Drotter & James Noel & Ram Charan","Business & Economics & Management","BEM",0,,"NO","P"
+"Blockbusters: Hit-making, Risk-taking, and the Big Business of Entertainment",0,"HaveNotRead",,,," Anita Elberse","Business & Economics & Management","BEM",0,,"P","NO"
+"The Alliance: Managing Talent in the Networked Age",0,"HaveNotRead",,,,"Reid Hoffman","Business & Economics & Management","BEM",0,,"P","NO"
+"Text Analysis with R for Students of Literature ",1,"ThroughReading",,,," Matthew Jockers","Data Science","DAT",0,,"NA","P"
+"看穿一切数字的统计学",0.01,"PartialReading",,,,,"Data Science","DAT",0,,"P","NA"
+"Big Data ",1,"ThroughReading",,,,,"Data Science","DAT",0,,"P","NO"
+"大数据的冲击",1,"ThroughReading",,,,"野村合作所","Data Science","DAT",0,,"P","NA"
+"Mining of Massive Datasets",0.01,"PartialReading",,,,,"Data Science","DAT",0,,"NA","E"
+"Mining the Social Web",0.01,"PartialReading",,,," Matthew A. Russell","Data Science","DAT",0,,"NA","P"
+"Doing Data Science",0.05,"PartialReading",,,," Cathy O'Neil","Data Science","DAT",0,,"P","NA"
+"Humanities Data in R",0.5,"PartialReading",,,,"Taylor Arnold","Data Science","DAT",0,,"P","NA"
+"Political Analysis Using R",1,"ThroughReading",,,,"James E. Monogan III","Data Science","DAT",0,,"P","NA"
+"Practical Text Analytics: Interpreting Text and Unstructured Data for Business Intelligence",0.01,"PartialReading",,,,"Steven Struhl","Data Science","DAT",0,,"P","NA"
+"男人这东西",0.5,"PartialReading",,,,"渡边淳一","Gender","GND",0,,"E","NA"
+"完全出轨手册",1,"ThroughReading",,,,,"Gender","GND",0,,"P","NO"
+"享受单身",1,"ThroughReading",,,,,"Gender","GND",0,,"P","NO"
+"滚床单心理学",1,"ThroughReading",,,,,"Gender","GND",0,,"E","NA"
+"迎男而上",1,"ThroughReading",,,,"燕公子","Gender","GND",0,,"E","NA"
+"世界简史 ",0.01,"PartialReading",,,,,"History","HTY",0,,"P","NA"
+"传说时代 · 夏 · 商 · 西周",0.01,"PartialReading",,,,,"History","HTY",0,,"P","NA"
+"忽必烈大帝 ",0.01,"PartialReading",,,,,"History","HTY",0,,"P","NA"
+"人类简史——从动物到上帝[Sapiens: A Brief History of Humankind]",0.02,"PartialReading",,,,"Yuval Noah Harari","History","HTY",0,,"P","P"
+"美国人民 —— 创建一个国家和一种社会（上卷 1492-1877 年第六版）",0.05,"PartialReading",,,,,"History","HTY",0,,"P","NO"
+"人类的故事 (the history of mankind)",0.1,"PartialReading",,,,"Hendrik Willem Van Loon","History","HTY",0,,"P","P"
+"何苦生在帝王家（大清公主命运实录 )",0.1,"PartialReading",,,,,"History","HTY",0,,"P","NA"
+"《大国崛起》系列丛书 —— 日本",0.2,"PartialReading",,,,,"History","HTY",0,,"p","NA"
+" 第三帝国的兴亡 (The Rise and Fall of the Third Reich)",0.25,"PartialReading",,,,"William L.Shirer ","History","HTY",0,,"P","P"
+"上帝之鞭阿提拉 —— 挑战罗马帝国的匈人王",0.3,"PartialReading",,,,,"History","HTY",0,,"P","NA"
+"百家讲坛 —— 说雍正",1,"ThroughReading",,,,,"History","HTY",0,,"p","NA"
+"《大国崛起》系列丛书 ——美国",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"《大国崛起》系列丛书 —— 俄罗斯 ",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"Reading on road (American history)",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"历史的胭脂痕迹 : 触摸历史上命运多舛的红颜背后",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"历史深处的忧虑－近距离看美国之一",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"总统是靠不住的 - 近距离看美国之二",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"我也有一个梦想－近距离看美国之三",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"如彗星划过夜空 - 近距离看美国之四",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"《大国崛起》系列丛书 —— 德国",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"武则天正传",1,"ThroughReading",,,,"林语堂","History","HTY",0,,"P","NA"
+"宗教简史 (A Brief History of Religion)",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"美国无法忘却的罪恶 —— 美利坚风雨二百年",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"探索古文明系列 —— 木乃伊",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"木乃伊：法老时代的生与死",1,"ThroughReading",,,,"覃东","History","HTY",0,,"P","NA"
+"秦风作品系列——秦风老照片馆",1,"ThroughReading",,,,,"History","HTY",0,,"P","NA"
+"邓小平时代",1,"ThroughReading",,,,"傅高义","History","HTY",0,,"E","NA"
+"论中国(On China)",1,"ThroughReading",,,,"基辛格","History","HTY",0,,"E","P"
+"《大国崛起》系列丛书 —— 法国",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"《大国崛起》系列丛书 —— 西班牙 / 葡萄牙",0,"HaveNotRead",,,,,"History","HTY",0,,"p","NA"
+"《大国崛起》系列丛书 —— 荷兰",0,"HaveNotRead",,,,,"History","HTY",0,,"p","NA"
+"亚洲简史 ",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"Universal history of world",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"彩色人文历史 —— 文学的历史",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"传播学史：一种传记式的方法",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"中国美术史",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"西方美术史",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"美洲简史",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"欧洲艺术史",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"1949 伯力大审判 —— 侵华日军使用细菌武器案庭审实录",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"彩色人文历史 —— 演艺的历史",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"影响人类历史的大审判",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"总统的力量 —— 从殖民地到超级大国",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"资治通鉴",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"20 世纪的精神教训",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"阿连德家族",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"茶叶之路    (The Tea Road China and Russia Meet Across the Steppe) ",0,"HaveNotRead",,,,"Martha Avery","History","HTY",0,,"P","NA"
+"百年文字狱",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"何兆武文集——历史与历史学",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"琉璃宫史",0,"HaveNotRead",,,,,"History","HTY",0,,"P","NA"
+"春秋大义",0,"HaveNotRead",,,,"熊毅","History","HTY",0,,"E","NA"
+"战争改变历史 (War Made New)",0,"HaveNotRead",,,,"Max Boot","History","HTY",0,,"E","NO"
+"机器学习",0.5,"PartialReading",,,,,"IT","IT",0,,"P","NO"
+"Hadoop: The Definitive Guide ",0,"HaveNotRead",,,,"Tom White","IT","IT",0,,"NA","P"
+"云计算与分布式系统:从并行处理到物联网(英 文版)",0,"HaveNotRead",,,,,"IT","IT",0,,"NA","P"
+"算法之道(第2版)",0,"HaveNotRead",,,,,"IT","IT",0,,"P","NO"
+"计算机原理简明教程  ",0,"HaveNotRead",,,,,"IT","IT",0,,"P","NA"
+"构建云应用:概念、模式和实践(详述如何打造性 能、可扩展性、可用性俱佳的云计算架构模式)(云计算技术系列丛书) ",0,"HaveNotRead",,,,,"IT","IT",0,,"P","NA"
+"黑客与画家(Heckers and Painters-Big Ideas from the Computer Age)",0.2,"PartialReading",,,,"Paul Graham","IT","IT",1,"Audio","P","NO"
+"Learning Python",0,"HaveNotRead",,,,"Mark Lutz","IT","IT",0,,"NO","P"
+"中国法律法规中英对照系列4——中国公司企业法律法规（中英对照法规）",0.2,"PartialReading",,,,,"Law","LAW",0,,"P","P"
+"高等学校法学双语教材——国际法（英文版） ",0,"HaveNotRead",,,,,"Law","LAW",0,,"NA","P"
+"高等学校双语教材－国际商法 第二版 （英文版） ",0,"HaveNotRead",,,,,"Law","LAW",0,,"NA","P"
+"中国法律法规中英对照系列5——中国对外贸易与经济合作法律法规（中英对照法规）",0,"HaveNotRead",,,,,"Law","LAW",0,,"P","P"
+"Inside the Jury",0,"HaveNotRead",,,,"Hastie Reid & Steven D. Penrod &  Nancy Pennington","Law","LAW",0,,"NA","P"
+"现代家庭实用宝典——中草药大全",0.01,"ReferenceBook",,,,,"Medicine","MED",0,,"p","NA"
+"鲁滨逊漂流记",1,"ThroughReading",,,,,"Novel","NVL",0,,,"NO"
+"海底两万里",1,"ThroughReading",,,,,"Novel","NVL",0,,,"NA"
+"倾城之恋",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"半生缘",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"沉香屑 第一炉香",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"多少恨",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"金锁记",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"红玫瑰与白玫瑰",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"小艾",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"连环套",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"创世纪",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"浮花浪蕊",1,"ThroughReading",,,,"张爱玲","Novel","NVL",0,,,"NA"
+"福尔摩斯探案集",1,"ThroughReading",,,,"柯南道尔","Novel","NVL",0,,,"NO"
+"希区柯克集",1,"ThroughReading",,,,"希区柯克","Novel","NVL",0,,,"NO"
+"欧亨利短篇小说集",1,"ThroughReading",,,,"欧亨利","Novel","NVL",0,,,"NO"
+"茶花女",1,"ThroughReading",,,,"小仲马","Novel","NVL",0,,,"NO"
+"傲慢与偏见(Pride and Prejudice)",1,"ThroughReading",,,,"Jane Austen","Novel","NVL",0,,,"NO"
+"巴黎圣母院",1,"ThroughReading",,,,"雨果","Novel","NVL",0,,,"NO"
+"钢铁是怎样炼成的",1,"ThroughReading",,,,"尼古拉.奥斯特洛夫斯基","Novel","NVL",0,,,"NO"
+"童年",1,"ThroughReading",,,,"高尔基","Novel","NVL",0,,,"NO"
+"在人间",1,"ThroughReading",,,,"高尔基","Novel","NVL",0,,,"NO"
+"我的大学",1,"ThroughReading",,,,"高尔基","Novel","NVL",0,,,"NO "
+"老人与海(The Old Man and The Sea)",1,"ThroughReading",,,," Ernest Hemingway","Novel","NVL",0,,"NO","P"
+"三国演义",1,"ThroughReading",,,,,"Novel","NVL",0,,"P","NA"
+"Complete Novels of Mark Twain",0.5,"PartialReading",,,,"Mark Twain","Novel","NVL",0,,"NO","P"
+"For Whom the Bell Tolls ",0,"HaveNotRead",,,," Ernest Hemingway","Novel","NVL",0,,"NO","P"
+"In Cold Blood",0,"HaveNotRead",,,,"Truman Capote","Novel","NVL",0,,"P","NO"
+"安娜·卡列尼娜（中英对照缩写）",0.01,"PartialReading",,,,,"Novels and Plays","NVL",0,,"P","P"
+"中国传奇",0.2,"PartialReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"孤独之酒",0.2,"PartialReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"白夜",0.5,"PartialReading",,,,"陀思妥耶夫斯基","Novels and Plays","NVL",0,,"P","NA"
+"白痴",1,"ThroughReading",,,,"陀思妥耶夫斯基","Novels and Plays","NVL",0,,"NO","P"
+"Unbearable Lightness of Being",1,"ThroughReading",,,," Milan Kundera","Novels and Plays","NVL",0,,"P","NO"
+"One Hundred Years of Solitude-百年孤独",1,"ThroughReading",,,,"Gabriel García Márquez","Novels and Plays","NVL",0,,"P","NO"
+"The Lover ",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,,"P","NO"
+"La Musica",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,,"P","NO"
+"Eden Cinema",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,,"P","NO"
+"Savannah Bay",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,,"P","NO"
+"India Song",1,"ThroughReading",,,,"Marguerite Duras","Novels and Plays","NVL",0,,"P","NO"
+"Laughable Loves",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,,"P","NO"
+"Ignorance ",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,,"P","NO"
+"Slowness",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,,"P","NO"
+"Identity",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,,"P","NO"
+"Immortality",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,,"P","NO"
+"Jacques and his Master",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",0,,"P","NO"
+"Arch of Triumph",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"活着",1,"ThroughReading",,,,"余华","Novels and Plays","NVL",0,,"P","NA"
+"最后的情人",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"L'Assommoir",1,"ThroughReading",,,,"Émile Zola","Novels and Plays","NVL",0,,"P","NO"
+"面孔之舞",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"社交舞",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"An Iceland Fisherman",1,"ThroughReading",,,,"Pierre Loti","Novels and Plays","NVL",0,,"P","NO"
+"Madame Chrysanthème",1,"ThroughReading",,,,"Pierre Loti","Novels and Plays","NVL",0,,"P","NO"
+"连环",1,"ThroughReading",,,,"亦舒","Novels and Plays","NVL",0,,"P","NO"
+"The Confession of a Child of the Century",1,"ThroughReading",,,,"Alfredde Musset","Novels and Plays","NVL",0,,"P","NO"
+"Night",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"床上的爱丽斯-苏珊.桑塔格文选(八幕剧)",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"The Little Prince",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"White Death",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"Mark Twain: Pudd' nhead Wilson ",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"Selected Short Stories of O Henry",1,"ThroughReading",,,,"O Henry","Novels and Plays","NVL",0,,"P","NO"
+"动物凶猛",1,"ThroughReading",,,,"杨朔","Novels and Plays","NVL",0,,"P","NA"
+"水岸",1,"ThroughReading",,,,"丹羽","Novels and Plays","NVL",0,,"P","NA"
+"女记",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"Selected Short Stories of Washington Irving",1,"ThroughReading",,,,"Washington Irving","Novels and Plays","NVL",0,,"P","NO"
+"安格思首部曲:传奇初现",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"小人得志",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"温莎墓园日记",1,"ThroughReading",,,,"木心","Novels and Plays","NVL",0,,"P","NA"
+"世事如烟",1,"ThroughReading",,,,"余华","Novels and Plays","NVL",0,,"P","NA"
+"佛经故事",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"长生殿 (The Palace of Eternal Youth)",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","P"
+"灵魂饭",1,"ThroughReading",,,,"余华","Novels and Plays","NVL",0,,"P","NA"
+"琴声如诉",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"王小波小说全集——早期作品/唐人故事/似水柔情",1,"ThroughReading",,,,"王小波","Novels and Plays","NVL",0,,"P","NA"
+"三寸金莲",1,"ThroughReading",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"被欺凌与被侮辱的",0,"HaveNotRead",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"Message in a Bottle",0,"HaveNotRead",,,,"NichoIas Sparks","Novels and Plays","NVL",0,,"P","NO "
+"美国佬",0,"HaveNotRead",,,,,"Novels and Plays","NVL",0,,"P","NO"
+"Testaments Betrayed ",0,"HaveNotRead",,,,"Milan Kundera","Novels and Plays","NVL",1,,"P","NO"
+"Life is elsewhere",0,"HaveNotRead",,,,"Milan Kundera","Novels and Plays","NVL",1,,"P","NO"
+"Digital Fortress",0,"HaveNotRead",,,,"Dan Brown","Novels and Plays","NVL",0,,"P","NO"
+"We are Decoys  Baby",0,"HaveNotRead",,,,"Elfriede Jeline","Novels and Plays","NVL",0,,"P","NO"
+"纪德小说选(Selected Short Stories of Gide)",0,"HaveNotRead",,,,"Guillaume Gide","Novels and Plays","NVL",0,,"P","NO"
+"马语者(The Horse Whisperer)",0,"HaveNotRead",,,,"Nicholas Evans","Novels and Plays","NVL",0,,"P","NO"
+"William Sharkspeare Tragedy",0,"HaveNotRead",,,,"William Sharkspeare ","Novels and Plays","NVL",0,,"P","NO"
+"William Sharkspeare Comedy ",0,"HaveNotRead",,,,"William Sharkspeare ","Novels and Plays","NVL",0,,"P","NO"
+"The Murder of Roger Ackroyd",0,"HaveNotRead",,,,"Agatha Christie","Novels and Plays","NVL",0,,"P","NO"
+"Nemesis",0,"HaveNotRead",,,,"Agatha Christie","Novels and Plays","NVL",0,,"P","NO"
+"The Murder at The Vicarage",0,"HaveNotRead",,,,"Agatha Christie","Novels and Plays","NVL",0,,"P","NO"
+"They Do It with Mirrors",0,"HaveNotRead",,,,"Agatha Christie","Novels and Plays","NVL",0,,"P","NO"
+"宋明平话选",0,"HaveNotRead",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"不朽",1,"ThroughReading",,,,"Milan Kundera","Novels and Plays","NVL",1,,"P","NA"
+"天香",0,"HaveNotRead",,,,"王安忆","Novels and Plays","NVL",0,,"P","NA"
+"世界十大古典喜剧故事",0,"HaveNotRead",,,,,"Novels and Plays","NVL",0,,"P","NA"
+"Twelve Plays by Shakespeare",0,"HaveNotRead",,,,"William Sharkspeare ","Novels and Plays","NVL",0,,"P","NO"
+"The Chalk Circle Man",1,"ThroughReading",,,,"The Chalk Circle Man","Novels and Plays-detective","NVL",0,,"P","NO"
+"The Last Coyote",1,"ThroughReading",,,,"The Last Coyote","Novels and Plays-detective","NVL",0,,"P","NO"
+"The Moving Finger",1,"ThroughReading",,,,"Agatha Christie","Novels and Plays-detective","NVL",0,,"P","NO"
+"旧墨记--世纪学人的墨迹与往事",0.01,"PartialReading",,,,,"Other","OTH",0,,"P","NA"
+"Hillary's English-speaking World",0.3,"PartialReading",,,,,"Other","OTH",0,,"P","P"
+"西方元典——西方经典电影(Western Films)",0.4,"PartialReading",,,,,"Other","OTH",0,,"P","P"
+"K文件(1)",0.5,"PartialReading",,,,,"Other","OTH",0,,"P","NA"
+"冰鉴",0.5,"PartialReading",,,,,"Other","OTH",0,,"P","NA"
+"女人说话",1,"ThroughReading",,,,,"Other","OTH",0,,"P","NA"
+"世界上最疼我的那个人去了",1,"ThroughReading",,,,,"Other","OTH",0,,"P","NA"
+"闲看水浒：字缝里的梁山规则与江湖世界",1,"ThroughReading",,,,,"Other","OTH",0,,"P","NA"
+"不畏将来不念过去",1,"ThroughReading",,,,"十二","Other","OTH",0,,"E","NA"
+"裸女",0,"HaveNotRead",,,,,"Other","OTH",0,,"P","NO"
+"翻译理论与实务丛书——跨文化旅游翻译",0,"HaveNotRead",,,,,"Other","OTH",0,,"P","NA"
+"典籍英译研究(Studies on Translation of Chinese Classics into English)",0,"HaveNotRead",,,,,"Other","OTH",0,,"P","NA"
+"季羡林谈翻译",0,"HaveNotRead",,,,,"Other","OTH",0,,"P","NA"
+"美国白宫千年晚会演讲选集 ",0.1,"PartialReading",,,,,"Other","OTH",0,,"p","NO"
+"The Adaptive Decision Maker ",0,"HaveNotRead",,,," John W Payne","Other","OTH",0,,"NA","P"
+"How Not to Be Wrong: The Power of Mathematical Thinking ",0,"HaveNotRead",,,,"Jordan Ellenberg","Other","OTH",0,,"NA","P"
+"The World Atlas of Wine 7th Edition",0.01,"ReferenceBook",,,,"Hugh Johnson","Other","OTH",0,,"NA","P"
+"Delivering knock your socks off service",0,"HaveNotRead",,,,,"Other","OTH",0,,"NA","P"
+"引爆流行( The Tipping Point)",1,"ThroughReading",,,," Malcolm Gladwell","Other","OTH",1,,"E","P"
+"What If?: Serious Scientific Answers to Absurd Hypothetical Questions",0.3,"PartialReading",,,,"Randall Munroe","Other","OTH",0,,"P","NO"
+"xkcd: volume 0",0.3,"PartialReading",,,,"Randall Munroe","Other","OTH",0,,"P","NA"
+"How to Create a Mind: The Secret of Human Thought Revealed",0.1,"PartialReading",,,,"Kurzweil, Ray","Other","OTH",1,,"P","NO"
+"我读《易经》(上)(Book Of Changes I)",0.01,"PartialReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"北大哲学门经典文萃——冯友兰选集",0.01,"PartialReading",,,,"冯友兰","Philosophy and Psychology","PPY",0,,"P","NA"
+"南怀瑾选集第三卷易经杂说易经系传别讲",0.01,"PartialReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,,"P","NA"
+"正义之心",0.01,"PartialReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"推理的迷宫(Labyrinths  of Reason)",0.01,"PartialReading",,,,"William Poundstone","Philosophy and Psychology","PPY",0,,"P","NO"
+"漫画中国思想（蔡志忠漫画经典精选）",0.02,"PartialReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"社会心理学",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"P","P"
+"心理学与生活",0.02,"PartialReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"庄子諵譁.上",0.02,"PartialReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,,"P","NA"
+"乌合之众(The Crowd)",0.05,"PartialReading",,,,"Gustave Le Bon","Philosophy and Psychology","PPY",0,,"E","P"
+"身份的焦虑(Status Anxiety)",1,"ThroughReading",,,,"Alain de Botton","Philosophy and Psychology","PPY",0,,"E","P"
+"智慧社会 (Social Physics)",0.2,"PartialReading",,,,"Alex Pentland  ","Philosophy and Psychology","PPY",0,,"E","P"
+"Going Solo: The Extraordinary Rise and Surprising Appeal of Living Alone (单身社会)",0.2,"RoughReading","Hard-knowledge",,,"Eric Klinenberg","Philosophy and Psychology","PPY",1,"Audio","NO","P"
+"叙事疗法",0.2,"PartialReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"亲密的陌生人",0.2,"PartialReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"逻辑学(Science of Logic)",0.3,"PartialReading",,,,"Hegel","Philosophy and Psychology","PPY",0,,"P","NO"
+"Confucius Said ",0.3,"PartialReading",,,,"Tom Te-wu Ma","Philosophy and Psychology","PPY",0,,"P","NA"
+"天才在左疯子在右",0.3,"PartialReading",,,,"高铭","Philosophy and Psychology","PPY",0,,"E","NA"
+"做一名优秀的心理咨询师",0.5,"PartialReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"思考快与慢(Thinking Fast and Slow)",1,"ThroughReading","Meta-Knowledge","Critical Thinking-Rational",,"Daniel Kahneman","Philosophy and Psychology","PPY",1,"Audio","P","P"
+"孙子兵法(The Art of War)",1,"ThroughReading","Meta-Knowledge",,,"Sun Tzu","Philosophy and Psychology","PPY",1,"Audio","P","NO"
+"逃避自由(Escape from Freedom)",1,"ThroughReading","Meta-Knowledge",,,"Erich Fromm","Philosophy and Psychology","PPY",0,,"P","P"
+"幸福之路",1,"ThroughReading","Hard-knowledge",,,"罗素","Philosophy and Psychology","PPY",0,,"P","NO"
+"武士道(Bushido) ",1,"ThroughReading","Hard-knowledge",,," Jnazo Nitobe","Philosophy and Psychology","PPY",0,,"P","P"
+"博伽梵歌",1,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"道德箴言录",1,"ThroughReading","Hard-knowledge",,,"La Rochefoucald","Philosophy and Psychology","PPY",0,,"P","P"
+"Idle Thoughts of an Idle Fellow",1,"ThroughReading",,,,"Jerome K.Jerome","Philosophy and Psychology","PPY",0,,"P","P"
+"南怀瑾谈心兵难防",1,"ThroughReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,,"P","NA"
+"Tolerance",1,"ThroughReading",,,,"Hendrik Willem Van Loon","Philosophy and Psychology","PPY",0,,"P","NO"
+"On Old Age",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,,"P","NO"
+"On Friendship",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,,"P","NO"
+"On the Laws",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,,"P","NO"
+"On the Nature of the Gods",1,"ThroughReading",,,,"Cicero Marcus Tullius","Philosophy and Psychology","PPY",0,,"P","NO"
+"中庸洞见(An Insight of Chung-yung)",1,"ThroughReading",,,,"Tu Wei-ming","Philosophy and Psychology","PPY",0,,"P","P"
+"欲望之源",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"论雄辩",1,"ThroughReading",,,,"François Fénelon","Philosophy and Psychology","PPY",0,,"P","NO"
+"亡灵对话录",1,"ThroughReading",,,,"François Fénelon","Philosophy and Psychology","PPY",0,,"P","NO"
+"南怀瑾选集（第二卷）",1,"ThroughReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,,"P","NA"
+"老子他说",1,"ThroughReading",,,,"南怀瑾","Philosophy and Psychology","PPY",0,,"P","NA"
+"百喻经(一部古老的佛教寓言经典)",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"图解心理学",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"道德情操论(The Theory of Moral Sentiments)",1,"ThroughReading",,,,"Adam Smith","Philosophy and Psychology","PPY",0,,"P","NO"
+"重负与神恩(Gravity and Grace) ",1,"ThroughReading",,,,"Simone Weil","Philosophy and Psychology","PPY",0,,"P","NO"
+"名家集注孙子兵法",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"谢尔顿作品集——众神的风车",1,"ThroughReading",,,,"谢尔顿","Philosophy and Psychology","PPY",0,,"P","NA"
+"了凡四训",1,"ThroughReading",,,,"袁了凡","Philosophy and Psychology","PPY",0,,"P","NA"
+"欲望心理学：看人看到骨头里",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"人格心理学 (Personality)",1,"ThroughReading",,,,"Jerry M. Burger","Philosophy and Psychology","PPY",0,,"P","NO"
+"Escape from Freedom",1,"ThroughReading",,,," Erich Fromm","Philosophy and Psychology","PPY",0,,"P","P"
+"爱的艺术(The Art of Loving)",1,"ThroughReading",,,," Erich Fromm","Philosophy and Psychology","PPY",0,,"E","P"
+"怪诞行为学(Predictably Irrational)",1,"ThroughReading",,,," Dan Ariely","Philosophy and Psychology","PPY",0,,"E","P"
+"反脆弱(Antifragile)",1,"ThroughReading","Hard-knowledge","Critical Thinking-Rational",,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",1,"Audio","E","P"
+"反直觉思考",1,"ThroughReading","Hard-knowledge","Critical Thinking-Rational",,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"直面内心的恐惧",1,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"选择的悖论",1,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"Predictably Irrational2",1,"ThroughReading",,,," Dan Ariely","Philosophy and Psychology","PPY",0,,"E","NO"
+"三十六计",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"异类(Outliers)",1,"ThroughReading","Fastfood-knowledge",,,,"Other","OTH",0,"Audio","E","NO"
+"洗脑术：怎样有逻辑地说服他人",1,"ThroughReading",,,,"高德","Philosophy and Psychology","PPY",1,"Audio","P","NA"
+"乐观的偏见(The Optimism Bias)",1,"ThroughReading",,,,"Tali Sharot","Philosophy and Psychology","PPY",0,,"E","P"
+"不靠谱的心理学(Psychobabble)",1,"ThroughReading",,,,"Stephen Briers","Philosophy and Psychology","PPY",0,,"E","NO"
+"清醒思考的艺术",1,"ThroughReading",,,,"罗尔夫.多贝里","Philosophy and Psychology","PPY",0,,"P","NA"
+"邪恶人性(People of the lie)",1,"ThroughReading",,,,"Scott Parker","Philosophy and Psychology","PPY",0,,"P","NO"
+"Being Mortal",1,"ThroughReading",,,,,"Philosophy and Psychology","PPY",0,,"NA","P"
+"亲密关系(Intimate Relationship)",1,"ThroughReading",,,,"Rowland S Miller and Daniel Perlman","Philosophy and Psychology","PPY",1,"Audio","P","P"
+"Leviathan",0,"HaveNotRead",,,,"Thomas Hobbes","Philosophy and Psychology","PPY",0,,"P","NO"
+"悲剧心理学(The Psychology of Tragedy)",0,"HaveNotRead",,,,"朱光潜(Chu Kwang Tsien)","Philosophy and Psychology","PPY",1,,"P","NA"
+"Interpretation of Dreams",0.01,"PartialReading",,,,"Sigismund Sholomo Freud","Philosophy and Psychology","PPY",1,,"P","NO"
+"卢梭文集(The Eassys by Rousseau)",0,"HaveNotRead","Meta-Knowledge",,,"Bertrand Russell","Philosophy and Psychology","PPY",0,,"P","NO"
+"叔本华文选(Selected Readings of Schopenhauer) ",0,"HaveNotRead","Meta-Knowledge",,,"Schopenhauer","Philosophy and Psychology","PPY",0,,"P","NO"
+"纯粹理性批判(The Critique of Pure Reason)",0,"HaveNotRead","Meta-Knowledge",,,"Kant","Philosophy and Psychology","PPY",0,,"P","NO"
+"理想国(Republic) ",0,"HaveNotRead","Meta-Knowledge",,,"Plato","Philosophy and Psychology","PPY",0,,"P","NO"
+"疯癫与文明(Madness and Civilization)",0,"HaveNotRead","Meta-Knowledge",,,"Michel Foucault ","Philosophy and Psychology","PPY",0,,"P","NO"
+"Power: A New Social Analysis ",0,"HaveNotRead",,,,"Bertrand Russell","Philosophy and Psychology","PPY",0,,"E","NO"
+"精神分析引论(A General Introduction To Psychoanalysis)",0.01,"PartialReading","Meta-Knowledge",,,"Sigismund Sholomo Freud","Philosophy and Psychology","PPY",0,,"P","NO"
+"我读《易经》(下)(Book Of Changes II)",0,"HaveNotRead","Meta-Knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"荀子",0,"HaveNotRead","Meta-Knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"尼采与形而上学 (Nietzsche and Metaphysics)",0,"HaveNotRead","Meta-Knowledge",,,"周国平","Philosophy and Psychology","PPY",0,,"P","NO"
+"雷蒙·塞邦赞(Apoiogie de Raimond de Sebonde) ",0,"HaveNotRead",,,,"Michel de Montaigne","Philosophy and Psychology","PPY",0,,"P","NO"
+"文明·罗马的曙光——伊特鲁里亚(Etruscology)",0,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"尼金斯基手记",0,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"Christian Culture",0,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"西方哲学史",0,"HaveNotRead","Meta-Knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"左传 吕氏春秋 战国策",0,"HaveNotRead","Fact-knowledge","Chinese History",,,"History","HTY",0,,"P","NA"
+"生活的艺术",0,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"献给命运的紫罗兰——我的人生人生体悟",0,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"幸福的终结 ",0,"HaveNotRead",,,,"Harvie Ferguson","Philosophy and Psychology","PPY",0,,"P","NA"
+"未死的沙威",0,"HaveNotRead",,,,"梁晓声","Philosophy and Psychology","PPY",0,,"P","NA"
+"论法的精神",0,"HaveNotRead","Meta-Knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"本尼迪克特文选",0,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"哲学史思路:穿越两千年的欧洲思想史",0,"HaveNotRead","Meta-Knowledge",,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"墨子还原",0.01,"PartialReading","Meta-Knowledge",,,"杨义","Philosophy and Psychology","PPY",0,,"P","NA"
+"当代英美哲学地图",0,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"P","NA"
+"The Old Regime and the French Revolution ",0.01,"RoughReading","Hard-knowledge",,,"Alexis de Tocqueville","Philosophy and Psychology","PPY",1,"Audio","NA","P"
+"Honest Signals: How They Shape Our World",0,"HaveNotRead",,,,"Alex Pentland","Philosophy and Psychology","PPY",0,,"NO","P"
+"Blink: The Power of Thinking Without Thinking",0,"HaveNotRead",,,,"Malcolm Gladwell","Philosophy and Psychology","PPY",0,,"NO","P"
+"Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets",0,"HaveNotRead",,,,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",0,,"NO","P"
+"黑天鹅(The Black Swan)",0.33,"RoughReading","Hard-knowledge","Critical Thinking-Uncertainty",,"Nassim Nicholas Taleb","Philosophy and Psychology","PPY",1,"Audio","E","P"
+"怪诞现象学(How to think about weird things)",0,"HaveNotRead",,,," Lewis Vaughn and Theodore Schick","Philosophy and Psychology","PPY",0,,"P","NO"
+"世界为何存在(Why does the world exist?)",0.01,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",0,,"E","P"
+"习得性无助(Learned helplessness)",0,"HaveNotRead",,,,"Christopher Peterson &  Steven F.Maier","Philosophy and Psychology","PPY",0,,"E","NO"
+"诱惑心理学(We have met the enemy: self-control in a age of excess)",0,"HaveNotRead",,,,"Daniel Akst","Philosophy and Psychology","PPY",0,,"E","NO"
+"理性犯的错(The fallibility of human reason in everyday life)",0,"HaveNotRead",,,,"Thomas Gilovich","Philosophy and Psychology","PPY",0,,"E","NA"
+"怪诞心理学(Quikology)",0.3,"PartialReading",,,,"Richard Wiseman","Philosophy and Psychology","PPY",0,,"E","NO"
+"怪诞心理学2(Paranormality)",0,"HaveNotRead",,,,"Richard Wiseman","Philosophy and Psychology","PPY",0,,"E","NO"
+"人对抗自己：自杀心理学研究(Man against himself)",0,"HaveNotRead",,,,"Karl Menninger","Philosophy and Psychology","PPY",0,,"E","NO"
+"展现人格力量",0,"HaveNotRead",,,,"Abraham Maslow","Philosophy and Psychology","PPY",0,,"E","NO"
+"后现代思想的数学根源(Mathematics and the Roots of Postmodern Thought)",0,"HaveNotRead",,,,"Vladimir Tasic","Philosophy and Psychology","PPY",0,,"P","NO"
+"维特根斯坦读本",0,"HaveNotRead",,,,"陈嘉映","Philosophy and Psychology","PPY",0,,"P","NA"
+"自我论",0,"HaveNotRead",,,,"科恩","Philosophy and Psychology","PPY",0,,"P","NO"
+"四书 五经",0,"HaveNotRead",,,,"NA","Philosophy and Psychology","PPY",0,,,"P"
+"逻辑学导论 (Introduction of Logic)",0.01,"HaveNotRead",,,,"Irving M. Copi and Carl Cohen","Philosophy and Psychology","PPY",0,,"P","P"
+"The Social Animal",0,"HaveNotRead",,,,"Elliot Aronson","Philosophy and Psychology","PPY",0,,"P","NO"
+"How To Think Straight About Psychology (9th Edition)",0,"HaveNotRead",,,,"Keith E. Stanovich","Philosophy and Psychology","PPY",0,,"P","NO"
+"What Intelligence Tests Miss: The Psychology of Rational Thought",1,"ThroughReading",,,,"Keith E. Stanovich","Philosophy and Psychology","PPY",0,,"P","NO"
+"An Illustrated Book of Bad Arguments",1,"ThroughReading",,,,"Ali Almossawi","Philosophy and Psychology","PPY",0,,"P","NA"
+"Mind Hacks",0.1,"PartialReading",,,,"Tom Stafford","Philosophy and Psychology","PPY",0,,"P","NO"
+"Working with Adoptive Parents: Research, Theory, and Therapeutic Interventions",0.1,"PartialReading",,,,"Brabender, Virginia M.","Philosophy and Psychology","PPY",0,,"P","NO"
+"The Prince(君主论)",1,"ThroughReading",,,,"Niccolò Machiavelli","Politics","POL",0,"Audio","P","P"
+"论美国的民主(Democracy in America)",1,"ThroughReading",,,," Tocqueville","Politics","POL",0,,"P","P"
+"论人类不平等的起源(On the origin of human inequality)",1,"ThroughReading",,,,"Rousseau","Politics","POL",0,,"P","NO"
+"马基雅维利的事业(The Machiavellian Enterprise)",1,"ThroughReading",,,,"Leo Paul S.de Alvarez","Politics","POL",0,,"P","NO"
+"道德理想国的覆灭",0,"HaveNotRead",,,,"朱学勤","Politics","POL",0,,"E","NA"
+"瓦尔登湖",0.01,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","P"
+"The Collection of Gibran's Poems",0.01,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","P"
+"新月集",0.01,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","P"
+"当时只道是寻常",0.3,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"送你一颗子弹",1,"ThroughReading",,,,"刘瑜","Proses Essays and Poems","PEP",0,,"P","NA"
+"""Existence”and“Obsequiousness""",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"纽约风景线（北美作家散文随笔选）",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"人在欧洲",1,"ThroughReading",,,,"龙应台","Proses Essays and Poems","PEP",0,,"P","NA"
+"Stray Birds",1,"ThroughReading",,,,"Tagore","Proses Essays and Poems","PEP",0,,"P","P"
+"在平淡与奢华之间摇摆",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"琼美卡随想录",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"即兴判断",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"肆无忌惮",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"温暖和百感交集的旅程",1,"ThroughReading",,,,"余华","Proses Essays and Poems","PEP",0,,"P","NA"
+"园丁集(The Gardener)",1,"ThroughReading",,,,"Tagore","Proses Essays and Poems","PEP",0,,"P","P"
+"我纷纷的情欲",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"毛泽东诗词书法艺术",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"幽梦影 围炉夜话",1,"ThroughReading",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"A collection of Qian Zhongshu's English essays",0,"HaveNotRead",,,,"钱钟书","Proses Essays and Poems","PEP",0,,"NA","P"
+"钱钟书集——谈艺录",0,"HaveNotRead",,,,"钱钟书","Proses Essays and Poems","PEP",0,,"P","NA"
+"Essays of Elia ",0,"HaveNotRead",,,,"Charles Lamb","Proses Essays and Poems","PEP",0,,"P","P"
+"写在人生边上",0.01,"RoughReading",,,,"杨绛","Proses Essays and Poems","PEP",1,,"E","NA"
+"中国现代诗选(Model Chinese Poems)",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","P"
+"走了一万一千里路——顾城首度面世的诗手稿",0,"HaveNotRead",,,,"顾城","Proses Essays and Poems","PEP",0,,"P","NA"
+"斑纹——兽皮上的地图(a collection of proses)",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"当代散文大家精品文库——二月兰",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"2005年中国散文精选",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"嫁衣之纫",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"七缀集",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"槐聚诗存",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"苗老汉聊天——雪泥爪印",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"词语的个人历史",0,"HaveNotRead",,,,,"Proses Essays and Poems","PEP",0,,"P","NA"
+"Postcards from Ed",0,"HaveNotRead",,,," Edward Abbey","Proses Essays and Poems","PEP",0,,"P","NO"
+"南怀瑾说佛:现代学佛者",0.01,"PartialReading",,,,,"Religion","REL",0,,"P","NA"
+"中国佛学经典文库——禅诗精选（高僧卷）",0.02,"PartialReading",,,,,"Religion","REL",0,,"P","NA"
+"天使的传言",1,"ThroughReading",,,,,"Religion","REL",0,,"P","NO"
+"西藏生死书(The Tibet Book of Live and Death)",1,"ThroughReading",,,,"索甲仁波切","Religion","REL",0,,"E","P"
+"大藏经",0,"HaveNotRead",,,,,"Religion","REL",0,,"P","NA"
+"佛教各宗派小丛书——天台宗概说",0,"HaveNotRead",,,,,"Religion","REL",0,,"P","NA"
+"中国佛教图鉴（通览中国佛教二千年历史）",0,"HaveNotRead",,,,,"Religion","REL",0,,"P","NA"
+"答问青壮年参禅者",0,"HaveNotRead",,,,,"Religion","REL",0,,"P","NA"
+"宗教教义与社会演化",0,"HaveNotRead",,,,"Niklas luhmann ","Religion","REL",0,,"P","NA"
+"单纯理性限度内的宗教(Religion Within the Boundaries of Mere Reason)",0,"HaveNotRead",,,,"Kant","Religion","REL",0,,"P","NO"
+"神学的科学(Theological Science) ",0,"HaveNotRead",,,,"Thomas F. Torrance","Religion","REL",0,,"P","NO"
+"无形的宗教:现代社会中的宗教问题 ",0,"HaveNotRead",,,,"T. Luckmann","Religion","REL",0,,"P","NA"
+"神学研究:一种百科全书式的定位",0,"HaveNotRead",,,,"G.Ebeling","Religion","REL",0,,"P","NA"
+"宝积经",0,"HaveNotRead",,,,,"Religion","REL",0,,"P","NA"
+"基督的二性 ",0.01,"PartialReading",,,,"马丁.开姆尼茨","Religion","REL",0,,"P","NO"
+"The Call",1,"ThroughReading",,,,"Adam Hamilton","Religion","REL",0,,"P","NA"
+"24 Hours that changed the world",1,"ThroughReading",,,,"Adam Hamilton","Religion","REL",0,,"P","NA"
+"Christian and World Religions",1,"ThroughReading",,,,"Adam Hamilton","Religion","REL",0,,"P","NA"
+"Things a Computer Scientist Rarely Talks About",1,"ThroughReading",,,,"Donald E Knuth","Religion","REL",0,,"P","NO"
+"3:16 Bible Texts Illuminated",0,"HaveNotRead",,,,"Donald E Knuth","Religion","REL",0,,"P","NO"
+"The Trouble with the Truth: Balancing Truth and Grace",0,"HaveNotRead",,,,"Rob Renfroe","Religion","REL",0,,"P","NO"
+"The Jesus I Never Knew",0.5,"PartialReading",,,,"Philip Yancey","Religion","REL",0,,"P","NO"
+"Who Is This Man?",0.7,"PartialReading",,,,"John Ortberg","Religion","REL",0,,"P","NO"
+"The case for faith",0.05,"PartialReading",,,,"Lee Strobel","Religion","REL",0,,"P","NO"
+"低智商社会",0.01,"PartialReading",,,,"大前研一","Self-development","SDP",0,,"E","NA"
+"专业主义",0.5,"PartialReading",,,,"大前研一","Self-development","SDP",0,,"E","NA"
+"沃顿商学院最受欢迎的谈判课(Getting More)",0.25,"PartialReading",,"Negotiation or persuasion",,"Stuart Diamond","Self-development","SDP",0,"Audio","E","NO"
+"Style: Lessons in Clarity and Grace",0.5,"PartialReading",,,," Joseph M Williams","English","ENG",0,,"NA","P"
+"Secrets to Winning at Office Politics: How to Achieve Your Goals and Increase Your Influence at Work",1,"ThroughReading",,,,"Marie G. McIntyre","Self-development","SDP",0,,"NA","P"
+"Simply your work life",1,"ThroughReading",,,,"Elaine St. James","Self-development","SDP",0,,"NA","NO"
+"影响力(Influence)",1,"ThroughReading",,"Negotiation or persuasion",,"Robert B Cialdini","Self-development","SDP",0,,"E","NO"
+"微动作读心术",1,"ThroughReading",,,,,"Self-development","SDP",0,,"P","NA"
+"微表情读心术 ",1,"ThroughReading",,,,,"Self-development","SDP",0,,"P","NA"
+"微反应读心术",1,"ThroughReading",,,,,"Self-development","SDP",0,,"P","NA"
+"Corporate Confidential: 50 Secrets Your Company Doesn't Want You to Know---and What to Do About Them",1,"ThroughReading",,"Worldly wisdom",," Cynthia Shapiro","Self-development","SDP",0,,"NA","P"
+"Nice Girls Don't Get the Corner Office: 101 Unconscious Mistakes Women Make That Sabotage Their Careers",1,"ThroughReading",,"Worldly wisdom",," Lois P Frankel","Self-development","SDP",0,,"NA","P"
+"Getting Ahead: Three Steps to Take Your Career to the Next Level",1,"ThroughReading",,"Worldly wisdom",," Joel A Garfinkle","Self-development","SDP",0,,"NA","P"
+"软能力",1,"ThroughReading",,,,,"Self-development","SDP",0,,"P","NA"
+"心理操纵术",1,"ThroughReading",,,,,"Self-development","SDP",0,,"P","NA"
+"自控力",1,"ThroughReading","Hard-knowledge","How to self-discipline?",,,"Philosophy and Psychology","PPY",0,,"P","NO"
+"好好修养爱",1,"ThroughReading",,,,,"Self-development","SDP",0,,"E","NA"
+"两个人的孤独",1,"ThroughReading",,,,,"Self-development","SDP",0,,"E","NA"
+"赢",1,"ThroughReading",,,,,"Self-development","SDP",0,,"E","NO"
+"好好爱自己",1,"ThroughReading",,,,"素黑","Self-development","SDP",0,,"P","NA"
+"把时间当作朋友",1,"ThroughReading",,,,"李笑来","Self-development","SDP",0,,"P","NA"
+"Difficult Conversations: How to Discuss What Matters Most",0.05,"HaveNotRead",,"Worldly wisdom",," Douglas Stone","Self-development","SDP",0,,"NA","P"
+"The Secret Handshake: Mastering the Politics of the Business Inner Circle",0,"HaveNotRead",,"Worldly wisdom",,"Kathleen Kelly Reardon","Self-development","SDP",0,,"NA","P"
+"Talking from 9 to 5: Women and Men at Work",0,"HaveNotRead",,"Worldly wisdom",,"Deborah Tannen","Self-development","SDP",0,,"NA","P"
+"The Shadow Negotiation: How Women Can Master the Hidden Agendas That Determine Bargaining Success",0,"HaveNotRead",,"Worldly wisdom",," Deborah Kolb","Self-development","SDP",0,,"NA","P"
+"What Leaders Really Do",0,"HaveNotRead",,"Worldly wisdom",," John P Kotter","Self-development","SDP",0,,"NA","P"
+"Dealing with Difficult People",0,"HaveNotRead",,"Worldly wisdom",,"Sandra A Crowe","Self-development","SDP",0,,"NA","P"
+"说真话的艺术(Telling each other the truth)",0,"HaveNotRead",,,,"William Backus","Self-development","SDP",0,,"E","P"
+"细节营销(Marketing Revealed: Challenging the Myths)",0,"HaveNotRead",,,,"Willem Burgers","Self-development","SDP",0,,"E","NO"
+"创新者的思考",0,"HaveNotRead",,"How to innovate?",,"大前研一","Self-development","SDP",0,,"E","NA"
+"看清你的思维图谱 (Thinking Visually)",0.1,"HaveNotRead",,,,"Malcolm Craig","Self-development","SDP",0,,"P","NO"
+"品红酒(The taste of red wine)",0.05,"HaveNotRead",,,,"Louis Guillem","Self-development","SDP",0,,"P","NO"
+"重来（rework）",1,"ThroughReading","Fastfood-knowledge","Time Management",,"37Signals","Self-development","SDP",0,,"NO","P"
+"Asking the Right Questions: A Guide to Critical Thinking 9th Edition",1,"ThroughReading",,,,"M. Neil Browne","Self-development","SDP",0,,"P","NO"
+"How To Solve It: A New Aspect of Mathematical Method",0,"HaveNotRead","Meta-Knowledge",,,"George Polya","Self-development","SDP",0,,"P","NO"
+"如何阅读一本书(How to read a book)",1,"ThroughReading","Meta-Knowledge",,,"Mortimer J. Adler","Self-development","SDP",1,"Audio","P","P"
+"Thing Explainer: Complicated Stuff in Simple Words",0.02,"PartialReading",,,,"Randall Munroe","Self-development","SDP",0,,"P","NO"
+"The Monographs",0.1,"PartialReading",,,,"Ben Cardall","Self-development","SDP",0,,"P","NA"
+"The Joy of Reading: A Passionate Guide to 189 of the World's Best Authors and Their Works",0,"HaveNotRead",,,,"Charles Van Doren","Self-development","SDP",0,,"P","NO"
+"The 9 Steps to Financial Freedom",0,"HaveNotRead",,"Wealth Management",,"Orman, Suze","Self-development","SDP",0,,"P","NO"
+"Suze Orman's Financial Guidebook: Put the 9 Steps to Work",0,"HaveNotRead",,,,"Orman, Suze","Self-development","SDP",0,,"P","NO"
+"不顾诸神：现代印度的奇怪崛起",0.01,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NO"
+"图解中国茶经",0.01,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"图说天下·国家地理系列-全球最美的100个地方 (The top 100 beautiful places in the world )",0.01,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"话说中国大风一曲振河山",0.01,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"客厅文库休闲读物——礼品事典 ",0.01,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"实学简史（经典插图本）",0.01,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"科技想要什么 (What Technology Wants)",0.01,"RoughReading",,,,"Kevin Kelly","Society and Culture","SOC",1,,"E","P"
+"失控(Out of Control)",0.01,"RoughReading","Hard-knowledge",,,"Kevin Kelly","Society and Culture","SOC",1,"Audio","E","P"
+"不可思议的年代(The age of the unthinkable)",0.01,"HaveNotRead",,,,"Joshua Ramo","Society and Culture","SOC",0,,"E","P"
+"组织行为学",0.01,"PartialReading",,,,"边一民&徐力 etc","Society and Culture","SOC",0,,"P","NA"
+"文明是副产品",0.01,"HaveNotRead",,,,"郑也夫","Society and Culture","SOC",0,,"P","NA"
+"文人谈饮食",0.02,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"诸神的争吵:国际冲突中的宗教根源",0.05,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NO"
+"大连接(Connected)",0.5,"PartialReading",,,," Nicholas A Christakis &  James H Fowler","Society and Culture","SOC",1,,"E","P"
+"酱缸——搅动看真相",0.1,"PartialReading",,,,"柏杨","Society and Culture","SOC",0,,"P","NA"
+"性学十三讲",0.3,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"美国政府概况(Introduction to American Government)",0.2,"PartialReading",,,,,"Society and Culture","SOC",0,,"P","P"
+"不确定性(Uncertainty)",0.33,"PartialReading",,,,"Mitchell Small","Society and Culture","SOC",0,,"P","NO"
+"The European coffeehouse culture",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NO"
+"Much depends on dinner",1,"ThroughReading",,,,"Margaret Visser ","Society and Culture","SOC",0,,"P","NO"
+"你如此需要安慰——关于爱的对话 ",1,"ThroughReading",,,,"李银河","Society and Culture","SOC",0,,"P","NA"
+"The Chrysanthemum and the Sword ",1,"ThroughReading",,,,"Pauling Kent ","Society and Culture","SOC",0,,"P","P"
+"FBI教你破解身体语言",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"男人其实很忧郁",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NO"
+"揭秘美国医疗制度及其相关行业",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中国人的精神",1,"ThroughReading",,,,"辜鸿铭","Society and Culture","SOC",0,,"P","P"
+"书写的神话：西方文化中的文学",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NO"
+"知道点：世界文化 (World Culture)",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"八大胡同捌章",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"聆听西藏-以图片的方式 ",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"京城胡同留真",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"潜规则：中国历史中的真实游戏",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"隐蔽的秩序",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"P","NA"
+"与机器赛跑",1,"ThroughReading",,,,,"Society and Culture","SOC",0,,"E","NA"
+"图说中国文化——图说中国舞蹈",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"明日之中国文化:中印欧文化十讲",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"图说天下·国家地理系列(2)-黄金典藏版.欧洲(Geography of Europe)",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"图说天下·国家地理系列(2)-黄金典藏版.亚洲大洋洲(Geography of Asia and Oceania)",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"A G-MAN'S LIFE: The FBI  Being 'Deep Throat'  and The Struggle For Honor in Washington",0,"HaveNotRead",,,,"Mark Felt","Society and Culture","SOC",0,,"P","NO"
+"The Traditional Chinese Festival And Tales",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","P"
+"欧洲文化史(European Culture History)",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"惊世骇俗的另类幽默经典:魔鬼辞典 (Haven't gotten the English version)",0.01,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"岩松看美国",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中国人最易误解的文史常识",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"南怀瑾讲述--漫谈中国文化",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"林语堂文集——美国的智慧(精装)",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"林语堂文集——印度的智慧(精装)",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"茶文化系列丛书--茶香美食",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"客厅文库休闲读物——雪茄 ",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中国民俗文化丛书——玩具（弘扬中国传统文化 建设民族精神家园） ",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"漩涡·文化系列——婚俗与中国传统文化 ",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"家庭书架——话说中国人之三教九流",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"先民的歌唱-诗经",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"阅读城市",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中国文化杂说-茶酒文化卷",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中华民俗文化丛书：拱手·鞠躬·跪拜",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中华民俗文化丛书：车马·溜索·滑竿",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中华民俗文化丛书：猜拳·博戏·对舞",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中华民俗文化丛书：姻缘·良缘·孽缘",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中华民俗文化丛书：姓氏·名号·别称",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"中华民俗文化丛书：掮客·行商·钱庄",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"唐宋八大家集",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"The Descent of Woman: The Classic Study of Evolution ",0,"HaveNotRead",,,," Elaine Morgan","Society and Culture","SOC",0,,"NO","P"
+"支配社会学",0,"HaveNotRead",,,,"韦伯","Society and Culture","SOC",0,,"E","NA"
+"娱乐至死(Amusing ourselves to death)",0.5,"PartialReading",,,,"Nell Postman","Society and Culture","SOC",1,"Audio","E","P"
+"中国国民性演变历程",0,"HaveNotRead",,,,"张宏杰","Society and Culture","SOC",0,,"E","NA"
+"技术元素(The Technium)",0,"HaveNotRead",,,,"Kevin Kelly","Society and Culture","SOC",0,,"E","NO"
+"中国传统节日及传说",0,"HaveNotRead",,,,,"Society and Culture","SOC",0,,"P","NA"
+"Advanced R",0.01,"PartialReading",,,,"Hadley Wickham","Statistics","STAT",0,,"NA","P"
+"Bayesian Data Analysis",0.01,"PartialReading",,,," Andrew Gelman","Statistics","STAT",0,,"NA","P"
+"XML and Web Technologies for Data Sciences with R",0.02,"PartialReading",,,," Deborah Nolan","Statistics","STAT",0,,"NA","P"
+"Latent Variable Modeling with R",0.01,"PartialReading",,,," W. Holmes Finch","Statistics","STAT",0,,"NA","P"
+"Learning Spark: Lightning-Fast Big Data Analysis",0.01,"PartialReading",,,," Holden Karau","Statistics","STAT",0,,"NA","P"
+"Natural Language Processing with Python",0.1,"PartialReading",,,,"Steven Bird","Statistics","STAT",0,,"NA","P"
+"Statistical Analysis of Network Data with R",0.1,"PartialReading",,,,"Eric D. Kolaczyk","Statistics","STAT",0,,"NA","P"
+"Pattern Recognition and Machine Learning 1st Edition",0.1,"PartialReading",,,,"Christopher M. Bishop","Statistics","STAT",0,,"NA","P"
+"Design of Experiments: An Introduction Based on Linear Models",0.1,"PartialReading",,,,"Max Morris","Statistics","STAT",0,,"NA","P"
+"R for Marketing Research and Analytics ",1,"IntensiveReading",,,," Christopher N. Chapman","Statistics","STAT",0,,"NA","P"
+"Model Assisted Survey Sampling",0.5,"PartialReading",,,," Carl-Erik Särndal","Statistics","STAT",0,,"NA","P"
+"时间序列",0.5,"PartialReading",,,,,"Statistics","STAT",0,,"P","NA"
+"Human side of statistical consulting",0.6,"PartialReading",,,,,"Statistics","STAT",0,,"NA","P"
+"Measure Theory and Probability Theory",0.9,"PartialReading",,,,"Krishna B. Athreya","Statistics","STAT",0,,"NA","P"
+"概率论",1,"ThroughReading",,,,,"Statistics","STAT",0,,"P","NA"
+"Applied Predictive Modeling",1,"IntensiveReading",,,,"Max Kuhn & Kjell Johnston","Statistics","STAT",0,,"NO","P"
+"statistical inference",1,"ThroughReading",,,,,"Statistics","STAT",0,,"NO","P"
+"Probabilistic Graphical Models: Principles and Techniques",0.05,"PartialReading",,,," Daphne Koller","Statistics","STAT",0,,"NA","P"
+"R Packages",0.2,"PartialReading",,,," Hadley Wickham","Statistics","STAT",0,,"NA","P"
+"Data Analysis Using Regression and Multilevel/Hierarchical Models ",0.02,"PartialReading",,,,"Andrew Gelman","Statistics","STAT",0,,"NA","P"
+"Applied Statistics: A Handbook of Techniques ",0.5,"PartialReading",,,," Lothar Sachs","Statistics","STAT",0,,"NA","P"
+"Advances in Longitudinal Methods in the Social and Behavioral Sciences ",0,"ReferenceBook",,,," Jeffrey R Harring","Statistics","STAT",0,,"NA","P"
+"Handbook of Structural Equation Modeling ",0,"ReferenceBook",,,," Rick H Hoyle","Statistics","STAT",0,,"NA","P"
+"Taming Text: How to Find Organize and Manipulate It",0,"HaveNotRead",,,,"Grant S. Ingersoll","Statistics","STAT",0,,"NA","P"
+"Foundations of Statistical Natural Language Processing",0.01,"PartialReading",,,,"Christopher D. Manning","Statistics","STAT",0,,"NA","P"
+"Modern Optimization with R",0,"HaveNotRead",,,," Paulo Cortez","Statistics","STAT",0,,"NA","P"
+"Mastering Regular Expressions",0,"ReferenceBook",,,," Jeffrey E. F. Friedl","Statistics","STAT",0,,"NA","P"
+"Regular Expressions Cookbook",0,"ReferenceBook",,,," Jan Goyvaerts","Statistics","STAT",0,,"NO","P"
+"Regular Expression Pocket Reference: Regular Expressions for Perl  Ruby  PHP  Python C  Java and .NET ",0,"ReferenceBook",,,,"Tony Stubblebine","Statistics","STAT",0,,"NO","P"
+"An Introduction to Statistical Learning",0.5,"PartialReading",,,,"  T. Hastie D. Witten &  G. James  Tibshirani","Statistics","STAT",0,,"P","NA"
+"Statistical Rethinking: A Bayesian Course with Examples in R and Stan",0.1,"PartialReading",,,," Richard McElreath","Statistics","STAT",0,,"P","NA"
+"Causality: Models Reasoning and Inference",0.01,"PartialReading",,,,"Judea Pearl","Statistics","STAT",0,,"P","NO"
+"Sentiment Analysis",0.01,"PartialReading",,,,"Bing Liu","Statistics","STAT",0,,"P","NA"
+"自卑与超越",1,"ThroughReading","Meta-Knowledge",,,"Alfred Adler","Philosophy and Psychology","PPY",0,,"NO","P"
+"不正常人类研究所",1,"ThroughReading","Hard-knowledge",,,"冈田尊司","Philosophy and Psychology","PPY",0,,"NA","P"
+"痛苦心理学",0.2,"PartialReading","Hard-knowledge",,,"林昆辉","Philosophy and Psychology","PPY",0,,"NA","P"
+"生活中的道德怪圈",0.33,"PartialReading","Fastfood-knowledge",,,"Rainer Erlinger","Philosophy and Psychology","PPY",0,,"NO","P"
+"人情与面子：中国人的权力游戏",0.3,"PartialReading","Hard-knowledge","Worldly wisdom",,"黄光国","Society and Culture","SOC",0,,"NA","P"
+"时间的形状",0.01,"RoughReading","Hard-knowledge","Origin of the universe",,,"Physics","PHY",0,"Audio",,
+"每天最重要的2小时",0.01,"RoughReading","Fastfood-knowledge","Self management",,,"Self-development","SDP",1,"Audio",,
+"抗压力",0.01,"RoughReading","Fastfood-knowledge","Self management",,,"Self-development","SDP",1,"Audio",,
+"快节奏，慢生活",0.01,"RoughReading","Fastfood-knowledge","Self management",,,"Self-development","SDP",1,"Audio",,
+"Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC",1,"Audio","E","P"
+"The Crowd",0.01,"RoughReading","Hard-knowledge","Social Psychology",,,"Philosophy and Psychology","PPY",0,"Audio","P","NA"
+"The Death and Life of Great American Cities",0.01,"RoughReading","Hard-knowledge",,,"Jacobs J","Society and Culture","SOC",0,"Audio",,
+"Animal spirits",0.01,"RoughReading","Hard-knowledge",,,"George A.Akedof and Robert J.Shiller","Business & Economics & Management","BEM",0,"Audio",,
+"走到人生的边上",0.01,"RoughReading","Fastfood-knowledge",,,"Yang Jiang","Proses Essays and Poems","PEP",1,"Audio",,
+"智慧书",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,"Audio",,
+"沉思录",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,"Audio",,
+"演说之禅",,"HaveNotRead",,"Public Speaking",,,"Self-development","SDP",,"Audio",,
+"简单思考",0.01,"RoughReading",,"Marketing Management",,,"Self-development","SDP",,"Audio",,
+"微观经济学纵横谈",,"HaveNotRead",,,,,"Business & Economics & Management","BEM",,"Audio",,
+"离经叛道",,"HaveNotRead",,,,,"Business & Economics & Management",,,"Audio",,
+"安静的力量",0.01,"RoughReading",,"Spiritual practice",,,"Self-development","SDP",,"Audio",,
+"上帝掷骰子吗？",,"HaveNotRead",,"Origin of the universe",,,"Physics","PHY",,"Audio",,
+"隐藏的现实：平行宇宙是什么？",,"HaveNotRead",,"Origin of the universe",,,"Physics","PHY",,"Audio",,
+"商业的本质",,"HaveNotRead",,"Marketing Management",,,"Business & Economics & Management","BEM",,"Audio",,
+"相约星期二(Tuesdays with Morrie)",,"HaveNotRead","Hard-knowledge","Meaning of life",,"Morrie","Philosophy and Psychology","PPY",1,"Audio",,
+"文明的冲突",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"魔鬼经济学",0.01,"RoughReading","Fastfood-knowledge","Economics in life",,,"Business & Economics & Management","BEM",1,"Audio",,
+"耶路撒冷三千年",0.01,"RoughReading","Hard-knowledge","History of religions",,,"History","HTY",1,"Audio",,
+"悲剧的诞生",,"HaveNotRead","Meta-Knowledge",,,,"Philosophy and Psychology","PPY",1,"Audio",,
+"第二性",,"HaveNotRead","Hard-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"不平等的代价",,"HaveNotRead","Hard-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"未来简史",0.01,"RoughReading","Hard-knowledge","Future",,,"Society and Culture","SOC",1,"Audio",,
+"菊与刀",0.01,"RoughReading",,,,,"Society and Culture","SOC",1,"Audio",,
+"乡土中国",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"大设计",0.01,"RoughReading","Hard-knowledge","Origin of the universe",,,"Physics","PHY",1,"Audio",,
+"格调",0.01,"RoughReading","Fastfood-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"刻意练习",0.01,"RoughReading","Fastfood-knowledge","How to be an expert?",,,"Self-development","SDP",1,"Audio",,
+"人类简史",0.5,"RoughReading","Hard-knowledge",,,,"History","HTY",1,"Audio",,
+"从0到1",1,"ThroughReading","Fastfood-knowledge","Start business",,,"Self-development","SDP",1,"Audio",,
+"贫穷的本质",0.01,"RoughReading","Fastfood-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"关键时刻",0.01,"RoughReading",,"Executive force",,,"Self-development","SDP",1,"Audio",,
+"决定未来的十种人",0.01,"RoughReading","Fastfood-knowledge","How to innovate?",,,"Self-development","SDP",1,"Audio",,
+"细节：如何轻松影响他人",0.01,"RoughReading","Fastfood-knowledge","Negotiation or persuasion",,,"Self-development","SDP",1,"Audio",,
+"这样和世界相处",,"HaveNotRead",,,,,"Self-development","SDP",1,"Audio",,
+"知道做到",0.01,"RoughReading","Fastfood-knowledge","Self management",,,"Self-development","SDP",1,"Audio",,
+"全新思维",0.01,"RoughReading","Fastfood-knowledge","How to innovate?",,,"Self-development","SDP",1,"Audio",,
+"你的团队需要一个会讲故事的人",,"HaveNotRead",,,,,"Self-development","SDP",1,"Audio",,
+"出版人",,"HaveNotRead",,,,,"Biography","BIO",1,"Audio",,
+"最重要的事，只有一件",0.01,"RoughReading","Fastfood-knowledge","Time Management",,,"Self-development","SDP",1,"Audio",,
+"精益创业",,"HaveNotRead",,"Start business",,,"Business & Economics & Management","BEM",1,"Audio",,
+"反直觉询问",,"HaveNotRead",,"Critical Thinking-Ask Question",,,"Self-development","SDP",1,"Audio",,
+"学会提问",,"HaveNotRead",,"Critical Thinking-Ask Question",,,"Self-development","SDP",1,"Audio",,
+"最小阻力之路",,"HaveNotRead",,,,,"Self-development","SDP",1,"Audio",,
+"理性选民的神话",,"HaveNotRead",,,,,"Society and Culture","SOC",1,"Audio",,
+"意志力",,"HaveNotRead",,,,,"Self-development","SDP",1,"Audio",,
+"逆转",,"HaveNotRead",,,,,,,1,"Audio",,
+"瞬变",,"HaveNotRead",,,,,,,1,"Audio",,
+"理性乐观派(The Rational Optimist)",0.02,"RoughReading","Hard-knowledge","Critical Thinking-Rational",,"Matt Ridley","Society and Culture","SOC",1,"Audio",,
+"提问的艺术",,"HaveNotRead","Fastfood-knowledge","Critical Thinking-Ask Question",,,"Self-development","SDP",1,"Audio",,
+"引爆点",0.01,"RoughReading","Fastfood-knowledge","Social Impact",,,"Business & Economics & Management","BEM",1,"Audio",,
+"愚昧者的愚昧",0.01,"RoughReading","Fastfood-knowledge",,,,"Self-development","SDP",1,"Audio",,
+"清醒思考的艺术",1,"ThroughReading","Hard-knowledge","Critical Thinking-Rational",,,"Self-development","SDP",1,"Audio",,
+"创新者",,"HaveNotRead",,"How to innovate?",,,"Self-development","SDP",1,"Audio",,
+"异类",1,"ThroughReading","Fastfood-knowledge","How to be an expert?",,,"Other","OTH",1,"Audio",,
+"洗脑术",0.01,"RoughReading","Fastfood-knowledge","Negotiation or persuasion",,,"Self-development","SDP",1,"Audio",,
+"沃顿商学院最受欢迎的成功课",,"HaveNotRead",,,,,"Self-development","SDP",1,"Audio",,
+"生猛的进化心理学",,"HaveNotRead",,,,,"Philosophy and Psychology","PPY",1,"Audio",,
+"演讲的力量",,"HaveNotRead","Fastfood-knowledge","Public Speaking",,,"Self-development","SDP",1,"Audio",,
+"解决冲突的关键技巧",,"HaveNotRead","Fastfood-knowledge",,,,"Self-development","SDP",1,"Audio",,
+"情绪急救",,"HaveNotRead",,,,,"Self-development","SDP",1,"Audio",,
+"金钱不能买什么",0.01,"RoughReading","Fastfood-knowledge","Critical Thinking-ethical inquisition",,,"Society and Culture","SOC",1,"Audio",,
+"刻意练习",0.01,"RoughReading","Fastfood-knowledge","How to be an expert?",,,"Self-development","SDP",1,"Audio",,
+"颠覆式创新",0.01,"RoughReading","Fastfood-knowledge","How to innovate?",,,"Self-development","SDP",1,"Audio",,
+"智能时代",,"HaveNotRead","Fastfood-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"蔡康永的说话之道",,"HaveNotRead","Hard-knowledge",,,,"Self-development","SDP",1,"Audio",,
+"抗压力",0.01,"RoughReading","Fastfood-knowledge","Emotion Management",,,"Self-development","SDP",1,"Audio",,
+"高绩效教练",,"HaveNotRead","Fastfood-knowledge",,,,"Self-development","SDP",1,"Audio",,
+"增长的本质",,"HaveNotRead","Fastfood-knowledge",,,,"Self-development","SDP",1,"Audio",,
+"输赢心理学",0.01,"RoughReading",,,,,"Philosophy and Psychology","PPY",1,"Audio",,
+"谈钱不伤感情",,"HaveNotRead",,,,,,,1,"Audio",,
+"海都物语",,"HaveNotRead",,,,,,,1,"Audio",,
+"反脆弱",0.01,"ThroughReading","Hard-knowledge",,,,"Philosophy and Psychology","PPY",1,"Audio",,
+"慢思考：大脑超载时代的思考学",0.01,"RoughReading",,"How to use your brain?",,,"Self-development","SDP",1,"Audio",,
+"请用数据说话",,"HaveNotRead",,"Critical Thinking-Data",,,"Data Science","DAT",1,"Audio",,
+"浪潮之巅",,"HaveNotRead",,,,,,,1,"Audio",,
+"超越智商",0.2,"RoughReading","Hard-knowledge","How to use your brain?",,,"Self-development","SDP",1,"Audio",,
+"无为",0.01,"RoughReading","Hard-knowledge","How to use your brain?",,,"Self-development","SDP",1,"Audio",,
+"快节奏，慢生活",0.01,"RoughReading","Fastfood-knowledge","Time Management",,,"Self-development","SDP",1,"Audio",,
+"翻转式学习",,"HaveNotRead","Fastfood-knowledge","How to study?",,,"Self-development","SDP",1,"Audio",,
+"每天最重要的2小时",0.01,"RoughReading","Fastfood-knowledge","Time Management",,,"Self-development","SDP",1,"Audio",,
+"混乱",0.01,"RoughReading","Fastfood-knowledge","Time Management",,,"Self-development","SDP",1,"Audio",,
+"技术奇点",,"HaveNotRead","Fastfood-knowledge",,,,"Society and Culture","SOC",1,"Audio",,
+"极简人类史",,"HaveNotRead","Hard-knowledge","Human history",,,"History","HTY",1,"Audio",,
+"优秀的绵羊",,"HaveNotRead","Fastfood-knowledge",,,,,,1,"Audio",,
+"创业融资，从一个好故事开始",,"HaveNotRead","Fastfood-knowledge","Start business",,,"Business & Economics & Management","BEM",1,"Audio",,
+"从零开始学理财",,"HaveNotRead","Fastfood-knowledge","Wealth Management",,,"Self-development","SDP",1,"Audio",,
+"分享时代：如何缔造影响力",0.01,"RoughReading","Fastfood-knowledge","Social Impact",,,"Self-development","SDP",1,"Audio",,
+"为什么常识会撒谎",0.01,"RoughReading","Hard-knowledge","Critical Thinking-Rational",,,"Philosophy and Psychology","PPY",1,"Audio",,
+"男人来自火星，女人来自金星",,"HaveNotRead","Fastfood-knowledge","Gender difference",,,"Gender","GND",1,"Audio",,
+"博恩·崔西的时间管理课",,"HaveNotRead","Fastfood-knowledge","Time Management",,,"Self-development","SDP",1,"Audio",,
+"整合",,"HaveNotRead","Fastfood-knowledge",,,,"Self-development","SDP",1,"Audio",,
+"理财最重要的事",,"HaveNotRead","Fastfood-knowledge","Wealth Management",,,"Self-development","SDP",1,"Audio",,
+"设计思维玩转创业",,"HaveNotRead","Fastfood-knowledge","Start business",,,"Self-development","SDP",1,"Audio",,
+"心思大开",0.01,"RoughReading","Hard-knowledge","How to use your brain?",,,"Philosophy and Psychology","PPY",1,"Audio",,
+"我们如何走到今天",0.01,"RoughReading","Fact-knowledge","History of technology",,,"History","SOC",1,"Audio",,
+"The 100-Year Life: Living and working in an age of longevity(百岁人生)",0.01,"RoughReading","Fastfood-knowledge","What is the future?",1,"Andrew Scott & Lynda Gratton","Society and Culture","SOC",1,"Audio",,
+"Your Survival Instinct Is Killing You (你的生存本能正在杀死你)",0.01,"RoughReading","Fastfood-knowledge","Evolutionary psychology",,"Marc Schoen & Kristin Loberg ","Philosophy and Psychology","PPY",1,"Audio",,
+"心灵的七种兵器",0.01,"RoughReading","Fastfood-knowledge","Subconscious ",,"武志红","Self-development","SDP",1,"Audio",,
+"成功的真谛",0.01,"RoughReading","Fastfood-knowledge","稻盛和夫哲学",,"稻盛和夫","Self-development","SDP",1,"Audio",,
+"麦肯锡精英的思考习惯",,"RoughReading","Fastfood-knowledge","Emotion Management",,,"Self-development","SDP",1,"Audio",,
