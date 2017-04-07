@@ -1,4 +1,4 @@
-"Name","Progress","ProDetail","KnowledgeType","Topic","Summary","Priority","Category","CATE_CODE","Author",,"CN","EN"
+"Name","Progress","ProDetail","KnowledgeType","Topic","Summary","Priority","Category","CATE_CODE","Author","Audio","CN","EN"
 "Listen to Music",0,"HaveNotRead","Hard-knowledge","Music Appreciation",0,1,"Art","ART","Craig Wright",,"P","NA"
 "Skin Aging",0.2,"PartialReading","Hard-knowledge","Beauty-Theory",0,1,"Beauty&Health","BTH","Gilchrest, Barbara A.",,"P","NA"
 "Cosmeceuticals and Cosmetic Ingredients",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",0,1,"Beauty&Health","BTH","Baumann, Leslie",,"P","NA"
@@ -17,7 +17,7 @@
 "How to Create a Mind: The Secret of Human Thought Revealed",0.1,"PartialReading",,,0,1,"Other","OTH","Kurzweil, Ray",,"P","NA"
 "Going Solo: The Extraordinary Rise and Surprising Appeal of Living Alone (单身社会)",0.2,"RoughReading","Hard-knowledge",,0,1,"Philosophy and Psychology","PPY","Eric Klinenberg",,"P","NA"
 "思考快与慢(Thinking Fast and Slow)",1,"ThroughReading","Meta-Knowledge","Critical Thinking-Rational",0,1,"Philosophy and Psychology","PPY","Daniel Kahneman",,"P","NA"
-"孙子兵法(The Art of War)",1,"ThroughReading","Meta-Knowledge",,0,1,"Philosophy and Psychology","PPY","Sun Tzu",,"P","NA"
+"孙子兵法(The Art of War)",1,"IntensiveReading","Meta-Knowledge",,0,1,"Philosophy and Psychology","PPY","Sun Tzu",,"P","NA"
 "The Theory of Moral Sentiments(道德情操论)",1,"ThroughReading",,,0,1,"Philosophy and Psychology","PPY","Adam Smith",,"P","NA"
 "洗脑术：怎样有逻辑地说服他人",1,"ThroughReading",,,0,1,"Philosophy and Psychology","PPY","高德",,"P","NA"
 "亲密关系(Intimate Relationship)",1,"ThroughReading",,,0,1,"Philosophy and Psychology","PPY","Rowland S Miller and Daniel Perlman",,"P","NA"
@@ -37,7 +37,7 @@
 "抗压力",0.01,"RoughReading","Fastfood-knowledge","Stress Management",0,1,"Self-development","SDP",,,"P","P"
 "快节奏，慢生活",0.01,"RoughReading","Fastfood-knowledge","Self management",0,1,"Self-development","SDP",,,"P","NA"
 "Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge",,0,1,"Society and Culture","SOC",,,"P","NO"
-"走到人生的边上",0.01,"RoughReading","Fastfood-knowledge",,0,1,"Proses Essays and Poems","PEP","Yang Jiang",,"P","NA"
+"走到人生的边上",0.01,"RoughReading","Hard-knowledge","Meaning of life",0,1,"Proses Essays and Poems","PEP","Yang Jiang","Audio","P","NA"
 "智慧书",0.01,"ThroughReading","Hard-knowledge",,0,1,"Philosophy and Psychology","PPY",,,"P","NA"
 "沉思录",0.01,"ThroughReading","Hard-knowledge",,0,1,"Philosophy and Psychology","PPY",,,"P","NA"
 "相约星期二(Tuesdays with Morrie)",,"HaveNotRead","Hard-knowledge","Meaning of life",0,1,"Philosophy and Psychology","PPY","Morrie",,"P","NA"
@@ -603,7 +603,7 @@
 "Getting Ahead: Three Steps to Take Your Career to the Next Level",1,"ThroughReading",,"Worldly wisdom",0,0,"Self-development","SDP"," Joel A Garfinkle",,"NA","P"
 "软能力",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
 "心理操纵术",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
-,,,,,,,,,,,,
+"美国大城市的死于生",1,"RoughReading","Hard-knowledge",,0,0,"Society and Culture","SOC","Jane Jacobs",,,
 "好好修养爱",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
 "两个人的孤独",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
 "赢",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
