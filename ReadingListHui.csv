@@ -34,7 +34,7 @@
 "大连接(Connected)",0.5,"PartialReading",,,0,1,"Society and Culture","SOC"," Nicholas A Christakis &  James H Fowler",,"P","NA"
 "娱乐至死(Amusing ourselves to death)",0.5,"PartialReading",,,0,1,"Society and Culture","SOC","Nell Postman",,"P","NA"
 "每天最重要的2小时",0.01,"RoughReading","Fastfood-knowledge","Self management",0,1,"Self-development","SDP",,,"P","NA"
-"抗压力",0.01,"RoughReading","Fastfood-knowledge","Self management",0,1,"Self-development","SDP",,,"P","P"
+"抗压力",0.01,"RoughReading","Fastfood-knowledge","Stress Management",0,1,"Self-development","SDP",,,"P","P"
 "快节奏，慢生活",0.01,"RoughReading","Fastfood-knowledge","Self management",0,1,"Self-development","SDP",,,"P","NA"
 "Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge",,0,1,"Society and Culture","SOC",,,"P","NO"
 "走到人生的边上",0.01,"RoughReading","Fastfood-knowledge",,0,1,"Proses Essays and Poems","PEP","Yang Jiang",,"P","NA"
@@ -68,9 +68,11 @@
 "精益创业",,"HaveNotRead",,"Start business",0,1,"Business & Economics & Management","BEM",,,"P","NA"
 "反直觉询问",,"HaveNotRead",,"Critical Thinking-Ask Question",0,1,"Self-development","SDP",,,"E","P"
 "学会提问",,"HaveNotRead",,"Critical Thinking-Ask Question",0,1,"Self-development","SDP",,,"P","NO"
-"最小阻力之路",,"HaveNotRead",,,0,1,"Self-development","SDP",,,"P","NA"
+"最小阻力之路",0.01,"HaveNotRead","Fastfood-knowledge","Develop good habit",0,1,"Self-development","SDP",,,"P","NA"
 "理性选民的神话",,"HaveNotRead",,,0,1,"Society and Culture","SOC",,,"NA","P"
-"意志力",,"HaveNotRead",,"Develop good habit",0,1,"Self-development","SDP",,,"P","NA"
+"Willpower(意志力)",0.01,"RoughReading","Hard-knowledge","Will Power",0,1,"Self-development","SDP","Roy F. Baumeister & John Tierney",,"P","NA"
+"The Willpower Instinct(自控力)",1,"ThroughReading","Hard-knowledge","Will Power",0,1,"Self-development","SDP","Kelly McGonigal",,"NA","P"
+"The Power of Habit(习惯的力量)",0.01,"RoughReading","Hard-knowledge","Will Power",0,1,"Self-development","SDP","Charles Duhigg",,,
 "逆转",0.01,"RoughReading","Fastfood-knowledge",,0,1,"Self-development","SDP","Malcolm Gladwell",,"NO","P"
 "引爆点",0.01,"RoughReading","Fastfood-knowledge","Social Impact",0,1,"Business & Economics & Management","BEM","Malcolm Gladwell",,"E","NA"
 "瞬变",0.01,"RoughReading","Fastfood-knowledge","Develop good habit",0,1,"Self-development","SDP",,,"P","NO"
@@ -84,7 +86,8 @@
 "沃顿商学院最受欢迎的成功课",,"HaveNotRead",,,0,1,"Self-development","SDP",,,"P","NO"
 "生猛的进化心理学",,"HaveNotRead",,,0,1,"Philosophy and Psychology","PPY",,,"P","NO"
 "演讲的力量",,"HaveNotRead","Fastfood-knowledge","Public Speaking",0,1,"Self-development","SDP",,,"P","NO"
-"解决冲突的关键技巧",,"HaveNotRead","Fastfood-knowledge",,0,1,"Self-development","SDP",,,"NA","NO"
+"Changing the Conversation(解决冲突的关键技巧)",0.01,"RoughReading","Fastfood-knowledge","Social Skill",0,1,"Self-development","SDP","Dana Caspersen & Joost Elffers ",,"NA","NO"
+"所谓情商高，就是会说话",0.01,"RoughReading","Fastfood-knowledge","Social Skill",0,1,"Self-development","SDP","佐佐木圭一",,,
 "情绪急救",,"HaveNotRead",,,0,1,"Self-development","SDP",,,"NA","P"
 "金钱不能买什么",0.01,"RoughReading","Fastfood-knowledge","Critical Thinking-ethical inquisition",0,1,"Society and Culture","SOC",,,"NA","P"
 "刻意练习",0.01,"RoughReading","Fastfood-knowledge","How to be an expert?",0,1,"Self-development","SDP",,,"NO","P"
@@ -124,7 +127,7 @@
 "Your Survival Instinct Is Killing You (你的生存本能正在杀死你)",0.01,"RoughReading","Fastfood-knowledge","Evolutionary psychology",0,1,"Philosophy and Psychology","PPY","Marc Schoen & Kristin Loberg ",,"E","NA"
 "心灵的七种兵器",0.01,"RoughReading","Fastfood-knowledge","Subconscious ",0,1,"Self-development","SDP","武志红",,"P","NA"
 "成功的真谛",0.01,"RoughReading","Fastfood-knowledge","稻盛和夫哲学",0,1,"Self-development","SDP","稻盛和夫",,"P","NA"
-"麦肯锡精英的思考习惯",,"RoughReading","Fastfood-knowledge","Emotion Management",0,1,"Self-development","SDP",,,"P","NA"
+"麦肯锡精英的思考习惯",0.01,"RoughReading","Fastfood-knowledge","Stress Management",0,1,"Self-development","SDP",,,"P","NA"
 "艺用人体结构运动学",0.01,"PartialReading",,,0,0,"Art","ART",,,"P","P"
 "建筑的七盏明灯",0.01,"PartialReading",,,0,0,"Art","ART",,,"P","NO"
 "CEO西服学",0.05,"PartialReading",,,0,0,"Art","ART",,,"P","P"
@@ -600,7 +603,7 @@
 "Getting Ahead: Three Steps to Take Your Career to the Next Level",1,"ThroughReading",,"Worldly wisdom",0,0,"Self-development","SDP"," Joel A Garfinkle",,"NA","P"
 "软能力",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
 "心理操纵术",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
-"自控力",1,"ThroughReading","Hard-knowledge","How to self-discipline?",0,0,"Philosophy and Psychology","PPY",,,"NA","P"
+,,,,,,,,,,,,
 "好好修养爱",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
 "两个人的孤独",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
 "赢",1,"ThroughReading",,,0,0,"Self-development","SDP",,,"NA","P"
@@ -739,3 +742,5 @@
 "上帝掷骰子吗？",,"HaveNotRead",,"Origin of the universe",0,0,"Physics","PHY",,,,
 "隐藏的现实：平行宇宙是什么？",,"HaveNotRead",,"Origin of the universe",0,0,"Physics","PHY",,,,
 "商业的本质",,"HaveNotRead",,"Marketing Management",0,0,"Business & Economics & Management","BEM",,,,
+"人性的弱点",0.01,"RoughReading","Fastfood-knowledge","Social Skill",1,0,"Self-development","SDP",,,,
+"Animal Spirits(动物精神)",0.01,"RoughReading","Hard-knowledge","Psychological forces under global financial crisis",1,0,"Society and Culture","SOC",,,,
