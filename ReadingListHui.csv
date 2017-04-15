@@ -33,7 +33,7 @@
 "失控(Out of Control)",0.01,"RoughReading","Hard-knowledge",,0,1,"Society and Culture","SOC","Audio","P","NA","Kevin Kelly"
 "大连接(Connected)",0.5,"PartialReading","Hard-knowledge",,0,1,"Society and Culture","SOC","Audio","P","NA"," Nicholas A Christakis &  James H Fowler"
 "娱乐至死(Amusing ourselves to death)",0.5,"PartialReading","Hard-knowledge",,0,1,"Society and Culture","SOC","Audio","P","NA","Nell Postman"
-"每天最重要的2小时 (Two Awesome Hours)",0.01,"RoughReading","Fastfood-knowledge","Self management",0,1,"Self-development","SDP","Audio","P","NA",
+"每天最重要的2小时 (Two Awesome Hours)",0.01,"RoughReading","Fastfood-knowledge","Self management",1,1,"Self-development","SDP","Audio","P","NA","Josh Davis"
 "抗压力",0.01,"RoughReading","Fastfood-knowledge","Stress Management",0,1,"Self-development","SDP","Audio","P","P",
 "快节奏，慢生活(Mindful Tech)",0.01,"RoughReading","Fastfood-knowledge","Self management",0,1,"Self-development","SDP","Audio","P","NA","David M. Levy"
 "Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge","Human history",0,1,"Society and Culture","SOC","Audio","P","NO",
@@ -105,8 +105,8 @@
 "无为(Trying not to try)",0.01,"RoughReading","Hard-knowledge","How to use your brain?",0,1,"Self-development","SDP","Audio","E","NA",
 "翻转式学习",0.01,"RoughReading","Hard-knowledge","Children education",0,1,"Other","OTH","Audio","NO","E",
 "The Human Advantage(最强大脑)",0.01,"RoughReading","Hard-knowledge","How to use your brain?",0,1,"Philosophy and Psychology","PPY","Audio","NO","NO","Suzana Herculano-Houzel"
-"每天最重要的2小时",0.01,"RoughReading","Fastfood-knowledge","Time Management",0,1,"Self-development","SDP","Audio","NO","P",
-"混乱",0.01,"RoughReading","Fastfood-knowledge","Time Management",0,1,"Self-development","SDP","Audio","P","NO",
+"Two Awesome Hours(每天最重要的2小时)",0.01,"RoughReading","Fastfood-knowledge","Time Management",0,1,"Self-development","SDP","Audio","NO","P","Josh Davis"
+"混乱(Messy: The Power of Disorder to Transform Our Lives)",0.01,"RoughReading","Fastfood-knowledge","Time Management",0,1,"Self-development","SDP","Audio","P","NO","Tim Harford"
 "技术奇点",,"HaveNotRead","Fastfood-knowledge","AI",0,1,"Society and Culture","SOC","Audio","P","NO",
 "极简人类史(This Fleeting World)",0.01,"RoughReading","Hard-knowledge","Human history",0,1,"History","HTY","Audio","NA","P","David Christian "
 "优秀的绵羊",,"HaveNotRead","Fastfood-knowledge","Children education",0,1,"Other","OTH","Audio","P","NA",
