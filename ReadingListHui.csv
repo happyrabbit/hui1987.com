@@ -186,7 +186,7 @@
 "互联网进化论",0.01,"RoughReading","Fastfood-knowledge",,0,0,"Business & Economics & Management","BEM",,"NO","P",
 "策略思维",0.01,"PartialReading","Hard-knowledge","Critical Thinking-Decision",0,0,"Business & Economics & Management","BEM",,"P","P",
 "产业链阴谋III ",0.1,"PartialReading","Fastfood-knowledge","Chinese Economy ",0,0,"Business & Economics & Management","BEM",,"NA","P",
-"创新者的窘境(The Innovator's Dilemma)",0.1,"PartialReading","Hard-knowledge","How to innovate?",0,0,"Business & Economics & Management","BEM",,"NA","P"," C M Christensen"
+"创新者的窘境(The Innovator's Dilemma)",0.1,"PartialReading","Hard-knowledge","How to innovate?",0,0,"Business & Economics & Management","BEM","Audio","NA","P"," C M Christensen"
 "品牌洗脑(Brand Washed)",1,"ThroughReading","Fastfood-knowledge","Negotiation or persuasion",0,0,"Business & Economics & Management","BEM",,"P","P","Martin Lindstrom"
 "中国经济缺什么（陈志武、茅于轼、斯蒂格利茨等15位经济学家分析中国经济大趋势，解局中国怎么办，共谋拯救中国经济之良策。）d11",0.2,"PartialReading","Fastfood-knowledge","Chinese Economy ",0,0,"Business & Economics & Management","BEM",,"NA","P",
 "长尾理论",0.5,"PartialReading","Hard-knowledge","Marketing Management",0,0,"Business & Economics & Management","BEM",,"p","NA",
@@ -615,7 +615,7 @@
 "Dealing with Difficult People",0,"HaveNotRead",,"Worldly wisdom",0,0,"Self-development","SDP",,"P","NA","Sandra A Crowe"
 "说真话的艺术(Telling each other the truth)",0,"HaveNotRead",,,0,0,"Self-development","SDP",,"NO","P","William Backus"
 "细节营销(Marketing Revealed: Challenging the Myths)",0,"HaveNotRead",,,0,0,"Self-development","SDP",,"NO","P","Willem Burgers"
-"创新者的思考",0,"HaveNotRead",,"How to innovate?",0,0,"Self-development","SDP",,"NA","P","大前研一"
+"创新者的思考",0,"HaveNotRead",,"How to innovate?",0,0,"Self-development","SDP","Audio","NA","P","大前研一"
 "看清你的思维图谱 (Thinking Visually)",0.1,"HaveNotRead",,,0,0,"Self-development","SDP",,"NA","P","Malcolm Craig"
 "品红酒(The taste of red wine)",0.05,"HaveNotRead",,,0,0,"Self-development","SDP",,"NA","P","Louis Guillem"
 "重来（rework）",1,"ThroughReading","Fastfood-knowledge","Time Management",0,0,"Self-development","SDP",,"NA","P","37Signals"
@@ -742,3 +742,4 @@
 "商业的本质",,"HaveNotRead",,"Marketing Management",0,0,"Business & Economics & Management","BEM",,,,
 "人性的弱点",0.01,"RoughReading","Fastfood-knowledge","Social Skill",1,0,"Self-development","SDP",,,,
 "Animal Spirits(动物精神)",0.01,"RoughReading","Hard-knowledge","Psychological forces under global financial crisis",1,0,"Society and Culture","SOC",,,,
+"Wired to Create: Unraveling the Mysteries of the Creative Mind (异想天开)",0.01,"RoughReading","Fastfood-knowledge","How to innovate?",1,1,"Self-development","SDP","Audio",,,"Scott Barry Kaufman & Carolyn Gregoire"
