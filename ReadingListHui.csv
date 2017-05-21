@@ -43,7 +43,6 @@
 "关键时刻",0.01,"RoughReading",,"Executive force",0,1,"Business & Economics & Management","BEM","Audio","P","NO",
 "The Old Regime and the French Revolution ",0.01,"RoughReading","Hard-knowledge","French Revolution",0,1,"Philosophy and Psychology","PPY","Audio","NA","P","Alexis de Tocqueville"
 "未来简史",0.01,"RoughReading","Hard-knowledge","Future",0,1,"Society and Culture","SOC","Audio","P","NO",
-"男人来自火星，女人来自金星",,"HaveNotRead","Fastfood-knowledge","Gender difference",0,1,"Gender","GND","Audio","P","NA",
 "耶路撒冷三千年",0.01,"RoughReading","Hard-knowledge","History of religions",0,1,"History","HTY","Audio","P","NA",
 "我们如何走到今天",0.01,"RoughReading","Fact-knowledge","History of technology",0,1,"History","SOC","Audio","P","NO",
 "The Glass Cage(玻璃笼子)",0.1,"RoughReading","Fastfood-knowledge","How technology is changing us?",0,1,"Society and Culture","SOC","Audio","NO","NO","Nicholas Carr"
@@ -62,8 +61,8 @@
 "无为(Trying not to try)",0.01,"RoughReading","Hard-knowledge","How to use your brain?",0,1,"Self-development","SDP","Audio","E","NA",
 "The Human Advantage(最强大脑)",0.01,"RoughReading","Hard-knowledge","How to use your brain?",0,1,"Philosophy and Psychology","PPY","Audio","NO","NO","Suzana Herculano-Houzel"
 "心思大开(Mind Wide Open)",0.01,"RoughReading","Hard-knowledge","How to use your brain?",0,1,"Philosophy and Psychology","PPY","Audio","P","NO",
-"Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge","Human history",0,1,"Society and Culture","SOC","Audio","P","NO",
-"极简人类史(This Fleeting World)",0.01,"RoughReading","Hard-knowledge","Human history",0,1,"History","HTY","Audio","NA","P","David Christian "
+"Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge","Big history",0,1,"History","HTY","Audio","P","NO",
+"极简人类史(This Fleeting World)",0.01,"RoughReading","Hard-knowledge","Big history",0,1,"History","HTY","Audio","NA","P","David Christian "
 "这样和世界相处",0.01,"RoughReading","Hard-knowledge","Individual psychology",0,1,"Philosophy and Psychology","PPY","Audio","E","P","Alfred Adler"
 "The 5 Money Personalities(谈钱不伤感情)",0.01,"RoughReading","Fastfood-knowledge","Intimate Relationship",0,1,"Self-development","SDP","Audio","P","NA",
 "菊与刀",0.01,"RoughReading","Hard-knowledge","Japanese Culture",0,1,"Society and Culture","SOC","Audio","NO","P",
