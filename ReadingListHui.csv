@@ -6,7 +6,7 @@
 "A Consumer's Dictionary of Cosmetic Ingredients, 7th Edition",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",0,1,"Beauty&Health","BTH",,"P","NA","Winter, Ruth"
 "Guns, Germs and Steels",0.01,"RoughReading","Hard-knowledge","Big history",0,1,"History","HTY","Audio","P","NO",
 "极简人类史(This Fleeting World)",0.01,"RoughReading","Hard-knowledge","Big history",0,1,"History","HTY","Audio","NA","P","David Christian "
-"翻转式学习",0.01,"RoughReading","Hard-knowledge","Children education",0,1,"Other","OTH","Audio","NO","E",
+,0.01,"RoughReading","Hard-knowledge","Children education",0,1,"Other","OTH","Audio","NO","E",
 "优秀的绵羊",,"HaveNotRead","Fastfood-knowledge","Children education",0,1,"Other","OTH","Audio","P","NA",
 "产业链阴谋III ",0.1,"PartialReading","Fastfood-knowledge","Chinese Economy ",0,0,"Business & Economics & Management","BEM",,"NA","P",
 "中国经济缺什么（陈志武、茅于轼、斯蒂格利茨等15位经济学家分析中国经济大趋势，解局中国怎么办，共谋拯救中国经济之良策。）d11",0.2,"PartialReading","Fastfood-knowledge","Chinese Economy ",0,0,"Business & Economics & Management","BEM",,"NA","P",
@@ -107,7 +107,9 @@
 "Changing the Conversation(解决冲突的关键技巧)",0.01,"RoughReading","Fastfood-knowledge","Social Skill",0,1,"Self-development","SDP","Audio","NA","NO","Dana Caspersen & Joost Elffers "
 "所谓情商高，就是会说话",0.01,"RoughReading","Fastfood-knowledge","Social Skill",0,1,"Self-development","SDP","Audio",,,"佐佐木圭一"
 "The Introverted Leader(内向者的沟通圣经)",0.01,"RoughReading","Fastfood-knowledge","Social Skill",0,1,"Self-development","SDP","Audio","NO","NO ","Jennifer B. Kahnweiler"
-"人性的弱点",0.01,"RoughReading","Fastfood-knowledge","Social Skill",1,0,"Self-development","SDP",,,,
+"蔡康永的说话之道",0.01,"RoughReading","Fastfood-knowledge","Social Skill",0,1,"Self-development","SDP","Audio","P","P",
+"Loud & Clear (如何实现有效社交)",0.01,"RoughReading","Fastfood-knowledge","Social Skill",0,1,"Self-development","SDP","Audio",,,"Karen Berg"
+"how to win friends and influence people (人性的弱点)",0.01,"RoughReading","Fastfood-knowledge","Social Skill",1,0,"Self-development","SDP",,,,
 "安静的力量",0.01,"RoughReading","Fastfood-knowledge","Spiritual practice",0,0,"Self-development","SDP",,,,
 "精益创业",,"HaveNotRead","Fastfood-knowledge","Start business",0,1,"Business & Economics & Management","BEM","Audio","P","NA",
 "创业融资，从一个好故事开始",,"HaveNotRead","Fastfood-knowledge","Start business",0,1,"Business & Economics & Management","BEM","Audio","P","NO",
@@ -623,7 +625,6 @@
 "你的团队需要一个会讲故事的人",,"HaveNotRead",,,0,1,"Self-development","SDP","Audio","P","NA",
 "愚昧者的愚昧",0.01,"RoughReading","Fastfood-knowledge",,0,1,"Self-development","SDP","Audio","P","NO",
 "沃顿商学院最受欢迎的成功课",,"HaveNotRead",,,0,1,"Self-development","SDP","Audio","P","NO",
-"蔡康永的说话之道",,"HaveNotRead","Hard-knowledge",,0,1,"Self-development","SDP","Audio","P","P",
 "低智商社会",0.01,"PartialReading",,,0,0,"Self-development","SDP",,"P","NA","大前研一"
 "专业主义",0.5,"PartialReading",,,0,0,"Self-development","SDP",,"P","NA","大前研一"
 "Secrets to Winning at Office Politics: How to Achieve Your Goals and Increase Your Influence at Work",1,"ThroughReading",,,0,0,"Self-development","SDP",,"P","NA","Marie G. McIntyre"
