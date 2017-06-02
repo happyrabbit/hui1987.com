@@ -1,6 +1,6 @@
 "Name","Progress","ProDetail","KnowledgeType","Topic","Summary","Priority","Category","CATE_CODE","Audio","CN","EN","Author"
-"浪潮之巅",,"HaveNotRead","Fastfood-knowledge","AI",0,1,"Society and Culture","SOC","Audio","E","P","吴军"
-"技术奇点",,"HaveNotRead","Fastfood-knowledge","AI",0,1,"Society and Culture","SOC","Audio","P","NO",
+"浪潮之巅",,"HaveNotRead","Fastfood-knowledge","Technology-AI",0,1,"Society and Culture","SOC","Audio","E","P","吴军"
+"技术奇点",,"HaveNotRead","Fastfood-knowledge","Technology-AI",0,1,"Society and Culture","SOC","Audio","P","NO",
 "Skin Aging",0.2,"PartialReading","Hard-knowledge","Beauty-Theory",0,1,"Beauty&Health","BTH",,"P","NA","Gilchrest, Barbara A."
 "Cosmeceuticals and Cosmetic Ingredients",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",0,1,"Beauty&Health","BTH",,"P","NA","Baumann, Leslie"
 "A Consumer's Dictionary of Cosmetic Ingredients, 7th Edition",0,"HaveNotRead","Hard-knowledge","Beauty-Theory",0,1,"Beauty&Health","BTH",,"P","NA","Winter, Ruth"
@@ -171,6 +171,7 @@ And Dan Heath"
 "Dealing with Difficult People",0,"HaveNotRead",,"Worldly wisdom",0,0,"Self-development","SDP",,"P","NA","Sandra A Crowe"
 "人情与面子：中国人的权力游戏",0.3,"PartialReading","Hard-knowledge","Worldly wisdom",0,0,"Society and Culture","SOC",,,,"黄光国"
 "成功的真谛",0.01,"RoughReading","Fastfood-knowledge","稻盛和夫哲学",0,1,"Self-development","SDP","Audio","P","NA","稻盛和夫"
+"Everybody Lies",0.01,"RoughReading","Fastfood-knowledge","What the Data Can Tell Us About Who We Really Are",,,"Data Science","DAT","Audio","NA","NO","Seth Stephens-Davidowitz"
 "艺用人体结构运动学",0.01,"PartialReading",,,0,0,"Art","ART",,"P","P",
 "建筑的七盏明灯",0.01,"PartialReading",,,0,0,"Art","ART",,"P","NO",
 "CEO西服学",0.05,"PartialReading",,,0,0,"Art","ART",,"P","P",
