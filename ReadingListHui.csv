@@ -73,7 +73,7 @@ And Dan Heath"
 "无为(Trying not to try)",0.01,"RoughReading","Hard-knowledge","How to use your brain?",0,1,"Self-development","SDP","Audio","E","NA",
 "这样和世界相处",0.01,"RoughReading","Hard-knowledge","Individual psychology",0,1,"Philosophy and Psychology","PPY","Audio","E","P","Alfred Adler"
 "The 5 Money Personalities(谈钱不伤感情)",0.01,"RoughReading","Fastfood-knowledge","Intimate Relationship",0,1,"Self-development","SDP","Audio","P","NA",
-"菊与刀",0.01,"RoughReading","Hard-knowledge","Japanese Culture",0,1,"Society and Culture","SOC","Audio","NO","P",
+"菊与刀（Ruth Benedict）",0.01,"RoughReading","Hard-knowledge","Japanese Culture",0,1,"Society and Culture","SOC","Audio","NO","P","Ruth Benedict"
 "Marketing Management (14e Edition)",0.4,"PartialReading","Meta-Knowledge","Marketing Management",0,1,"Business & Economics & Management","BEM",,"P","NA","Kotler and Keller"
 "长尾理论",0.5,"PartialReading","Hard-knowledge","Marketing Management",0,0,"Business & Economics & Management","BEM",,"p","NA",
 "Free: How Today's Smartest Businesses Profit by Giving Something for Nothing ",0.5,"PartialReading","Hard-knowledge","Marketing Management",0,0,"Business & Economics & Management","BEM",,,"NO",
@@ -125,6 +125,8 @@ And Dan Heath"
 "简单思考",0.01,"RoughReading","Fastfood-knowledge","Start business",0,1,"Self-development","SDP",,,,"森川亮"
 "抗压力",0.01,"RoughReading","Fastfood-knowledge","Stress Management",0,1,"Self-development","SDP","Audio","P","P",
 "麦肯锡精英的思考习惯",0.01,"RoughReading","Fastfood-knowledge","Stress Management",0,1,"Self-development","SDP","Audio","P","NA",
+"It Wasn't Your Fault (这不是你的错)",0.01,"RoughReading","Hard-knowledge","Psychic Trauma",,,"Philosophy and Psychology","PHY","Audio",,,"Beverly Engel LMFT"
+"The Disease To Please (取悦症)",0.01,"RoughReading","Hard-knowledge","Mental Disease",,,"Philosophy and Psychology","PHY","Audio",,,"Harriet B. Braiker"
 "心灵的七种兵器",0.01,"RoughReading","Fastfood-knowledge","Subconscious ",0,1,"Self-development","SDP","Audio","P","NA","武志红"
 "孙子兵法(The Art of War)",1,"IntensiveReading","Meta-Knowledge","Tactics",0,1,"Philosophy and Psychology","PPY",,"P","NA","Sun Tzu"
 "三十六计",1,"ThroughReading","Meta-Knowledge","Tactics",0,0,"Philosophy and Psychology","PPY",,"P","NA",
@@ -147,8 +149,9 @@ And Dan Heath"
 "富爸爸穷爸爸(Rich Dad Poor Dad)",1,"ThroughReading","Fastfood-knowledge","Wealth Management",0,1,"Self-development","SDP","Audio","NO","NO","Robert Kiyosaki and Sharon Lechter"
 "富爸爸投资指南 (Rich Dad's Guide to Investing)",0.01,"RoughReading","Fastfood-knowledge","Wealth Management",0,1,"Self-development","SDP","Audio","NO","NO","Robert Kiyosaki and Sharon Lechter"
 "投资中最简单的事",0.01,"RoughReading","Fastfood-knowledge","Wealth Management",0,1,"Self-development","SDP","Audio","NO","NO","邱国鹭"
-"The 9 Steps to Financial Freedom",0.01,"RoughReading","Fastfood-knowledge","Wealth Management",0,1,"Self-development","SDP",,"NA","P","Orman, Suze"
-"学会花钱",0.01,"RoughReading","Fastfood-knowledge","Wealth Management",,,"Self-development","SDO","Audio",,,"野口真人"
+"The 9 Steps to Financial Freedom",0.01,"RoughReading","Fastfood-knowledge","Wealth Management",0,1,"Self-development","SDP","Audio","NA","P","Orman, Suze"
+"学会花钱",0.01,"RoughReading","Fastfood-knowledge","Wealth Management",,,"Self-development","SDP","Audio",,,"野口真人"
+"Personal Finance",0.01,"RoughReading","Hard-knowledge","Wealth Management",,,"Self-development","SDP","Audio",,,"Arthur J. Keown"
 "The 100-Year Life: Living and working in an age of longevity(百岁人生)",0.01,"RoughReading","Fastfood-knowledge","What is the future?",0,1,"Society and Culture","SOC","Audio","E","NA","Andrew Scott & Lynda Gratton"
 "贫穷的本质(Poor Economics: A Radical Thinking of the Way to Fight Global Poverty)",0.01,"RoughReading","Hard-knowledge","Why are people poor?",0,1,"Society and Culture","SOC","Audio","P","NO","Abhijit Banerjee and Esther Duflo"
 "Willpower(意志力)",0.01,"RoughReading","Hard-knowledge","Will Power/Habit",0,1,"Self-development","SDP","Audio","P","NA","Roy F. Baumeister & John Tierney"
