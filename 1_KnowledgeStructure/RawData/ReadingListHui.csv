@@ -30,6 +30,7 @@
 "The Black Swan(黑天鹅)",1,"RoughReading","Hard-knowledge","Critical Thinking-Uncertainty",0,1,"Philosophy and Psychology","PPY","Audio","P","NA","Nassim Nicholas Taleb","DeDao"
 "Antifragile(反脆弱)",1,"ThroughReading","Hard-knowledge","Critical Thinking-Uncertainty",0,1,"Philosophy and Psychology","PPY","Audio","P","NA","Nassim Nicholas Taleb","DeDao"
 "Superforecasting(超预测)",0.01,"RoughReading","Hard-knowledge","Critical Thinking-Uncertainty",,,"Philosophy and Psychology","PPY","Audio","P",,"Philip E. Tetlock & Dan Gardner","DeDao"
+"Risk Savvy  (风险与好的决策)",0.01,"RoughReading","Hard-knowledge","Critical Thinking-Uncertainty",,,"Philosophy and Psychology","PPY","Audio","P",,"Gerd Gigerenzer",
 "知道做到",0.01,"RoughReading","Fastfood-knowledge","Develop good habit",0,1,"Self-development","SDP","Audio","E","P",,
 "最小阻力之路",0.01,"HaveNotRead","Fastfood-knowledge","Develop good habit",0,1,"Self-development","SDP","Audio","P","NA",,
 "瞬变",0.01,"RoughReading","Fastfood-knowledge","Develop good habit",0,1,"Self-development","SDP","Audio","P","NO",,
@@ -79,7 +80,7 @@
 "这样和世界相处",0.01,"RoughReading","Hard-knowledge","Individual psychology",0,1,"Philosophy and Psychology","PPY","Audio","E","P","Alfred Adler",
 "The Smarter Screen",1,"ThroughReading","Hard-knowledge","Information age and human attention",0,1,"Philosophy and Psychology","PPY","Audio","NO","P","Shlomo Benartzi with Johnah Lehrer",
 "The 5 Money Personalities(谈钱不伤感情)",0.01,"RoughReading","Fastfood-knowledge","Intimate Relationship",0,1,"Self-development","SDP","Audio","P","NA",,
-"菊与刀（Ruth Benedict）",0.01,"RoughReading","Hard-knowledge","Japanese Culture",0,1,"Society and Culture","SOC","Audio","NO","P","Ruth Benedict",
+"菊与刀（The Chrysanthemum and the Sword）",0.01,"RoughReading","Hard-knowledge","Japanese Culture",0,1,"Society and Culture","SOC","Audio","NO","P","Ruth Benedict",
 "反直觉询问",,"HaveNotRead","Fastfood-knowledge","Marketing",0,1,"Self-development","SDP","Audio","E","P",,
 "Marketing Management",0.4,"PartialReading","Meta-Knowledge","Marketing Management",0,1,"Business & Economics & Management","BEM",,"P","NA","Kotler and Keller",
 "长尾理论",0.5,"PartialReading","Hard-knowledge","Marketing",0,0,"Business & Economics & Management","BEM",,"p","NA",,
@@ -597,7 +598,8 @@
 "不正常人类研究所",1,"ThroughReading","Hard-knowledge",,0,0,"Philosophy and Psychology","PPY",,,,"冈田尊司",
 "痛苦心理学",0.2,"PartialReading","Hard-knowledge",,0,0,"Philosophy and Psychology","PPY",,,,"林昆辉",
 "生活中的道德怪圈",0.33,"PartialReading","Fastfood-knowledge",,0,0,"Philosophy and Psychology","PPY",,,,"Rainer Erlinger",
-"The Prince(君主论)",1,"ThroughReading","Hard-knowledge",,0,0,"Politics","POL",,"P","NO","Niccolò Machiavelli",
+"Power (权力为什么只为某些人所拥有)",0.01,"RoughReading","Hard-knowledge","Power",,,"Politics","POL","Audio",,,"Jeffrey Pfeffer",
+"The Prince(君主论)",1,"ThroughReading","Hard-knowledge","Power",0,0,"Politics","POL",,"P","NO","Niccolò Machiavelli",
 "Democracy in America(论美国的民主)",1,"ThroughReading","Meta-Knowledge",,0,0,"Politics","POL",,"P","NA"," Tocqueville",
 "论人类不平等的起源(On the origin of human inequality)",1,"ThroughReading","Hard-knowledge",,0,0,"Politics","POL",,"P","NO","Rousseau",
 "马基雅维利的事业(The Machiavellian Enterprise)",1,"ThroughReading","Hard-knowledge",,0,0,"Politics","POL",,"P","NO","Leo Paul S.de Alvarez",
@@ -690,7 +692,8 @@
 "Suze Orman's Financial Guidebook: Put the 9 Steps to Work",0,"HaveNotRead",,,0,0,"Self-development","SDP",,"NO","P","Orman, Suze",
 "科技想要什么 (What Technology Wants)",0.01,"RoughReading","Hard-knowledge",,0,1,"Society and Culture","SOC","Audio","P","NA","Kevin Kelly",
 "失控(Out of Control)",0.01,"RoughReading","Hard-knowledge",,0,1,"Society and Culture","SOC","Audio","P","NA","Kevin Kelly",
-"大连接(Connected)",0.5,"PartialReading","Hard-knowledge",,0,1,"Society and Culture","SOC","Audio","P","NA"," Nicholas A Christakis &  James H Fowler",
+"Connected (大连接)",0.5,"PartialReading","Hard-knowledge","Social Network",0,1,"Society and Culture","SOC",,"P","NA"," Nicholas A Christakis &  James H Fowler",
+"Linked (链接)",0.01,"RoughReading","Hard-knowledge","Social Network",,,"Society and Culture","SOC","Audio","P",,"Albert-laszlo Barabasi",
 "Amusing ourselves to death (娱乐至死)",0.5,"PartialReading","Hard-knowledge",,1,1,"Society and Culture","SOC","Audio","P","NA","Nell Postman",
 "Empire and Communications (帝国与传播)",0.01,"RoughReading","Hard-knowledge",,,,"Society and Culture","SOC","Audio","P","NA","Harold Innis",
 "第二性",,"HaveNotRead","Hard-knowledge",,0,1,"Society and Culture","SOC","Audio","P","NO",,
