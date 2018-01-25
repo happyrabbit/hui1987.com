@@ -25,7 +25,7 @@
 <meta name="author" content="Hui Lin">
 
 
-<meta name="date" content="2018-01-20">
+<meta name="date" content="2018-01-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -519,6 +519,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="8.7" data-path="data-science.html"><a href="data-science.html#data-science-position"><i class="fa fa-check"></i><b>8.7</b> Data science position</a></li>
 <li class="chapter" data-level="8.8" data-path="data-science.html"><a href="data-science.html#everybody-lies"><i class="fa fa-check"></i><b>8.8</b> Everybody Lies</a></li>
+<li class="chapter" data-level="8.9" data-path="data-science.html"><a href="data-science.html#database-design"><i class="fa fa-check"></i><b>8.9</b> Database design</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="it.html"><a href="it.html"><i class="fa fa-check"></i><b>9</b> IT</a><ul>
 <li class="chapter" data-level="9.1" data-path="it.html"><a href="it.html#r"><i class="fa fa-check"></i><b>9.1</b> R</a><ul>
@@ -1129,6 +1130,45 @@ Now, as mentioned, machines are not making progress on novel situations. The cop
 <li>Boys: intelligent, happy</li>
 <li>Girls: over-weight, pretty</li>
 </ul></li>
+</ul>
+</div>
+<div id="database-design" class="section level2">
+<h2><span class="header-section-number">8.9</span> Database design</h2>
+<ol style="list-style-type: decimal">
+<li>Plan Ahead</li>
+</ol>
+<ol style="list-style-type: decimal">
+<li>understand the data and what it’s supposed to do</li>
+<li>database modeling and software development are different</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>Document Your Model</li>
+</ol>
+<ul>
+<li>Use a name convention</li>
+<li>Document the design</li>
+<li>New administrator can understand without having to come back to you for explanation</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Think Carefully About Keys: primary keys, foreign keys, artificial keys</li>
+<li>Use Integrity Checks Carefully</li>
+</ol>
+<ul>
+<li>Define integrity rules</li>
+<li>Currency for different countries, define messages as incoming or outgoing</li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li>Don’t Forget Indexes in Your Design</li>
+<li>Use separate tables for domain objects rather than cramming them into a single table</li>
+<li>Define an Archiving Strategy</li>
+<li>Test Early, Test Often</li>
+</ol>
+<ul>
+<li>With analytics data, scale matters: good estimate of usage</li>
+<li>one server is never enough</li>
+<li>Rollups make things cheaper but at a great expense later: tracking every action in a raw way allows for the development of insights that tell even more important stories.</li>
+<li>User log</li>
+<li>Reliability: set up alerting and monitoring systems and make it someone else’s problem through hosted offerings.</li>
 </ul>
 
 </div>
