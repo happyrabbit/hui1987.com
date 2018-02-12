@@ -36,6 +36,46 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
@@ -167,7 +207,7 @@
 
 \title{Reading Notes}
 \author{Hui Lin}
-\date{2018-02-10}
+\date{2018-02-11}
 
 \begin{document}
 \maketitle
@@ -221,6 +261,55 @@ It is great if you find any of those notes useful for you as well. I
 thank all my friends who recommended great books to me. I wrote this
 notes with \href{https://rmarkdown.rstudio.com}{R Markdown} and the R
 package \href{https://bookdown.org/yihui/bookdown/}{bookdown}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(dplyr)}
+\KeywordTok{library}\NormalTok{(DT)}
+\NormalTok{dat <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"1_KnowledgeStructure/RawData/ReadingListHui.csv"}\NormalTok{)}
+\NormalTok{dat }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{select}\NormalTok{(Name, ProDetail, Category, Topic) }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{datatable}\NormalTok{(}\DataTypeTok{filter =} \StringTok{"top"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{htmlwidget-881baf269275c3bfd8b7}{}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Name}: Book name
+\item
+  \textbf{Category}: Book category
+\item
+  \textbf{ProDetail}: My reading status
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{HaveNotRead}: have not started reading
+  \item
+    \texttt{RoughReading}: just got the structure and key ideas of the
+    book without getting to every glorious detail
+  \item
+    \texttt{PartialReading}: read carefully for some parts of the book
+    but not the whole
+  \item
+    \texttt{ThroughReading}: read word by word for the whole book
+  \item
+    \texttt{IntensiveReading}: read repeatedly and try to understand it
+    very well
+  \end{itemize}
+\item
+  \textbf{Topic}: the subject of the book. I use the information to
+  classify books to do ``syntoptical reading'' which is to read two or
+  more books on the same subjects. You may find lots of missing values
+  here as I just began my journey on this. Also, it is not easy to
+  identify books with ``same subject''. I will only assign subject to
+  non-fictions.
+\item
+  \textbf{Priority}: priority of writing book summary
+\end{itemize}
 
 \mainmatter
 
@@ -353,32 +442,110 @@ view his TED Talks here: \url{https://www.ted.com/speakers/guy_winch}
 
 Healing Rejection, Guilt, Failure, and Other Everyday Hurts
 
-\subsection{Others}\label{others}
+\subsection{How To Keep People From Pushing Your
+Buttons}\label{how-to-keep-people-from-pushing-your-buttons}
 
-\begin{itemize}
+\begin{quote}
+About the author: Albert Ellis(1913-2007) held M.A and Ph.D.~degrees in
+Clinical Psychology from Columbia University. He was the founder of
+Rational Emotive Behavior Therapy (REBT), the pioneering form of the
+modern Cognitive Behavior therapies. He was the president of the Albert
+Ellis Institute in New York, where he practiced individual and group
+psychotherapy, supervised and trained psychotherapists, and presented
+many talks and workshops at the Institute and throughout the world. He
+published over seven hundred articles and more than sixty books on
+psychotherapy, marital and family therapy, and sex therapy.
+\end{quote}
+
+4 fatal ``Overly'':
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  From TED talk:
-  \href{https://www.ted.com/talks/guy_winch_how_to_fix_a_broken_heart?utm_source=newsletter_weekly_2018-02-10\&utm_campaign=newsletter_weekly\&utm_medium=email\&utm_content=talk_of_the_week_image}{How
-  to fix a broken heart}
-\end{itemize}
+  Anxious
+\item
+  Angry
+\item
+  Depressed
+\item
+  Guilty
+\end{enumerate}
 
-Heartbreak is far more insidious than we realize. There is a reason we
-keep going down one rabbit hole after another, even when we know it's
-going to make us feel worse. Brain studies have shown that the
-withdrawal of romantic love activates the same mechanisms in our brain
-that get activated when addicts are withdrawing from substances like
-cocaine or opioids.
+3 nutty beliefs (Realistic Preferences):
 
-Getting over heartbreak is not a journey. It is a fight, and your reason
-is your strongest weapon. There is no breakup explanation that is going
-to feel satisfying. No rationale can take away the pain you feel. So
-don't search for one. Don't wait for one, just accept the one you were
-offered or make up one yourself and then put the question to rest,
-because you need that closure to resist the addition. And you need
-something else as well: you have to be willing to let go, to accept that
-it's over. Otherwise, your mind will feed on your hope and set you back.
-Hope can be incredibly destructive when your heart is broken.
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\tightlist
+\item
+  Awfulizing
+\item
+  Shoulding
+\item
+  Rationalization
+\end{enumerate}
+
+The three nutty beliefs will further lead to 10 nutty beliefs:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\tightlist
+\item
+  Worry too much about what other people think of you
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Please others
+  \item
+    Overly defensive
+  \end{itemize}
+\item
+  Excessively fear of failure
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Lack of risk-taking
+  \item
+    Stagnation
+  \item
+    Mediocrity
+  \end{itemize}
+\end{enumerate}
+
+\begin{quote}
+If you are hitting the bullseye every time you shoot, you are standing
+too close!
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{2}
+\item
+  Low frustration tolerence
+
+  \begin{itemize}
+  \tightlist
+  \item
+    impulsive reactions, premature quitting, nagativism, avoidance of
+    responsibility, lack of perseverance
+  \end{itemize}
+\item
+  Blame others
+\item
+  Worry obsessively about things to happen
+\item
+  Perfectionism
+\item
+  Avoid responsibility
+\item
+  Detachment
+\item
+  Blame past experience
+\item
+  Bad things/people shouldn't exist
+\end{enumerate}
 
 \bibliography{bibliography.bib}
 
