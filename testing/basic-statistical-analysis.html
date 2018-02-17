@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="thinking-fast-and-slow.html">
-<link rel="next" href="emotion-management.html">
+<link rel="prev" href="rules-of-generating-book-id.html">
+<link rel="next" href="cognitive-science.html">
 <script src="libs/jquery/jquery.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
@@ -148,16 +148,35 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="self-development" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Self-development</h1> 
+<div id="basic-statistical-analysis" class="section level2">
+<h2><span class="header-section-number">0.2</span> Basic Statistical Analysis</h2>
+<p>Here is a plot for counts of books in each category……</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">pdat &lt;-<span class="st"> </span>dat <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">group_by</span>(Category) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">summarise</span>(<span class="dt">Count =</span> <span class="kw">n</span>())
+<span class="kw">ggplot</span>(pdat, <span class="kw">aes</span>(<span class="dt">x =</span> <span class="kw">reorder</span>(Category, Count), <span class="dt">y =</span> Count, <span class="dt">fill =</span> Category)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat =</span> <span class="st">&quot;identity&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position=</span><span class="st">&quot;none&quot;</span>, <span class="dt">axis.title.y=</span><span class="kw">element_blank</span>()) </code></pre></div>
+<p><img src="Reading_files/figure-html/unnamed-chunk-4-1.svg" width="672" /></p>
+<p>Here is a plot showing the percentage of books I have started (or finished) across different categories.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(dat,<span class="kw">aes</span>(Category, <span class="dt">fill =</span> ProDetail)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">position =</span> <span class="st">&quot;fill&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>( <span class="dt">axis.title.y=</span><span class="kw">element_blank</span>(),
+         <span class="dt">axis.title.x=</span><span class="kw">element_blank</span>()) </code></pre></div>
+<p><img src="Reading_files/figure-html/unnamed-chunk-5-1.svg" width="672" /></p>
+
+
 </div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="thinking-fast-and-slow.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="emotion-management.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="rules-of-generating-book-id.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cognitive-science.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
@@ -186,7 +205,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/happyrabbit/linhui.org/tree/gh-pages/notes/Reading/13-SDP.Rmd",
+"link": "https://github.com/happyrabbit/linhui.org/tree/gh-pages/notes/Reading/index.rmd",
 "text": "Edit"
 },
 "download": ["Reading.pdf", "Reading.epub", "Reading.mobi"],
