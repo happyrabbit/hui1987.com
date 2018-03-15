@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Reading Notes</title>
+  <meta name="description" content="Hui’s Reading Notes">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Reading Notes" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="http://hui1987.com" />
+  
+  <meta property="og:description" content="Hui’s Reading Notes" />
+  <meta name="github-repo" content="happyrabbit/IntroDataScience" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Reading Notes" />
+  
+  <meta name="twitter:description" content="Hui’s Reading Notes" />
+  
+
+<meta name="author" content="Hui Lin">
+
+
+<meta name="date" content="2018-03-14">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="bad-arguments-logical-fallacies.html">
+<link rel="next" href="fooled-by-randomness.html">
+<script src="libs/jquery/jquery.min.js"></script>
+<link href="libs/gitbook/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets/htmlwidgets.js"></script>
+<link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding/datatables.js"></script>
+<link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+<link href="libs/nouislider/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider/jquery.nouislider.min.js"></script>
+<link href="libs/selectize/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize/selectize.min.js"></script>
+<link href="libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="http://scientistcafe.com">Homepage</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="0.1" data-path="rules-of-generating-book-id.html"><a href="rules-of-generating-book-id.html"><i class="fa fa-check"></i><b>0.1</b> Rules of Generating book ID</a></li>
+<li class="chapter" data-level="0.2" data-path="basic-statistical-analysis.html"><a href="basic-statistical-analysis.html"><i class="fa fa-check"></i><b>0.2</b> Basic Statistical Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="philosophy-psychology.html"><a href="philosophy-psychology.html"><i class="fa fa-check"></i><b>1</b> Philosophy &amp; Psychology</a><ul>
+<li class="chapter" data-level="1.1" data-path="thinking-fast-and-slow.html"><a href="thinking-fast-and-slow.html"><i class="fa fa-check"></i><b>1.1</b> Thinking Fast and Slow</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="thinking-fast-and-slow.html"><a href="thinking-fast-and-slow.html#part-1-two-systems"><i class="fa fa-check"></i><b>1.1.1</b> Part 1: Two systems</a></li>
+<li class="chapter" data-level="1.1.2" data-path="thinking-fast-and-slow.html"><a href="thinking-fast-and-slow.html#part-2-heuristics-and-biases"><i class="fa fa-check"></i><b>1.1.2</b> Part 2: Heuristics and biases</a></li>
+<li class="chapter" data-level="1.1.3" data-path="thinking-fast-and-slow.html"><a href="thinking-fast-and-slow.html#part-3-overconfidence"><i class="fa fa-check"></i><b>1.1.3</b> Part 3: Overconfidence</a></li>
+<li class="chapter" data-level="1.1.4" data-path="thinking-fast-and-slow.html"><a href="thinking-fast-and-slow.html#part-4-choices"><i class="fa fa-check"></i><b>1.1.4</b> Part 4: Choices</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="what-intelligence-tests-miss-.html"><a href="what-intelligence-tests-miss-.html"><i class="fa fa-check"></i><b>1.2</b> What intelligence tests miss (超越智商)</a></li>
+<li class="chapter" data-level="1.3" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html"><i class="fa fa-check"></i><b>1.3</b> The Optimism Bias [Tali Sharot]</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#illusions-of-the-human-brain"><i class="fa fa-check"></i><b>1.3.1</b> Illusions of the Human Brain</a></li>
+<li class="chapter" data-level="1.3.2" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#the-evolution-of-prospection"><i class="fa fa-check"></i><b>1.3.2</b> The Evolution of Prospection</a></li>
+<li class="chapter" data-level="1.3.3" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#when-private-optimism-meets-public-despair"><i class="fa fa-check"></i><b>1.3.3</b> When Private Optimism Meets Public Despair</a></li>
+<li class="chapter" data-level="1.3.4" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#the-unexpected-ingredient-for-well-being"><i class="fa fa-check"></i><b>1.3.4</b> The Unexpected Ingredient for Well-being</a></li>
+<li class="chapter" data-level="1.3.5" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#when-things-go-wrong-depression-interpretation-and-genes"><i class="fa fa-check"></i><b>1.3.5</b> When things go wrong: depression, interpretation, and genes</a></li>
+<li class="chapter" data-level="1.3.6" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#the-value-of-anticipation-and-the-cost-of-dread"><i class="fa fa-check"></i><b>1.3.6</b> The Value of Anticipation and the Cost of Dread</a></li>
+<li class="chapter" data-level="1.3.7" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#why-do-things-seem-better-after-we-choose-them"><i class="fa fa-check"></i><b>1.3.7</b> Why do things seem better after we choose them?</a></li>
+<li class="chapter" data-level="1.3.8" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#how-emotion-changes-our-past"><i class="fa fa-check"></i><b>1.3.8</b> How emotion changes our past?</a></li>
+<li class="chapter" data-level="1.3.9" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#how-the-brain-turns-lead-into-gold"><i class="fa fa-check"></i><b>1.3.9</b> How the Brain Turns Lead into Gold?</a></li>
+<li class="chapter" data-level="1.3.10" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#a-dark-side-to-optimism"><i class="fa fa-check"></i><b>1.3.10</b> A dark side to optimism?</a></li>
+<li class="chapter" data-level="1.3.11" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#from-prediction-to-perception-to-action"><i class="fa fa-check"></i><b>1.3.11</b> From prediction to perception to action</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="art-of-thinking-clearly-rolf-dobelli.html"><a href="art-of-thinking-clearly-rolf-dobelli.html"><i class="fa fa-check"></i><b>1.4</b> Art of Thinking Clearly [Rolf Dobelli,清醒思考的艺术]</a></li>
+<li class="chapter" data-level="1.5" data-path="bad-arguments-logical-fallacies.html"><a href="bad-arguments-logical-fallacies.html"><i class="fa fa-check"></i><b>1.5</b> Bad Arguments — Logical Fallacies</a></li>
+<li class="chapter" data-level="1.6" data-path="predictable-irrational.html"><a href="predictable-irrational.html"><i class="fa fa-check"></i><b>1.6</b> Predictable Irrational</a><ul>
+<li class="chapter" data-level="1.6.1" data-path="predictable-irrational.html"><a href="predictable-irrational.html#the-fallacy-of-supply-and-demand"><i class="fa fa-check"></i><b>1.6.1</b> The fallacy of supply and demand</a></li>
+<li class="chapter" data-level="1.6.2" data-path="predictable-irrational.html"><a href="predictable-irrational.html#the-cost-of-free"><i class="fa fa-check"></i><b>1.6.2</b> The cost of free</a></li>
+<li class="chapter" data-level="1.6.3" data-path="predictable-irrational.html"><a href="predictable-irrational.html#procrastination-and-self-control"><i class="fa fa-check"></i><b>1.6.3</b> Procrastination and Self-control</a></li>
+<li class="chapter" data-level="1.6.4" data-path="predictable-irrational.html"><a href="predictable-irrational.html#the-price-of-proprietorship"><i class="fa fa-check"></i><b>1.6.4</b> The Price of Proprietorship</a></li>
+<li class="chapter" data-level="1.6.5" data-path="predictable-irrational.html"><a href="predictable-irrational.html#magic-price"><i class="fa fa-check"></i><b>1.6.5</b> Magic Price</a></li>
+<li class="chapter" data-level="1.6.6" data-path="predictable-irrational.html"><a href="predictable-irrational.html#good-or-evil"><i class="fa fa-check"></i><b>1.6.6</b> Good or Evil</a></li>
+<li class="chapter" data-level="1.6.7" data-path="predictable-irrational.html"><a href="predictable-irrational.html#free-lunch-an-behavior-economics-explanation"><i class="fa fa-check"></i><b>1.6.7</b> Free Lunch: an behavior economics explanation</a></li>
+<li class="chapter" data-level="1.6.8" data-path="predictable-irrational.html"><a href="predictable-irrational.html#summary"><i class="fa fa-check"></i><b>1.6.8</b> Summary</a></li>
+<li class="chapter" data-level="1.6.9" data-path="predictable-irrational.html"><a href="predictable-irrational.html#section-1.6.9"><i class="fa fa-check"></i><b>1.6.9</b> 自由的重担</a></li>
+<li class="chapter" data-level="1.6.10" data-path="predictable-irrational.html"><a href="predictable-irrational.html#section-1.6.10"><i class="fa fa-check"></i><b>1.6.10</b> 是什么在操控你的行为</a></li>
+<li class="chapter" data-level="1.6.11" data-path="predictable-irrational.html"><a href="predictable-irrational.html#section-1.6.11"><i class="fa fa-check"></i><b>1.6.11</b> 行为经济学背后的心理奥秘</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="fooled-by-randomness.html"><a href="fooled-by-randomness.html"><i class="fa fa-check"></i><b>1.7</b> Fooled by Randomness</a></li>
+<li class="chapter" data-level="1.8" data-path="black-swan.html"><a href="black-swan.html"><i class="fa fa-check"></i><b>1.8</b> Black Swan</a><ul>
+<li class="chapter" data-level="1.8.1" data-path="black-swan.html"><a href="black-swan.html#prologue"><i class="fa fa-check"></i><b>1.8.1</b> Prologue</a></li>
+<li class="chapter" data-level="1.8.2" data-path="black-swan.html"><a href="black-swan.html#the-apprenticeship-of-an-empirical-skeptic"><i class="fa fa-check"></i><b>1.8.2</b> The apprenticeship of an empirical skeptic</a></li>
+<li class="chapter" data-level="1.8.3" data-path="black-swan.html"><a href="black-swan.html#extremistan-and-mediocristan"><i class="fa fa-check"></i><b>1.8.3</b> Extremistan and Mediocristan</a></li>
+<li class="chapter" data-level="1.8.4" data-path="black-swan.html"><a href="black-swan.html#how-not-to-be-a-sucker"><i class="fa fa-check"></i><b>1.8.4</b> How not to be a sucker</a></li>
+<li class="chapter" data-level="1.8.5" data-path="black-swan.html"><a href="black-swan.html#negative-empiricism"><i class="fa fa-check"></i><b>1.8.5</b> Negative empiricism</a></li>
+<li class="chapter" data-level="1.8.6" data-path="black-swan.html"><a href="black-swan.html#the-narrative-fallacy"><i class="fa fa-check"></i><b>1.8.6</b> The narrative fallacy</a></li>
+<li class="chapter" data-level="1.8.7" data-path="black-swan.html"><a href="black-swan.html#living-in-the-antechamber-of-hope"><i class="fa fa-check"></i><b>1.8.7</b> Living in the antechamber of hope</a></li>
+<li class="chapter" data-level="1.8.8" data-path="black-swan.html"><a href="black-swan.html#the-problem-of-silent-evidence"><i class="fa fa-check"></i><b>1.8.8</b> The problem of silent evidence</a></li>
+<li class="chapter" data-level="1.8.9" data-path="black-swan.html"><a href="black-swan.html#the-ludic-fallacy-the-uncertainty-of-the-nerd"><i class="fa fa-check"></i><b>1.8.9</b> The ludic fallacy: the uncertainty of the nerd</a></li>
+<li class="chapter" data-level="1.8.10" data-path="black-swan.html"><a href="black-swan.html#the-scandal-of-prediction"><i class="fa fa-check"></i><b>1.8.10</b> The scandal of prediction</a></li>
+<li class="chapter" data-level="1.8.11" data-path="black-swan.html"><a href="black-swan.html#how-to-look-for-bird-poop"><i class="fa fa-check"></i><b>1.8.11</b> How to look for bird poop</a></li>
+<li class="chapter" data-level="1.8.12" data-path="black-swan.html"><a href="black-swan.html#epistemocracy-a-dream"><i class="fa fa-check"></i><b>1.8.12</b> Epistemocracy, a dream</a></li>
+<li class="chapter" data-level="1.8.13" data-path="black-swan.html"><a href="black-swan.html#what-do-you-do-if-you-cant-predict"><i class="fa fa-check"></i><b>1.8.13</b> What do you do if you can’t predict?</a></li>
+<li class="chapter" data-level="1.8.14" data-path="black-swan.html"><a href="black-swan.html#from-mediocristan-to-extremistan-and-back"><i class="fa fa-check"></i><b>1.8.14</b> From mediocristan to extremistan and back</a></li>
+<li class="chapter" data-level="1.8.15" data-path="black-swan.html"><a href="black-swan.html#the-bell-curve"><i class="fa fa-check"></i><b>1.8.15</b> The bell curve</a></li>
+<li class="chapter" data-level="1.8.16" data-path="black-swan.html"><a href="black-swan.html#the-aesthetics-of-randomness"><i class="fa fa-check"></i><b>1.8.16</b> The aesthetics of randomness</a></li>
+<li class="chapter" data-level="1.8.17" data-path="black-swan.html"><a href="black-swan.html#bell-curves-in-the-wrong-places"><i class="fa fa-check"></i><b>1.8.17</b> Bell curves in the wrong places</a></li>
+<li class="chapter" data-level="1.8.18" data-path="black-swan.html"><a href="black-swan.html#the-uncertainty-of-the-phony"><i class="fa fa-check"></i><b>1.8.18</b> The uncertainty of the phony</a></li>
+<li class="chapter" data-level="1.8.19" data-path="black-swan.html"><a href="black-swan.html#how-to-get-even-with-the-black-swan"><i class="fa fa-check"></i><b>1.8.19</b> How to get even with the black swan</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="antifragile.html"><a href="antifragile.html"><i class="fa fa-check"></i><b>1.9</b> Antifragile</a></li>
+<li class="chapter" data-level="1.10" data-path="superforecasting-.html"><a href="superforecasting-.html"><i class="fa fa-check"></i><b>1.10</b> Superforecasting (超预测)</a></li>
+<li class="chapter" data-level="1.11" data-path="risk-savvy.html"><a href="risk-savvy.html"><i class="fa fa-check"></i><b>1.11</b> Risk Savvy</a></li>
+<li class="chapter" data-level="1.12" data-path="how-women-decide.html"><a href="how-women-decide.html"><i class="fa fa-check"></i><b>1.12</b> How Women Decide</a></li>
+<li class="chapter" data-level="1.13" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html"><i class="fa fa-check"></i><b>1.13</b> The Smarter Screen</a><ul>
+<li class="chapter" data-level="1.13.1" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#introduction-to-the-mental-screen"><i class="fa fa-check"></i><b>1.13.1</b> Introduction to the mental screen</a></li>
+<li class="chapter" data-level="1.13.2" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#function-follows-form"><i class="fa fa-check"></i><b>1.13.2</b> Function Follows Form</a></li>
+<li class="chapter" data-level="1.13.3" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#display-biases"><i class="fa fa-check"></i><b>1.13.3</b> Display Biases</a></li>
+<li class="chapter" data-level="1.13.4" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#new-mirror"><i class="fa fa-check"></i><b>1.13.4</b> New Mirror</a></li>
+<li class="chapter" data-level="1.13.5" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#desirable-difficulty"><i class="fa fa-check"></i><b>1.13.5</b> Desirable difficulty</a></li>
+<li class="chapter" data-level="1.13.6" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#digital-tailoring"><i class="fa fa-check"></i><b>1.13.6</b> Digital tailoring</a></li>
+<li class="chapter" data-level="1.13.7" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#choice-opportunity"><i class="fa fa-check"></i><b>1.13.7</b> Choice opportunity</a></li>
+<li class="chapter" data-level="1.13.8" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#thinking-apps"><i class="fa fa-check"></i><b>1.13.8</b> Thinking apps</a></li>
+</ul></li>
+<li class="chapter" data-level="1.14" data-path="mind-wide-open-.html"><a href="mind-wide-open-.html"><i class="fa fa-check"></i><b>1.14</b> Mind Wide Open [心思大开]</a></li>
+<li class="chapter" data-level="1.15" data-path="the-human-advantage-.html"><a href="the-human-advantage-.html"><i class="fa fa-check"></i><b>1.15</b> The Human Advantage [最强大脑]</a></li>
+<li class="chapter" data-level="1.16" data-path="spark.html"><a href="spark.html"><i class="fa fa-check"></i><b>1.16</b> Spark</a><ul>
+<li class="chapter" data-level="1.16.1" data-path="spark.html"><a href="spark.html#a-case-study"><i class="fa fa-check"></i><b>1.16.1</b> A case study</a></li>
+<li class="chapter" data-level="1.16.2" data-path="spark.html"><a href="spark.html#learning-grow-your-brain-cells"><i class="fa fa-check"></i><b>1.16.2</b> Learning: grow your brain cells</a></li>
+</ul></li>
+<li class="chapter" data-level="1.17" data-path="the-art-of-loving-erich-fromm.html"><a href="the-art-of-loving-erich-fromm.html"><i class="fa fa-check"></i><b>1.17</b> The art of loving [Erich Fromm]</a><ul>
+<li class="chapter" data-level="1.17.1" data-path="the-art-of-loving-erich-fromm.html"><a href="the-art-of-loving-erich-fromm.html#is-love-an-art"><i class="fa fa-check"></i><b>1.17.1</b> Is love an art?</a></li>
+<li class="chapter" data-level="1.17.2" data-path="the-art-of-loving-erich-fromm.html"><a href="the-art-of-loving-erich-fromm.html#the-theory-of-love"><i class="fa fa-check"></i><b>1.17.2</b> The theory of love</a></li>
+</ul></li>
+<li class="chapter" data-level="1.18" data-path="escape-from-freedom.html"><a href="escape-from-freedom.html"><i class="fa fa-check"></i><b>1.18</b> Escape from Freedom</a><ul>
+<li class="chapter" data-level="1.18.1" data-path="escape-from-freedom.html"><a href="escape-from-freedom.html#section-1.18.1"><i class="fa fa-check"></i><b>1.18.1</b> 现代人的两种自由观念</a></li>
+</ul></li>
+<li class="chapter" data-level="1.19" data-path="the-sane-society-.html"><a href="the-sane-society-.html"><i class="fa fa-check"></i><b>1.19</b> The sane society (健全社会)</a></li>
+<li class="chapter" data-level="1.20" data-path="maxims.html"><a href="maxims.html"><i class="fa fa-check"></i><b>1.20</b> Maxims</a></li>
+<li class="chapter" data-level="1.21" data-path="on-the-old-age.html"><a href="on-the-old-age.html"><i class="fa fa-check"></i><b>1.21</b> On the Old Age</a></li>
+<li class="chapter" data-level="1.22" data-path="on-the-friendship.html"><a href="on-the-friendship.html"><i class="fa fa-check"></i><b>1.22</b> On the Friendship</a></li>
+<li class="chapter" data-level="1.23" data-path="on-the-immortality-of-the-soul.html"><a href="on-the-immortality-of-the-soul.html"><i class="fa fa-check"></i><b>1.23</b> On the Immortality of the Soul</a></li>
+<li class="chapter" data-level="1.24" data-path="tolerence.html"><a href="tolerence.html"><i class="fa fa-check"></i><b>1.24</b> Tolerence</a><ul>
+<li class="chapter" data-level="1.24.1" data-path="tolerence.html"><a href="tolerence.html#the-tyranny-of-ignorance"><i class="fa fa-check"></i><b>1.24.1</b> The Tyranny of Ignorance</a></li>
+<li class="chapter" data-level="1.24.2" data-path="tolerence.html"><a href="tolerence.html#the-greeks-"><i class="fa fa-check"></i><b>1.24.2</b> The Greeks [希腊人]</a></li>
+</ul></li>
+<li class="chapter" data-level="1.25" data-path="the-theory-of-moral-sentiments.html"><a href="the-theory-of-moral-sentiments.html"><i class="fa fa-check"></i><b>1.25</b> The Theory of Moral Sentiments</a></li>
+<li class="chapter" data-level="1.26" data-path="personality.html"><a href="personality.html"><i class="fa fa-check"></i><b>1.26</b> Personality</a><ul>
+<li class="chapter" data-level="1.26.1" data-path="personality.html"><a href="personality.html#what-is-personality"><i class="fa fa-check"></i><b>1.26.1</b> What is Personality?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.27" data-path="intimate-relationship.html"><a href="intimate-relationship.html"><i class="fa fa-check"></i><b>1.27</b> Intimate Relationship</a></li>
+<li class="chapter" data-level="1.28" data-path="the-road-less-travelled-m-scott-peck.html"><a href="the-road-less-travelled-m-scott-peck.html"><i class="fa fa-check"></i><b>1.28</b> The Road Less Travelled [M Scott Peck]</a></li>
+<li class="chapter" data-level="1.29" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html"><i class="fa fa-check"></i><b>1.29</b> People of the lie</a><ul>
+<li class="chapter" data-level="1.29.1" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#introduction-handle-with-care"><i class="fa fa-check"></i><b>1.29.1</b> Introduction: Handle with care</a></li>
+<li class="chapter" data-level="1.29.2" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#the-man-who-made-a-pact-with-the-devil"><i class="fa fa-check"></i><b>1.29.2</b> The man who made a pact with the devil</a></li>
+<li class="chapter" data-level="1.29.3" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#toward-a-psychology-of-evil"><i class="fa fa-check"></i><b>1.29.3</b> Toward A Psychology of Evil</a></li>
+<li class="chapter" data-level="1.29.4" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#the-case-of-bobby-and-his-parents"><i class="fa fa-check"></i><b>1.29.4</b> The case of Bobby and his parents</a></li>
+<li class="chapter" data-level="1.29.5" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#the-encounter-with-evil-in-everyday-life"><i class="fa fa-check"></i><b>1.29.5</b> The encounter with evil in everyday life</a></li>
+<li class="chapter" data-level="1.29.6" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#charlene-a-teaching-case"><i class="fa fa-check"></i><b>1.29.6</b> Charlene: a teaching case</a></li>
+<li class="chapter" data-level="1.29.7" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#of-possession-and-exorcism"><i class="fa fa-check"></i><b>1.29.7</b> Of possession and exorcism</a></li>
+<li class="chapter" data-level="1.29.8" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#mylai-an-examination-of-group-evil"><i class="fa fa-check"></i><b>1.29.8</b> Mylai: an examination of group evil</a></li>
+<li class="chapter" data-level="1.29.9" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#the-danger-and-the-hope"><i class="fa fa-check"></i><b>1.29.9</b> The danger and the hope</a></li>
+</ul></li>
+<li class="chapter" data-level="1.30" data-path="inner-work-.html"><a href="inner-work-.html"><i class="fa fa-check"></i><b>1.30</b> Inner Work (内在工作)</a></li>
+<li class="chapter" data-level="1.31" data-path="section-1-31.html"><a href="section-1-31.html"><i class="fa fa-check"></i><b>1.31</b> 耶鲁大学公开课——死亡</a></li>
+<li class="chapter" data-level="1.32" data-path="what-life-could-mean-to-you.html"><a href="what-life-could-mean-to-you.html"><i class="fa fa-check"></i><b>1.32</b> 自卑与超越（What Life Could Mean to You）</a><ul>
+<li class="chapter" data-level="1.32.1" data-path="what-life-could-mean-to-you.html"><a href="what-life-could-mean-to-you.html#section-1.32.1"><i class="fa fa-check"></i><b>1.32.1</b> 生活的意义</a></li>
+</ul></li>
+<li class="chapter" data-level="1.33" data-path="section-1-33.html"><a href="section-1-33.html"><i class="fa fa-check"></i><b>1.33</b> 20世纪最伟大的心理学实验</a></li>
+<li class="chapter" data-level="1.34" data-path="section-1-34.html"><a href="section-1-34.html"><i class="fa fa-check"></i><b>1.34</b> 不正常人类研究所</a></li>
+<li class="chapter" data-level="1.35" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html"><i class="fa fa-check"></i><b>1.35</b> Psychobabble [Stephen Briers]</a><ul>
+<li class="chapter" data-level="1.35.1" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html#whats-so-wrong-with-popular-psychology"><i class="fa fa-check"></i><b>1.35.1</b> What’s so wrong with popular psychology?</a></li>
+<li class="chapter" data-level="1.35.2" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html#myth-5-no-one-can-make-you-feel-anything"><i class="fa fa-check"></i><b>1.35.2</b> Myth 5: No one can make you feel anything</a></li>
+<li class="chapter" data-level="1.35.3" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html#myth-6-think-positive-ans-be-a-winner"><i class="fa fa-check"></i><b>1.35.3</b> Myth 6: Think positive ans be a winner!</a></li>
+</ul></li>
+<li class="chapter" data-level="1.36" data-path="-.html"><a href="-.html"><i class="fa fa-check"></i><b>1.36</b> 南怀瑾谈心兵难防 [南怀瑾]</a></li>
+<li class="chapter" data-level="1.37" data-path="section-1-37.html"><a href="section-1-37.html"><i class="fa fa-check"></i><b>1.37</b> 欲望心理学</a><ul>
+<li class="chapter" data-level="1.37.1" data-path="section-1-37.html"><a href="section-1-37.html#section-1.37.1"><i class="fa fa-check"></i><b>1.37.1</b> 涂鸦、发表言论、恶霸行为的目的——渴望重视的心理</a></li>
+<li class="chapter" data-level="1.37.2" data-path="section-1-37.html"><a href="section-1-37.html#section-1.37.2"><i class="fa fa-check"></i><b>1.37.2</b> 自我空间心理</a></li>
+</ul></li>
+<li class="chapter" data-level="1.38" data-path="section-1-38.html"><a href="section-1-38.html"><i class="fa fa-check"></i><b>1.38</b> 直面内心的恐惧</a><ul>
+<li class="chapter" data-level="1.38.1" data-path="section-1-38.html"><a href="section-1-38.html#section-1.38.1"><i class="fa fa-check"></i><b>1.38.1</b> 序言</a></li>
+<li class="chapter" data-level="1.38.2" data-path="section-1-38.html"><a href="section-1-38.html#split-personality"><i class="fa fa-check"></i><b>1.38.2</b> 害怕把自己交出去——分裂人格（split personality）</a></li>
+<li class="chapter" data-level="1.38.3" data-path="section-1-38.html"><a href="section-1-38.html#section-1.38.3"><i class="fa fa-check"></i><b>1.38.3</b> 害怕做自己——忧郁人格</a></li>
+<li class="chapter" data-level="1.38.4" data-path="section-1-38.html"><a href="section-1-38.html#obsessive-compulsive-personality-disorder"><i class="fa fa-check"></i><b>1.38.4</b> 害怕改变——强迫人格(obsessive-compulsive personality disorder)</a></li>
+<li class="chapter" data-level="1.38.5" data-path="section-1-38.html"><a href="section-1-38.html#what-makes-things-cool"><i class="fa fa-check"></i><b>1.38.5</b> What makes things cool?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="religion.html"><a href="religion.html"><i class="fa fa-check"></i><b>2</b> Religion</a><ul>
+<li class="chapter" data-level="2.1" data-path="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html"><a href="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html"><i class="fa fa-check"></i><b>2.1</b> The Tibetan Book of Living and Dying [西藏生死书，Sogal Rinpoche]</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html"><a href="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html#living-"><i class="fa fa-check"></i><b>2.1.1</b> Living [生]</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="society-and-culture.html"><a href="society-and-culture.html"><i class="fa fa-check"></i><b>3</b> Society and Culture</a><ul>
+<li class="chapter" data-level="3.1" data-path="section-3-1.html"><a href="section-3-1.html"><i class="fa fa-check"></i><b>3.1</b> 动物精神</a></li>
+<li class="chapter" data-level="3.2" data-path="the-100-year-life-living-and-working-in-an-age-of-longevity.html"><a href="the-100-year-life-living-and-working-in-an-age-of-longevity.html"><i class="fa fa-check"></i><b>3.2</b> The 100-Year Life: Living and working in an age of longevity</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="self-development.html"><a href="self-development.html"><i class="fa fa-check"></i><b>4</b> Self-development</a><ul>
+<li class="chapter" data-level="4.1" data-path="emotion-management.html"><a href="emotion-management.html"><i class="fa fa-check"></i><b>4.1</b> Emotion Management</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="emotion-management.html"><a href="emotion-management.html#emotional-first-aid-"><i class="fa fa-check"></i><b>4.1.1</b> Emotional First Aid (情绪急救)</a></li>
+<li class="chapter" data-level="4.1.2" data-path="emotion-management.html"><a href="emotion-management.html#how-to-keep-people-from-pushing-your-buttons"><i class="fa fa-check"></i><b>4.1.2</b> How To Keep People From Pushing Your Buttons</a></li>
+<li class="chapter" data-level="4.1.3" data-path="emotion-management.html"><a href="emotion-management.html#others"><i class="fa fa-check"></i><b>4.1.3</b> Others</a></li>
+<li class="chapter" data-level="4.1.4" data-path="emotion-management.html"><a href="emotion-management.html#feeling-good"><i class="fa fa-check"></i><b>4.1.4</b> Feeling Good</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="obsessive-love.html"><a href="obsessive-love.html"><i class="fa fa-check"></i><b>4.2</b> Obsessive Love(强迫的爱)</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="statistics-data-science.html"><a href="statistics-data-science.html"><i class="fa fa-check"></i><b>5</b> Statistics &amp; Data Science</a><ul>
+<li class="chapter" data-level="5.1" data-path="an-introduction-to-statistical-learning.html"><a href="an-introduction-to-statistical-learning.html"><i class="fa fa-check"></i><b>5.1</b> An Introduction to Statistical Learning</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="business-economics.html"><a href="business-economics.html"><i class="fa fa-check"></i><b>6</b> Business &amp; Economics</a><ul>
+<li class="chapter" data-level="6.1" data-path="the-wealth-of-nations-adam-smith.html"><a href="the-wealth-of-nations-adam-smith.html"><i class="fa fa-check"></i><b>6.1</b> The Wealth of Nations [Adam Smith]</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="medicine.html"><a href="medicine.html"><i class="fa fa-check"></i><b>7</b> Medicine</a></li>
+<li class="chapter" data-level="8" data-path="physics.html"><a href="physics.html"><i class="fa fa-check"></i><b>8</b> Physics</a><ul>
+<li class="chapter" data-level="8.1" data-path="section-8-1.html"><a href="section-8-1.html"><i class="fa fa-check"></i><b>8.1</b> 大设计</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="proses-essays-and-poems.html"><a href="proses-essays-and-poems.html"><i class="fa fa-check"></i><b>9</b> Proses, Essays and Poems</a><ul>
+<li class="chapter" data-level="9.1" data-path="the-thoughts-of-an-idle-fellow.html"><a href="the-thoughts-of-an-idle-fellow.html"><i class="fa fa-check"></i><b>9.1</b> The Thoughts of An Idle Fellow</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="politics.html"><a href="politics.html"><i class="fa fa-check"></i><b>10</b> Politics</a><ul>
+<li class="chapter" data-level="10.1" data-path="democracy-in-america-tocqueville.html"><a href="democracy-in-america-tocqueville.html"><i class="fa fa-check"></i><b>10.1</b> Democracy in America [Tocqueville]</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>11</b> History</a><ul>
+<li class="chapter" data-level="11.1" data-path="a-brief-history-of-humankind.html"><a href="a-brief-history-of-humankind.html"><i class="fa fa-check"></i><b>11.1</b> A Brief History of Humankind</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="art.html"><a href="art.html"><i class="fa fa-check"></i><b>12</b> Art</a><ul>
+<li class="chapter" data-level="12.1" data-path="the-story-of-art-by-e-h-gombrich.html"><a href="the-story-of-art-by-e-h-gombrich.html"><i class="fa fa-check"></i><b>12.1</b> The Story of Art (By E.H. Gombrich)</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="novels-and-plays.html"><a href="novels-and-plays.html"><i class="fa fa-check"></i><b>13</b> Novels and Plays</a><ul>
+<li class="chapter" data-level="13.1" data-path="immortality-milan-kundera.html"><a href="immortality-milan-kundera.html"><i class="fa fa-check"></i><b>13.1</b> Immortality [不朽，Milan Kundera]</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="jokes.html"><a href="jokes.html"><i class="fa fa-check"></i><b>14</b> Jokes</a><ul>
+<li class="chapter" data-level="14.1" data-path="section-14-1.html"><a href="section-14-1.html"><i class="fa fa-check"></i><b>14.1</b> 中文笑话</a><ul>
+<li class="chapter" data-level="14.1.1" data-path="section-14-1.html"><a href="section-14-1.html#section-14.1.1"><i class="fa fa-check"></i><b>14.1.1</b> 2017-12-9: 毒鸡汤</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="other.html"><a href="other.html"><i class="fa fa-check"></i><b>15</b> Other</a><ul>
+<li class="chapter" data-level="15.1" data-path="section-15-1.html"><a href="section-15-1.html"><i class="fa fa-check"></i><b>15.1</b> 数字时代为什么要学习人文学科</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Reading Notes</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="predictable-irrational" class="section level2">
+<h2><span class="header-section-number">1.6</span> Predictable Irrational</h2>
+<p>Goal: what makes you and people around you tick? behavior economics, judgment and decision making (JDM) Generalized Axiom of Revealed Preference (GARF)</p>
+<p>We are irrational Our irrationality is predictable</p>
+<div id="the-fallacy-of-supply-and-demand" class="section level3">
+<h3><span class="header-section-number">1.6.1</span> The fallacy of supply and demand</h3>
+<p>James Assael, Salvador Assael (peark king, James’ son), black pearl from black-lipped oysters, put them in the window of Harry Winston’s store on Fifth Avenue, Tahitian black pearls glowed</p>
+<p>Mark Twain in Tom Sawyer: “Tom had discovered a great law of human action, namely, that in order to make a man covet a thing, it is only necessary to make the thing difficult to attain.”</p>
+<p>Anchor effect: last two digits of social security number, how much would you pay for the product? Anchor effect witll exist for long time even we set new anchor later, we will still be affected by the origional anchor. (anchors in the experiment: 10 v.s. 90, 50, 90 v.s.10 ) Assael anchored his pearls to the finest gems in the world and the prices followed forever Mark Twain: 英国一些阔绰的绅士夏季每天驾着四套马车沿大路跑上二三十英里,因为这样做可以花掉不少钱;可如果付钱雇他们驾车载客,消遣变成了 工作,他们是不愿干的。</p>
+<p>我们所做的许多决定，不论是不经意的，还是经过深思熟虑的，锚都在其中起作用……你做一切事情都应该进行自我训练，置疑自己一再重复的行为。我们还应该特别关注我们的首次决定，它日后能形成一长串的其它决定（比如衣服、食品等）。</p>
+<p>传统经济学假定产品的市场价格取决于两股力量的平衡：供给和需求。……</p>
+<p>但是如我们的实验所证明，消费者的购买意愿可以很容易地被操纵，也就是说消费者实际上并不能很好地把握自己的偏好以及他们愿意为不同商品和体验付出的价格。 传统经济学架构假设供需独立，上面提到的锚定效应暗示它们是相互依存的。在现实世界中，锚来自厂家的建议零售价格、广告价格、促销、产品推荐等因素——所有这一切都来自供给方。 我料想,如果人们记得住从前的价格并且注意到它的涨价幅度,价格变化就会对需求产生巨大影响;如果人们记不住过去的价格,价格的变化对需求的影响,即使有也会很小。换言之,我们对价格变化的敏感度事实上很大程度上可能是两种因素共同 作用的结果—— 1) 我们对过去价格的记忆; 2) 我们想与过去决定保持一致的欲望。而根本不是我们的真正偏好或需求大小的反映。</p>
+</div>
+<div id="the-cost-of-free" class="section level3">
+<h3><span class="header-section-number">1.6.2</span> The cost of free</h3>
+<p>免费使人拿一大堆不要的东西？为什么？多数交易都有有利的一面和不利的一面,但免费使我们忘记了不 利的一面。免费给我们造成一种情绪冲动,让我们误认为免费物品大大高于它的真正价值。为什么?我认为是由于人类本能地惧怕损失。免费的真正诱惑力是与这种惧怕心理联系在一 起的。我们选择某一免费的物品不会有显而易见的损失。但是假如我们选择的物品是不免费 的,那就有会有风险,可能做出错误决定,可能蒙受损失。于是,如果让我们选择,我们就尽量朝免费的方向去找。</p>
+<p>我们同时生活在两个不同的世界里——其中一个世界由社会规范主导,另一个则由市场规范来制定法则。 日托所罚金案例： 一旦社会规范与市场规范发生碰撞,社会规范就会退出。换言之,社会规范很难重建。一旦这朵盛开的玫瑰从枝头落下——一旦社会规范被市 场规范打败——它很难发挥任何效力。 强调雇佣关系中社会性的一面所能营造出的亲善氛围。社会规范(例如共同创业的兴奋)强于市场规范(例如薪金随晋升而增加)时,员工能为公司(特 别是那些刚起步的公司)创造的价值的确令人瞩目。如果企业开始从社会规范角度思考,实际上,它们会认识到社会规范可以建立忠诚,更重要的是,它使人们自我发展,达到如今企业的要求:实行弹性工作制,关心公司,并且积 极参与公司事务。这正是社会性关系带来的。……多一些社会规范,少一些市场规范,我们的生活会变得更惬意,更有创造力,更充实,而且更有乐趣。</p>
+<p><font color = "blue"> Hui: 这和《经济学通识》中提倡的让市场决定一切的观点相反。</font></p>
+</div>
+<div id="procrastination-and-self-control" class="section level3">
+<h3><span class="header-section-number">1.6.3</span> Procrastination and Self-control</h3>
+<p>Procrastination:无法延迟满足导致的结果 Experiment: 12 weeks, require 3 papers Plan 1: Set deadline for the 3 papers yourself by the end of this week. If you miss the deadline, you will get 1% off your final score for each day you miss. Plan 2: everyone will have the same deadline which is the end of the semester Plan 3: The professor set deadlines to be week4, week8 and week12 Result: Plan3 &gt; Plan1 &gt; Plan2</p>
+</div>
+<div id="the-price-of-proprietorship" class="section level3">
+<h3><span class="header-section-number">1.6.4</span> The Price of Proprietorship</h3>
+<p><font color = "blue">Hui: 这就是之间《清醒思考的艺术》中讲的禀赋效应：我们对自己拥有的东西估值更高</font></p>
+<p>为什么多种选择使我们迷失主要目标？ 例子：项羽破釜沉舟，饿死在草堆间的驴 知道这些可预测的非理性并不保证你做出理性的选择。依旧在各种选择中纠结。 为什么期待什么就会得到什么? 可口可乐凭什么战胜了百事可乐? 为什么球迷不承认自己拥护的球队犯规?为什么会产生这么多暴力冲突?是历史、民族、政治方面的原因,还是 我们本性中就存在某些非理性的东西,鼓励我们对抗,引导我们对同一事件,根据自己的立 场而采取完全不同的观察角度呢?</p>
+<p>为什么加了醋的啤酒贴上“特酿”标签就会大受欢迎?人们的预期是否影响他们对后来 事物的观点——说得更具体一点,酒吧的客人对某种啤酒的预期是否能形成他们对啤酒口 味的评判标准。</p>
+<p>预期能够形成成见，成见为我们理解周围环境提供了捷径，但成见给我们提供了对某一群体的特定预期，它也可能对我们的认识与行为有不利影响。</p>
+</div>
+<div id="magic-price" class="section level3">
+<h3><span class="header-section-number">1.6.5</span> Magic Price</h3>
+<p>主要讲了安慰的作用。价格贵，就以为是好东西，这和设定我们的预期有关。</p>
+</div>
+<div id="good-or-evil" class="section level3">
+<h3><span class="header-section-number">1.6.6</span> Good or Evil</h3>
+<p>有关《圣经》十诫的实验给我印象最深的是那些十条中只能记得一两条的学生和那些十条差不多全记得的 都会受到影响。这就是说鼓励人们诚实的并不是十诫的条文本身,而是出于对某种道德准则的深思。</p>
+<p>英文“职业”一词来源于拉丁文“professus”,意思是“为公众认可”。高级职业很久 以前起源于宗教后来又传播、扩大到了医学和法律方面。据说,掌握了秘不外传的高深知识 的人,不仅仅垄断了该知识的应用,同时还负有明智地、诚实地使用该种知识的责任。</p>
+<p>我们擅长于把自己细微的不诚实想法和做法合理化,所以我们 通常很难清楚地确定非金钱事物对作弊的影响。 只要有机会,人们就会作弊。但奇怪的是我们多数人对此并无察觉。当偷取的是非货币，无形的物品时，不会有道德负担，比如网络盗窃通话时间。</p>
+<p>点酒顺序对点的酒有影响，大家都想点和之前人不同的。那些注重表现自己独特性的人们更可能点别人没点过的酒,以此来证明自己确实与众不同。人们选择食品和饮料时好像有两个目标:或者给自己带来最大享受,或者在朋友心目中炫耀自己某 些正面的人格特质。 说到底,人们,特别是那些独特需求旺盛的人们,可能牺牲个人需求去换取名声需求。 在标新立异不被视为正面人格特质的文化背景下,人们在大庭广众之下点菜点酒时,有可能表现与群体的归属感,着意刻画与别人选择一致的印象。我们在香港做的实验证明,事实果真如此。在香港,人们常常也不喜欢在公开场合当众点的酒菜,而是喜欢自己私下点的。但是这些参与者点酒点菜时,都跟着群体中的头一个照葫芦画瓢——这样他们就同样犯了使他们后悔的错误。</p>
+</div>
+<div id="free-lunch-an-behavior-economics-explanation" class="section level3">
+<h3><span class="header-section-number">1.6.7</span> Free Lunch: an behavior economics explanation</h3>
+<p>传统经济学假定我们都是理性的——我们了解与决定一切有关的信息,我们能够计算所面 临的各种选择的价值,我们能够正确权衡每一种选择中错综复杂的因素,我们对事物的认知 不会遇到阻碍。</p>
+<p>免费午餐的基本概念就在这里——让有关各方都能获益,做到“共赢”。要注意的是, 这些免费午餐并不一定是没有成本(使用自我控制信用卡和实施“明天多储蓄”不可避免牵 涉到成本)。但只要这些机制换来的利益大于成本,我们应该把它们当做免费午餐——给各 方都带来净效益的机制。</p>
+</div>
+<div id="summary" class="section level3">
+<h3><span class="header-section-number">1.6.8</span> Summary</h3>
+<p>我们的知觉和决策环境是通过眼、耳、味觉和触觉, 还有主宰一切思想的大脑,经过过滤才形成的。等到我们对信息作了理解和消化,它已经不 一定是现实的真实反映了。相反,它只是我们对现实的诠释,而它就是我们形成决策的基础。 从本质上来说,我们被自然赋予的工具所限制,我们决策的方式又受限于这些工具的质量与 精确程度。 尽管非理性司空见惯,但并不是说我们都不可救药了。一旦我们明 白了自己的错误决定会发生在什么时间,起源自什么地方,就可以提高警惕,强制自己从不 同角度、用不同方式重新考虑这些决定,或者用科技手段来克服与生俱来的缺点。企业决策 者们也可以在这些方面改变他们的思维方式,考虑怎样制定政策,设计产品,创造免费午餐。 2.7 The paradox of choice [选择的悖论, Barry Schwartz]</p>
+<p><font color="blue">Hui:作者Barry Schwartz主要讨论的悖论是：更多的选择和自由并不能带来更大的幸福。那些总是想要做出最优选择的人可能拥有更大的世俗眼中的成功，但那些满足于“足够好”的选择的人更快乐。其中涉及到人们做出选择时受到的锚定效应，框架效应，易得性偏差等的影响。在身份的焦虑中，阿兰.德波顿也有提到更多的自由其实也是产生焦虑的原因之一。</font></p>
+</div>
+<div id="section-1.6.9" class="section level3">
+<h3><span class="header-section-number">1.6.9</span> 自由的重担</h3>
+<p>大名鼎鼎的政治哲学家Isaiah Berlin提出一个重要观点，他把自由划分为消极自由（negative liberty）和积极自由（positive liberty）。消极自由是一种“不做”（liberty from）的自由，人们有免受他人强制的自由，不按他人意愿来做事的自由。而积极自由是一种“去做”（liberty to）的自由，做自己生活的主人，让自己的生活变得更有意义、更有分量。</p>
+<p>如果人类是理性的，那么增加选项就会让社会更美好。那些在意自己有没有选择权的人会从中获益，而那些不在乎选择权的人可以自觉忽略这些多余的选项。这种观点在理论上很有说服力，不过在现实中却行不通。</p>
+<p>选择过多不仅使人们做决定的过程更艰难，因而感到更沮丧，还会让最终被选中的“幸运儿”魅力大减，导致满足感更低。</p>
+<p>在这个缺乏监督的时代，如果你持续使用某个产品而不考虑其他选择，结果可能是，你将会长期支付更高昂的价格来买一样的服务。</p>
+</div>
+<div id="section-1.6.10" class="section level3">
+<h3><span class="header-section-number">1.6.10</span> 是什么在操控你的行为</h3>
+<p>peak-end-rule: 我们对过去体验的记忆由两种因素决定，事情达到极限（最好或最坏）时我们的感受，以及事情结束后我们的感受。</p>
+<p>逻辑和记忆的鸿沟说明，我们实际上没有想象中那么了解自己。</p>
+<p>availability heuristic: 人们的判断推理过程常常受到可获得的记忆的影响，倾向于认为容易想起的事件比不容易想起的事件更常见。</p>
+<p>framing effect: 同一个问题的两种逻辑意义相似的说法会导致不同的决策判断，当消费者认为某一价格带来的是“损失”而非“收益”时，他们对价格就非常敏感。</p>
+<p>当决定自己的收益时，人们倾向于规避风险，都有风险厌恶症。而当人们面对损失时，一个个都变得极具冒险精神，都是寻求风险的冒险家。</p>
+<p>psychological accounts：人的头脑中存在一种心理账户，会讲现实中客观等价的支出或收益在心理上划分到不同的账户中，做出不同的决策。</p>
+<p>law of diminish marginal utility：当人们连续消费同一种物品或服务时，其总效用虽然在增加，但边际效应，既每单位物品或服务带来的效用增加量却在递减。</p>
+<p>endowment effect: 人们更愿意持有自己已经拥有的东西，而不愿意用它交换另一个可能更好的替代物。</p>
+<p>即便只需要考虑有限几个选项，人们也就容易犯错。而随着选择的数量和复杂度的上升，人们犯错的可能性就会不断增大。没有人有时间和精力对每个选项仔细琢磨、全面推敲，随着需要做的决定和选择的数量越来越大，决策难度会大大增加。</p>
+<p>选项越多，付出越多，犯错就会让人更痛苦。选项增加会产生3个相互关联的不幸后果： 需要付出更多努力来做选择； 犯错的可能性更大 犯错会造成更大的负面影响 满足者最终会为很不错的选择感到满意，而最大化者追求的是绝对的最佳选择。我相信最大化者追求的目标正是导致他们不满的根源，尤其是在一个方方面面选择都多如牛毛的社会。虽然最大化者总是朝着“最好”努力，但几乎永远无法对最终的选择感到满意，因此，最大化者可能更容易成功，但满足者更容易幸福。 最大化者对好事的感觉没满足者那么强烈，对坏事的应对能力也没有满足者那么强。 坏事发生后，最大化者要经历较长的时间才能恢复。 最大化者比满足者花更多的时间深思熟虑。 所谓的最佳选择根本不存在。</p>
+</div>
+<div id="section-1.6.11" class="section level3">
+<h3><span class="header-section-number">1.6.11</span> 行为经济学背后的心理奥秘</h3>
+<p>learned helplessness: 当人或者动物接连不断地遭受挫折，就会丧失控制感，感到自己对一切都无能为力，陷入一种无助的心理状态。</p>
+<p>可以毫不夸张地说，我们最基本的幸福感在很大程度上正是基于我们对环境的控制能力，以及是否知道自己拥有这种能力。</p>
+<p>看来更多的选择机会并没有让人们感觉更好，有两种可能：</p>
+<ol style="list-style-type: decimal">
+<li>随着选择和控制的体验越发广泛而深入，人们对选择和控制的期望也在增加。对控制的渴望和期待也总是跑在现实的前面，无论有多大的自由都无法完全满足。</li>
+<li>更多的选择并不意味着更多的控制。当选择增加到某个临界点时，我们反而会感到无力应对。</li>
+</ol>
+<p>要在选择自由与承诺忠诚之间获得平衡简直是不可能的任务。… 那些热爱选择和行动自由的人就应该远离错综复杂的关系；那些看重稳定和忠诚的人就应该努力追求它。</p>
+<p>如果“限制”可以接纳有限的自由，“自由”也可以受到一定的“限制”，人们就会逐渐变聪明，懂得衡量什么才是适度的限制。</p>
+<p>“需要”和“喜欢”其实是由两个完全不同的大脑系统掌管的，两个系统之间可以写作，但大部分时间是单独运作的。</p>
+<p>最终决定决策质量的是人们做选择时的主观感受。如果选项数目多到会让主观满意度降低，我们的感觉往往更加糟糕。</p>
+<p>消极情绪导致注意力范围缩小，无法全面考虑影响选择的各个因素。相反，心情越好，思维就越灵活，能考虑到更多的可能性。</p>
+<p>如果选项增加，被拒选项的优点就会强化，导致最终选定的选项带来的满意度降低。</p>
+<p>考虑机会成本时作出明智选择的必经之路。</p>
+<p>最容易说出来的原因并不一定是真正重要的。但是话一旦说出口，它的重要性就会陡然增加。</p>
+<p>想说明分析过后再做决定很容易犯错。随着选择数目的增加，做决定时要做的价值判断也增多了。尽管千方百计挤出的理由可能让你的决定在当下显得十分正确，但长远看来没什么特别大的好处。</p>
+<p>作出重大选择之所以困难，可能就是因为它们时不可逆转的。婚姻没有退货保证，职业亦然。任何改变都意味着巨大的代价——时间、经历、情感和金钱。</p>
+<p>postdecision regret V.S. anticipated regret: 决定后懊悔是做了某个决定后，因为结果不理想而产生的后悔。预期性懊悔是指做选择之前，因为预计到结果不好或者还有更好的选择而感到后悔。</p>
+<p>omission bias: 人们更容易接受由于自己的忽略或不作为导致的损失，而不愿意接受自己的行为导致的同等损失。</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="bad-arguments-logical-fallacies.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="fooled-by-randomness.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook/js/app.min.js"></script>
+<script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/plugin-search.js"></script>
+<script src="libs/gitbook/js/plugin-sharing.js"></script>
+<script src="libs/gitbook/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/happyrabbit/linhui.org/tree/gh-pages/notes/Reading/01-PhilPsychology.Rmd",
+"text": "Edit"
+},
+"download": ["Reading.pdf", "Reading.epub", "Reading.mobi"],
+"toc": {
+"collapse": "none"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
