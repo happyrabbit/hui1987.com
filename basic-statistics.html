@@ -25,7 +25,11 @@
 <meta name="author" content="Hui Lin">
 
 
+<<<<<<< HEAD
 <meta name="date" content="2019-07-21">
+=======
+<meta name="date" content="2019-05-20">
+>>>>>>> 933650ff0c4b5c12fd145ecbf129ea792c337d69
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -452,6 +456,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="basic-statistics" class="section level2 unnumbered">
 <h2>Basic Statistics</h2>
 <p>Here is a plot for counts of books in each category</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(RCurl)
+u &lt;-<span class="st"> &quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5o04RE2sSqFGbA_iyhjAUYDE3TpGXzQMjyBrMvHUk1RpSDJ22SB0F7SLMoqXim5hn733oHYYsok0s/pub?gid=0&amp;single=true&amp;output=csv&quot;</span>
+tc &lt;-<span class="st"> </span><span class="kw">getURL</span>(u, <span class="dt">ssl.verifypeer=</span><span class="ot">FALSE</span>, <span class="dt">.encoding =</span> <span class="st">&quot;CE_UTF8&quot;</span>)
+dat &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="kw">textConnection</span>(tc))</code></pre></div>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">pdat &lt;-<span class="st"> </span>dat <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">group_by</span>(Category) <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">summarise</span>(<span class="dt">Count =</span> <span class="kw">n</span>())
@@ -459,14 +467,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat =</span> <span class="st">&quot;identity&quot;</span>) <span class="op">+</span>
 <span class="st">  </span><span class="kw">coord_flip</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position=</span><span class="st">&quot;none&quot;</span>, <span class="dt">axis.title.y=</span><span class="kw">element_blank</span>()) </code></pre></div>
-<p><img src="Reading_files/figure-html/unnamed-chunk-4-1.svg" width="672" /></p>
+<p><img src="Reading_files/figure-html/unnamed-chunk-5-1.svg" width="672" /></p>
 <p>Here is a plot showing the percentage of books I have started (or finished) across different categories.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(dat,<span class="kw">aes</span>(Category, <span class="dt">fill =</span> ProDetail)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">position =</span> <span class="st">&quot;fill&quot;</span>) <span class="op">+</span>
 <span class="st">  </span><span class="kw">coord_flip</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>( <span class="dt">axis.title.y=</span><span class="kw">element_blank</span>(),
          <span class="dt">axis.title.x=</span><span class="kw">element_blank</span>()) </code></pre></div>
-<p><img src="Reading_files/figure-html/unnamed-chunk-5-1.svg" width="672" /></p>
+<p><img src="Reading_files/figure-html/unnamed-chunk-6-1.svg" width="672" /></p>
 
 
 </div>
