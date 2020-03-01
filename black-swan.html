@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html >
-
+<html lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Reading Notes</title>
-  <meta name="description" content="Hui’s Reading Notes">
-  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1.9 Black Swan | Reading Notes</title>
+  <meta name="description" content="Hui’s Reading Notes" />
+  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Reading Notes" />
+  <meta property="og:title" content="1.9 Black Swan | Reading Notes" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="http://hui1987.com" />
   
@@ -17,29 +16,33 @@
   <meta name="github-repo" content="happyrabbit/IntroDataScience" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Reading Notes" />
+  <meta name="twitter:title" content="1.9 Black Swan | Reading Notes" />
   
   <meta name="twitter:description" content="Hui’s Reading Notes" />
   
 
-<meta name="author" content="Hui Lin">
+<meta name="author" content="Hui Lin" />
 
 
-<meta name="date" content="2019-07-21">
+<meta name="date" content="2020-02-29" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="fooled-by-randomness.html">
-<link rel="next" href="antifragile.html">
+<link rel="prev" href="fooled-by-randomness.html"/>
+<link rel="next" href="antifragile.html"/>
 <script src="libs/jquery/jquery.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -62,41 +65,66 @@
 
 
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -126,7 +154,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.1.3" data-path="thinking-fast-and-slow.html"><a href="thinking-fast-and-slow.html#part-3-overconfidence"><i class="fa fa-check"></i><b>1.1.3</b> Part 3: Overconfidence</a></li>
 <li class="chapter" data-level="1.1.4" data-path="thinking-fast-and-slow.html"><a href="thinking-fast-and-slow.html#part-4-choices"><i class="fa fa-check"></i><b>1.1.4</b> Part 4: Choices</a></li>
 </ul></li>
-<li class="chapter" data-level="1.2" data-path="what-intelligence-tests-miss-.html"><a href="what-intelligence-tests-miss-.html"><i class="fa fa-check"></i><b>1.2</b> What intelligence tests miss (超越智商)</a></li>
+<li class="chapter" data-level="1.2" data-path="what-intelligence-tests-miss.html"><a href="what-intelligence-tests-miss.html"><i class="fa fa-check"></i><b>1.2</b> What intelligence tests miss</a></li>
 <li class="chapter" data-level="1.3" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html"><i class="fa fa-check"></i><b>1.3</b> The Optimism Bias [Tali Sharot]</a><ul>
 <li class="chapter" data-level="1.3.1" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#illusions-of-the-human-brain"><i class="fa fa-check"></i><b>1.3.1</b> Illusions of the Human Brain</a></li>
 <li class="chapter" data-level="1.3.2" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#the-evolution-of-prospection"><i class="fa fa-check"></i><b>1.3.2</b> The Evolution of Prospection</a></li>
@@ -140,7 +168,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.3.10" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#a-dark-side-to-optimism"><i class="fa fa-check"></i><b>1.3.10</b> A dark side to optimism?</a></li>
 <li class="chapter" data-level="1.3.11" data-path="the-optimism-bias-tali-sharot.html"><a href="the-optimism-bias-tali-sharot.html#from-prediction-to-perception-to-action"><i class="fa fa-check"></i><b>1.3.11</b> From prediction to perception to action</a></li>
 </ul></li>
-<li class="chapter" data-level="1.4" data-path="art-of-thinking-clearly-rolf-dobelli.html"><a href="art-of-thinking-clearly-rolf-dobelli.html"><i class="fa fa-check"></i><b>1.4</b> Art of Thinking Clearly [Rolf Dobelli,清醒思考的艺术]</a></li>
+<li class="chapter" data-level="1.4" data-path="art-of-thinking-clearly.html"><a href="art-of-thinking-clearly.html"><i class="fa fa-check"></i><b>1.4</b> Art of Thinking Clearly</a></li>
 <li class="chapter" data-level="1.5" data-path="bad-arguments-logical-fallacies.html"><a href="bad-arguments-logical-fallacies.html"><i class="fa fa-check"></i><b>1.5</b> Bad Arguments — Logical Fallacies</a></li>
 <li class="chapter" data-level="1.6" data-path="predictable-irrational.html"><a href="predictable-irrational.html"><i class="fa fa-check"></i><b>1.6</b> Predictable Irrational</a><ul>
 <li class="chapter" data-level="1.6.1" data-path="predictable-irrational.html"><a href="predictable-irrational.html#the-fallacy-of-supply-and-demand"><i class="fa fa-check"></i><b>1.6.1</b> The fallacy of supply and demand</a></li>
@@ -153,9 +181,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.6.8" data-path="predictable-irrational.html"><a href="predictable-irrational.html#summary"><i class="fa fa-check"></i><b>1.6.8</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="1.7" data-path="the-paradox-of-choice-barry-schwartz.html"><a href="the-paradox-of-choice-barry-schwartz.html"><i class="fa fa-check"></i><b>1.7</b> The paradox of choice [选择的悖论, Barry Schwartz]</a><ul>
-<li class="chapter" data-level="1.7.1" data-path="the-paradox-of-choice-barry-schwartz.html"><a href="the-paradox-of-choice-barry-schwartz.html#section-1.7.1"><i class="fa fa-check"></i><b>1.7.1</b> 自由的重担</a></li>
-<li class="chapter" data-level="1.7.2" data-path="the-paradox-of-choice-barry-schwartz.html"><a href="the-paradox-of-choice-barry-schwartz.html#section-1.7.2"><i class="fa fa-check"></i><b>1.7.2</b> 是什么在操控你的行为</a></li>
-<li class="chapter" data-level="1.7.3" data-path="the-paradox-of-choice-barry-schwartz.html"><a href="the-paradox-of-choice-barry-schwartz.html#section-1.7.3"><i class="fa fa-check"></i><b>1.7.3</b> 行为经济学背后的心理奥秘</a></li>
+<li class="chapter" data-level="1.7.1" data-path="the-paradox-of-choice-barry-schwartz.html"><a href="the-paradox-of-choice-barry-schwartz.html#自由的重担"><i class="fa fa-check"></i><b>1.7.1</b> 自由的重担</a></li>
+<li class="chapter" data-level="1.7.2" data-path="the-paradox-of-choice-barry-schwartz.html"><a href="the-paradox-of-choice-barry-schwartz.html#是什么在操控你的行为"><i class="fa fa-check"></i><b>1.7.2</b> 是什么在操控你的行为</a></li>
+<li class="chapter" data-level="1.7.3" data-path="the-paradox-of-choice-barry-schwartz.html"><a href="the-paradox-of-choice-barry-schwartz.html#行为经济学背后的心理奥秘"><i class="fa fa-check"></i><b>1.7.3</b> 行为经济学背后的心理奥秘</a></li>
 </ul></li>
 <li class="chapter" data-level="1.8" data-path="fooled-by-randomness.html"><a href="fooled-by-randomness.html"><i class="fa fa-check"></i><b>1.8</b> Fooled by Randomness</a></li>
 <li class="chapter" data-level="1.9" data-path="black-swan.html"><a href="black-swan.html"><i class="fa fa-check"></i><b>1.9</b> Black Swan</a><ul>
@@ -180,7 +208,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.9.19" data-path="black-swan.html"><a href="black-swan.html#how-to-get-even-with-the-black-swan"><i class="fa fa-check"></i><b>1.9.19</b> How to get even with the black swan</a></li>
 </ul></li>
 <li class="chapter" data-level="1.10" data-path="antifragile.html"><a href="antifragile.html"><i class="fa fa-check"></i><b>1.10</b> Antifragile</a></li>
-<li class="chapter" data-level="1.11" data-path="superforecasting-.html"><a href="superforecasting-.html"><i class="fa fa-check"></i><b>1.11</b> Superforecasting (超预测)</a></li>
+<li class="chapter" data-level="1.11" data-path="superforecasting.html"><a href="superforecasting.html"><i class="fa fa-check"></i><b>1.11</b> Superforecasting</a></li>
 <li class="chapter" data-level="1.12" data-path="risk-savvy.html"><a href="risk-savvy.html"><i class="fa fa-check"></i><b>1.12</b> Risk Savvy</a></li>
 <li class="chapter" data-level="1.13" data-path="how-women-decide.html"><a href="how-women-decide.html"><i class="fa fa-check"></i><b>1.13</b> How Women Decide</a></li>
 <li class="chapter" data-level="1.14" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html"><i class="fa fa-check"></i><b>1.14</b> The Smarter Screen</a><ul>
@@ -194,7 +222,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.14.8" data-path="the-smarter-screen.html"><a href="the-smarter-screen.html#thinking-apps"><i class="fa fa-check"></i><b>1.14.8</b> Thinking apps</a></li>
 </ul></li>
 <li class="chapter" data-level="1.15" data-path="mind-wide-open-.html"><a href="mind-wide-open-.html"><i class="fa fa-check"></i><b>1.15</b> Mind Wide Open [心思大开]</a></li>
-<li class="chapter" data-level="1.16" data-path="the-human-advantage-.html"><a href="the-human-advantage-.html"><i class="fa fa-check"></i><b>1.16</b> The Human Advantage [最强大脑]</a></li>
+<li class="chapter" data-level="1.16" data-path="the-human-advantage.html"><a href="the-human-advantage.html"><i class="fa fa-check"></i><b>1.16</b> The Human Advantage</a></li>
 <li class="chapter" data-level="1.17" data-path="spark.html"><a href="spark.html"><i class="fa fa-check"></i><b>1.17</b> Spark</a><ul>
 <li class="chapter" data-level="1.17.1" data-path="spark.html"><a href="spark.html#a-case-study"><i class="fa fa-check"></i><b>1.17.1</b> A case study</a></li>
 <li class="chapter" data-level="1.17.2" data-path="spark.html"><a href="spark.html#learning-grow-your-brain-cells"><i class="fa fa-check"></i><b>1.17.2</b> Learning: grow your brain cells</a></li>
@@ -204,7 +232,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.18.2" data-path="the-art-of-loving-erich-fromm.html"><a href="the-art-of-loving-erich-fromm.html#the-theory-of-love"><i class="fa fa-check"></i><b>1.18.2</b> The theory of love</a></li>
 </ul></li>
 <li class="chapter" data-level="1.19" data-path="escape-from-freedom.html"><a href="escape-from-freedom.html"><i class="fa fa-check"></i><b>1.19</b> Escape from Freedom</a><ul>
-<li class="chapter" data-level="1.19.1" data-path="escape-from-freedom.html"><a href="escape-from-freedom.html#section-1.19.1"><i class="fa fa-check"></i><b>1.19.1</b> 现代人的两种自由观念</a></li>
+<li class="chapter" data-level="1.19.1" data-path="escape-from-freedom.html"><a href="escape-from-freedom.html#现代人的两种自由观念"><i class="fa fa-check"></i><b>1.19.1</b> 现代人的两种自由观念</a></li>
 </ul></li>
 <li class="chapter" data-level="1.20" data-path="the-sane-society-.html"><a href="the-sane-society-.html"><i class="fa fa-check"></i><b>1.20</b> The sane society (健全社会)</a></li>
 <li class="chapter" data-level="1.21" data-path="maxims.html"><a href="maxims.html"><i class="fa fa-check"></i><b>1.21</b> Maxims</a></li>
@@ -213,7 +241,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.24" data-path="on-the-immortality-of-the-soul.html"><a href="on-the-immortality-of-the-soul.html"><i class="fa fa-check"></i><b>1.24</b> On the Immortality of the Soul</a></li>
 <li class="chapter" data-level="1.25" data-path="tolerence.html"><a href="tolerence.html"><i class="fa fa-check"></i><b>1.25</b> Tolerence</a><ul>
 <li class="chapter" data-level="1.25.1" data-path="tolerence.html"><a href="tolerence.html#the-tyranny-of-ignorance"><i class="fa fa-check"></i><b>1.25.1</b> The Tyranny of Ignorance</a></li>
-<li class="chapter" data-level="1.25.2" data-path="tolerence.html"><a href="tolerence.html#the-greeks-"><i class="fa fa-check"></i><b>1.25.2</b> The Greeks [希腊人]</a></li>
+<li class="chapter" data-level="1.25.2" data-path="tolerence.html"><a href="tolerence.html#the-greeks-希腊人"><i class="fa fa-check"></i><b>1.25.2</b> The Greeks [希腊人]</a></li>
 </ul></li>
 <li class="chapter" data-level="1.26" data-path="the-theory-of-moral-sentiments.html"><a href="the-theory-of-moral-sentiments.html"><i class="fa fa-check"></i><b>1.26</b> The Theory of Moral Sentiments</a></li>
 <li class="chapter" data-level="1.27" data-path="personality.html"><a href="personality.html"><i class="fa fa-check"></i><b>1.27</b> Personality</a><ul>
@@ -235,28 +263,28 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.30.9" data-path="people-of-the-lie.html"><a href="people-of-the-lie.html#the-danger-and-the-hope"><i class="fa fa-check"></i><b>1.30.9</b> The danger and the hope</a></li>
 </ul></li>
 <li class="chapter" data-level="1.31" data-path="inner-work-.html"><a href="inner-work-.html"><i class="fa fa-check"></i><b>1.31</b> Inner Work (内在工作)</a></li>
-<li class="chapter" data-level="1.32" data-path="section-1-32.html"><a href="section-1-32.html"><i class="fa fa-check"></i><b>1.32</b> 耶鲁大学公开课——死亡</a></li>
-<li class="chapter" data-level="1.33" data-path="what-life-could-mean-to-you.html"><a href="what-life-could-mean-to-you.html"><i class="fa fa-check"></i><b>1.33</b> 自卑与超越（What Life Could Mean to You）</a><ul>
-<li class="chapter" data-level="1.33.1" data-path="what-life-could-mean-to-you.html"><a href="what-life-could-mean-to-you.html#section-1.33.1"><i class="fa fa-check"></i><b>1.33.1</b> 生活的意义</a></li>
+<li class="chapter" data-level="1.32" data-path="death.html"><a href="death.html"><i class="fa fa-check"></i><b>1.32</b> 耶鲁大学公开课——死亡</a></li>
+<li class="chapter" data-level="1.33" data-path="what-life-could-mean-to-you.html"><a href="what-life-could-mean-to-you.html"><i class="fa fa-check"></i><b>1.33</b> What Life Could Mean to You</a><ul>
+<li class="chapter" data-level="1.33.1" data-path="what-life-could-mean-to-you.html"><a href="what-life-could-mean-to-you.html#meaningoflife"><i class="fa fa-check"></i><b>1.33.1</b> 生活的意义</a></li>
 </ul></li>
-<li class="chapter" data-level="1.34" data-path="section-1-34.html"><a href="section-1-34.html"><i class="fa fa-check"></i><b>1.34</b> 20世纪最伟大的心理学实验</a></li>
-<li class="chapter" data-level="1.35" data-path="section-1-35.html"><a href="section-1-35.html"><i class="fa fa-check"></i><b>1.35</b> 不正常人类研究所</a></li>
+<li class="chapter" data-level="1.34" data-path="psychologicalexp.html"><a href="psychologicalexp.html"><i class="fa fa-check"></i><b>1.34</b> 20世纪最伟大的心理学实验</a></li>
+<li class="chapter" data-level="1.35" data-path="weirdoinstitute.html"><a href="weirdoinstitute.html"><i class="fa fa-check"></i><b>1.35</b> 不正常人类研究所</a></li>
 <li class="chapter" data-level="1.36" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html"><i class="fa fa-check"></i><b>1.36</b> Psychobabble [Stephen Briers]</a><ul>
 <li class="chapter" data-level="1.36.1" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html#whats-so-wrong-with-popular-psychology"><i class="fa fa-check"></i><b>1.36.1</b> What’s so wrong with popular psychology?</a></li>
 <li class="chapter" data-level="1.36.2" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html#myth-5-no-one-can-make-you-feel-anything"><i class="fa fa-check"></i><b>1.36.2</b> Myth 5: No one can make you feel anything</a></li>
 <li class="chapter" data-level="1.36.3" data-path="psychobabble-stephen-briers.html"><a href="psychobabble-stephen-briers.html#myth-6-think-positive-ans-be-a-winner"><i class="fa fa-check"></i><b>1.36.3</b> Myth 6: Think positive ans be a winner!</a></li>
 </ul></li>
-<li class="chapter" data-level="1.37" data-path="section-1-37.html"><a href="section-1-37.html"><i class="fa fa-check"></i><b>1.37</b> 南怀瑾谈心兵难防</a></li>
-<li class="chapter" data-level="1.38" data-path="section-1-38.html"><a href="section-1-38.html"><i class="fa fa-check"></i><b>1.38</b> 欲望心理学</a><ul>
-<li class="chapter" data-level="1.38.1" data-path="section-1-38.html"><a href="section-1-38.html#section-1.38.1"><i class="fa fa-check"></i><b>1.38.1</b> 涂鸦、发表言论、恶霸行为的目的——渴望重视的心理</a></li>
-<li class="chapter" data-level="1.38.2" data-path="section-1-38.html"><a href="section-1-38.html#section-1.38.2"><i class="fa fa-check"></i><b>1.38.2</b> 自我空间心理</a></li>
+<li class="chapter" data-level="1.37" data-path="xinbingnanfang.html"><a href="xinbingnanfang.html"><i class="fa fa-check"></i><b>1.37</b> 南怀瑾谈心兵难防</a></li>
+<li class="chapter" data-level="1.38" data-path="yuwangxinli.html"><a href="yuwangxinli.html"><i class="fa fa-check"></i><b>1.38</b> 欲望心理学</a><ul>
+<li class="chapter" data-level="1.38.1" data-path="yuwangxinli.html"><a href="yuwangxinli.html#涂鸦发表言论恶霸行为的目的渴望重视的心理"><i class="fa fa-check"></i><b>1.38.1</b> 涂鸦、发表言论、恶霸行为的目的——渴望重视的心理</a></li>
+<li class="chapter" data-level="1.38.2" data-path="yuwangxinli.html"><a href="yuwangxinli.html#自我空间心理"><i class="fa fa-check"></i><b>1.38.2</b> 自我空间心理</a></li>
 </ul></li>
-<li class="chapter" data-level="1.39" data-path="section-1-39.html"><a href="section-1-39.html"><i class="fa fa-check"></i><b>1.39</b> 直面内心的恐惧</a><ul>
-<li class="chapter" data-level="1.39.1" data-path="section-1-39.html"><a href="section-1-39.html#section-1.39.1"><i class="fa fa-check"></i><b>1.39.1</b> 序言</a></li>
-<li class="chapter" data-level="1.39.2" data-path="section-1-39.html"><a href="section-1-39.html#split-personality"><i class="fa fa-check"></i><b>1.39.2</b> 害怕把自己交出去——分裂人格（split personality）</a></li>
-<li class="chapter" data-level="1.39.3" data-path="section-1-39.html"><a href="section-1-39.html#section-1.39.3"><i class="fa fa-check"></i><b>1.39.3</b> 害怕做自己——忧郁人格</a></li>
-<li class="chapter" data-level="1.39.4" data-path="section-1-39.html"><a href="section-1-39.html#obsessive-compulsive-personality-disorder"><i class="fa fa-check"></i><b>1.39.4</b> 害怕改变——强迫人格(obsessive-compulsive personality disorder)</a></li>
-<li class="chapter" data-level="1.39.5" data-path="section-1-39.html"><a href="section-1-39.html#hysteria"><i class="fa fa-check"></i><b>1.39.5</b> 歇斯底里（hysteria）人格</a></li>
+<li class="chapter" data-level="1.39" data-path="fear.html"><a href="fear.html"><i class="fa fa-check"></i><b>1.39</b> 直面内心的恐惧</a><ul>
+<li class="chapter" data-level="1.39.1" data-path="fear.html"><a href="fear.html#序言"><i class="fa fa-check"></i><b>1.39.1</b> 序言</a></li>
+<li class="chapter" data-level="1.39.2" data-path="fear.html"><a href="fear.html#害怕把自己交出去分裂人格split-personality"><i class="fa fa-check"></i><b>1.39.2</b> 害怕把自己交出去——分裂人格（split personality）</a></li>
+<li class="chapter" data-level="1.39.3" data-path="fear.html"><a href="fear.html#害怕做自己忧郁人格"><i class="fa fa-check"></i><b>1.39.3</b> 害怕做自己——忧郁人格</a></li>
+<li class="chapter" data-level="1.39.4" data-path="fear.html"><a href="fear.html#害怕改变强迫人格obsessive-compulsive-personality-disorder"><i class="fa fa-check"></i><b>1.39.4</b> 害怕改变——强迫人格(obsessive-compulsive personality disorder)</a></li>
+<li class="chapter" data-level="1.39.5" data-path="fear.html"><a href="fear.html#歇斯底里hysteria人格"><i class="fa fa-check"></i><b>1.39.5</b> 歇斯底里（hysteria）人格</a></li>
 </ul></li>
 <li class="chapter" data-level="1.40" data-path="it-wasnt-your-fault.html"><a href="it-wasnt-your-fault.html"><i class="fa fa-check"></i><b>1.40</b> It Wasn’t Your Fault</a></li>
 <li class="chapter" data-level="1.41" data-path="mistakes-were-made-but-not-by-me.html"><a href="mistakes-were-made-but-not-by-me.html"><i class="fa fa-check"></i><b>1.41</b> Mistakes Were Made But Not by Me</a></li>
@@ -268,31 +296,31 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.47" data-path="the-crowd.html"><a href="the-crowd.html"><i class="fa fa-check"></i><b>1.47</b> The Crowd</a></li>
 <li class="chapter" data-level="1.48" data-path="the-true-believer-thoughts-on-the-nature-of-mass-movements.html"><a href="the-true-believer-thoughts-on-the-nature-of-mass-movements.html"><i class="fa fa-check"></i><b>1.48</b> The True Believer: Thoughts On The Nature Of Mass Movements</a></li>
 <li class="chapter" data-level="1.49" data-path="status-anxiety.html"><a href="status-anxiety.html"><i class="fa fa-check"></i><b>1.49</b> Status Anxiety</a><ul>
-<li class="chapter" data-level="1.49.1" data-path="status-anxiety.html"><a href="status-anxiety.html#section-1.49.1"><i class="fa fa-check"></i><b>1.49.1</b> 焦虑的起因</a></li>
-<li class="chapter" data-level="1.49.2" data-path="status-anxiety.html"><a href="status-anxiety.html#section-1.49.2"><i class="fa fa-check"></i><b>1.49.2</b> 解决方法</a></li>
+<li class="chapter" data-level="1.49.1" data-path="status-anxiety.html"><a href="status-anxiety.html#statusanxiety1"><i class="fa fa-check"></i><b>1.49.1</b> 焦虑的起因</a></li>
+<li class="chapter" data-level="1.49.2" data-path="status-anxiety.html"><a href="status-anxiety.html#statusanxiety7"><i class="fa fa-check"></i><b>1.49.2</b> 解决方法</a></li>
 </ul></li>
-<li class="chapter" data-level="1.50" data-path="-by-rainer-eringer.html"><a href="-by-rainer-eringer.html"><i class="fa fa-check"></i><b>1.50</b> 生活中的道德怪圈 （By Rainer Eringer）</a><ul>
-<li class="chapter" data-level="1.50.1" data-path="-by-rainer-eringer.html"><a href="-by-rainer-eringer.html#section-1.50.1"><i class="fa fa-check"></i><b>1.50.1</b> 引言</a></li>
+<li class="chapter" data-level="1.50" data-path="daodeguaiquan.html"><a href="daodeguaiquan.html"><i class="fa fa-check"></i><b>1.50</b> 生活中的道德怪圈</a><ul>
+<li class="chapter" data-level="1.50.1" data-path="daodeguaiquan.html"><a href="daodeguaiquan.html#daodeguaiquan1"><i class="fa fa-check"></i><b>1.50.1</b> 引言</a></li>
 </ul></li>
-<li class="chapter" data-level="1.51" data-path="section-1-51.html"><a href="section-1-51.html"><i class="fa fa-check"></i><b>1.51</b> 电车难题</a></li>
+<li class="chapter" data-level="1.51" data-path="dianchenanti.html"><a href="dianchenanti.html"><i class="fa fa-check"></i><b>1.51</b> 电车难题</a></li>
 <li class="chapter" data-level="1.52" data-path="being-mortal.html"><a href="being-mortal.html"><i class="fa fa-check"></i><b>1.52</b> Being Mortal</a></li>
 <li class="chapter" data-level="1.53" data-path="top-dog.html"><a href="top-dog.html"><i class="fa fa-check"></i><b>1.53</b> Top Dog</a></li>
-<li class="chapter" data-level="1.54" data-path="section-1-54.html"><a href="section-1-54.html"><i class="fa fa-check"></i><b>1.54</b> 心理操纵术</a><ul>
-<li class="chapter" data-level="1.54.1" data-path="section-1-54.html"><a href="section-1-54.html#section-1.54.1"><i class="fa fa-check"></i><b>1.54.1</b> 赢家不会告诉你的</a></li>
-<li class="chapter" data-level="1.54.2" data-path="section-1-54.html"><a href="section-1-54.html#section-1.54.2"><i class="fa fa-check"></i><b>1.54.2</b> 苹果的滋味</a></li>
+<li class="chapter" data-level="1.54" data-path="chaozhong.html"><a href="chaozhong.html"><i class="fa fa-check"></i><b>1.54</b> 心理操纵术</a><ul>
+<li class="chapter" data-level="1.54.1" data-path="chaozhong.html"><a href="chaozhong.html#chaozhong1"><i class="fa fa-check"></i><b>1.54.1</b> 赢家不会告诉你的</a></li>
+<li class="chapter" data-level="1.54.2" data-path="chaozhong.html"><a href="chaozhong.html#chaozhong2"><i class="fa fa-check"></i><b>1.54.2</b> 苹果的滋味</a></li>
 </ul></li>
-<li class="chapter" data-level="1.55" data-path="section-1-55.html"><a href="section-1-55.html"><i class="fa fa-check"></i><b>1.55</b> 希望感和绝望感</a></li>
-<li class="chapter" data-level="1.56" data-path="section-1-56.html"><a href="section-1-56.html"><i class="fa fa-check"></i><b>1.56</b> 脆弱</a></li>
-<li class="chapter" data-level="1.57" data-path="section-1-57.html"><a href="section-1-57.html"><i class="fa fa-check"></i><b>1.57</b> 各种效应</a></li>
-<li class="chapter" data-level="1.58" data-path="section-1-58.html"><a href="section-1-58.html"><i class="fa fa-check"></i><b>1.58</b> 王阳明/人生即修行</a></li>
-<li class="chapter" data-level="1.59" data-path="section-1-59.html"><a href="section-1-59.html"><i class="fa fa-check"></i><b>1.59</b> 治心经（曾国藩）</a></li>
-<li class="chapter" data-level="1.60" data-path="section-1-60.html"><a href="section-1-60.html"><i class="fa fa-check"></i><b>1.60</b> 心理学文章</a><ul>
-<li class="chapter" data-level="1.60.1" data-path="section-1-60.html"><a href="section-1-60.html#what-makes-things-cool"><i class="fa fa-check"></i><b>1.60.1</b> What makes things cool?</a></li>
+<li class="chapter" data-level="1.55" data-path="xinli1.html"><a href="xinli1.html"><i class="fa fa-check"></i><b>1.55</b> 希望感和绝望感</a></li>
+<li class="chapter" data-level="1.56" data-path="xinli2.html"><a href="xinli2.html"><i class="fa fa-check"></i><b>1.56</b> 脆弱</a></li>
+<li class="chapter" data-level="1.57" data-path="xinli3.html"><a href="xinli3.html"><i class="fa fa-check"></i><b>1.57</b> 各种效应</a></li>
+<li class="chapter" data-level="1.58" data-path="wangyangmingg.html"><a href="wangyangmingg.html"><i class="fa fa-check"></i><b>1.58</b> 人生即修行</a></li>
+<li class="chapter" data-level="1.59" data-path="xinjing.html"><a href="xinjing.html"><i class="fa fa-check"></i><b>1.59</b> 治心经</a></li>
+<li class="chapter" data-level="1.60" data-path="xinli4.html"><a href="xinli4.html"><i class="fa fa-check"></i><b>1.60</b> 心理学文章</a><ul>
+<li class="chapter" data-level="1.60.1" data-path="xinli4.html"><a href="xinli4.html#what-makes-things-cool"><i class="fa fa-check"></i><b>1.60.1</b> What makes things cool?</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="religion.html"><a href="religion.html"><i class="fa fa-check"></i><b>2</b> Religion</a><ul>
 <li class="chapter" data-level="2.1" data-path="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html"><a href="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html"><i class="fa fa-check"></i><b>2.1</b> The Tibetan Book of Living and Dying [西藏生死书，Sogal Rinpoche]</a><ul>
-<li class="chapter" data-level="2.1.1" data-path="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html"><a href="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html#living-"><i class="fa fa-check"></i><b>2.1.1</b> Living [生]</a></li>
+<li class="chapter" data-level="2.1.1" data-path="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html"><a href="the-tibetan-book-of-living-and-dying-sogal-rinpoche.html#living"><i class="fa fa-check"></i><b>2.1.1</b> Living</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="gravity-and-grace-simone-weil.html"><a href="gravity-and-grace-simone-weil.html"><i class="fa fa-check"></i><b>2.2</b> Gravity and Grace [重负与神恩, Simone Weil]</a></li>
 <li class="chapter" data-level="2.3" data-path="christianity-and-world-religions.html"><a href="christianity-and-world-religions.html"><i class="fa fa-check"></i><b>2.3</b> Christianity and World Religions</a></li>
@@ -300,42 +328,52 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="2.5" data-path="if-you-want-to-walk-on-water-youve-got-to-get-out-of-the-boat.html"><a href="if-you-want-to-walk-on-water-youve-got-to-get-out-of-the-boat.html"><i class="fa fa-check"></i><b>2.5</b> If you want to walk on water, you’ve got to get out of the boat</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="society-and-culture.html"><a href="society-and-culture.html"><i class="fa fa-check"></i><b>3</b> Society and Culture</a><ul>
-<li class="chapter" data-level="3.1" data-path="section-3-1.html"><a href="section-3-1.html"><i class="fa fa-check"></i><b>3.1</b> 动物精神</a></li>
+<li class="chapter" data-level="3.1" data-path="dongwujingshen.html"><a href="dongwujingshen.html"><i class="fa fa-check"></i><b>3.1</b> 动物精神</a></li>
 <li class="chapter" data-level="3.2" data-path="the-100-year-life-living-and-working-in-an-age-of-longevity.html"><a href="the-100-year-life-living-and-working-in-an-age-of-longevity.html"><i class="fa fa-check"></i><b>3.2</b> The 100-Year Life: Living and working in an age of longevity</a></li>
-<li class="chapter" data-level="3.3" data-path="empire-and-communications-.html"><a href="empire-and-communications-.html"><i class="fa fa-check"></i><b>3.3</b> Empire and Communications (帝国与传播)</a></li>
-<li class="chapter" data-level="3.4" data-path="amusing-ourselves-to-death-.html"><a href="amusing-ourselves-to-death-.html"><i class="fa fa-check"></i><b>3.4</b> Amusing ourselves to death [娱乐至死]</a></li>
-<li class="chapter" data-level="3.5" data-path="discipline-and-punish-.html"><a href="discipline-and-punish-.html"><i class="fa fa-check"></i><b>3.5</b> Discipline and Punish (规训与惩罚)</a></li>
-<li class="chapter" data-level="3.6" data-path="class-.html"><a href="class-.html"><i class="fa fa-check"></i><b>3.6</b> Class [格调：社会等级与生活品味]</a></li>
-<li class="chapter" data-level="3.7" data-path="section-3-7.html"><a href="section-3-7.html"><i class="fa fa-check"></i><b>3.7</b> 贫穷的本质</a></li>
+<li class="chapter" data-level="3.3" data-path="empire-and-communications.html"><a href="empire-and-communications.html"><i class="fa fa-check"></i><b>3.3</b> Empire and Communications</a></li>
+<li class="chapter" data-level="3.4" data-path="amusing-ourselves-to-death.html"><a href="amusing-ourselves-to-death.html"><i class="fa fa-check"></i><b>3.4</b> Amusing ourselves to death</a></li>
+<li class="chapter" data-level="3.5" data-path="discipline-and-punish.html"><a href="discipline-and-punish.html"><i class="fa fa-check"></i><b>3.5</b> Discipline and Punish</a></li>
+<li class="chapter" data-level="3.6" data-path="class.html"><a href="class.html"><i class="fa fa-check"></i><b>3.6</b> Class</a></li>
+<li class="chapter" data-level="3.7" data-path="pingqiongdebenzhi.html"><a href="pingqiongdebenzhi.html"><i class="fa fa-check"></i><b>3.7</b> 贫穷的本质</a></li>
 <li class="chapter" data-level="3.8" data-path="supper-better.html"><a href="supper-better.html"><i class="fa fa-check"></i><b>3.8</b> Supper Better</a></li>
-<li class="chapter" data-level="3.9" data-path="the-clash-of-civilizations-.html"><a href="the-clash-of-civilizations-.html"><i class="fa fa-check"></i><b>3.9</b> The Clash of Civilizations (文明的冲突)</a></li>
+<li class="chapter" data-level="3.9" data-path="the-clash-of-civilizations.html"><a href="the-clash-of-civilizations.html"><i class="fa fa-check"></i><b>3.9</b> The Clash of Civilizations</a></li>
+<li class="chapter" data-level="3.10" data-path="chrysanthemum-and-sword.html"><a href="chrysanthemum-and-sword.html"><i class="fa fa-check"></i><b>3.10</b> Chrysanthemum and Sword</a></li>
+<li class="chapter" data-level="3.11" data-path="connectography.html"><a href="connectography.html"><i class="fa fa-check"></i><b>3.11</b> Connectography</a></li>
+<li class="chapter" data-level="3.12" data-path="much-depends-on-dinner.html"><a href="much-depends-on-dinner.html"><i class="fa fa-check"></i><b>3.12</b> Much Depends on Dinner</a><ul>
+<li class="chapter" data-level="3.12.1" data-path="much-depends-on-dinner.html"><a href="much-depends-on-dinner.html#introduction-1"><i class="fa fa-check"></i><b>3.12.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.12.2" data-path="much-depends-on-dinner.html"><a href="much-depends-on-dinner.html#corn"><i class="fa fa-check"></i><b>3.12.2</b> Corn</a></li>
+<li class="chapter" data-level="3.12.3" data-path="much-depends-on-dinner.html"><a href="much-depends-on-dinner.html#salt"><i class="fa fa-check"></i><b>3.12.3</b> Salt</a></li>
+<li class="chapter" data-level="3.12.4" data-path="much-depends-on-dinner.html"><a href="much-depends-on-dinner.html#ice-cream"><i class="fa fa-check"></i><b>3.12.4</b> Ice-cream</a></li>
+<li class="chapter" data-level="3.12.5" data-path="much-depends-on-dinner.html"><a href="much-depends-on-dinner.html#sugar-from-an-article"><i class="fa fa-check"></i><b>3.12.5</b> Sugar (from an article)</a></li>
+</ul></li>
+<li class="chapter" data-level="3.13" data-path="eucoffeehouseculture.html"><a href="eucoffeehouseculture.html"><i class="fa fa-check"></i><b>3.13</b> 咖啡馆里的欧洲文化</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="self-development.html"><a href="self-development.html"><i class="fa fa-check"></i><b>4</b> Self-development</a><ul>
 <li class="chapter" data-level="4.1" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html"><i class="fa fa-check"></i><b>4.1</b> Learn how to learn</a><ul>
-<li class="chapter" data-level="4.1.1" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#how-to-read-a-book-"><i class="fa fa-check"></i><b>4.1.1</b> How to read a book? [如何阅读一本书]</a></li>
-<li class="chapter" data-level="4.1.2" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#make-friend-with-time-"><i class="fa fa-check"></i><b>4.1.2</b> Make friend with time [把时间当作朋友，李笑来]</a></li>
-<li class="chapter" data-level="4.1.3" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.3"><i class="fa fa-check"></i><b>4.1.3</b> 思维方法</a></li>
-<li class="chapter" data-level="4.1.4" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.4"><i class="fa fa-check"></i><b>4.1.4</b> 拆掉思维里的墙</a></li>
-<li class="chapter" data-level="4.1.5" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.5"><i class="fa fa-check"></i><b>4.1.5</b> 怎样成为高段位的学习者？</a></li>
+<li class="chapter" data-level="4.1.1" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#how-to-read-a-book"><i class="fa fa-check"></i><b>4.1.1</b> How to read a book?</a></li>
+<li class="chapter" data-level="4.1.2" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#make-friend-with-time"><i class="fa fa-check"></i><b>4.1.2</b> Make friend with time</a></li>
+<li class="chapter" data-level="4.1.3" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#siweifangfa"><i class="fa fa-check"></i><b>4.1.3</b> 思维方法</a></li>
+<li class="chapter" data-level="4.1.4" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#xiweifangfa2"><i class="fa fa-check"></i><b>4.1.4</b> 拆掉思维里的墙</a></li>
+<li class="chapter" data-level="4.1.5" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#xuexi1"><i class="fa fa-check"></i><b>4.1.5</b> 怎样成为高段位的学习者？</a></li>
 <li class="chapter" data-level="4.1.6" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#how-to-solve-it"><i class="fa fa-check"></i><b>4.1.6</b> How to Solve It?</a></li>
 <li class="chapter" data-level="4.1.7" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#learning-how-to-learn-mooc"><i class="fa fa-check"></i><b>4.1.7</b> Learning How to Learn [MOOC]</a></li>
-<li class="chapter" data-level="4.1.8" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#how-we-learn-"><i class="fa fa-check"></i><b>4.1.8</b> How we learn? (如何学习)</a></li>
-<li class="chapter" data-level="4.1.9" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.9"><i class="fa fa-check"></i><b>4.1.9</b> 暗时间</a></li>
-<li class="chapter" data-level="4.1.10" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.10"><i class="fa fa-check"></i><b>4.1.10</b> 如何高效学习</a></li>
-<li class="chapter" data-level="4.1.11" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.11"><i class="fa fa-check"></i><b>4.1.11</b> 阅读学习方法</a></li>
-<li class="chapter" data-level="4.1.12" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.12"><i class="fa fa-check"></i><b>4.1.12</b> 好好学习</a></li>
-<li class="chapter" data-level="4.1.13" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#section-4.1.13"><i class="fa fa-check"></i><b>4.1.13</b> 跃迁</a></li>
+<li class="chapter" data-level="4.1.8" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#how-we-learn-如何学习"><i class="fa fa-check"></i><b>4.1.8</b> How we learn? (如何学习)</a></li>
+<li class="chapter" data-level="4.1.9" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#anshijian1"><i class="fa fa-check"></i><b>4.1.9</b> 暗时间</a></li>
+<li class="chapter" data-level="4.1.10" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#gaoxiaoxuexi"><i class="fa fa-check"></i><b>4.1.10</b> 如何高效学习</a></li>
+<li class="chapter" data-level="4.1.11" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#xueduxuexi"><i class="fa fa-check"></i><b>4.1.11</b> 阅读学习方法</a></li>
+<li class="chapter" data-level="4.1.12" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#haohaoxuexi"><i class="fa fa-check"></i><b>4.1.12</b> 好好学习</a></li>
+<li class="chapter" data-level="4.1.13" data-path="learn-how-to-learn.html"><a href="learn-how-to-learn.html#yueqian"><i class="fa fa-check"></i><b>4.1.13</b> 跃迁</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="emotion-management.html"><a href="emotion-management.html"><i class="fa fa-check"></i><b>4.2</b> Emotion Management</a><ul>
-<li class="chapter" data-level="4.2.1" data-path="emotion-management.html"><a href="emotion-management.html#emotional-first-aid-"><i class="fa fa-check"></i><b>4.2.1</b> Emotional First Aid (情绪急救)</a></li>
+<li class="chapter" data-level="4.2.1" data-path="emotion-management.html"><a href="emotion-management.html#emotional-first-aid"><i class="fa fa-check"></i><b>4.2.1</b> Emotional First Aid</a></li>
 <li class="chapter" data-level="4.2.2" data-path="emotion-management.html"><a href="emotion-management.html#how-to-keep-people-from-pushing-your-buttons"><i class="fa fa-check"></i><b>4.2.2</b> How To Keep People From Pushing Your Buttons</a></li>
 <li class="chapter" data-level="4.2.3" data-path="emotion-management.html"><a href="emotion-management.html#others"><i class="fa fa-check"></i><b>4.2.3</b> Others</a></li>
 <li class="chapter" data-level="4.2.4" data-path="emotion-management.html"><a href="emotion-management.html#feeling-good"><i class="fa fa-check"></i><b>4.2.4</b> Feeling Good</a></li>
 </ul></li>
-<li class="chapter" data-level="4.3" data-path="obsessive-love.html"><a href="obsessive-love.html"><i class="fa fa-check"></i><b>4.3</b> Obsessive Love(强迫的爱)</a></li>
-<li class="chapter" data-level="4.4" data-path="section-4-4.html"><a href="section-4-4.html"><i class="fa fa-check"></i><b>4.4</b> 思考的技术</a></li>
-<li class="chapter" data-level="4.5" data-path="section-4-5.html"><a href="section-4-5.html"><i class="fa fa-check"></i><b>4.5</b> 系统化管理人脉</a></li>
-<li class="chapter" data-level="4.6" data-path="how-will-you-measure-your-life-.html"><a href="how-will-you-measure-your-life-.html"><i class="fa fa-check"></i><b>4.6</b> How Will You Measure Your Life? (你要如何衡量你的人生)</a></li>
+<li class="chapter" data-level="4.3" data-path="obsessive-love.html"><a href="obsessive-love.html"><i class="fa fa-check"></i><b>4.3</b> Obsessive Love</a></li>
+<li class="chapter" data-level="4.4" data-path="sikaojishu.html"><a href="sikaojishu.html"><i class="fa fa-check"></i><b>4.4</b> 思考的技术</a></li>
+<li class="chapter" data-level="4.5" data-path="renmaiguanli.html"><a href="renmaiguanli.html"><i class="fa fa-check"></i><b>4.5</b> 系统化管理人脉</a></li>
+<li class="chapter" data-level="4.6" data-path="how-will-you-measure-your-life.html"><a href="how-will-you-measure-your-life.html"><i class="fa fa-check"></i><b>4.6</b> How Will You Measure Your Life?</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="statistics-data-science.html"><a href="statistics-data-science.html"><i class="fa fa-check"></i><b>5</b> Statistics &amp; Data Science</a><ul>
 <li class="chapter" data-level="5.1" data-path="an-introduction-to-statistical-learning.html"><a href="an-introduction-to-statistical-learning.html"><i class="fa fa-check"></i><b>5.1</b> An Introduction to Statistical Learning</a></li>
@@ -349,45 +387,49 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="6" data-path="business-economics.html"><a href="business-economics.html"><i class="fa fa-check"></i><b>6</b> Business &amp; Economics</a><ul>
 <li class="chapter" data-level="6.1" data-path="the-wealth-of-nations-adam-smith.html"><a href="the-wealth-of-nations-adam-smith.html"><i class="fa fa-check"></i><b>6.1</b> The Wealth of Nations [Adam Smith]</a></li>
 <li class="chapter" data-level="6.2" data-path="principles-of-economics-alfred-marshall.html"><a href="principles-of-economics-alfred-marshall.html"><i class="fa fa-check"></i><b>6.2</b> Principles of Economics [Alfred Marshall]</a><ul>
-<li class="chapter" data-level="6.2.1" data-path="principles-of-economics-alfred-marshall.html"><a href="principles-of-economics-alfred-marshall.html#introduction-1"><i class="fa fa-check"></i><b>6.2.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2.1" data-path="principles-of-economics-alfred-marshall.html"><a href="principles-of-economics-alfred-marshall.html#introduction-2"><i class="fa fa-check"></i><b>6.2.1</b> Introduction</a></li>
 <li class="chapter" data-level="6.2.2" data-path="principles-of-economics-alfred-marshall.html"><a href="principles-of-economics-alfred-marshall.html#the-substance-of-economics"><i class="fa fa-check"></i><b>6.2.2</b> The substance of economics</a></li>
 </ul></li>
-<li class="chapter" data-level="6.3" data-path="fishing-for-phools-.html"><a href="fishing-for-phools-.html"><i class="fa fa-check"></i><b>6.3</b> Fishing for Phools (钓愚)</a></li>
-<li class="chapter" data-level="6.4" data-path="shareology-.html"><a href="shareology-.html"><i class="fa fa-check"></i><b>6.4</b> Shareology [分享时代]</a></li>
+<li class="chapter" data-level="6.3" data-path="fishing-for-phools.html"><a href="fishing-for-phools.html"><i class="fa fa-check"></i><b>6.3</b> Fishing for Phools</a></li>
+<li class="chapter" data-level="6.4" data-path="shareology.html"><a href="shareology.html"><i class="fa fa-check"></i><b>6.4</b> Shareology</a></li>
 <li class="chapter" data-level="6.5" data-path="known.html"><a href="known.html"><i class="fa fa-check"></i><b>6.5</b> Known</a></li>
 <li class="chapter" data-level="6.6" data-path="the-attention-merchants.html"><a href="the-attention-merchants.html"><i class="fa fa-check"></i><b>6.6</b> The Attention Merchants</a></li>
-<li class="chapter" data-level="6.7" data-path="the-essential-drucker-.html"><a href="the-essential-drucker-.html"><i class="fa fa-check"></i><b>6.7</b> The Essential Drucker (德鲁克管理思想精要)</a></li>
-<li class="chapter" data-level="6.8" data-path="blockbuster.html"><a href="blockbuster.html"><i class="fa fa-check"></i><b>6.8</b> Blockbuster(爆款)</a></li>
-<li class="chapter" data-level="6.9" data-path="luxury-marketing-.html"><a href="luxury-marketing-.html"><i class="fa fa-check"></i><b>6.9</b> Luxury Marketing (奢侈品营销)</a></li>
-<li class="chapter" data-level="6.10" data-path="-moments-of-truth.html"><a href="-moments-of-truth.html"><i class="fa fa-check"></i><b>6.10</b> 关键时刻 (Moments of Truth)</a></li>
-<li class="chapter" data-level="6.11" data-path="seducing-the-subconscious-.html"><a href="seducing-the-subconscious-.html"><i class="fa fa-check"></i><b>6.11</b> Seducing the Subconscious (我们在为什么样的广告买单)</a></li>
-<li class="chapter" data-level="6.12" data-path="section-6-12.html"><a href="section-6-12.html"><i class="fa fa-check"></i><b>6.12</b> 不做无效的营销</a></li>
-<li class="chapter" data-level="6.13" data-path="section-6-13.html"><a href="section-6-13.html"><i class="fa fa-check"></i><b>6.13</b> 产品经理</a><ul>
-<li class="chapter" data-level="6.13.1" data-path="section-6-13.html"><a href="section-6-13.html#section-6.13.1"><i class="fa fa-check"></i><b>6.13.1</b> 同理心</a></li>
-<li class="chapter" data-level="6.13.2" data-path="section-6-13.html"><a href="section-6-13.html#section-6.13.2"><i class="fa fa-check"></i><b>6.13.2</b> 机会判断</a></li>
-<li class="chapter" data-level="6.13.3" data-path="section-6-13.html"><a href="section-6-13.html#section-6.13.3"><i class="fa fa-check"></i><b>6.13.3</b> 系统能力</a></li>
-<li class="chapter" data-level="6.13.4" data-path="section-6-13.html"><a href="section-6-13.html#section-6.13.4"><i class="fa fa-check"></i><b>6.13.4</b> 用户体验</a></li>
-<li class="chapter" data-level="6.13.5" data-path="section-6-13.html"><a href="section-6-13.html#section-6.13.5"><i class="fa fa-check"></i><b>6.13.5</b> 创新模式</a></li>
-<li class="chapter" data-level="6.13.6" data-path="section-6-13.html"><a href="section-6-13.html#section-6.13.6"><i class="fa fa-check"></i><b>6.13.6</b> 产品世界观</a></li>
+<li class="chapter" data-level="6.7" data-path="the-essential-drucker.html"><a href="the-essential-drucker.html"><i class="fa fa-check"></i><b>6.7</b> The Essential Drucker</a></li>
+<li class="chapter" data-level="6.8" data-path="blockbuster.html"><a href="blockbuster.html"><i class="fa fa-check"></i><b>6.8</b> Blockbuster</a></li>
+<li class="chapter" data-level="6.9" data-path="luxury-marketing.html"><a href="luxury-marketing.html"><i class="fa fa-check"></i><b>6.9</b> Luxury Marketing</a></li>
+<li class="chapter" data-level="6.10" data-path="moments-of-truth.html"><a href="moments-of-truth.html"><i class="fa fa-check"></i><b>6.10</b> Moments of Truth</a></li>
+<li class="chapter" data-level="6.11" data-path="seducing-the-subconscious.html"><a href="seducing-the-subconscious.html"><i class="fa fa-check"></i><b>6.11</b> Seducing the Subconscious</a></li>
+<li class="chapter" data-level="6.12" data-path="yingxiao.html"><a href="yingxiao.html"><i class="fa fa-check"></i><b>6.12</b> 不做无效的营销</a></li>
+<li class="chapter" data-level="6.13" data-path="chanpin1.html"><a href="chanpin1.html"><i class="fa fa-check"></i><b>6.13</b> 产品经理</a><ul>
+<li class="chapter" data-level="6.13.1" data-path="chanpin1.html"><a href="chanpin1.html#chanpin2"><i class="fa fa-check"></i><b>6.13.1</b> 同理心</a></li>
+<li class="chapter" data-level="6.13.2" data-path="chanpin1.html"><a href="chanpin1.html#chanpin3"><i class="fa fa-check"></i><b>6.13.2</b> 机会判断</a></li>
+<li class="chapter" data-level="6.13.3" data-path="chanpin1.html"><a href="chanpin1.html#chanpin4"><i class="fa fa-check"></i><b>6.13.3</b> 系统能力</a></li>
+<li class="chapter" data-level="6.13.4" data-path="chanpin1.html"><a href="chanpin1.html#chanpin5"><i class="fa fa-check"></i><b>6.13.4</b> 用户体验</a></li>
+<li class="chapter" data-level="6.13.5" data-path="chanpin1.html"><a href="chanpin1.html#chanpin7"><i class="fa fa-check"></i><b>6.13.5</b> 创新模式</a></li>
+<li class="chapter" data-level="6.13.6" data-path="chanpin1.html"><a href="chanpin1.html#chanpin9"><i class="fa fa-check"></i><b>6.13.6</b> 产品世界观</a></li>
 </ul></li>
 <li class="chapter" data-level="6.14" data-path="well-known-marketing-tools.html"><a href="well-known-marketing-tools.html"><i class="fa fa-check"></i><b>6.14</b> Well-known marketing tools</a></li>
-<li class="chapter" data-level="6.15" data-path="sci.html"><a href="sci.html"><i class="fa fa-check"></i><b>6.15</b> 从广告驱动到SCi——市场营销</a><ul>
-<li class="chapter" data-level="6.15.1" data-path="sci.html"><a href="sci.html#customer-decision-journey"><i class="fa fa-check"></i><b>6.15.1</b> Customer Decision Journey</a></li>
+<li class="chapter" data-level="6.15" data-path="yinxiao.html"><a href="yinxiao.html"><i class="fa fa-check"></i><b>6.15</b> 从广告驱动到SCi——市场营销</a><ul>
+<li class="chapter" data-level="6.15.1" data-path="yinxiao.html"><a href="yinxiao.html#customer-decision-journey"><i class="fa fa-check"></i><b>6.15.1</b> Customer Decision Journey</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="medicine.html"><a href="medicine.html"><i class="fa fa-check"></i><b>7</b> Medicine</a></li>
 <li class="chapter" data-level="8" data-path="physics.html"><a href="physics.html"><i class="fa fa-check"></i><b>8</b> Physics</a><ul>
-<li class="chapter" data-level="8.1" data-path="section-8-1.html"><a href="section-8-1.html"><i class="fa fa-check"></i><b>8.1</b> 大设计</a></li>
+<li class="chapter" data-level="8.1" data-path="dasheji.html"><a href="dasheji.html"><i class="fa fa-check"></i><b>8.1</b> 大设计</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="proses-essays-and-poems.html"><a href="proses-essays-and-poems.html"><i class="fa fa-check"></i><b>9</b> Proses, Essays and Poems</a><ul>
 <li class="chapter" data-level="9.1" data-path="the-thoughts-of-an-idle-fellow.html"><a href="the-thoughts-of-an-idle-fellow.html"><i class="fa fa-check"></i><b>9.1</b> The Thoughts of An Idle Fellow</a></li>
-<li class="chapter" data-level="9.2" data-path="section-9-2.html"><a href="section-9-2.html"><i class="fa fa-check"></i><b>9.2</b> 刘瑜作品笔记</a></li>
-<li class="chapter" data-level="9.3" data-path="section-9-3.html"><a href="section-9-3.html"><i class="fa fa-check"></i><b>9.3</b> 在平淡和奢华之间摇摆</a></li>
-<li class="chapter" data-level="9.4" data-path="section-9-4.html"><a href="section-9-4.html"><i class="fa fa-check"></i><b>9.4</b> 雅舍谈艺</a><ul>
-<li class="chapter" data-level="9.4.1" data-path="section-9-4.html"><a href="section-9-4.html#section-9.4.1"><i class="fa fa-check"></i><b>9.4.1</b> 饮食的艺术</a></li>
+<li class="chapter" data-level="9.2" data-path="liuyu.html"><a href="liuyu.html"><i class="fa fa-check"></i><b>9.2</b> 刘瑜作品笔记</a></li>
+<li class="chapter" data-level="9.3" data-path="pindanshehua.html"><a href="pindanshehua.html"><i class="fa fa-check"></i><b>9.3</b> 在平淡和奢华之间摇摆</a></li>
+<li class="chapter" data-level="9.4" data-path="yasetanyi.html"><a href="yasetanyi.html"><i class="fa fa-check"></i><b>9.4</b> 雅舍谈艺</a><ul>
+<li class="chapter" data-level="9.4.1" data-path="yasetanyi.html"><a href="yasetanyi.html#yinshiyishu"><i class="fa fa-check"></i><b>9.4.1</b> 饮食的艺术</a></li>
 </ul></li>
-<li class="chapter" data-level="9.5" data-path="section-9-5.html"><a href="section-9-5.html"><i class="fa fa-check"></i><b>9.5</b> 闲看水浒</a><ul>
-<li class="chapter" data-level="9.5.1" data-path="section-9-5.html"><a href="section-9-5.html#section-9.5.1"><i class="fa fa-check"></i><b>9.5.1</b> 江湖庙堂路几重</a></li>
+<li class="chapter" data-level="9.5" data-path="shuihu.html"><a href="shuihu.html"><i class="fa fa-check"></i><b>9.5</b> 闲看水浒</a><ul>
+<li class="chapter" data-level="9.5.1" data-path="shuihu.html"><a href="shuihu.html#shuihu1"><i class="fa fa-check"></i><b>9.5.1</b> 江湖庙堂路几重</a></li>
+<li class="chapter" data-level="9.5.2" data-path="shuihu.html"><a href="shuihu.html#shuihu2"><i class="fa fa-check"></i><b>9.5.2</b> 乱世生存的技巧</a></li>
+<li class="chapter" data-level="9.5.3" data-path="shuihu.html"><a href="shuihu.html#shuihu3"><i class="fa fa-check"></i><b>9.5.3</b> 避免黑暗伤害的智慧</a></li>
+<li class="chapter" data-level="9.5.4" data-path="shuihu.html"><a href="shuihu.html#shuihu4"><i class="fa fa-check"></i><b>9.5.4</b> 情欲的罪与罚</a></li>
+<li class="chapter" data-level="9.5.5" data-path="shuihu.html"><a href="shuihu.html#shuihu5"><i class="fa fa-check"></i><b>9.5.5</b> 英雄的末路选择</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="politics.html"><a href="politics.html"><i class="fa fa-check"></i><b>10</b> Politics</a><ul>
@@ -407,15 +449,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="13.1" data-path="immortality-milan-kundera.html"><a href="immortality-milan-kundera.html"><i class="fa fa-check"></i><b>13.1</b> Immortality [不朽，Milan Kundera]</a></li>
 </ul></li>
 <li class="chapter" data-level="14" data-path="jokes.html"><a href="jokes.html"><i class="fa fa-check"></i><b>14</b> Jokes</a><ul>
-<li class="chapter" data-level="14.1" data-path="section-14-1.html"><a href="section-14-1.html"><i class="fa fa-check"></i><b>14.1</b> 中文笑话</a><ul>
-<li class="chapter" data-level="14.1.1" data-path="section-14-1.html"><a href="section-14-1.html#section-14.1.1"><i class="fa fa-check"></i><b>14.1.1</b> 2017-12-9: 毒鸡汤</a></li>
-<li class="chapter" data-level="14.1.2" data-path="section-14-1.html"><a href="section-14-1.html#section"><i class="fa fa-check"></i><b>14.1.2</b> ～2016-4-5</a></li>
-<li class="chapter" data-level="14.1.3" data-path="section-14-1.html"><a href="section-14-1.html#section-1"><i class="fa fa-check"></i><b>14.1.3</b> 2016-4-6 ~ 2016-6-23</a></li>
-<li class="chapter" data-level="14.1.4" data-path="section-14-1.html"><a href="section-14-1.html#section-2"><i class="fa fa-check"></i><b>14.1.4</b> 2016-4-24 ~</a></li>
+<li class="chapter" data-level="14.1" data-path="cnjoke.html"><a href="cnjoke.html"><i class="fa fa-check"></i><b>14.1</b> 中文笑话</a><ul>
+<li class="chapter" data-level="14.1.1" data-path="cnjoke.html"><a href="cnjoke.html#chickensoup"><i class="fa fa-check"></i><b>14.1.1</b> 2017-12-9: 毒鸡汤</a></li>
+<li class="chapter" data-level="14.1.2" data-path="cnjoke.html"><a href="cnjoke.html#chickensoup2"><i class="fa fa-check"></i><b>14.1.2</b> ～2016-4-5</a></li>
+<li class="chapter" data-level="14.1.3" data-path="cnjoke.html"><a href="cnjoke.html#chickensoup3"><i class="fa fa-check"></i><b>14.1.3</b> 2016-4-6 ~ 2016-6-23</a></li>
+<li class="chapter" data-level="14.1.4" data-path="cnjoke.html"><a href="cnjoke.html#chickensoup4"><i class="fa fa-check"></i><b>14.1.4</b> 2016-4-24 ~</a></li>
 </ul></li>
-<li class="chapter" data-level="14.2" data-path="section-14-2.html"><a href="section-14-2.html"><i class="fa fa-check"></i><b>14.2</b> 中文笑话－神回复</a><ul>
-<li class="chapter" data-level="14.2.1" data-path="section-14-2.html"><a href="section-14-2.html#section-3"><i class="fa fa-check"></i><b>14.2.1</b> ～2016-4-5</a></li>
-<li class="chapter" data-level="14.2.2" data-path="section-14-2.html"><a href="section-14-2.html#section-4"><i class="fa fa-check"></i><b>14.2.2</b> 2016-04-05 ~ 2018-09-08</a></li>
+<li class="chapter" data-level="14.2" data-path="shenhuifu.html"><a href="shenhuifu.html"><i class="fa fa-check"></i><b>14.2</b> 中文笑话－神回复</a><ul>
+<li class="chapter" data-level="14.2.1" data-path="shenhuifu.html"><a href="shenhuifu.html#shenhuifu1"><i class="fa fa-check"></i><b>14.2.1</b> ～2016-4-5</a></li>
+<li class="chapter" data-level="14.2.2" data-path="shenhuifu.html"><a href="shenhuifu.html#shenhuifu2"><i class="fa fa-check"></i><b>14.2.2</b> 2016-04-05 ~ 2018-09-08</a></li>
 </ul></li>
 <li class="chapter" data-level="14.3" data-path="english-jokes.html"><a href="english-jokes.html"><i class="fa fa-check"></i><b>14.3</b> English Jokes</a></li>
 </ul></li>
@@ -424,9 +466,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="16" data-path="other-1.html"><a href="other-1.html"><i class="fa fa-check"></i><b>16</b> Other</a><ul>
 <li class="chapter" data-level="16.1" data-path="writing-a-womans-life.html"><a href="writing-a-womans-life.html"><i class="fa fa-check"></i><b>16.1</b> Writing a woman’s life</a></li>
-<li class="chapter" data-level="16.2" data-path="section-16-2.html"><a href="section-16-2.html"><i class="fa fa-check"></i><b>16.2</b> 数字时代为什么要学习人文学科</a></li>
-<li class="chapter" data-level="16.3" data-path="section-16-3.html"><a href="section-16-3.html"><i class="fa fa-check"></i><b>16.3</b> 如何在负面情绪缠身时平静下来</a></li>
-<li class="chapter" data-level="16.4" data-path="section-16-4.html"><a href="section-16-4.html"><i class="fa fa-check"></i><b>16.4</b> 合作</a></li>
+<li class="chapter" data-level="16.2" data-path="whyart.html"><a href="whyart.html"><i class="fa fa-check"></i><b>16.2</b> 数字时代为什么要学习人文学科</a></li>
+<li class="chapter" data-level="16.3" data-path="-.html"><a href="-.html"><i class="fa fa-check"></i><b>16.3</b> 如何在负面情绪缠身时平静下来</a></li>
+<li class="chapter" data-level="16.4" data-path="colaborate.html"><a href="colaborate.html"><i class="fa fa-check"></i><b>16.4</b> 合作</a></li>
 <li class="chapter" data-level="16.5" data-path="other-notes.html"><a href="other-notes.html"><i class="fa fa-check"></i><b>16.5</b> Other Notes</a></li>
 </ul></li>
 <li class="divider"></li>
@@ -458,7 +500,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>The inability to predict outliers implies the inability to predict the course of history.</p>
 <p>I disagree with the followers of Marx and Adam Smith: the reason free markets work is because they allow people to be lucky, thanks to aggressive trial and error, not by giving rewards or “incentives” for skill.</p>
 <p><font color = "blue">Hui: what doesn’t allow people to be lucky?</font></p>
-<p>We do not spontaneously learn that we don’t learn what we don’t learn. Hui: Similar as “we don’t know that we don’t know”.</p>
+<p>We do not spontaneously learn that we don’t learn what we don’t learn.
+Hui: Similar as “we don’t know that we don’t know”.</p>
 <p>We humans are not just a superficial race (this may be curable to some extent); we are a very unfair one.</p>
 <p>Platonicity is what makes us think that we understand more than we actually do.</p>
 <p><font color = "blue">Hui: what you know &lt;&lt; what you think you know (I agree). Even I so clearly know that I AM STUPID, still what I know &lt;&lt; what I think I know……I wish I could learn more. The feeling of ignorance bothered me so much but now I consider it as my life-time friend. Because I don’t see any hope I can not being ignorant, I think it is a better idea just be friend with it. My goal now change to be less ignorant today than yesterday.<font></p>
@@ -466,35 +509,47 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>第一部分总结：世界充满不确定性</p>
 <p>世界是由极端、未知和非常不可能发生的事物主导的。</p>
 <p>根据不确定性把世界分为两类：</p>
-<p>平均斯坦的世界：虽然事情也是不确定的，但是这些事件里，每个单独事件的不确定性结果，对总体的影响并不大。 极端斯坦的世界：任何一个单一个体，都有可能对整体结果产生颠覆性的影响。本书提到的黑天鹅事件，就大量发生在极端斯坦的世界里，一个极端结果的出现能够极大地改变这个世界的结果。 对择业的启示</p>
-<p>在平均斯坦里工作：不会一夜暴富，但风险非常小，特别稳定。比如医生 在极端斯坦里工作：容易一夜暴富，也容易瞬间失去一切，风险特别大。比如股票交易员。</p>
+<p>平均斯坦的世界：虽然事情也是不确定的，但是这些事件里，每个单独事件的不确定性结果，对总体的影响并不大。
+极端斯坦的世界：任何一个单一个体，都有可能对整体结果产生颠覆性的影响。本书提到的黑天鹅事件，就大量发生在极端斯坦的世界里，一个极端结果的出现能够极大地改变这个世界的结果。
+对择业的启示</p>
+<p>在平均斯坦里工作：不会一夜暴富，但风险非常小，特别稳定。比如医生
+在极端斯坦里工作：容易一夜暴富，也容易瞬间失去一切，风险特别大。比如股票交易员。</p>
 </div>
 <div id="the-apprenticeship-of-an-empirical-skeptic" class="section level3">
 <h3><span class="header-section-number">1.9.2</span> The apprenticeship of an empirical skeptic</h3>
 <p>apprenticeship /ə’prɛntɪʃɪp /</p>
-<p>The human mind suffers from 3 ailments as it comes into contact with history (triplet of opacity): the illusion of understanding, or how everyone thinks he knows what is going on in a world that is more complicated (or random) than they realize [了解世界的幻觉]</p>
+<p>The human mind suffers from 3 ailments as it comes into contact with history (triplet of opacity):
+the illusion of understanding, or how everyone thinks he knows what is going on in a world that is more complicated (or random) than they realize [了解世界的幻觉]</p>
 <p><font color = "blue">Hui: 我们以为我们生活的世界比它实际上更加可理解，可解释，可预测。</font></p>
 <p>the retrospective distortion, or how we can assess matters only after the fact, as if they were in a rearview mirror (history seems clearer and more organized in history books than in empirical reality) [马后炮偏差]</p>
 <p><font color = "blue">Hui: 我们太容易马后炮了。很多发生过的事情尽管当时感觉很疯狂，但是回过头看就没有那么疯狂。我们总能够将历史事件通过某种因果关系串联起来。作者认为这种事后合理性在表面上降低了事件的稀有性，并使事件看上去具有可理解性。之后作者提出：“历史不会爬行，只会跳跃[History does not crawl, it jumps]”。 作者认为我们的头脑是超强解释机器，介乎可以从任何事物中分析出道理，还不愿意接受不可预测的事实。“Our minds are wonderful explanation machines, capable of making sense out of almost anything, capable of mounting explanations for all manner of phenomena, and generally incapable of accepting the idea of unpredictability”</font></p>
 <p>the overvaluation of factual information and the handicap of authoritative and learned people, particularly when they create categories—when they “Platonify” [高估事实实际信息的价值]</p>
 <p><font color = "blue">Hui: The retrospective distortion reminds me a quote from Mark Twain: “Get your facts first, then you can distort them as you please.” : )</font></p>
-<p><font color = "blue">Hui: 我们倾向于简化事物，难以避免叙述谬误，这点我同意。但这无法改变？这是一个物种的局限。因为我们的脑子能够处理的信息非常有限。假设我们接受这种现状，那么下一个问题就是，该怎么办？我目前的答案是：首先需要认识到这一点。不可避免无知是一回事，对自己无知的无知是另外一回事。我们需要意识到很多事情我们不知道，这听起来好像没有任何新意，谁不知道世界很大未知很多，知道是一回事，理解是另外一回事。很多概念看上去相似，实际上有本质的区别，这些区别的影响很大，但却难以察觉，理解它们需要时间，努力和勇气。认识到这一点之后，我们需要最大限度的探明有哪些事情是我们不知道，哪些我们无法估计，哪些我们无法控制，这样我们对自己的叙述在多大程度上简化了真相会有更好的了解，虽然我们永远无法完美估计自己的无知，但我们可以不断的加深自己的认识。这会帮助我们避免很多因为过于天真的认为简化版的故事就是事实而导致的灾难。 从另外一个角度，在现实生活中我们需要做出决策，我们需要简化的易于理解的充分照顾人类愚蠢这一事实的故事，否则很多事情无法进行，生活将举步维艰。该怎么办呢？守住一个底线，尽力确保这个故事的传播带来的负面影响不会超过正面影响。这也是一件模糊的事情，但我相信，你对未知探索的越深入，就能够与好的守住这个底线。 这个世界一如既往的充满了悖论，我总是在想有没有可能找到复杂表象背后的几个基本点？类似圣经中指出的人类的原罪一样。这几个原罪可以解释很多人类行为。从人类行为背后的的欲望来理解行为就是一个非常好的简化方式。但是当这些行为开始相互影响时，随机性开始火箭上升。事情开始变得非常复杂，不可控，难以预测。该怎么办？孜孜不倦的理解自己的无知，达人事，听天命。 如果你在他的位置上会是什么感觉？会喜欢那样的生活么？目前看来，答案是否定的。回到那个老旧的问题：我要什么？这个问题有的时候真让我恶心，因为我一直难以回答，而它又貌似无比重要。无论被恶心多久，我还是要试图去回答这个问题，如果我一生都不知道自己要什么，那也是个答案，答案就是其实我没有什么确定想要的，虽然有些悲哀，但谁保证一定是喜剧呢？答案当然可以说是想要神的肯定。这个答案看似具体，实则模糊的不能称之为答案。如何让神肯定？这是一个很难回答的问题。回到现实生活当中，一切都需要具体细化到每天的生活，分分秒秒的时候，在尘世中想要坚持的信仰，最后还得落实到每个行动中，体现在你如何使用自己的生命。 那回到生活上。我知道我不喜欢那样的生活，很好，知道自己不喜欢什么也是在认识自己上的进步。那自己到底想要什么样的生活呢？我喜欢的是数学、统计和分析本身么？不太像。我喜欢的是自已之前认为的通过工作能给周围世界带来价值么？再仔细想想，也不完全。因为价值这个东西本身就是模糊的。你认为有价值的事情实际上价值是多少本就无法定义，所以这是一个自我满足的伪答案。现在我能想到的最好的答案实际上是好奇心，是为了缓解对自身无知的恐惧，为了更好的回答这样一个问题：“What is real?”数据分析是个人能够了解世界的一种最好的方式，这种技能使我可以尽量自己收集一手信息，通过分析判断，更加客观的了解世界真实的样子。而不是盲目的，甚至被迫的接受他人的观点。我很感激计算机技术的发展和网络时代的来临，使得很多数据的收集成为可能，这增加了我们了解世界的能力，给了我一种自由，精神上的自由。但同时这又挖了一个更大的坑：信息太多了太多了，良莠不齐，怎么办？我的人生好像永远没有拨开云雾见青天的那一天，充满着疑问。只是那又如何？我无法摆脱这样的现状，但我可以和这些疑问和平共处，而我想要的，是不断解开一个又一个的疑问，尽管过程中会产生新的问题。这或许就是信仰，即便无法具体的定义神，即便无法理智上彻底证明神的存在，但还是相信那个存在，相信存在有着某种意义，相信爱；还是能够坚定不移的充满希望的走下去，通过回答一个又一个问题，更加深入的了解自己，理解世界，好好做人。</font></p>
+<p><font color = "blue">Hui: 我们倾向于简化事物，难以避免叙述谬误，这点我同意。但这无法改变？这是一个物种的局限。因为我们的脑子能够处理的信息非常有限。假设我们接受这种现状，那么下一个问题就是，该怎么办？我目前的答案是：首先需要认识到这一点。不可避免无知是一回事，对自己无知的无知是另外一回事。我们需要意识到很多事情我们不知道，这听起来好像没有任何新意，谁不知道世界很大未知很多，知道是一回事，理解是另外一回事。很多概念看上去相似，实际上有本质的区别，这些区别的影响很大，但却难以察觉，理解它们需要时间，努力和勇气。认识到这一点之后，我们需要最大限度的探明有哪些事情是我们不知道，哪些我们无法估计，哪些我们无法控制，这样我们对自己的叙述在多大程度上简化了真相会有更好的了解，虽然我们永远无法完美估计自己的无知，但我们可以不断的加深自己的认识。这会帮助我们避免很多因为过于天真的认为简化版的故事就是事实而导致的灾难。
+从另外一个角度，在现实生活中我们需要做出决策，我们需要简化的易于理解的充分照顾人类愚蠢这一事实的故事，否则很多事情无法进行，生活将举步维艰。该怎么办呢？守住一个底线，尽力确保这个故事的传播带来的负面影响不会超过正面影响。这也是一件模糊的事情，但我相信，你对未知探索的越深入，就能够与好的守住这个底线。
+这个世界一如既往的充满了悖论，我总是在想有没有可能找到复杂表象背后的几个基本点？类似圣经中指出的人类的原罪一样。这几个原罪可以解释很多人类行为。从人类行为背后的的欲望来理解行为就是一个非常好的简化方式。但是当这些行为开始相互影响时，随机性开始火箭上升。事情开始变得非常复杂，不可控，难以预测。该怎么办？孜孜不倦的理解自己的无知，达人事，听天命。
+如果你在他的位置上会是什么感觉？会喜欢那样的生活么？目前看来，答案是否定的。回到那个老旧的问题：我要什么？这个问题有的时候真让我恶心，因为我一直难以回答，而它又貌似无比重要。无论被恶心多久，我还是要试图去回答这个问题，如果我一生都不知道自己要什么，那也是个答案，答案就是其实我没有什么确定想要的，虽然有些悲哀，但谁保证一定是喜剧呢？答案当然可以说是想要神的肯定。这个答案看似具体，实则模糊的不能称之为答案。如何让神肯定？这是一个很难回答的问题。回到现实生活当中，一切都需要具体细化到每天的生活，分分秒秒的时候，在尘世中想要坚持的信仰，最后还得落实到每个行动中，体现在你如何使用自己的生命。
+那回到生活上。我知道我不喜欢那样的生活，很好，知道自己不喜欢什么也是在认识自己上的进步。那自己到底想要什么样的生活呢？我喜欢的是数学、统计和分析本身么？不太像。我喜欢的是自已之前认为的通过工作能给周围世界带来价值么？再仔细想想，也不完全。因为价值这个东西本身就是模糊的。你认为有价值的事情实际上价值是多少本就无法定义，所以这是一个自我满足的伪答案。现在我能想到的最好的答案实际上是好奇心，是为了缓解对自身无知的恐惧，为了更好的回答这样一个问题：“What is real?”数据分析是个人能够了解世界的一种最好的方式，这种技能使我可以尽量自己收集一手信息，通过分析判断，更加客观的了解世界真实的样子。而不是盲目的，甚至被迫的接受他人的观点。我很感激计算机技术的发展和网络时代的来临，使得很多数据的收集成为可能，这增加了我们了解世界的能力，给了我一种自由，精神上的自由。但同时这又挖了一个更大的坑：信息太多了太多了，良莠不齐，怎么办？我的人生好像永远没有拨开云雾见青天的那一天，充满着疑问。只是那又如何？我无法摆脱这样的现状，但我可以和这些疑问和平共处，而我想要的，是不断解开一个又一个的疑问，尽管过程中会产生新的问题。这或许就是信仰，即便无法具体的定义神，即便无法理智上彻底证明神的存在，但还是相信那个存在，相信存在有着某种意义，相信爱；还是能够坚定不移的充满希望的走下去，通过回答一个又一个问题，更加深入的了解自己，理解世界，好好做人。</font></p>
 <p>History and societies do not crawl. They make jumps. They go from fracture to fracture, with a few vibrations in between…These kinds of discontinuities in the chronology of events did not make the historian’s profession too easy: the studious examination of the past in the greatest of detail does not teach you much about the mind of History; it only gives you the illusion of understanding it….We are just a great machine for looking backward, and that humans are great at self-delusion.</p>
 <p><font color = "blue">Hui: 作者指出历史不是连续的而是跳跃的，而人类的解释性思维将这些事件自行用因果关系连接起来，造成了理解历史的幻觉。作者使用了黎凡特（Levant）基督教传播的例子。罗马编年史学家（chronicler）对基督教在这一区域的传播的历史记录有断层。</font></p>
 <p>Of the millions of small facts that prevail before an event occurs, only a few will turn out to be relevant later to your understanding of what happened. Because your memory is limited and filtered, you will be inclined to remember those data that subsequently match the facts [在一个历史事件发生之前存在无数个事实，其中只有很少一部分会在后来你对历史事件的理解中有帮助。因为你的记忆有限且是被过滤的，所以你会倾向于记住那些事后看来与事实相符的信息。]</p>
 <p>Categorizing always produces reduction in true complexity. It is a manifestation of the Black Swan generator … It drives us to a misunderstanding of the fabric of the world…My idea is that not only are some scientific results useless in real life, because they underestimate the impact of the highly improbable (or lead us to ignore it), but that many of them may be actually creating Black Swans.</p>
 <p><font color = "blue">Hui: 作者认为分类简化了事物（就是柏拉图化platonicity），这个过程主观忽略了不确定性，某种程度上促进了黑天鹅事件的产生。我觉得这样最多只能说使我们在黑天鹅事件面前更加脆弱，而你无法确定什么事情“促进”黑天鹅事件的发生，因为这种事件根据定义本来就是不可预测的，发生只是概率问题而无法追溯原因。作者批判很多科学研究，说这些结果的广泛传播应用促使了黑天鹅事件的发生。我很怀疑这一点。并不是说作者的批判没有道理，科学研究建立在一些现实生活很难满足的假设条件之上，对于一些科学研究应用的价值是否有人们想的那么大，确实是个疑问。但黑天鹅事件的本身好比是在我们控制的维度之外，它能够影响我们，但我们却无法影响它。所以我赞同作者指责一些科学结果“推动”黑天鹅事件。即使作者所指责的这些所谓错误的科学结果的应用全部停止，意外还是会发生，只不过是被新的意外取代。talk is cheap! 这是我工作近3年最大的感受。3年前的自己批评很多的事情，但没有意识到自己其实也想不出更好的解决方法。</font></p>
 <p><font color = "blue">Hui: 书的第2章很短，讲的是出版界的一个黑天鹅的例子：Yevgenia。我不知道这个作家，于是Google了一下，发现这是作者杜撰的一个人。说的是不出名的小说家Yevgenia在网上发表自己的作品给一家小出版社发现，结果大卖成为知名作家。这便是一个黑天鹅的例子。你无法预测谁会出名。</font></p>
-<p>To be genuinely empirical is to reflect reality as faithfully as possible; to be honorable implies not fearing the appearance and consequence of being outlandish. Hui: During application, it is necessary to be empirical. The author has very good points. However I wish he could have criticized others in a softer way. The next sentence after this one is not nice… I recalled the times when I said hard words to others, when I was too sharp without considering others feeling. I felt bad about myself. Please remember you are not perfect and bear with each other when you have to (I just say to myself).</p>
+<p>To be genuinely empirical is to reflect reality as faithfully as possible; to be honorable implies not fearing the appearance and consequence of being outlandish.
+Hui: During application, it is necessary to be empirical. The author has very good points. However I wish he could have criticized others in a softer way. The next sentence after this one is not nice… I recalled the times when I said hard words to others, when I was too sharp without considering others feeling. I felt bad about myself. Please remember you are not perfect and bear with each other when you have to (I just say to myself).</p>
 </div>
 <div id="extremistan-and-mediocristan" class="section level3">
 <h3><span class="header-section-number">1.9.3</span> Extremistan and Mediocristan</h3>
 <p><font color = "blue">Hui: 这章原来的名字是：The speculator[投机家] and prostitute，挺无厘头的，还是Extremistan and Mediocristan好些。什么导致了引爆点（tipping point）？</font></p>
 <ul>
-<li>Beaware the scalable! A scalable profession is good only if you are successful; they are more competitive, produce monstrous inequalities, and are far more random, with huge disparities between efforts and rewards….There are two categories of professions: driven by the mediocre, the average and the middle-of-the-road. The mediocre is collectively consequent. has either giants or dwarves——a very small number of giants and a huge number of dwarves [收入具有突破性的职业只有在你成功的时候对你是最好的。这样的职业竞争更激烈，导致更大的不平均，不确定性，在努力和回报之间存在巨大差异。…有一种分类是受中庸、平均和中间路线驱使的，其中中庸力量整体而言具有很大影响。在另一种分类中，要么是巨人，要么是侏儒，更精确地说，是非常少的巨人和大量的侏儒。]</li>
+<li>Beaware the scalable! A scalable profession is good only if you are successful; they are more competitive, produce monstrous inequalities, and are far more random, with huge disparities between efforts and rewards….There are two categories of professions:
+driven by the mediocre, the average and the middle-of-the-road. The mediocre is collectively consequent.
+has either giants or dwarves——a very small number of giants and a huge number of dwarves [收入具有突破性的职业只有在你成功的时候对你是最好的。这样的职业竞争更激烈，导致更大的不平均，不确定性，在努力和回报之间存在巨大差异。…有一种分类是受中庸、平均和中间路线驱使的，其中中庸力量整体而言具有很大影响。在另一种分类中，要么是巨人，要么是侏儒，更精确地说，是非常少的巨人和大量的侏儒。]</li>
 </ul>
 <p>America is currently far more creative than these nations of museumgoers and equation solvers. It is also far more tolerant of bottom-up tinkering and undirected trial and error. And globalization has allowed the United States to specialize in the creative aspect of things, the production of concepts and ideas, that is, the scalable part of the products and increasingly, by exporting jobs, separate the less scalable components and assign them to those happy to be paid by hours.</p>
-<p>The supreme law of Mediocristan: When your sample is large, no single instance will significantly change the aggregate or the total. Extremistan: inequalities are such that one single observation can disproportionately impact the aggregate or the total</p>
+<p>The supreme law of Mediocristan: When your sample is large, no single instance will significantly change the aggregate or the total.
+Extremistan: inequalities are such that one single observation can disproportionately impact the aggregate or the total</p>
 </div>
 <div id="how-not-to-be-a-sucker" class="section level3">
 <h3><span class="header-section-number">1.9.4</span> How not to be a sucker</h3>
@@ -525,11 +580,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>这一个特点就大大降低了我们对黑天鹅事件的重视程度。看待问题的视角分为事前和事后。事前看，事情无法预测；事后看，找各种解释。</p>
 <p>案例：《柏林日记：二战驻德记者见闻》二战事前事后看完全不一样</p>
 <p>三大原因影响我们发现黑天鹅</p>
-<p>是过度寻找因果关系。 人类为啥这么爱找因果关系呢？因为大脑喜欢找因果关系，所以遇到无法预测的黑天鹅，也会在发生之后找原因找因果关系。</p>
+<p>是过度寻找因果关系。
+人类为啥这么爱找因果关系呢？因为大脑喜欢找因果关系，所以遇到无法预测的黑天鹅，也会在发生之后找原因找因果关系。</p>
 <p>（《思考，快与慢》中提到，大脑特别喜欢寻找因果关系，这跟大脑储存信息的方式有关系。通过寻找因果关系，大脑能够达到对信息“简化分类”的目的，这样才可以储存海量的信息。）</p>
 <p>举例：萨达姆被捕与美国国债上涨下跌没有任何关系</p>
-<p>用经验来推测未来 比如，泰坦尼克号船长凭经验认为不会有沉船事件；股民凭经验认为经历5.6年牛市的股市不可能崩盘等等</p>
-<p>历史上虽然有很多黑天鹅，但是我们看不到。 我们看到的历史，只是那些活下来的人写的历史。很多黑天鹅，就这样被忽略了，那些沉默的证据不会说话。作者把这个现象叫沉默的证据。</p>
+<p>用经验来推测未来
+比如，泰坦尼克号船长凭经验认为不会有沉船事件；股民凭经验认为经历5.6年牛市的股市不可能崩盘等等</p>
+<p>历史上虽然有很多黑天鹅，但是我们看不到。
+我们看到的历史，只是那些活下来的人写的历史。很多黑天鹅，就这样被忽略了，那些沉默的证据不会说话。作者把这个现象叫沉默的证据。</p>
 <p>成功和失败人士的区别在于，成功人士比失败人士多了一点点运气。</p>
 <p>举例：为什么冒险家卡萨诺瓦这么幸运？</p>
 </div>
@@ -590,11 +648,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
 <script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/clipboard.min.js"></script>
 <script src="libs/gitbook/js/plugin-search.js"></script>
 <script src="libs/gitbook/js/plugin-sharing.js"></script>
 <script src="libs/gitbook/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook/js/jquery.highlight.js"></script>
+<script src="libs/gitbook/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -602,12 +662,11 @@ gitbook.start({
 "github": true,
 "facebook": false,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -617,6 +676,14 @@ gitbook.start({
 "edit": {
 "link": "https://github.com/happyrabbit/linhui.org/tree/gh-pages/notes/Reading/01-PhilPsychology.Rmd",
 "text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
 },
 "download": ["Reading.pdf", "Reading.epub", "Reading.mobi"],
 "toc": {
@@ -632,10 +699,11 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
     script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
