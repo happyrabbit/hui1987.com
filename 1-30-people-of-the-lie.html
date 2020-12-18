@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="1.30 People of the lie | Reading Notes" />
+<meta property="og:type" content="book" />
+<meta property="og:url" content="http://hui1987.com" />
+
+<meta property="og:description" content="Hui’s Reading Notes" />
+<meta name="github-repo" content="happyrabbit/IntroDataScience" />
+
+<meta name="author" content="Hui Lin" />
+
+<meta name="date" content="2020-12-17" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+
+<meta name="description" content="Hui’s Reading Notes">
+
+<title>1.30 People of the lie | Reading Notes</title>
+
+<script src="libs/jquery/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap/css/cosmo.min.css" rel="stylesheet" />
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap/shim/respond.min.js"></script>
+<script src="libs/navigation/tabsets.js"></script>
+<script src="libs/htmlwidgets/htmlwidgets.js"></script>
+<link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding/datatables.js"></script>
+<link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+<link href="libs/nouislider/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider/jquery.nouislider.min.js"></script>
+<link href="libs/selectize/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize/selectize.min.js"></script>
+<link href="libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li class="has-sub"><a href="index.html#introduction">Introduction</a><ul>
+<li><a href="rules-of-generating-book-id.html#rules-of-generating-book-id">Rules of Generating book ID</a></li>
+<li><a href="basic-statistics.html#basic-statistics">Basic Statistics</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-philosophy-psychology.html#philosophy-psychology"><span class="toc-section-number">1</span> Philosophy &amp; Psychology</a><ul>
+<li class="has-sub"><a href="1-1-thinking-fast-and-slow.html#thinking-fast-and-slow"><span class="toc-section-number">1.1</span> Thinking Fast and Slow</a><ul>
+<li><a href="1-1-thinking-fast-and-slow.html#part-1-two-systems"><span class="toc-section-number">1.1.1</span> Part 1: Two systems</a></li>
+<li><a href="1-1-thinking-fast-and-slow.html#part-2-heuristics-and-biases"><span class="toc-section-number">1.1.2</span> Part 2: Heuristics and biases</a></li>
+<li><a href="1-1-thinking-fast-and-slow.html#part-3-overconfidence"><span class="toc-section-number">1.1.3</span> Part 3: Overconfidence</a></li>
+<li><a href="1-1-thinking-fast-and-slow.html#part-4-choices"><span class="toc-section-number">1.1.4</span> Part 4: Choices</a></li>
+</ul></li>
+<li><a href="1-2-what-intelligence-tests-miss.html#what-intelligence-tests-miss"><span class="toc-section-number">1.2</span> What intelligence tests miss</a></li>
+<li class="has-sub"><a href="1-3-the-optimism-bias-tali-sharot.html#the-optimism-bias-tali-sharot"><span class="toc-section-number">1.3</span> The Optimism Bias [Tali Sharot]</a><ul>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#illusions-of-the-human-brain"><span class="toc-section-number">1.3.1</span> Illusions of the Human Brain</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#the-evolution-of-prospection"><span class="toc-section-number">1.3.2</span> The Evolution of Prospection</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#when-private-optimism-meets-public-despair"><span class="toc-section-number">1.3.3</span> When Private Optimism Meets Public Despair</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#the-unexpected-ingredient-for-well-being"><span class="toc-section-number">1.3.4</span> The Unexpected Ingredient for Well-being</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#when-things-go-wrong-depression-interpretation-and-genes"><span class="toc-section-number">1.3.5</span> When things go wrong: depression, interpretation, and genes</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#the-value-of-anticipation-and-the-cost-of-dread"><span class="toc-section-number">1.3.6</span> The Value of Anticipation and the Cost of Dread</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#why-do-things-seem-better-after-we-choose-them"><span class="toc-section-number">1.3.7</span> Why do things seem better after we choose them?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#how-emotion-changes-our-past"><span class="toc-section-number">1.3.8</span> How emotion changes our past?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#how-the-brain-turns-lead-into-gold"><span class="toc-section-number">1.3.9</span> How the Brain Turns Lead into Gold?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#a-dark-side-to-optimism"><span class="toc-section-number">1.3.10</span> A dark side to optimism?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#from-prediction-to-perception-to-action"><span class="toc-section-number">1.3.11</span> From prediction to perception to action</a></li>
+</ul></li>
+<li><a href="1-4-artofthinkingclearly.html#artofthinkingclearly"><span class="toc-section-number">1.4</span> Art of Thinking Clearly</a></li>
+<li><a href="1-5-badarguments.html#badarguments"><span class="toc-section-number">1.5</span> Bad Arguments — Logical Fallacies</a></li>
+<li class="has-sub"><a href="1-6-predictable-irrational.html#predictable-irrational"><span class="toc-section-number">1.6</span> Predictable Irrational</a><ul>
+<li><a href="1-6-predictable-irrational.html#the-fallacy-of-supply-and-demand"><span class="toc-section-number">1.6.1</span> The fallacy of supply and demand</a></li>
+<li><a href="1-6-predictable-irrational.html#the-cost-of-free"><span class="toc-section-number">1.6.2</span> The cost of free</a></li>
+<li><a href="1-6-predictable-irrational.html#procrastination-and-self-control"><span class="toc-section-number">1.6.3</span> Procrastination and Self-control</a></li>
+<li><a href="1-6-predictable-irrational.html#the-price-of-proprietorship"><span class="toc-section-number">1.6.4</span> The Price of Proprietorship</a></li>
+<li><a href="1-6-predictable-irrational.html#magic-price"><span class="toc-section-number">1.6.5</span> Magic Price</a></li>
+<li><a href="1-6-predictable-irrational.html#good-or-evil"><span class="toc-section-number">1.6.6</span> Good or Evil</a></li>
+<li><a href="1-6-predictable-irrational.html#free-lunch-an-behavior-economics-explanation"><span class="toc-section-number">1.6.7</span> Free Lunch: an behavior economics explanation</a></li>
+<li><a href="1-6-predictable-irrational.html#summary"><span class="toc-section-number">1.6.8</span> Summary</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-7-the-paradox-of-choice-barry-schwartz.html#the-paradox-of-choice-选择的悖论-barry-schwartz"><span class="toc-section-number">1.7</span> The paradox of choice [选择的悖论, Barry Schwartz]</a><ul>
+<li><a href="1-7-the-paradox-of-choice-barry-schwartz.html#自由的重担"><span class="toc-section-number">1.7.1</span> 自由的重担</a></li>
+<li><a href="1-7-the-paradox-of-choice-barry-schwartz.html#是什么在操控你的行为"><span class="toc-section-number">1.7.2</span> 是什么在操控你的行为</a></li>
+<li><a href="1-7-the-paradox-of-choice-barry-schwartz.html#行为经济学背后的心理奥秘"><span class="toc-section-number">1.7.3</span> 行为经济学背后的心理奥秘</a></li>
+</ul></li>
+<li><a href="1-8-fooled-by-randomness.html#fooled-by-randomness"><span class="toc-section-number">1.8</span> Fooled by Randomness</a></li>
+<li class="has-sub"><a href="1-9-black-swan.html#black-swan"><span class="toc-section-number">1.9</span> Black Swan</a><ul>
+<li><a href="1-9-black-swan.html#prologue"><span class="toc-section-number">1.9.1</span> Prologue</a></li>
+<li><a href="1-9-black-swan.html#the-apprenticeship-of-an-empirical-skeptic"><span class="toc-section-number">1.9.2</span> The apprenticeship of an empirical skeptic</a></li>
+<li><a href="1-9-black-swan.html#extremistan-and-mediocristan"><span class="toc-section-number">1.9.3</span> Extremistan and Mediocristan</a></li>
+<li><a href="1-9-black-swan.html#how-not-to-be-a-sucker"><span class="toc-section-number">1.9.4</span> How not to be a sucker</a></li>
+<li><a href="1-9-black-swan.html#negative-empiricism"><span class="toc-section-number">1.9.5</span> Negative empiricism</a></li>
+<li><a href="1-9-black-swan.html#the-narrative-fallacy"><span class="toc-section-number">1.9.6</span> The narrative fallacy</a></li>
+<li><a href="1-9-black-swan.html#living-in-the-antechamber-of-hope"><span class="toc-section-number">1.9.7</span> Living in the antechamber of hope</a></li>
+<li><a href="1-9-black-swan.html#the-problem-of-silent-evidence"><span class="toc-section-number">1.9.8</span> The problem of silent evidence</a></li>
+<li><a href="1-9-black-swan.html#the-ludic-fallacy-the-uncertainty-of-the-nerd"><span class="toc-section-number">1.9.9</span> The ludic fallacy: the uncertainty of the nerd</a></li>
+<li><a href="1-9-black-swan.html#the-scandal-of-prediction"><span class="toc-section-number">1.9.10</span> The scandal of prediction</a></li>
+<li><a href="1-9-black-swan.html#how-to-look-for-bird-poop"><span class="toc-section-number">1.9.11</span> How to look for bird poop</a></li>
+<li><a href="1-9-black-swan.html#epistemocracy-a-dream"><span class="toc-section-number">1.9.12</span> Epistemocracy, a dream</a></li>
+<li><a href="1-9-black-swan.html#what-do-you-do-if-you-cant-predict"><span class="toc-section-number">1.9.13</span> What do you do if you can’t predict?</a></li>
+<li><a href="1-9-black-swan.html#from-mediocristan-to-extremistan-and-back"><span class="toc-section-number">1.9.14</span> From mediocristan to extremistan and back</a></li>
+<li><a href="1-9-black-swan.html#the-bell-curve"><span class="toc-section-number">1.9.15</span> The bell curve</a></li>
+<li><a href="1-9-black-swan.html#the-aesthetics-of-randomness"><span class="toc-section-number">1.9.16</span> The aesthetics of randomness</a></li>
+<li><a href="1-9-black-swan.html#bell-curves-in-the-wrong-places"><span class="toc-section-number">1.9.17</span> Bell curves in the wrong places</a></li>
+<li><a href="1-9-black-swan.html#the-uncertainty-of-the-phony"><span class="toc-section-number">1.9.18</span> The uncertainty of the phony</a></li>
+<li><a href="1-9-black-swan.html#how-to-get-even-with-the-black-swan"><span class="toc-section-number">1.9.19</span> How to get even with the black swan</a></li>
+</ul></li>
+<li><a href="1-10-antifragile.html#antifragile"><span class="toc-section-number">1.10</span> Antifragile</a></li>
+<li><a href="1-11-superforecasting.html#superforecasting"><span class="toc-section-number">1.11</span> Superforecasting</a></li>
+<li><a href="1-12-risk-savvy.html#risk-savvy"><span class="toc-section-number">1.12</span> Risk Savvy</a></li>
+<li><a href="1-13-how-women-decide.html#how-women-decide"><span class="toc-section-number">1.13</span> How Women Decide</a></li>
+<li class="has-sub"><a href="1-14-the-smarter-screen.html#the-smarter-screen"><span class="toc-section-number">1.14</span> The Smarter Screen</a><ul>
+<li><a href="1-14-the-smarter-screen.html#introduction-to-the-mental-screen"><span class="toc-section-number">1.14.1</span> Introduction to the mental screen</a></li>
+<li><a href="1-14-the-smarter-screen.html#function-follows-form"><span class="toc-section-number">1.14.2</span> Function Follows Form</a></li>
+<li><a href="1-14-the-smarter-screen.html#display-biases"><span class="toc-section-number">1.14.3</span> Display Biases</a></li>
+<li><a href="1-14-the-smarter-screen.html#new-mirror"><span class="toc-section-number">1.14.4</span> New Mirror</a></li>
+<li><a href="1-14-the-smarter-screen.html#desirable-difficulty"><span class="toc-section-number">1.14.5</span> Desirable difficulty</a></li>
+<li><a href="1-14-the-smarter-screen.html#digital-tailoring"><span class="toc-section-number">1.14.6</span> Digital tailoring</a></li>
+<li><a href="1-14-the-smarter-screen.html#choice-opportunity"><span class="toc-section-number">1.14.7</span> Choice opportunity</a></li>
+<li><a href="1-14-the-smarter-screen.html#thinking-apps"><span class="toc-section-number">1.14.8</span> Thinking apps</a></li>
+</ul></li>
+<li><a href="1-15-mind-wide-open.html#mind-wide-open"><span class="toc-section-number">1.15</span> Mind Wide Open</a></li>
+<li><a href="1-16-the-human-advantage.html#the-human-advantage"><span class="toc-section-number">1.16</span> The Human Advantage</a></li>
+<li class="has-sub"><a href="1-17-spark.html#spark"><span class="toc-section-number">1.17</span> Spark</a><ul>
+<li><a href="1-17-spark.html#a-case-study"><span class="toc-section-number">1.17.1</span> A case study</a></li>
+<li><a href="1-17-spark.html#learning-grow-your-brain-cells"><span class="toc-section-number">1.17.2</span> Learning: grow your brain cells</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-18-the-art-of-loving-erich-fromm.html#the-art-of-loving-erich-fromm"><span class="toc-section-number">1.18</span> The art of loving [Erich Fromm]</a><ul>
+<li><a href="1-18-the-art-of-loving-erich-fromm.html#is-love-an-art"><span class="toc-section-number">1.18.1</span> Is love an art?</a></li>
+<li><a href="1-18-the-art-of-loving-erich-fromm.html#the-theory-of-love"><span class="toc-section-number">1.18.2</span> The theory of love</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-19-escape-from-freedom.html#escape-from-freedom"><span class="toc-section-number">1.19</span> Escape from Freedom</a><ul>
+<li><a href="1-19-escape-from-freedom.html#现代人的两种自由观念"><span class="toc-section-number">1.19.1</span> 现代人的两种自由观念</a></li>
+</ul></li>
+<li><a href="1-20-the-sane-society-.html#the-sane-society-健全社会"><span class="toc-section-number">1.20</span> The sane society (健全社会)</a></li>
+<li><a href="1-21-maxims.html#maxims"><span class="toc-section-number">1.21</span> Maxims</a></li>
+<li><a href="1-22-on-the-old-age.html#on-the-old-age"><span class="toc-section-number">1.22</span> On the Old Age</a></li>
+<li><a href="1-23-on-the-friendship.html#on-the-friendship"><span class="toc-section-number">1.23</span> On the Friendship</a></li>
+<li><a href="1-24-on-the-immortality-of-the-soul.html#on-the-immortality-of-the-soul"><span class="toc-section-number">1.24</span> On the Immortality of the Soul</a></li>
+<li class="has-sub"><a href="1-25-tolerence.html#tolerence"><span class="toc-section-number">1.25</span> Tolerence</a><ul>
+<li><a href="1-25-tolerence.html#the-tyranny-of-ignorance"><span class="toc-section-number">1.25.1</span> The Tyranny of Ignorance</a></li>
+<li><a href="1-25-tolerence.html#the-greeks-希腊人"><span class="toc-section-number">1.25.2</span> The Greeks [希腊人]</a></li>
+</ul></li>
+<li><a href="1-26-the-theory-of-moral-sentiments.html#the-theory-of-moral-sentiments"><span class="toc-section-number">1.26</span> The Theory of Moral Sentiments</a></li>
+<li class="has-sub"><a href="1-27-personality.html#personality"><span class="toc-section-number">1.27</span> Personality</a><ul>
+<li><a href="1-27-personality.html#what-is-personality"><span class="toc-section-number">1.27.1</span> What is Personality?</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-28-intimate-relationship.html#intimate-relationship"><span class="toc-section-number">1.28</span> Intimate Relationship</a><ul>
+<li><a href="1-28-intimate-relationship.html#the-building-blocks-of-relationships"><span class="toc-section-number">1.28.1</span> The Building Blocks of Relationships</a></li>
+</ul></li>
+<li><a href="1-29-the-road-less-travelled-m-scott-peck.html#the-road-less-travelled-m-scott-peck"><span class="toc-section-number">1.29</span> The Road Less Travelled [M Scott Peck]</a></li>
+<li class="has-sub"><a href="1-30-people-of-the-lie.html#people-of-the-lie"><span class="toc-section-number">1.30</span> People of the lie</a><ul>
+<li><a href="1-30-people-of-the-lie.html#introduction-handle-with-care"><span class="toc-section-number">1.30.1</span> Introduction: Handle with care</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-man-who-made-a-pact-with-the-devil"><span class="toc-section-number">1.30.2</span> The man who made a pact with the devil</a></li>
+<li><a href="1-30-people-of-the-lie.html#toward-a-psychology-of-evil"><span class="toc-section-number">1.30.3</span> Toward A Psychology of Evil</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-case-of-bobby-and-his-parents"><span class="toc-section-number">1.30.4</span> The case of Bobby and his parents</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-encounter-with-evil-in-everyday-life"><span class="toc-section-number">1.30.5</span> The encounter with evil in everyday life</a></li>
+<li><a href="1-30-people-of-the-lie.html#charlene-a-teaching-case"><span class="toc-section-number">1.30.6</span> Charlene: a teaching case</a></li>
+<li><a href="1-30-people-of-the-lie.html#of-possession-and-exorcism"><span class="toc-section-number">1.30.7</span> Of possession and exorcism</a></li>
+<li><a href="1-30-people-of-the-lie.html#mylai-an-examination-of-group-evil"><span class="toc-section-number">1.30.8</span> Mylai: an examination of group evil</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-danger-and-the-hope"><span class="toc-section-number">1.30.9</span> The danger and the hope</a></li>
+</ul></li>
+<li><a href="1-31-inner-work.html#inner-work"><span class="toc-section-number">1.31</span> Inner Work</a></li>
+<li><a href="1-32-death.html#death"><span class="toc-section-number">1.32</span> 耶鲁大学公开课——死亡</a></li>
+<li class="has-sub"><a href="1-33-what-life-could-mean-to-you.html#what-life-could-mean-to-you"><span class="toc-section-number">1.33</span> What Life Could Mean to You</a><ul>
+<li><a href="1-33-what-life-could-mean-to-you.html#meaningoflife"><span class="toc-section-number">1.33.1</span> 生活的意义</a></li>
+</ul></li>
+<li><a href="1-34-psychologicalexp.html#psychologicalexp"><span class="toc-section-number">1.34</span> 20世纪最伟大的心理学实验</a></li>
+<li><a href="1-35-weirdoinstitute.html#weirdoinstitute"><span class="toc-section-number">1.35</span> 不正常人类研究所</a></li>
+<li class="has-sub"><a href="1-36-psychobabble-stephen-briers.html#psychobabble-stephen-briers"><span class="toc-section-number">1.36</span> Psychobabble [Stephen Briers]</a><ul>
+<li><a href="1-36-psychobabble-stephen-briers.html#whats-so-wrong-with-popular-psychology"><span class="toc-section-number">1.36.1</span> What’s so wrong with popular psychology?</a></li>
+<li><a href="1-36-psychobabble-stephen-briers.html#myth-5-no-one-can-make-you-feel-anything"><span class="toc-section-number">1.36.2</span> Myth 5: No one can make you feel anything</a></li>
+<li><a href="1-36-psychobabble-stephen-briers.html#myth-6-think-positive-ans-be-a-winner"><span class="toc-section-number">1.36.3</span> Myth 6: Think positive ans be a winner!</a></li>
+</ul></li>
+<li><a href="1-37-xinbingnanfang.html#xinbingnanfang"><span class="toc-section-number">1.37</span> 南怀瑾谈心兵难防</a></li>
+<li class="has-sub"><a href="1-38-yuwangxinli.html#yuwangxinli"><span class="toc-section-number">1.38</span> 欲望心理学</a><ul>
+<li><a href="1-38-yuwangxinli.html#涂鸦发表言论恶霸行为的目的渴望重视的心理"><span class="toc-section-number">1.38.1</span> 涂鸦、发表言论、恶霸行为的目的——渴望重视的心理</a></li>
+<li><a href="1-38-yuwangxinli.html#自我空间心理"><span class="toc-section-number">1.38.2</span> 自我空间心理</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-39-fear.html#fear"><span class="toc-section-number">1.39</span> 直面内心的恐惧</a><ul>
+<li><a href="1-39-fear.html#序言"><span class="toc-section-number">1.39.1</span> 序言</a></li>
+<li><a href="1-39-fear.html#害怕把自己交出去分裂人格split-personality"><span class="toc-section-number">1.39.2</span> 害怕把自己交出去——分裂人格（split personality）</a></li>
+<li><a href="1-39-fear.html#害怕做自己忧郁人格"><span class="toc-section-number">1.39.3</span> 害怕做自己——忧郁人格</a></li>
+<li><a href="1-39-fear.html#害怕改变强迫人格obsessive-compulsive-personality-disorder"><span class="toc-section-number">1.39.4</span> 害怕改变——强迫人格(obsessive-compulsive personality disorder)</a></li>
+<li><a href="1-39-fear.html#歇斯底里hysteria人格"><span class="toc-section-number">1.39.5</span> 歇斯底里（hysteria）人格</a></li>
+</ul></li>
+<li><a href="1-40-it-wasnt-your-fault.html#it-wasnt-your-fault"><span class="toc-section-number">1.40</span> It Wasn’t Your Fault</a></li>
+<li><a href="1-41-mistakes-were-made-but-not-by-me.html#mistakes-were-made-but-not-by-me"><span class="toc-section-number">1.41</span> Mistakes Were Made But Not by Me</a></li>
+<li><a href="1-42-the-disease-to-please.html#the-disease-to-please"><span class="toc-section-number">1.42</span> The Disease To Please</a></li>
+<li><a href="1-43-the-courage-to-be-disliked.html#the-courage-to-be-disliked"><span class="toc-section-number">1.43</span> The Courage to Be Disliked</a></li>
+<li><a href="1-44-our-inner-conflicts.html#our-inner-conflicts"><span class="toc-section-number">1.44</span> Our Inner Conflicts</a></li>
+<li><a href="1-45-the-neurotic-personality-of-our-time.html#the-neurotic-personality-of-our-time"><span class="toc-section-number">1.45</span> The Neurotic Personality of Our Time</a></li>
+<li><a href="1-46-your-survival-instinct-is-killing-you.html#your-survival-instinct-is-killing-you"><span class="toc-section-number">1.46</span> Your Survival Instinct Is Killing You</a></li>
+<li><a href="1-47-the-crowd.html#the-crowd"><span class="toc-section-number">1.47</span> The Crowd</a></li>
+<li><a href="1-48-the-true-believer-thoughts-on-the-nature-of-mass-movements.html#the-true-believer-thoughts-on-the-nature-of-mass-movements"><span class="toc-section-number">1.48</span> The True Believer: Thoughts On The Nature Of Mass Movements</a></li>
+<li class="has-sub"><a href="1-49-status-anxiety.html#status-anxiety"><span class="toc-section-number">1.49</span> Status Anxiety</a><ul>
+<li><a href="1-49-status-anxiety.html#statusanxiety1"><span class="toc-section-number">1.49.1</span> 焦虑的起因</a></li>
+<li><a href="1-49-status-anxiety.html#statusanxiety7"><span class="toc-section-number">1.49.2</span> 解决方法</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-50-daodeguaiquan.html#daodeguaiquan"><span class="toc-section-number">1.50</span> 生活中的道德怪圈</a><ul>
+<li><a href="1-50-daodeguaiquan.html#daodeguaiquan1"><span class="toc-section-number">1.50.1</span> 引言</a></li>
+</ul></li>
+<li><a href="1-51-dianchenanti.html#dianchenanti"><span class="toc-section-number">1.51</span> 电车难题</a></li>
+<li><a href="1-52-being-mortal.html#being-mortal"><span class="toc-section-number">1.52</span> Being Mortal</a></li>
+<li><a href="1-53-top-dog.html#top-dog"><span class="toc-section-number">1.53</span> Top Dog</a></li>
+<li class="has-sub"><a href="1-54-chaozhong.html#chaozhong"><span class="toc-section-number">1.54</span> 心理操纵术</a><ul>
+<li><a href="1-54-chaozhong.html#chaozhong1"><span class="toc-section-number">1.54.1</span> 赢家不会告诉你的</a></li>
+<li><a href="1-54-chaozhong.html#chaozhong2"><span class="toc-section-number">1.54.2</span> 苹果的滋味</a></li>
+</ul></li>
+<li><a href="1-55-xinli1.html#xinli1"><span class="toc-section-number">1.55</span> 希望感和绝望感</a></li>
+<li><a href="1-56-xinli2.html#xinli2"><span class="toc-section-number">1.56</span> 脆弱</a></li>
+<li><a href="1-57-xinli3.html#xinli3"><span class="toc-section-number">1.57</span> 各种效应</a></li>
+<li><a href="1-58-wangyangmingg.html#wangyangmingg"><span class="toc-section-number">1.58</span> 人生即修行</a></li>
+<li><a href="1-59-xinjing.html#xinjing"><span class="toc-section-number">1.59</span> 治心经</a></li>
+<li class="has-sub"><a href="1-60-xinli4.html#xinli4"><span class="toc-section-number">1.60</span> 心理学文章</a><ul>
+<li><a href="1-60-xinli4.html#what-makes-things-cool"><span class="toc-section-number">1.60.1</span> What makes things cool?</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="2-religion.html#religion"><span class="toc-section-number">2</span> Religion</a><ul>
+<li class="has-sub"><a href="2-1-the-tibetan-book-of-living-and-dying-sogal-rinpoche.html#the-tibetan-book-of-living-and-dying-西藏生死书sogal-rinpoche"><span class="toc-section-number">2.1</span> The Tibetan Book of Living and Dying [西藏生死书，Sogal Rinpoche]</a><ul>
+<li><a href="2-1-the-tibetan-book-of-living-and-dying-sogal-rinpoche.html#living"><span class="toc-section-number">2.1.1</span> Living</a></li>
+</ul></li>
+<li><a href="2-2-gravity-and-grace-simone-weil.html#gravity-and-grace-重负与神恩-simone-weil"><span class="toc-section-number">2.2</span> Gravity and Grace [重负与神恩, Simone Weil]</a></li>
+<li><a href="2-3-christianity-and-world-religions.html#christianity-and-world-religions"><span class="toc-section-number">2.3</span> Christianity and World Religions</a></li>
+<li><a href="2-4-the-case-for-faith.html#the-case-for-faith"><span class="toc-section-number">2.4</span> The Case for Faith</a></li>
+<li><a href="2-5-if-you-want-to-walk-on-water-youve-got-to-get-out-of-the-boat.html#if-you-want-to-walk-on-water-youve-got-to-get-out-of-the-boat"><span class="toc-section-number">2.5</span> If you want to walk on water, you’ve got to get out of the boat</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-society-and-culture.html#society-and-culture"><span class="toc-section-number">3</span> Society and Culture</a><ul>
+<li><a href="3-1-dongwujingshen.html#dongwujingshen"><span class="toc-section-number">3.1</span> 动物精神</a></li>
+<li><a href="3-2-the-100-year-life-living-and-working-in-an-age-of-longevity.html#the-100-year-life-living-and-working-in-an-age-of-longevity"><span class="toc-section-number">3.2</span> The 100-Year Life: Living and working in an age of longevity</a></li>
+<li><a href="3-3-empire-and-communications.html#empire-and-communications"><span class="toc-section-number">3.3</span> Empire and Communications</a></li>
+<li><a href="3-4-amusing-ourselves-to-death.html#amusing-ourselves-to-death"><span class="toc-section-number">3.4</span> Amusing ourselves to death</a></li>
+<li><a href="3-5-discipline-and-punish.html#discipline-and-punish"><span class="toc-section-number">3.5</span> Discipline and Punish</a></li>
+<li><a href="3-6-class.html#class"><span class="toc-section-number">3.6</span> Class</a></li>
+<li><a href="3-7-pingqiongdebenzhi.html#pingqiongdebenzhi"><span class="toc-section-number">3.7</span> 贫穷的本质</a></li>
+<li><a href="3-8-supper-better.html#supper-better"><span class="toc-section-number">3.8</span> Supper Better</a></li>
+<li><a href="3-9-the-clash-of-civilizations.html#the-clash-of-civilizations"><span class="toc-section-number">3.9</span> The Clash of Civilizations</a></li>
+<li><a href="3-10-chrysanthemum-and-sword.html#chrysanthemum-and-sword"><span class="toc-section-number">3.10</span> Chrysanthemum and Sword</a></li>
+<li><a href="3-11-connectography.html#connectography"><span class="toc-section-number">3.11</span> Connectography</a></li>
+<li class="has-sub"><a href="3-12-much-depends-on-dinner.html#much-depends-on-dinner"><span class="toc-section-number">3.12</span> Much Depends on Dinner</a><ul>
+<li><a href="index.html#introduction"><span class="toc-section-number">3.12.1</span> Introduction</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#corn"><span class="toc-section-number">3.12.2</span> Corn</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#salt"><span class="toc-section-number">3.12.3</span> Salt</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#ice-cream"><span class="toc-section-number">3.12.4</span> Ice-cream</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#sugar-from-an-article"><span class="toc-section-number">3.12.5</span> Sugar (from an article)</a></li>
+</ul></li>
+<li><a href="3-13-eucoffeehouseculture.html#eucoffeehouseculture"><span class="toc-section-number">3.13</span> 咖啡馆里的欧洲文化</a></li>
+<li class="has-sub"><a href="3-14-world-culture.html#知道点世界文化-world-culture"><span class="toc-section-number">3.14</span> 知道点：世界文化 (World Culture)</a><ul>
+<li><a href="3-14-world-culture.html#古文明的脉络"><span class="toc-section-number">3.14.1</span> 古文明的脉络</a></li>
+</ul></li>
+<li><a href="3-15-out-of-control-kevin-kelly.html#out-of-control-失控-kevin-kelly"><span class="toc-section-number">3.15</span> Out of Control [失控, Kevin Kelly]</a></li>
+<li><a href="3-16-the-rational-optimist-.html#the-rational-optimist-理性乐观派"><span class="toc-section-number">3.16</span> The Rational Optimist [理性乐观派]</a></li>
+<li class="has-sub"><a href="3-17-the-inevitable.html#the-inevitable"><span class="toc-section-number">3.17</span> The Inevitable</a><ul>
+<li><a href="3-17-the-inevitable.html#becoming"><span class="toc-section-number">3.17.1</span> Becoming</a></li>
+<li><a href="3-17-the-inevitable.html#cognifying"><span class="toc-section-number">3.17.2</span> Cognifying</a></li>
+<li><a href="3-17-the-inevitable.html#flowing"><span class="toc-section-number">3.17.3</span> Flowing</a></li>
+<li><a href="3-17-the-inevitable.html#screening"><span class="toc-section-number">3.17.4</span> Screening</a></li>
+<li><a href="3-17-the-inevitable.html#accessing"><span class="toc-section-number">3.17.5</span> Accessing</a></li>
+<li><a href="3-17-the-inevitable.html#sharing"><span class="toc-section-number">3.17.6</span> Sharing</a></li>
+<li><a href="3-17-the-inevitable.html#filtering"><span class="toc-section-number">3.17.7</span> Filtering</a></li>
+<li><a href="3-17-the-inevitable.html#remixing"><span class="toc-section-number">3.17.8</span> Remixing</a></li>
+<li><a href="3-17-the-inevitable.html#interacting"><span class="toc-section-number">3.17.9</span> Interacting</a></li>
+<li><a href="3-17-the-inevitable.html#tracking"><span class="toc-section-number">3.17.10</span> Tracking</a></li>
+<li><a href="3-17-the-inevitable.html#questioning"><span class="toc-section-number">3.17.11</span> Questioning</a></li>
+<li><a href="3-17-the-inevitable.html#beginning"><span class="toc-section-number">3.17.12</span> Beginning</a></li>
+</ul></li>
+<li><a href="3-18-americancity.html#americancity"><span class="toc-section-number">3.18</span> 美国大城市的死于生</a></li>
+<li><a href="3-19-the-glass-cage.html#the-glass-cage"><span class="toc-section-number">3.19</span> The Glass Cage</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-self-development.html#self-development"><span class="toc-section-number">4</span> Self-development</a><ul>
+<li class="has-sub"><a href="4-1-learn-how-to-learn.html#learn-how-to-learn"><span class="toc-section-number">4.1</span> Learn how to learn</a><ul>
+<li><a href="4-1-learn-how-to-learn.html#how-to-read-a-book"><span class="toc-section-number">4.1.1</span> How to read a book?</a></li>
+<li><a href="4-1-learn-how-to-learn.html#make-friend-with-time"><span class="toc-section-number">4.1.2</span> Make friend with time</a></li>
+<li><a href="4-1-learn-how-to-learn.html#siweifangfa"><span class="toc-section-number">4.1.3</span> 思维方法</a></li>
+<li><a href="4-1-learn-how-to-learn.html#xiweifangfa2"><span class="toc-section-number">4.1.4</span> 拆掉思维里的墙</a></li>
+<li><a href="4-1-learn-how-to-learn.html#xuexi1"><span class="toc-section-number">4.1.5</span> 怎样成为高段位的学习者？</a></li>
+<li><a href="4-1-learn-how-to-learn.html#how-to-solve-it"><span class="toc-section-number">4.1.6</span> How to Solve It?</a></li>
+<li><a href="4-1-learn-how-to-learn.html#learning-how-to-learn-mooc"><span class="toc-section-number">4.1.7</span> Learning How to Learn [MOOC]</a></li>
+<li><a href="4-1-learn-how-to-learn.html#how-we-learn-如何学习"><span class="toc-section-number">4.1.8</span> How we learn? (如何学习)</a></li>
+<li><a href="4-1-learn-how-to-learn.html#anshijian1"><span class="toc-section-number">4.1.9</span> 暗时间</a></li>
+<li><a href="4-1-learn-how-to-learn.html#gaoxiaoxuexi"><span class="toc-section-number">4.1.10</span> 如何高效学习</a></li>
+<li><a href="4-1-learn-how-to-learn.html#xueduxuexi"><span class="toc-section-number">4.1.11</span> 阅读学习方法</a></li>
+<li><a href="4-1-learn-how-to-learn.html#haohaoxuexi"><span class="toc-section-number">4.1.12</span> 好好学习</a></li>
+<li><a href="4-1-learn-how-to-learn.html#yueqian"><span class="toc-section-number">4.1.13</span> 跃迁</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-2-emotion-management.html#emotion-management"><span class="toc-section-number">4.2</span> Emotion Management</a><ul>
+<li><a href="4-2-emotion-management.html#emotional-first-aid"><span class="toc-section-number">4.2.1</span> Emotional First Aid</a></li>
+<li><a href="4-2-emotion-management.html#how-to-keep-people-from-pushing-your-buttons"><span class="toc-section-number">4.2.2</span> How To Keep People From Pushing Your Buttons</a></li>
+<li><a href="4-2-emotion-management.html#others-sdothers"><span class="toc-section-number">4.2.3</span> Others {sdothers}</a></li>
+<li><a href="4-2-emotion-management.html#feeling-good"><span class="toc-section-number">4.2.4</span> Feeling Good</a></li>
+</ul></li>
+<li><a href="4-3-obsessive-love.html#obsessive-love"><span class="toc-section-number">4.3</span> Obsessive Love</a></li>
+<li><a href="4-4-sikaojishu.html#sikaojishu"><span class="toc-section-number">4.4</span> 思考的技术</a></li>
+<li><a href="4-5-renmaiguanli.html#renmaiguanli"><span class="toc-section-number">4.5</span> 系统化管理人脉</a></li>
+<li><a href="4-6-how-will-you-measure-your-life.html#how-will-you-measure-your-life"><span class="toc-section-number">4.6</span> How Will You Measure Your Life?</a></li>
+<li><a href="4-7-seeing-the-forest-for-the-trees.html#seeing-the-forest-for-the-trees"><span class="toc-section-number">4.7</span> Seeing the Forest for the Trees</a></li>
+<li class="has-sub"><a href="4-8-asking-the-right-questions.html#asking-the-right-questions"><span class="toc-section-number">4.8</span> Asking the right questions</a><ul>
+<li><a href="4-8-asking-the-right-questions.html#the-benefits-of-asking-the-right-questions"><span class="toc-section-number">4.8.1</span> The benefits of asking the right questions</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-are-the-issue-and-conclusion"><span class="toc-section-number">4.8.2</span> What are the issue and conclusion?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#reasons"><span class="toc-section-number">4.8.3</span> Reasons</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-words-of-phrases-are-ambiguous"><span class="toc-section-number">4.8.4</span> What words of phrases are ambiguous?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-are-the-value-and-descriptive-assumptions"><span class="toc-section-number">4.8.5</span> What are the value and descriptive assumptions?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#are-there-any-fallacies-in-the-reasoning"><span class="toc-section-number">4.8.6</span> Are there any fallacies in the reasoning?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#how-good-is-the-evidence"><span class="toc-section-number">4.8.7</span> How good is the evidence?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#are-there-rival-cause"><span class="toc-section-number">4.8.8</span> Are there rival cause?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#are-the-statistics-deceptive"><span class="toc-section-number">4.8.9</span> Are the statistics deceptive?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-significant-information-is-omitted"><span class="toc-section-number">4.8.10</span> What significant information is omitted?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-reasonable-conclusions-are-possible"><span class="toc-section-number">4.8.11</span> What reasonable conclusions are possible?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#practice-and-review"><span class="toc-section-number">4.8.12</span> Practice and Review</a></li>
+</ul></li>
+<li><a href="4-9-question-power.html#question-power"><span class="toc-section-number">4.9</span> Question Power</a></li>
+<li class="has-sub"><a href="4-10-innovation.html#innovation"><span class="toc-section-number">4.10</span> Innovation</a><ul>
+<li><a href="4-10-innovation.html#the-ten-faces-of-innovation"><span class="toc-section-number">4.10.1</span> The Ten Faces of Innovation</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-11-emotion-management-1.html#emotion-management-1"><span class="toc-section-number">4.11</span> Emotion Management</a><ul>
+<li><a href="4-11-emotion-management-1.html#how-to-keep-people-from-pushing-your-buttons-1"><span class="toc-section-number">4.11.1</span> How To Keep People From Pushing Your Buttons</a></li>
+<li><a href="4-11-emotion-management-1.html#feeling-good-the-new-mood-therapy"><span class="toc-section-number">4.11.2</span> Feeling Good: The New Mood Therapy</a></li>
+<li><a href="4-11-emotion-management-1.html#emotional-first-aid-1"><span class="toc-section-number">4.11.3</span> Emotional First Aid</a></li>
+<li><a href="4-11-emotion-management-1.html#the-emotional-life-of-your-brain"><span class="toc-section-number">4.11.4</span> The Emotional Life of Your Brain</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-12-negotiation.html#negotiation"><span class="toc-section-number">4.12</span> Negotiation</a><ul>
+<li><a href="4-12-negotiation.html#negociation1"><span class="toc-section-number">4.12.1</span> 谈判思考的技术</a></li>
+<li><a href="4-12-negotiation.html#getting-more"><span class="toc-section-number">4.12.2</span> Getting More</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="5-statistics-data-science.html#statistics-data-science"><span class="toc-section-number">5</span> Statistics &amp; Data Science</a><ul>
+<li><a href="5-1-an-introduction-to-statistical-learning.html#an-introduction-to-statistical-learning"><span class="toc-section-number">5.1</span> An Introduction to Statistical Learning</a></li>
+<li><a href="5-2-asa-on-p-value.html#asa-on-p-value"><span class="toc-section-number">5.2</span> ASA on p-value</a></li>
+<li><a href="5-3-a-companys-5-levels-of-analytical-maturity.html#a-companys-5-levels-of-analytical-maturity"><span class="toc-section-number">5.3</span> A company’s 5 levels of analytical maturity</a></li>
+<li><a href="5-4-practical-text-analytics.html#practical-text-analytics"><span class="toc-section-number">5.4</span> Practical text analytics</a></li>
+<li><a href="5-5-data-science-team.html#data-science-team"><span class="toc-section-number">5.5</span> Data science team</a></li>
+<li><a href="5-6-hadoop-v-s-spark.html#hadoop-v.s.-spark"><span class="toc-section-number">5.6</span> Hadoop v.s. Spark</a></li>
+<li><a href="5-7-data-quality.html#data-quality"><span class="toc-section-number">5.7</span> Data Quality</a></li>
+</ul></li>
+<li class="has-sub"><a href="6-business-economics.html#business-economics"><span class="toc-section-number">6</span> Business &amp; Economics</a><ul>
+<li><a href="6-1-the-wealth-of-nations-adam-smith.html#the-wealth-of-nations-adam-smith"><span class="toc-section-number">6.1</span> The Wealth of Nations [Adam Smith]</a></li>
+<li class="has-sub"><a href="6-2-principles-of-economics-alfred-marshall.html#principles-of-economics-alfred-marshall"><span class="toc-section-number">6.2</span> Principles of Economics [Alfred Marshall]</a><ul>
+<li><a href="index.html#introduction"><span class="toc-section-number">6.2.1</span> Introduction</a></li>
+<li><a href="6-2-principles-of-economics-alfred-marshall.html#the-substance-of-economics"><span class="toc-section-number">6.2.2</span> The substance of economics</a></li>
+</ul></li>
+<li><a href="6-3-fishing-for-phools.html#fishing-for-phools"><span class="toc-section-number">6.3</span> Fishing for Phools</a></li>
+<li><a href="6-4-shareology.html#shareology"><span class="toc-section-number">6.4</span> Shareology</a></li>
+<li><a href="6-5-known.html#known"><span class="toc-section-number">6.5</span> Known</a></li>
+<li><a href="6-6-the-attention-merchants.html#the-attention-merchants"><span class="toc-section-number">6.6</span> The Attention Merchants</a></li>
+<li><a href="6-7-the-essential-drucker.html#the-essential-drucker"><span class="toc-section-number">6.7</span> The Essential Drucker</a></li>
+<li><a href="6-8-blockbuster.html#blockbuster"><span class="toc-section-number">6.8</span> Blockbuster</a></li>
+<li><a href="6-9-luxury-marketing.html#luxury-marketing"><span class="toc-section-number">6.9</span> Luxury Marketing</a></li>
+<li><a href="6-10-moments-of-truth.html#moments-of-truth"><span class="toc-section-number">6.10</span> Moments of Truth</a></li>
+<li><a href="6-11-seducing-the-subconscious.html#seducing-the-subconscious"><span class="toc-section-number">6.11</span> Seducing the Subconscious</a></li>
+<li><a href="6-12-yingxiao.html#yingxiao"><span class="toc-section-number">6.12</span> 不做无效的营销</a></li>
+<li class="has-sub"><a href="6-13-chanpin1.html#chanpin1"><span class="toc-section-number">6.13</span> 产品经理</a><ul>
+<li><a href="6-13-chanpin1.html#chanpin2"><span class="toc-section-number">6.13.1</span> 同理心</a></li>
+<li><a href="6-13-chanpin1.html#chanpin3"><span class="toc-section-number">6.13.2</span> 机会判断</a></li>
+<li><a href="6-13-chanpin1.html#chanpin4"><span class="toc-section-number">6.13.3</span> 系统能力</a></li>
+<li><a href="6-13-chanpin1.html#chanpin5"><span class="toc-section-number">6.13.4</span> 用户体验</a></li>
+<li><a href="6-13-chanpin1.html#chanpin7"><span class="toc-section-number">6.13.5</span> 创新模式</a></li>
+<li><a href="6-13-chanpin1.html#chanpin9"><span class="toc-section-number">6.13.6</span> 产品世界观</a></li>
+</ul></li>
+<li><a href="6-14-well-known-marketing-tools.html#well-known-marketing-tools"><span class="toc-section-number">6.14</span> Well-known marketing tools</a></li>
+<li class="has-sub"><a href="6-15-yinxiao.html#yinxiao"><span class="toc-section-number">6.15</span> 从广告驱动到SCi——市场营销</a><ul>
+<li><a href="6-15-yinxiao.html#customer-decision-journey"><span class="toc-section-number">6.15.1</span> Customer Decision Journey</a></li>
+</ul></li>
+</ul></li>
+<li><a href="7-medicine.html#medicine"><span class="toc-section-number">7</span> Medicine</a></li>
+<li class="has-sub"><a href="8-physics.html#physics"><span class="toc-section-number">8</span> Physics</a><ul>
+<li><a href="8-1-dasheji.html#dasheji"><span class="toc-section-number">8.1</span> 大设计</a></li>
+</ul></li>
+<li class="has-sub"><a href="9-proses-essays-and-poems.html#proses-essays-and-poems"><span class="toc-section-number">9</span> Proses, Essays and Poems</a><ul>
+<li><a href="9-1-the-thoughts-of-an-idle-fellow.html#the-thoughts-of-an-idle-fellow"><span class="toc-section-number">9.1</span> The Thoughts of An Idle Fellow</a></li>
+<li><a href="9-2-liuyu.html#liuyu"><span class="toc-section-number">9.2</span> 刘瑜作品笔记</a></li>
+<li><a href="9-3-pindanshehua.html#pindanshehua"><span class="toc-section-number">9.3</span> 在平淡和奢华之间摇摆</a></li>
+<li class="has-sub"><a href="9-4-yasetanyi.html#yasetanyi"><span class="toc-section-number">9.4</span> 雅舍谈艺</a><ul>
+<li><a href="9-4-yasetanyi.html#yinshiyishu"><span class="toc-section-number">9.4.1</span> 饮食的艺术</a></li>
+</ul></li>
+<li class="has-sub"><a href="9-5-shuihu.html#shuihu"><span class="toc-section-number">9.5</span> 闲看水浒</a><ul>
+<li><a href="9-5-shuihu.html#shuihu1"><span class="toc-section-number">9.5.1</span> 江湖庙堂路几重</a></li>
+<li><a href="9-5-shuihu.html#shuihu2"><span class="toc-section-number">9.5.2</span> 乱世生存的技巧</a></li>
+<li><a href="9-5-shuihu.html#shuihu3"><span class="toc-section-number">9.5.3</span> 避免黑暗伤害的智慧</a></li>
+<li><a href="9-5-shuihu.html#shuihu4"><span class="toc-section-number">9.5.4</span> 情欲的罪与罚</a></li>
+<li><a href="9-5-shuihu.html#shuihu5"><span class="toc-section-number">9.5.5</span> 英雄的末路选择</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="10-politics.html#politics"><span class="toc-section-number">10</span> Politics</a><ul>
+<li><a href="10-1-democracy-in-america-tocqueville.html#democracy-in-america-tocqueville"><span class="toc-section-number">10.1</span> Democracy in America [Tocqueville]</a></li>
+<li><a href="10-2-on-the-origin-of-human-inequality-.html#on-the-origin-of-human-inequality-论人类不平等的起源"><span class="toc-section-number">10.2</span> On the origin of human inequality (论人类不平等的起源)</a></li>
+<li><a href="10-3-the-machiavellian-enterprise-.html#the-machiavellian-enterprise-马基雅维利的事业"><span class="toc-section-number">10.3</span> The Machiavellian Enterprise [马基雅维利的事业]</a></li>
+<li><a href="10-4-power-.html#power-权力为什么只为某些人所拥有"><span class="toc-section-number">10.4</span> Power (权力为什么只为某些人所拥有)</a></li>
+<li><a href="10-5-other-politicsothers.html#other-politicsothers"><span class="toc-section-number">10.5</span> Other {politicsOthers}</a></li>
+</ul></li>
+<li class="has-sub"><a href="11-history.html#history"><span class="toc-section-number">11</span> History</a><ul>
+<li><a href="11-1-a-brief-history-of-humankind.html#a-brief-history-of-humankind"><span class="toc-section-number">11.1</span> A Brief History of Humankind</a></li>
+</ul></li>
+<li class="has-sub"><a href="12-art.html#art"><span class="toc-section-number">12</span> Art</a><ul>
+<li><a href="12-1-the-story-of-art-by-e-h-gombrich.html#the-story-of-art-by-e.h.-gombrich"><span class="toc-section-number">12.1</span> The Story of Art (By E.H. Gombrich)</a></li>
+</ul></li>
+<li class="has-sub"><a href="13-novels-and-plays.html#novels-and-plays"><span class="toc-section-number">13</span> Novels and Plays</a><ul>
+<li><a href="13-1-immortality-milan-kundera.html#immortality-不朽milan-kundera"><span class="toc-section-number">13.1</span> Immortality [不朽，Milan Kundera]</a></li>
+</ul></li>
+<li class="has-sub"><a href="14-jokes.html#jokes"><span class="toc-section-number">14</span> Jokes</a><ul>
+<li class="has-sub"><a href="14-1-cnjoke.html#cnjoke"><span class="toc-section-number">14.1</span> 中文笑话</a><ul>
+<li><a href="14-1-cnjoke.html#chickensoup"><span class="toc-section-number">14.1.1</span> 2017-12-9: 毒鸡汤</a></li>
+<li><a href="14-1-cnjoke.html#chickensoup2"><span class="toc-section-number">14.1.2</span> ～2016-4-5</a></li>
+<li><a href="14-1-cnjoke.html#chickensoup3"><span class="toc-section-number">14.1.3</span> 2016-4-6 ~ 2016-6-23</a></li>
+<li><a href="14-1-cnjoke.html#chickensoup4"><span class="toc-section-number">14.1.4</span> 2016-4-24 ~</a></li>
+</ul></li>
+<li class="has-sub"><a href="14-2-shenhuifu.html#shenhuifu"><span class="toc-section-number">14.2</span> 中文笑话－神回复</a><ul>
+<li><a href="14-2-shenhuifu.html#shenhuifu1"><span class="toc-section-number">14.2.1</span> ～2016-4-5</a></li>
+<li><a href="14-2-shenhuifu.html#shenhuifu2"><span class="toc-section-number">14.2.2</span> 2016-04-05 ~ 2018-09-08</a></li>
+</ul></li>
+<li><a href="14-3-english-jokes.html#english-jokes"><span class="toc-section-number">14.3</span> English Jokes</a></li>
+</ul></li>
+<li class="has-sub"><a href="15-beauty-and-health.html#beauty-and-health"><span class="toc-section-number">15</span> Beauty and Health</a><ul>
+<li><a href="15-1-chemicals-for-some-cosmetic-products.html#chemicals-for-some-cosmetic-products"><span class="toc-section-number">15.1</span> Chemicals for some cosmetic products</a></li>
+</ul></li>
+<li class="has-sub"><a href="16-other.html#other"><span class="toc-section-number">16</span> Other</a><ul>
+<li><a href="16-1-writing-a-womans-life.html#writing-a-womans-life"><span class="toc-section-number">16.1</span> Writing a woman’s life</a></li>
+<li><a href="16-2-whyart.html#whyart"><span class="toc-section-number">16.2</span> 数字时代为什么要学习人文学科</a></li>
+<li><a href="16-3-calmdown.html#calmdown"><span class="toc-section-number">16.3</span> 如何在负面情绪缠身时平静下来</a></li>
+<li><a href="16-4-colaborate.html#colaborate"><span class="toc-section-number">16.4</span> 合作</a></li>
+<li><a href="16-5-other-notes.html#other-notes"><span class="toc-section-number">16.5</span> Other Notes</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="people-of-the-lie" class="section level2">
+<h2><span class="header-section-number">1.30</span> People of the lie</h2>
+<div id="introduction-handle-with-care" class="section level3">
+<h3><span class="header-section-number">1.30.1</span> Introduction: Handle with care</h3>
+<ul>
+<li><p>Remember Saint Augustine’s advice to hate the sin but love the sinner. [憎恨罪恶，但要爱有罪的人]</p></li>
+<li><p>Great evil has been committed throughout the centuries–and is still committed–by nominal Christians, often in the name of Christ.</p></li>
+<li><p>There are hundreds of thousands who go to Christian churches every Sunday who are not the least bit willing to be displeasing to themselves, serenely or otherwise, and who are not, therefore, for Jesus a pleasant place of shelter. Conversely, there are millions of Hindus, Buddhists, Muslims, Jews, atheists and agnostics who are willing to bear that trial.</p></li>
+</ul>
+</div>
+<div id="the-man-who-made-a-pact-with-the-devil" class="section level3">
+<h3><span class="header-section-number">1.30.2</span> The man who made a pact with the devil</h3>
+<ul>
+<li><p>obsessive-compulsive neurosis （强迫妄想型精神官能症）:have their origins in early childhood; have propensity for what psychiatrists call “magical thinking”. Magical thinking can take a variety of forms, but basically it is a belief that thoughts in and of themselves may cause events to occur. Young children normally think magically. Ordinarily we grow out of this tendency to think magically and by adolescence are quite certain that we do not have the power to control external events by our thoughts alone. Frequently children who have been unduly traumatized one way or another do not grow out of their magical-thinking stage. This is particularly true of people with an obsessive-compulsive neurosis.</p></li>
+<li><p>In the late 17th century, Religion agreed that the “natural world” was the the sole province of the scientists. And science agreed, in turn, to keep its nose out of the spiritual-or for that matter, anything to do with values. Indeed, science defined itself as “value-free”.
+the pattern of unwanted thoughts and the taking of undesired actions</p></li>
+</ul>
+</div>
+<div id="toward-a-psychology-of-evil" class="section level3">
+<h3><span class="header-section-number">1.30.3</span> Toward A Psychology of Evil</h3>
+<ul>
+<li><p>In the late 17th century, religion agreed that the “natural world” was the sole province of the scientists. And science agreed, in turn, to keep its nose out of the spiritual—or for that matter, anything to do with values. Indeed, science defined itself as “value-free”.
+Science has also steered clear of the problem of evil because of the immensity of the mystery involved … Theirs is a “left brain”, analytical style. Their standard procedure is to bite off tiny little pieces at a time and then to examine such pieces in relative isolation. They prefer little mysteries to big ones.</p></li>
+<li><p>While some seek in religion an escape from mystery, for others religion is a way to approach mystery. The latter are not loath to employ the reductionistic（还原论，简化论） methods of science, but they are also not reluctant to use more integrative “right brain” means of exploration: meditation, intuition, feeling, faith, and revelation. For them bigger the mystery, the better.</p></li>
+<li><p>The problem of evil can hardly be separated from the problem of goodness. Were there no goodness in the world, we would not even be considering the problem of evil.
+It is as if we automatically assume this is a naturally good world that has somehow been contaminated by evil……If we seriously think about it, it probably makes more sense to assume this is a naturally evil world that has somehow been mysteriously “contaminated” by goodness, rather than the other way around. The mystery of goodness is even greater than the mystery of evil.</p></li>
+<li><p>Thus we may “break” a horse or even a child without harming a hair on its head. Erich Fromm was acutely sensitive to this fact when he broadened the definition of necrophilia （恋尸癖）to include the desire of certain people to control others—–to make them controllable, to foster their dependency, to discourage their capacity to think for themselves, to diminish their unpredictability and originality, to keep them in line. Distinguishing it from a “biophilic” person（具有生物自卫本能的人）, one who appreciates and fosters the variety of life forms and the uniqueness of the individual, he demonstrated a “necrophilic character type” whose aim is to avoid the inconvenience of life by transforming others into obedient automatons（机械般行动的人或动物）, robbing them of their humanity…..Evil is that force, residing either inside or outside of human beings, that seeks to kill life or liveliness. Goodness is that which promotes life and liveliness.（弗洛姆广义的界定“恋尸癖”时，增列了某些人对他人的控制欲：使他人受控制，增强依赖度，削弱其主动性，接受管束。弗洛姆将“恋尸癖性格的人”和“具有生物自卫本能的人”加以区分：前者将他人改变为顺从的机器人，剥夺他们的人性，借以回避人生的艰难；而后者则承认并鼓励生命的多样变化，以及“人”独有的特性。）</p></li>
+<li><p>A psychology of evil must be a religious psychology……it must not only embrace valid insights from all religious traditions but must also recognize the reality of the “supernatural”.
+Having fled the Jewish persecution of the Hitler regime, the psychoanalyst Erich Fromm spent much of the rest of his life studying the evil of Naziism. He （原书中讲他是第一个也是唯一一个确定邪恶人格类型的科学家，此书写与1983年，这个说法已经不正确了）…….to identify an evil personality type, to attempt to examine evil people in depth, and to suggest that they be studied still further.</p></li>
+<li><p>The great Jewish theologian Martin Buber distinguished between two types of myths about evil. One type conerns people in the process of “sliding” into evil. The other concerns those who have already slid, “fallen victim” to and been taken over by “radical” evil.</p></li>
+</ul>
+</div>
+<div id="the-case-of-bobby-and-his-parents" class="section level3">
+<h3><span class="header-section-number">1.30.4</span> The case of Bobby and his parents</h3>
+<ul>
+<li><p>To children–even adolescents–their parents are like Gods. The way their parents do things seems the way they should be done. Children are seldom able to objectively compare their parents to other parents. They are not able to make realistic assessments of their parents’ behavior. Treated badly by its parents, a child will usually assume that it is bad. If treated as an ugly, stupid second-class citizen, it will grow up with an image of itself as ugly, stupid and second-class. Raised without love, children come to believe themselves unlovable. We may express this as a general law of child development: Whenever there is a major deficit in parental love, the child will, in all likelihood, respond to that deficit by assuming itself to be the cause of the deficit, thereby developing an unrealistically negative self-image.</p></li>
+<li><p>People have feelings about each other. When psychotherapists have feelings about their patients, they label those feelings “countertransference”. Countertransference can run the whole gamut of human emotions from the most intense love to the most intense hatred.
+Reactions evil frequently engender: 1. revulsion 2. confusion</p></li>
+<li><p>But what would make revulsion a healthy response? Why might it be an appropriate countertransference for an emotionally healthy therapist? Revulsion is a powerful emotion that causes us to immediately want to avoid, to escape, the revolting presence.</p></li>
+<li><p>It is necessary that we first draw the distinction between evil and ordinary sin. It is not their sins per se that characterize evil people, rather it is the subtlety and persistence and consistency of their sins. This is because the central defect of the evil is not the sin but the refusal to acknowledge it.</p></li>
+<li><p>Hell is essentially a state of being which we fashion for ourselves: a state of final separateness from God which is the result not of God’s repudiation of man, but of man’s repudiation of God, and a repudiation which is eternal precisely because it has become, in itself, immovable. There are analogies in human experience: the hate which is so blind, so dark, that Love only makes it the more violent; the pride which is so stony that humility only makes it more scornful; the inertia which has so taken possession of the personality that no crisis, no appeal, no inducement whatsoever, can stir it into activity, but on the contrary makes it bury itself the more deeply in its immobility. So with the soul and God; pride can become hardened into hell, hatred can become hardened into hell, any of the seven root forms of wrongdoing can harden into hell, and not least that sloth which is boredom with divine things, the inertia that cannot be troubled to repent, even though it sees the abyss into which the soul is falling, because for so long it has accustomed itself to refuse whatever might cost it an effort. May God in his mercy save us from that.</p></li>
+<li><p>A predominant characteristic of the behavior of those I call evil is scapegoating. Because in their hearts they consider themselves above reproach, they must lash out at anyone who does reproach them. They sacrifice others to preserve their self-image of perfection…Scapegoating works through a mechanism psychiatrists call projection. Since the evil, deep down, feel themselves to be faultless, it is inevitable that when they are in conflict with the world they will invariably perceive the conflict as the world’s fault. Since they must deny their own badness, they must perceive others as bad. They project their own evil onto the world. They never think of themselves as evil; on the other hand, they consequently see much evil in others…Evil, then, is most often committed in order to scapegoat, and the people I label as evil are chronic scapegoaters. In The Road Less Traveled I defined evil “as the exercise of political power–that is, the imposition of one’s will upon others by overt or covert coercion–in order to avoid…spiritual growth [运用一切手段拒绝性灵成长，而恶性扩张自我的行为]”.</p></li>
+<li><p>There are people, both in and out of jail, who seem utterly lacking in conscience or super-ego. Pyschiatrists call them psychopaths[精神病患者] or sociopaths[社会病患者]…This is hardly the case with those I call evil. Utterly dedicated to preserving their self-image of perfection, they are unceasingly engaged in the effort to maintain the appearance of moral purity. They worry about this a great deal. They are acutely sensitive to social norms and what others might think of them. Like Bobby’s parents, they dress well, go to work on time, pay their taxes, and outwardly seem to live lives that are above reproach.[我所谓的恶人，是那些为了保护“完美”自我形象，而处心积虑维护道德完美假象的那类人。他们重视自己的道德形象，对于社会及别人对他们的看法，保持高度的敏感。这类人像Babby的父母一样，衣着体面，上班循规蹈矩，不逃税漏税，很难从他们表面的为人处事上挑出毛病。]</p></li>
+<li><p>A leading theory of the genesis of pathological narcissism is that it is a defensive phenomenon…If the parents are cruel and unloving, however, or the childhood otherwise traumatic, it is believed that the infantile narcissism will be preserved as a kind of psychological fortress to protect the child against the vicissitudes[n. 变迁，盛衰，变化无常] of its intolerable life.</p></li>
+<li><p>Free will is paradox. There are only two states of being: submission to God and goodness or the refusal to submit to anything beyond one’e own will—which refusal automatically enslaves one to the forces of evil. We must ultimately belong either to God or the devil. This paradox was expressed by Christ when he said: “Whosoever will save his life shall lose it. And whosoever shall lose his life, for my sake, shall find it.”</p></li>
+</ul>
+</div>
+<div id="the-encounter-with-evil-in-everyday-life" class="section level3">
+<h3><span class="header-section-number">1.30.5</span> The encounter with evil in everyday life</h3>
+<ul>
+<li><p>It is often the most spiritually healthy and advanced among us who are called on to suffer in ways more agonizing than anything experienced by the more ordinary.</p></li>
+<li><p>The evil deny the suffering of their guilt — the painful awareness of their sin, inadequacy, and imperfection — by casting their pain onto others through projection and scapegoating…Think of the psychic energy required for the continued maintenance of the pretense so characteristic of the evil! They perhaps direct at least as much energy into their devious rationalizations and destructive compensations as the healthiest do into loving behavior. Why? What processes them, drives them? Basically, it is fear. They are terrified that the pretense will break down and they will be exposed to the world and to themselves. They are continually frightened that they will come face-to-face with their own evil. Of all emotions, fear is the most painful.</p></li>
+<li><p>I believe that illness and disease should be defined as any defect in the structure of our bodies or our personalities that prevents us from fulfilling our potential as human beings…we may have some differences of opinion as to what exactly constitutes the human potential. We can study these people (their lives seem almost to touch on the divine) and examine their characteristics (Maslow’s description of “self-actualized” persons in his Motivation and personality). Briefly, they are wise and aware; they enjoy life with gusto, yet face and accept death; they not only work productively but creatively, and they obviously love their fellow human beings, whom they lead with a benignity of both intent and result.</p></li>
+<li><p>Ambulatory schizophrenia: people who generally function well in the world, who never develop a full-blown schizophrenic illness or require hospitalization but who demonstrate a disorganization in their thinking—particularly at times of stress — which resembles that of more obvious “classical” schizophrenia……In addition to the abrogation of responsibility that characterizes all personality disorders, this one would specifically be distinguished by:</p></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><p>consistent destructive, scapegoating behavior, which may often be quite subtle.</p></li>
+<li><p>excessive, albeit usually covert, intolerance to criticism and other forms of narcissistic injury.</p></li>
+<li><p>pronounced concern with a public image and self-image of respectability, contributing to a stability of life-style but also to pretentiousness and denial of hateful feelings or vengeful motives.</p></li>
+<li>intellectual deviousness, with an increased likelihood of a mild schizophrenic like disturbance of thinking at times of stress.
+P</li>
+</ol>
+<ul>
+<li><p>sychotherapy is a highly intrusive process, and the therapist is invariably an authority figure.</p></li>
+<li><p>We all of us tend to be more or less self-centered in our dealings with others. We usually view any given situation first and foremost from the standpoint of how it affects us personally, and one as an afterthought do we bother to consider how the same situation might affect someone else involved. Nonetheless, particularly if we care for the other person, we usually can and eventually do think about his or her viewpoint, which may well be different from ours.
+Not so those who are evil. Theirs is a brand of narcissism so total that they seem to lack, in whole or in part, this capacity for empathy.</p></li>
+<li><p>Their narcissism makes the evil dangerous not only because it motivates them to scapegoat others but also because it deprives them of the restraint that results from empathy and respect for others. In addition to the fact that the evil need victims to sacrifice their narcissism, their narcissism permits them to ignore the humanity of their victims as well. As it gives them the motive for murder, so it also renders them insensitive to the act of killing. The blindness of the narcissist to others can extend even beyond a lack of empathy; narcissists may not “see” others at all.</p></li>
+<li><p>Another form of devastation that narcissistic intrusiveness can create is the symbiotic relationship. “Symbiosis”, as we use the term in psychiatry, is not a mutually beneficial state of interdependency. Instead it refers to a mutually parasitic and destructive coupling.</p></li>
+<li><p>Phobias are the result of displacement. They occur when a normal fear or revulsion toward something is displaced onto something else. People employ this defensive displacement because they don’t want to acknowledge the original fear or revulsion.</p></li>
+<li><p>It was the task of parents to assist their children to achieve their own independence and separateness. In order to achieve in this task it was essential for parents to tolerate their own loneliness so as to allow and even encourage their children to eventually leave them. Instead, to discourage such separation not only represented a failure in the parental task but a sacrificing of the child’s growth to the parent’s own immature self-centered desires. It was destructive.</p></li>
+<li><p>The process of deep healing, at least within the psychoanalytic framework, requires the patient to regress on some level to some degree. it is no easy thing for adults, accustomed to independence and the psychologic trappings of maturity, to allow themselves to become like young children again, dependent and so very vulnerable. And the deeper the disturbance, the more hungry and painful and wounding the patient’s childhood, the more difficult it is to return to the childhood condition within the therapeutic relationship. It is like a death. Yet it can be accomplished. When it is, healing will result. When it does not, the foundation cannot be reconstructed. No regression, no healing; it is as simple as that.</p></li>
+</ul>
+<p><font color = "blue">Hui: How to prove those psychoanalytic results?</sapn></p>
+<ul>
+<li>The essence of maternal love for the infant is affirmation. The ordinary, healthy mother loves her infant for no reason other than simply the fact that it is there. The infant does not have to do anything to earn her love. There are no strings attached to it. The love is unconditional. She loves the infant for itself, as it is. This love is a statement of affirmation; it says, “You are of great value simply because you exist.”</li>
+</ul>
+<p><font color = "blue"> Hui: It is unconditional. And as the author mentioned before, it was essential for parents to tolerate their own loneliness so as to allow and even encourage their children to eventually leave them. Conditional parental love is destructive.</font></p>
+<ul>
+<li>Autism is narcissism in its ultimate form. For the complete narcissist, others have no more psychologic reality than a piece of furniture.</li>
+</ul>
+<p><font color = "blue">Hui: Isn’t autism from gene? It is very hard for me to buy those psychoanalytic opinions.</font></p>
+<ul>
+<li>I know now that one of the characteristics of evil is its desire to confuse.</li>
+</ul>
+<p><font color = "blue">Hui: Another non-falsifiable statement .</font></p>
+<ul>
+<li>I have learned these past years that evil, whether it be demonic or human, is surprisingly obedient to authority. Why this is so I do not know. Let me stress that authority over the power of evil does not come easily. It is gained by enormous exertion in addition to knowledge. Such exertion can be born only of love.</li>
+</ul>
+</div>
+<div id="charlene-a-teaching-case" class="section level3">
+<h3><span class="header-section-number">1.30.6</span> Charlene: a teaching case</h3>
+<ul>
+<li><p>Obsessive-compulsive neurosis: symptom of ritualistic behavior</p></li>
+<li><p>All healthy children experience sexual desire for the parent of the opposite sex. This desire usually reaches its peak around 4 or 5 and is referred to as the Oedipal dilemma. It places the child in a dreadful predicament. The romantic love of the child for the parent is a hopeless love. The child will say to its parent,”I know you tell me that I can’t have sex with you because I’m a child, but just look at how grown-up I am acting and you will change your mind.” This grown-up act requires enormous energy, however, and ultimately cannot be sustained by the child. It becomes exhausted. Resolution of the dilemma finally occurs when the exhausted child accepts the reality that it is a child and cannot, and no longer desires to, pull off the appearance of adulthood. In so doing, the child also realizes it cannot have its cake and eat it too; it cannot both sexually possess its parent and at the same time be a child. It therefore opts for the advantages of being a child and renounces its premature sexuality. The Oedipal dilemma has be solved. Everyone breathes a sigh of relief, particularly the child, who becomes visible happier and more relaxed……A major reason children often fail to resolve the Oedipus complex is that they have failed to receive adequate parental love and attention in the years before the age of four, the so-called pre-Oedipal years.</p></li>
+</ul>
+<p><font color = "blue">Hui: I doubt the Oedipus complex. Where is the evidence? I don’t see any controlled experiment.</font></p>
+</div>
+<div id="of-possession-and-exorcism" class="section level3">
+<h3><span class="header-section-number">1.30.7</span> Of possession and exorcism</h3>
+<ul>
+<li><p>Conversion to a belief in God generally requires some kind of actual encounter — a personal experience — with the living God. Conversion to a belief in Satan is no different.</p></li>
+<li><p>It is an old maxim of science that once you answer a question, others immediately take its place.</p></li>
+<li><p>The differences between psychoanalytic psychotherapy and exorcism fall into two categories: conceptual frames of reference and the use of power.</p></li>
+<li><p>…in all serous cases more is required than knowledge and skill; it is only love that can heal.</p></li>
+<li><p>hypomanic [轻度狂躁] and intermittently psychotic</p></li>
+<li><p>possession appears to be a gradual process in which the possessed person repeatedly sells out for one reason or another.</p></li>
+<li><p>… the effectiveness of “silent treatment” requires no demons for explanation. Perhaps particularly because they were lonely people, thirsting for relationships, the technique encouraged the appearance of separate selves (which could be related with) and hence the necessity to choose between those selves. In regard to the possession, I could talk in terms of “splitting” and “psychic introjects.” And in regard to the exorcisms, I could talk in terms of brainwashing, deprogramming, reprogramming, catharsis, marathon group therapy and identification. But I am left with a critical 5 percent I cannot explain in such ways. I am left with the supernatural——or better yet, sub-natural. [It does not mean that the demon explanation is the right way. Because science is always under developing. In the ancient time, human resort to supernatural to explain lighting and thunder. ]</p></li>
+<li><p>Human free will is basic. It takes precedence over healing. Even God cannot heal a person who does not want to be healed.</p></li>
+<li><p>Many skills were required in each of these battles with the demonic: analytic detachment, compassionate involvement, intellectual formulation, intuitive insight, spiritual discernment, deep understanding of theology, thorough knowledge of psychiatry, great experience with prayer, and others.</p></li>
+<li><p>Perhaps the greatest problem of theodicy is the question why God, having created Satan in the first place, simply didn’t wipe it out after its rebellion. The question presupposes that God would wipe anything out. It assumes that God can punish and kill. Perhaps the answers is that God gave Satan free will and that God cannot destroy; He can only create……The point is that God does not punish. To create us in His image, God gave us free will. To have done otherwise would have been to make us puppets or hollow mannequins. Yet to give us free will God had to forswear the use of force against us. We do not have free will when there is a gun pointed at our back. It is not necessarily that God lacks the power to destroy us, to punish us, but that in His love for us He has painfully and terrible chosen never to use it. In agony He must stand by and let us be. He intervenes only to help, never to hurt. The Christian God is a God of restraint. Having forsworn the use of power against us, if we refuse His help, He has no recourse but, weeping, to watch us punish ourselves……This point is unclear in the Old Testament. There God is depicted as punitive. But it begins to become clear with Christ. In Christ, God Himself impotently suffered death at the hands of human evil. He did not raise a finger against His persecutors. Thereafter in the New Testament we hear echoes of the punitive Old Testament God, one way or another, saying that “the wicked will get what’s coming to them.” But these are only echoes; a punishing God does not enter the picture ever again.</p></li>
+</ul>
+<p><font color = "blue">Hui: I still don’t understand the gap between Old Testament and New Testament. </font></p>
+<ul>
+<li><p>Of the Holocaust as well as of lesser evils it is often asked, “How could a loving God allow such a thing to happen?” It is a bleeding, brutal question. The Christian answer may not suit our tastes, but it is hardly ambiguous. Having forsaken force, God is impotent to prevent the atrocities that we commit upon one another. He can only continue to grieve with us. He will offer us himself in all His wisdom, but He cannot make us choose to abide with Him…….Satan cannot do evil except through a human body.</p></li>
+<li><p>In Christian eschatology (the study of the last day) there are two scenarios for Satan. In one all human souls, having been covered to light and love, reach out to the spirit of hate and falsehood in friendship. Finally realizing itself to be totally defeated, with no human body left to possess, with all immune to its power, out of utter loneliness it breaks down and accepts the offer of friendship, and thereby in the end even Satan is converted. In the other scenario, refusing ever to lose, Satan forever rejects the “humiliating” hands of friendship and suffers its icy solitariness until the end of time.</p></li>
+</ul>
+</div>
+<div id="mylai-an-examination-of-group-evil" class="section level3">
+<h3><span class="header-section-number">1.30.8</span> Mylai: an examination of group evil</h3>
+<ul>
+<li><p>Morning of March 16, 1968, elements of Task Force Barker moved into a small group of hamlets known collectively as MyLai in the Quang Ngai province of South Vietnam. It was intended to be a typical “search-and-destroy mission”———that is, the American troops were searching for Vietcong soldiers so as to destroy them.</p></li>
+<li><p>Triggers are pulled by individuals. Orders are given and excited by individuals. In the last analysis, every single human act is ultimately the result of an individual choice. No one of the individuals who participated in the atrocities at MyLai or in their cover-up is blameless. Even the helicopter pilot——the only one brave enough and good enough to attempt to stop the massacre—— can be blamed for not reporting what he saw beyond the first echelon of authority over him.</p></li>
+<li><p>For many years it has seemed to me that human groups tend to behave in much the same ways as human individuals —— except at a level that is more primitive and immature than one might expect. Specialization is one of the greatest advantages of groups. On the other hand, I am thoroughly convinced that much of the evil of our times is related to specialization and that we desperately need to develop an attitude of suspicious caution toward it. [Mechanism: the fragmentation of conscience] Whenever the roles of individuals within a group become specialized, it becomes both possible and easy for the individual to pass the moral buck to some other part of the group.</p></li>
+<li><p>As with any lie, the primary motive of the cover-up was fear.</p></li>
+<li><p>Besides regression, there is another mechanism whereby human beings respond to stress. It is a mechanism of defense. Robert Jay Lifton, who studied the survivors of Hiroshima and other disasters, has called it “psychic numbing.” In a situation in which our emotional feelings are overwhelmingly painful or unpleasant, we have the capacity to anesthetize ourselves.</p></li>
+<li><p>This capacity for emotional self-anesthesia obviously has its advantages. Undoubtedly it has been built into us through evolution and enhances our ability to survive. it allows us to continue to function in situations so ghastly we would fall apart if we preserved our normal sensitivity. The problem, however, is that this self-anesthetizing mechanism seems not to be very specific. If because we live in the midst of garbage our sensitivity to ugliness becomes diminished, it is likely that we will become litterers and garbage-strewers ourselves. Insensitive to our own suffering, we tend to become insensitive to the suffering of others. Treated with indignity, we lose not only the sense of our own dignity but also the sense of the dignity of others.</p></li>
+<li><p>Since we normally regress in the face of stress, can we not say that human beings are more likely to be evil in times of stress than in times of comfort?…..Stress is the test for goodness. The truly good are they who in time of stress do not desert their integrity, their maturity, their sensitivity. Nobility might be defined as the capacity not to regress in response to degradation, not to become blunted in the face of pain, to tolerate the agonizing and remain intact. As I have said elsewhere, “one measure ——— and perhaps the best measure——— of a person’s greatness is the capacity for suffering”</p></li>
+<li><p>It is simply easy to follow, and much easier to be a follower than a leader. There is no need to agonize over complex decisions, plan ahead, exercise initiative, risk unpopularity, or exert much courage……there is a profound tendency for the average individual to emotionally regress as soon as he becomes a group member.</p></li>
+<li><p>Probably the most powerful of these group cohesive forces is narcissism. In its simplest and most benign form, this is manifested in group pride……It is almost common knowledge that the best way to cement group cohesiveness is to ferment the group’s hatred of an external enemy. Deficiencies within the group can be easily and painlessly overlooked by focusing attention on the deficiencies or “sins” of the out-group.</p></li>
+<li><p>……evil individuals will flee self-examination and guilt by blaming and attempting to destroy whatever or whoever high-lights their deficiencies. Now we see that the same malignant narcissistic behavior comes naturally to groups……the failing group is the one likely to behave most evilly. Failure wounds our pride, and it is the wounded animal who is vicious.</p></li>
+<li><p>I was speaking of the regression that individuals undergo when they take the role of followers in a group, I was talking of specialization. The follower is not a whole person. He whose accepted role is neither to think nor lead has defaulted his capacity to think and lead. And because thinking and leading are no longer his specialty or duty, he usually defaults his conscience in the bargain.</p></li>
+<li><p>the specialized group inevitably develops a group character that is self-reinforcing.
+specialized groups are therefore particularly prone to narcissism —— that is, to experiencing themselves as uniquely right and superior in relation to other homogeneous groups.
+the society at large —— partly through the self-selection process described —— employs specific types of people to perform its specialized roles —— as, for instance, it employs aggressive, conventional men to perform its police functions.</p></li>
+<li><p>The core of the military is the career soldier, the twenty-or thirty- year man, whether senior officer or NCO……But secretaries of defense come and go. Draftees and four-year enlistees come and go. The career men stay on, and it is they who not only give the military its continuity; they give it its soul.</p></li>
+<li><p>We humans are so constituted that we need a sense of our own social significance. Nothing can give us more pleasure than the sense that we are wanted and useful……The state of war is therefore not only psychologically satisfying to the career solider but economically rewarding as well……It is inevitable then that the ordinary career military man, unconsciously, if not consciously, desires war. War is his fulfillment.</p></li>
+<li><p>The prevailing attitude of career personnel was not one of doubt or caution or restraint.</p></li>
+<li><p>It is practically an axiom that cornered or wounded animals are particularly vicious or dangerous. the birth of evil from a condition of threatened narcissism.</p></li>
+<li><p>As long as we just have military organization, I suggest that our society must seriously consider de-specializing it to the ultimate degree possible. What I would propose is a combination of several old ideas: universal service and a national service corps.</p></li>
+<li><p>American Society in 1968: basically, we fought the war because of a combination of three attitudes</p></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><p>communism was a monolithic evil force hostile to human freedom in general and American freedom in particular;</p></li>
+<li><p>it was America’s duty as the world’s most economically powerful nation to read the opposition against communism;</p></li>
+<li><p>communism should be opposed wherever it arose by whatever means necessary</p></li>
+</ol>
+<ul>
+<li><p>Immediately following the end of World War II, the Communist USSR, with extraordinary speed and aggressiveness, imposed its political domination over almost the entirety of western Europe: Poland, Lithuania, Latvia, Estonia, East Germany, Czechoslovakia, Hungary, Bulgaria, Romania, Albania and presumably Yugoslavia.</p></li>
+<li><p>Attitudes have a kind of inertia. Once set in motion, they will keep going, even in the face of the evidence. To change an attitude requires a considerable amount of work and suffering. The process must begin either in an effortfully maintained posture of constant self-doubt and criticism or else in a painful acknowledgment that what we thought was right all along may not be right after all. Then it proceeds into a state of confusion. This state is quite uncomfortable; we no longer seem to know what is right or wrong or which way to go. But it is a state of openness and therefore of learning and growing. it is only form the quicksand of confusion that we are able to leap to the new and better vision.</p></li>
+<li><p>But as is the case with certain individuals, the narcissism whole nations may at times exceed the normal bounds.</p></li>
+<li><p>In the failure of the Diem regime, which we sponsored, in the failure of all our “advisers” and Green Berets and massive economic and military aid to counteract the expansion of the Viet Cong, the sickness or wrongness of our policies was exposed to ourselves.</p></li>
+<li><p>This book is entitled People of the Lie because lying is both a cause and a manifestation of evil.</p></li>
+<li><p>The almost total lack of instincts —— elaborate, predetermined, stereotypic behavior patterns —— is the most significant aspect of human nature. It is our lack of instincts that is responsible for the extraordinary variability and mutability of our nature and our behavior. What replaces species-wide instincts in human beings is learned individual choice. Each of us is ultimately free to choose how we are going to behave…..Free will is the ultimate human reality……Evil is the inevitable concomitant of free will, the price we pay for our unique human power of choice.</p></li>
+<li><p>War today is at least as much a matter of national pride as of racial pride. What we call nationalism is more frequently a malignant national narcissism than it is a healthy satisfaction in the accomplishments of one’s culture. In fact, to a large extent it is nationalism that preserves the nation-state system.</p></li>
+<li><p>Organized, group, intra-species mass killing —— war —— is a uniquely human form of behavior. Idealists are people who believe in the potential of human nature for transformation. But I have already stated that the most essential attribute of human nature is its mutability and freedom from instinct —— that it is always within our power to change our nature. So it is actually the idealists who are on the mark and the realists who are off base.</p></li>
+<li><p>We are living in the age of Institution. A century ago the majority of Americans were self-employed. Today all but a small minority devote their working lives to larger and larger organizations. The task of preventing group evil —— including war itself —— is clearly the task of eradicating or, at least, significantly diminishing laziness and narcissism.</p></li>
+</ul>
+</div>
+<div id="the-danger-and-the-hope" class="section level3">
+<h3><span class="header-section-number">1.30.9</span> The danger and the hope</h3>
+<ul>
+<li><p>The danger of moral judgement</p></li>
+<li><p>Often enough to committing evil. Even atheists and agnostics believe in Christ’s words: “Judge not, that ye be not judged.” ……If we examine the matter more closely, however, we will see that it is both impossible and itself evil to totally refrain from making moral judgements.</p></li>
+<li><p>The fact of the matter is that we cannot lead decent lives without making judgements in general and moral judgments in particular……The sentence “Judge not, that ye be not judged” is usually quoted out of context. Christ didn’t enjoin us to refrain from ever judging. What he went on to say in the next four verse is that we should judge ourselves before we judge others —— not that we should judge at all. “Thou hypocrite,” he said, “first cast out the beam our of thine own eyes; and then shalt thou see clearly to cast out the mote out of thy brother’s eye.”</p></li>
+</ul>
+<p><font color = "blue">Hui: ”beam” v.s. “mote”</font></p>
+<ul>
+<li><p>We must also remember ** the purpose for which we judge. If it is to heal, fine. If it is to enhance our own self-esteem, our pride then the purpose is wrong.**</p></li>
+<li><p>While we may never ultimately discern the meaning of human existence, it still remains our responsibility to live as best we can. Which also means to go on making the moral judgements necessary to support life. And we are permitted to choose whether to live in a state of greater or lesser ignorance.</p></li>
+<li><p>The issue is not whether to judge: we must. The question is how and when to judge wisely. Since in the end we must make moral judgements, it makes sense to further refine our wisdom when appropriate —— as long as we remember the basics.</p></li>
+<li><p>This is a major pitfall. It is a pitfall because we ascribe to science much more authority than it deserves. We do so for two reasons. One is that every few of us understand the limitations of science. The other is that we are too dependent upon authority in general.</p></li>
+<li><p>What is paraded as scientific fact is simply that current belief of some scientists. What scientific knowledge is, in fact, is the best available approximation of truth in the judgement of majority of scientists who work in the particular specialty involved. Truth is not something that we possess; it is a goal toward which we strive.</p></li>
+<li><p>To be more against the devil than for God is exceedingly dangerous.</p></li>
+<li><p>If one ever has the good fortune to met a living saint, one will have then met someone absolutely unique. Though their visions may be remarkably similar, the personhood of saints is remarkably different. This is because they have become utterly themselves. God creates each soul differently, so that when all the mud is finally cleared away, His light will shine through it in a beautiful, colorful, totally new pattern.</p></li>
+<li><p>The path of love is a dynamic balance of opposites, a painful creative tension of uncertainties, a difficult tightrope between extreme but easier courses of action. We must somehow be both tolerant and intolerant, accepting and demanding, strict and flexible. An almost godlike compassion is required.</p></li>
+<li><p>I know that the first task of love is self-purification. When one has purified oneself, by the grace of God, to the point at which one can truly love one’s enemies, a beautiful think happens. It is as if the boundaries of the soul become so clean as to be transparent, and a unique light then shines forth from the individual.</p></li>
+<li><p>The individual healer must allow his or her own soul to become the battleground. He or she must seraphically absorb the evil.</p></li>
+</ul>
+</div>
+</div>
+<p style="text-align: center;">
+<a href="1-29-the-road-less-travelled-m-scott-peck.html"><button class="btn btn-default">Previous</button></a>
+<a href="1-31-inner-work.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>

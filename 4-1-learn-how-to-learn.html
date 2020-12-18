@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="4.1 Learn how to learn | Reading Notes" />
+<meta property="og:type" content="book" />
+<meta property="og:url" content="http://hui1987.com" />
+
+<meta property="og:description" content="Hui’s Reading Notes" />
+<meta name="github-repo" content="happyrabbit/IntroDataScience" />
+
+<meta name="author" content="Hui Lin" />
+
+<meta name="date" content="2020-12-17" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+
+<meta name="description" content="Hui’s Reading Notes">
+
+<title>4.1 Learn how to learn | Reading Notes</title>
+
+<script src="libs/jquery/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap/css/cosmo.min.css" rel="stylesheet" />
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap/shim/respond.min.js"></script>
+<script src="libs/navigation/tabsets.js"></script>
+<script src="libs/htmlwidgets/htmlwidgets.js"></script>
+<link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding/datatables.js"></script>
+<link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+<link href="libs/nouislider/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider/jquery.nouislider.min.js"></script>
+<link href="libs/selectize/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize/selectize.min.js"></script>
+<link href="libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li class="has-sub"><a href="index.html#introduction">Introduction</a><ul>
+<li><a href="rules-of-generating-book-id.html#rules-of-generating-book-id">Rules of Generating book ID</a></li>
+<li><a href="basic-statistics.html#basic-statistics">Basic Statistics</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-philosophy-psychology.html#philosophy-psychology"><span class="toc-section-number">1</span> Philosophy &amp; Psychology</a><ul>
+<li class="has-sub"><a href="1-1-thinking-fast-and-slow.html#thinking-fast-and-slow"><span class="toc-section-number">1.1</span> Thinking Fast and Slow</a><ul>
+<li><a href="1-1-thinking-fast-and-slow.html#part-1-two-systems"><span class="toc-section-number">1.1.1</span> Part 1: Two systems</a></li>
+<li><a href="1-1-thinking-fast-and-slow.html#part-2-heuristics-and-biases"><span class="toc-section-number">1.1.2</span> Part 2: Heuristics and biases</a></li>
+<li><a href="1-1-thinking-fast-and-slow.html#part-3-overconfidence"><span class="toc-section-number">1.1.3</span> Part 3: Overconfidence</a></li>
+<li><a href="1-1-thinking-fast-and-slow.html#part-4-choices"><span class="toc-section-number">1.1.4</span> Part 4: Choices</a></li>
+</ul></li>
+<li><a href="1-2-what-intelligence-tests-miss.html#what-intelligence-tests-miss"><span class="toc-section-number">1.2</span> What intelligence tests miss</a></li>
+<li class="has-sub"><a href="1-3-the-optimism-bias-tali-sharot.html#the-optimism-bias-tali-sharot"><span class="toc-section-number">1.3</span> The Optimism Bias [Tali Sharot]</a><ul>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#illusions-of-the-human-brain"><span class="toc-section-number">1.3.1</span> Illusions of the Human Brain</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#the-evolution-of-prospection"><span class="toc-section-number">1.3.2</span> The Evolution of Prospection</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#when-private-optimism-meets-public-despair"><span class="toc-section-number">1.3.3</span> When Private Optimism Meets Public Despair</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#the-unexpected-ingredient-for-well-being"><span class="toc-section-number">1.3.4</span> The Unexpected Ingredient for Well-being</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#when-things-go-wrong-depression-interpretation-and-genes"><span class="toc-section-number">1.3.5</span> When things go wrong: depression, interpretation, and genes</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#the-value-of-anticipation-and-the-cost-of-dread"><span class="toc-section-number">1.3.6</span> The Value of Anticipation and the Cost of Dread</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#why-do-things-seem-better-after-we-choose-them"><span class="toc-section-number">1.3.7</span> Why do things seem better after we choose them?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#how-emotion-changes-our-past"><span class="toc-section-number">1.3.8</span> How emotion changes our past?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#how-the-brain-turns-lead-into-gold"><span class="toc-section-number">1.3.9</span> How the Brain Turns Lead into Gold?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#a-dark-side-to-optimism"><span class="toc-section-number">1.3.10</span> A dark side to optimism?</a></li>
+<li><a href="1-3-the-optimism-bias-tali-sharot.html#from-prediction-to-perception-to-action"><span class="toc-section-number">1.3.11</span> From prediction to perception to action</a></li>
+</ul></li>
+<li><a href="1-4-artofthinkingclearly.html#artofthinkingclearly"><span class="toc-section-number">1.4</span> Art of Thinking Clearly</a></li>
+<li><a href="1-5-badarguments.html#badarguments"><span class="toc-section-number">1.5</span> Bad Arguments — Logical Fallacies</a></li>
+<li class="has-sub"><a href="1-6-predictable-irrational.html#predictable-irrational"><span class="toc-section-number">1.6</span> Predictable Irrational</a><ul>
+<li><a href="1-6-predictable-irrational.html#the-fallacy-of-supply-and-demand"><span class="toc-section-number">1.6.1</span> The fallacy of supply and demand</a></li>
+<li><a href="1-6-predictable-irrational.html#the-cost-of-free"><span class="toc-section-number">1.6.2</span> The cost of free</a></li>
+<li><a href="1-6-predictable-irrational.html#procrastination-and-self-control"><span class="toc-section-number">1.6.3</span> Procrastination and Self-control</a></li>
+<li><a href="1-6-predictable-irrational.html#the-price-of-proprietorship"><span class="toc-section-number">1.6.4</span> The Price of Proprietorship</a></li>
+<li><a href="1-6-predictable-irrational.html#magic-price"><span class="toc-section-number">1.6.5</span> Magic Price</a></li>
+<li><a href="1-6-predictable-irrational.html#good-or-evil"><span class="toc-section-number">1.6.6</span> Good or Evil</a></li>
+<li><a href="1-6-predictable-irrational.html#free-lunch-an-behavior-economics-explanation"><span class="toc-section-number">1.6.7</span> Free Lunch: an behavior economics explanation</a></li>
+<li><a href="1-6-predictable-irrational.html#summary"><span class="toc-section-number">1.6.8</span> Summary</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-7-the-paradox-of-choice-barry-schwartz.html#the-paradox-of-choice-选择的悖论-barry-schwartz"><span class="toc-section-number">1.7</span> The paradox of choice [选择的悖论, Barry Schwartz]</a><ul>
+<li><a href="1-7-the-paradox-of-choice-barry-schwartz.html#自由的重担"><span class="toc-section-number">1.7.1</span> 自由的重担</a></li>
+<li><a href="1-7-the-paradox-of-choice-barry-schwartz.html#是什么在操控你的行为"><span class="toc-section-number">1.7.2</span> 是什么在操控你的行为</a></li>
+<li><a href="1-7-the-paradox-of-choice-barry-schwartz.html#行为经济学背后的心理奥秘"><span class="toc-section-number">1.7.3</span> 行为经济学背后的心理奥秘</a></li>
+</ul></li>
+<li><a href="1-8-fooled-by-randomness.html#fooled-by-randomness"><span class="toc-section-number">1.8</span> Fooled by Randomness</a></li>
+<li class="has-sub"><a href="1-9-black-swan.html#black-swan"><span class="toc-section-number">1.9</span> Black Swan</a><ul>
+<li><a href="1-9-black-swan.html#prologue"><span class="toc-section-number">1.9.1</span> Prologue</a></li>
+<li><a href="1-9-black-swan.html#the-apprenticeship-of-an-empirical-skeptic"><span class="toc-section-number">1.9.2</span> The apprenticeship of an empirical skeptic</a></li>
+<li><a href="1-9-black-swan.html#extremistan-and-mediocristan"><span class="toc-section-number">1.9.3</span> Extremistan and Mediocristan</a></li>
+<li><a href="1-9-black-swan.html#how-not-to-be-a-sucker"><span class="toc-section-number">1.9.4</span> How not to be a sucker</a></li>
+<li><a href="1-9-black-swan.html#negative-empiricism"><span class="toc-section-number">1.9.5</span> Negative empiricism</a></li>
+<li><a href="1-9-black-swan.html#the-narrative-fallacy"><span class="toc-section-number">1.9.6</span> The narrative fallacy</a></li>
+<li><a href="1-9-black-swan.html#living-in-the-antechamber-of-hope"><span class="toc-section-number">1.9.7</span> Living in the antechamber of hope</a></li>
+<li><a href="1-9-black-swan.html#the-problem-of-silent-evidence"><span class="toc-section-number">1.9.8</span> The problem of silent evidence</a></li>
+<li><a href="1-9-black-swan.html#the-ludic-fallacy-the-uncertainty-of-the-nerd"><span class="toc-section-number">1.9.9</span> The ludic fallacy: the uncertainty of the nerd</a></li>
+<li><a href="1-9-black-swan.html#the-scandal-of-prediction"><span class="toc-section-number">1.9.10</span> The scandal of prediction</a></li>
+<li><a href="1-9-black-swan.html#how-to-look-for-bird-poop"><span class="toc-section-number">1.9.11</span> How to look for bird poop</a></li>
+<li><a href="1-9-black-swan.html#epistemocracy-a-dream"><span class="toc-section-number">1.9.12</span> Epistemocracy, a dream</a></li>
+<li><a href="1-9-black-swan.html#what-do-you-do-if-you-cant-predict"><span class="toc-section-number">1.9.13</span> What do you do if you can’t predict?</a></li>
+<li><a href="1-9-black-swan.html#from-mediocristan-to-extremistan-and-back"><span class="toc-section-number">1.9.14</span> From mediocristan to extremistan and back</a></li>
+<li><a href="1-9-black-swan.html#the-bell-curve"><span class="toc-section-number">1.9.15</span> The bell curve</a></li>
+<li><a href="1-9-black-swan.html#the-aesthetics-of-randomness"><span class="toc-section-number">1.9.16</span> The aesthetics of randomness</a></li>
+<li><a href="1-9-black-swan.html#bell-curves-in-the-wrong-places"><span class="toc-section-number">1.9.17</span> Bell curves in the wrong places</a></li>
+<li><a href="1-9-black-swan.html#the-uncertainty-of-the-phony"><span class="toc-section-number">1.9.18</span> The uncertainty of the phony</a></li>
+<li><a href="1-9-black-swan.html#how-to-get-even-with-the-black-swan"><span class="toc-section-number">1.9.19</span> How to get even with the black swan</a></li>
+</ul></li>
+<li><a href="1-10-antifragile.html#antifragile"><span class="toc-section-number">1.10</span> Antifragile</a></li>
+<li><a href="1-11-superforecasting.html#superforecasting"><span class="toc-section-number">1.11</span> Superforecasting</a></li>
+<li><a href="1-12-risk-savvy.html#risk-savvy"><span class="toc-section-number">1.12</span> Risk Savvy</a></li>
+<li><a href="1-13-how-women-decide.html#how-women-decide"><span class="toc-section-number">1.13</span> How Women Decide</a></li>
+<li class="has-sub"><a href="1-14-the-smarter-screen.html#the-smarter-screen"><span class="toc-section-number">1.14</span> The Smarter Screen</a><ul>
+<li><a href="1-14-the-smarter-screen.html#introduction-to-the-mental-screen"><span class="toc-section-number">1.14.1</span> Introduction to the mental screen</a></li>
+<li><a href="1-14-the-smarter-screen.html#function-follows-form"><span class="toc-section-number">1.14.2</span> Function Follows Form</a></li>
+<li><a href="1-14-the-smarter-screen.html#display-biases"><span class="toc-section-number">1.14.3</span> Display Biases</a></li>
+<li><a href="1-14-the-smarter-screen.html#new-mirror"><span class="toc-section-number">1.14.4</span> New Mirror</a></li>
+<li><a href="1-14-the-smarter-screen.html#desirable-difficulty"><span class="toc-section-number">1.14.5</span> Desirable difficulty</a></li>
+<li><a href="1-14-the-smarter-screen.html#digital-tailoring"><span class="toc-section-number">1.14.6</span> Digital tailoring</a></li>
+<li><a href="1-14-the-smarter-screen.html#choice-opportunity"><span class="toc-section-number">1.14.7</span> Choice opportunity</a></li>
+<li><a href="1-14-the-smarter-screen.html#thinking-apps"><span class="toc-section-number">1.14.8</span> Thinking apps</a></li>
+</ul></li>
+<li><a href="1-15-mind-wide-open.html#mind-wide-open"><span class="toc-section-number">1.15</span> Mind Wide Open</a></li>
+<li><a href="1-16-the-human-advantage.html#the-human-advantage"><span class="toc-section-number">1.16</span> The Human Advantage</a></li>
+<li class="has-sub"><a href="1-17-spark.html#spark"><span class="toc-section-number">1.17</span> Spark</a><ul>
+<li><a href="1-17-spark.html#a-case-study"><span class="toc-section-number">1.17.1</span> A case study</a></li>
+<li><a href="1-17-spark.html#learning-grow-your-brain-cells"><span class="toc-section-number">1.17.2</span> Learning: grow your brain cells</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-18-the-art-of-loving-erich-fromm.html#the-art-of-loving-erich-fromm"><span class="toc-section-number">1.18</span> The art of loving [Erich Fromm]</a><ul>
+<li><a href="1-18-the-art-of-loving-erich-fromm.html#is-love-an-art"><span class="toc-section-number">1.18.1</span> Is love an art?</a></li>
+<li><a href="1-18-the-art-of-loving-erich-fromm.html#the-theory-of-love"><span class="toc-section-number">1.18.2</span> The theory of love</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-19-escape-from-freedom.html#escape-from-freedom"><span class="toc-section-number">1.19</span> Escape from Freedom</a><ul>
+<li><a href="1-19-escape-from-freedom.html#现代人的两种自由观念"><span class="toc-section-number">1.19.1</span> 现代人的两种自由观念</a></li>
+</ul></li>
+<li><a href="1-20-the-sane-society-.html#the-sane-society-健全社会"><span class="toc-section-number">1.20</span> The sane society (健全社会)</a></li>
+<li><a href="1-21-maxims.html#maxims"><span class="toc-section-number">1.21</span> Maxims</a></li>
+<li><a href="1-22-on-the-old-age.html#on-the-old-age"><span class="toc-section-number">1.22</span> On the Old Age</a></li>
+<li><a href="1-23-on-the-friendship.html#on-the-friendship"><span class="toc-section-number">1.23</span> On the Friendship</a></li>
+<li><a href="1-24-on-the-immortality-of-the-soul.html#on-the-immortality-of-the-soul"><span class="toc-section-number">1.24</span> On the Immortality of the Soul</a></li>
+<li class="has-sub"><a href="1-25-tolerence.html#tolerence"><span class="toc-section-number">1.25</span> Tolerence</a><ul>
+<li><a href="1-25-tolerence.html#the-tyranny-of-ignorance"><span class="toc-section-number">1.25.1</span> The Tyranny of Ignorance</a></li>
+<li><a href="1-25-tolerence.html#the-greeks-希腊人"><span class="toc-section-number">1.25.2</span> The Greeks [希腊人]</a></li>
+</ul></li>
+<li><a href="1-26-the-theory-of-moral-sentiments.html#the-theory-of-moral-sentiments"><span class="toc-section-number">1.26</span> The Theory of Moral Sentiments</a></li>
+<li class="has-sub"><a href="1-27-personality.html#personality"><span class="toc-section-number">1.27</span> Personality</a><ul>
+<li><a href="1-27-personality.html#what-is-personality"><span class="toc-section-number">1.27.1</span> What is Personality?</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-28-intimate-relationship.html#intimate-relationship"><span class="toc-section-number">1.28</span> Intimate Relationship</a><ul>
+<li><a href="1-28-intimate-relationship.html#the-building-blocks-of-relationships"><span class="toc-section-number">1.28.1</span> The Building Blocks of Relationships</a></li>
+</ul></li>
+<li><a href="1-29-the-road-less-travelled-m-scott-peck.html#the-road-less-travelled-m-scott-peck"><span class="toc-section-number">1.29</span> The Road Less Travelled [M Scott Peck]</a></li>
+<li class="has-sub"><a href="1-30-people-of-the-lie.html#people-of-the-lie"><span class="toc-section-number">1.30</span> People of the lie</a><ul>
+<li><a href="1-30-people-of-the-lie.html#introduction-handle-with-care"><span class="toc-section-number">1.30.1</span> Introduction: Handle with care</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-man-who-made-a-pact-with-the-devil"><span class="toc-section-number">1.30.2</span> The man who made a pact with the devil</a></li>
+<li><a href="1-30-people-of-the-lie.html#toward-a-psychology-of-evil"><span class="toc-section-number">1.30.3</span> Toward A Psychology of Evil</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-case-of-bobby-and-his-parents"><span class="toc-section-number">1.30.4</span> The case of Bobby and his parents</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-encounter-with-evil-in-everyday-life"><span class="toc-section-number">1.30.5</span> The encounter with evil in everyday life</a></li>
+<li><a href="1-30-people-of-the-lie.html#charlene-a-teaching-case"><span class="toc-section-number">1.30.6</span> Charlene: a teaching case</a></li>
+<li><a href="1-30-people-of-the-lie.html#of-possession-and-exorcism"><span class="toc-section-number">1.30.7</span> Of possession and exorcism</a></li>
+<li><a href="1-30-people-of-the-lie.html#mylai-an-examination-of-group-evil"><span class="toc-section-number">1.30.8</span> Mylai: an examination of group evil</a></li>
+<li><a href="1-30-people-of-the-lie.html#the-danger-and-the-hope"><span class="toc-section-number">1.30.9</span> The danger and the hope</a></li>
+</ul></li>
+<li><a href="1-31-inner-work.html#inner-work"><span class="toc-section-number">1.31</span> Inner Work</a></li>
+<li><a href="1-32-death.html#death"><span class="toc-section-number">1.32</span> 耶鲁大学公开课——死亡</a></li>
+<li class="has-sub"><a href="1-33-what-life-could-mean-to-you.html#what-life-could-mean-to-you"><span class="toc-section-number">1.33</span> What Life Could Mean to You</a><ul>
+<li><a href="1-33-what-life-could-mean-to-you.html#meaningoflife"><span class="toc-section-number">1.33.1</span> 生活的意义</a></li>
+</ul></li>
+<li><a href="1-34-psychologicalexp.html#psychologicalexp"><span class="toc-section-number">1.34</span> 20世纪最伟大的心理学实验</a></li>
+<li><a href="1-35-weirdoinstitute.html#weirdoinstitute"><span class="toc-section-number">1.35</span> 不正常人类研究所</a></li>
+<li class="has-sub"><a href="1-36-psychobabble-stephen-briers.html#psychobabble-stephen-briers"><span class="toc-section-number">1.36</span> Psychobabble [Stephen Briers]</a><ul>
+<li><a href="1-36-psychobabble-stephen-briers.html#whats-so-wrong-with-popular-psychology"><span class="toc-section-number">1.36.1</span> What’s so wrong with popular psychology?</a></li>
+<li><a href="1-36-psychobabble-stephen-briers.html#myth-5-no-one-can-make-you-feel-anything"><span class="toc-section-number">1.36.2</span> Myth 5: No one can make you feel anything</a></li>
+<li><a href="1-36-psychobabble-stephen-briers.html#myth-6-think-positive-ans-be-a-winner"><span class="toc-section-number">1.36.3</span> Myth 6: Think positive ans be a winner!</a></li>
+</ul></li>
+<li><a href="1-37-xinbingnanfang.html#xinbingnanfang"><span class="toc-section-number">1.37</span> 南怀瑾谈心兵难防</a></li>
+<li class="has-sub"><a href="1-38-yuwangxinli.html#yuwangxinli"><span class="toc-section-number">1.38</span> 欲望心理学</a><ul>
+<li><a href="1-38-yuwangxinli.html#涂鸦发表言论恶霸行为的目的渴望重视的心理"><span class="toc-section-number">1.38.1</span> 涂鸦、发表言论、恶霸行为的目的——渴望重视的心理</a></li>
+<li><a href="1-38-yuwangxinli.html#自我空间心理"><span class="toc-section-number">1.38.2</span> 自我空间心理</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-39-fear.html#fear"><span class="toc-section-number">1.39</span> 直面内心的恐惧</a><ul>
+<li><a href="1-39-fear.html#序言"><span class="toc-section-number">1.39.1</span> 序言</a></li>
+<li><a href="1-39-fear.html#害怕把自己交出去分裂人格split-personality"><span class="toc-section-number">1.39.2</span> 害怕把自己交出去——分裂人格（split personality）</a></li>
+<li><a href="1-39-fear.html#害怕做自己忧郁人格"><span class="toc-section-number">1.39.3</span> 害怕做自己——忧郁人格</a></li>
+<li><a href="1-39-fear.html#害怕改变强迫人格obsessive-compulsive-personality-disorder"><span class="toc-section-number">1.39.4</span> 害怕改变——强迫人格(obsessive-compulsive personality disorder)</a></li>
+<li><a href="1-39-fear.html#歇斯底里hysteria人格"><span class="toc-section-number">1.39.5</span> 歇斯底里（hysteria）人格</a></li>
+</ul></li>
+<li><a href="1-40-it-wasnt-your-fault.html#it-wasnt-your-fault"><span class="toc-section-number">1.40</span> It Wasn’t Your Fault</a></li>
+<li><a href="1-41-mistakes-were-made-but-not-by-me.html#mistakes-were-made-but-not-by-me"><span class="toc-section-number">1.41</span> Mistakes Were Made But Not by Me</a></li>
+<li><a href="1-42-the-disease-to-please.html#the-disease-to-please"><span class="toc-section-number">1.42</span> The Disease To Please</a></li>
+<li><a href="1-43-the-courage-to-be-disliked.html#the-courage-to-be-disliked"><span class="toc-section-number">1.43</span> The Courage to Be Disliked</a></li>
+<li><a href="1-44-our-inner-conflicts.html#our-inner-conflicts"><span class="toc-section-number">1.44</span> Our Inner Conflicts</a></li>
+<li><a href="1-45-the-neurotic-personality-of-our-time.html#the-neurotic-personality-of-our-time"><span class="toc-section-number">1.45</span> The Neurotic Personality of Our Time</a></li>
+<li><a href="1-46-your-survival-instinct-is-killing-you.html#your-survival-instinct-is-killing-you"><span class="toc-section-number">1.46</span> Your Survival Instinct Is Killing You</a></li>
+<li><a href="1-47-the-crowd.html#the-crowd"><span class="toc-section-number">1.47</span> The Crowd</a></li>
+<li><a href="1-48-the-true-believer-thoughts-on-the-nature-of-mass-movements.html#the-true-believer-thoughts-on-the-nature-of-mass-movements"><span class="toc-section-number">1.48</span> The True Believer: Thoughts On The Nature Of Mass Movements</a></li>
+<li class="has-sub"><a href="1-49-status-anxiety.html#status-anxiety"><span class="toc-section-number">1.49</span> Status Anxiety</a><ul>
+<li><a href="1-49-status-anxiety.html#statusanxiety1"><span class="toc-section-number">1.49.1</span> 焦虑的起因</a></li>
+<li><a href="1-49-status-anxiety.html#statusanxiety7"><span class="toc-section-number">1.49.2</span> 解决方法</a></li>
+</ul></li>
+<li class="has-sub"><a href="1-50-daodeguaiquan.html#daodeguaiquan"><span class="toc-section-number">1.50</span> 生活中的道德怪圈</a><ul>
+<li><a href="1-50-daodeguaiquan.html#daodeguaiquan1"><span class="toc-section-number">1.50.1</span> 引言</a></li>
+</ul></li>
+<li><a href="1-51-dianchenanti.html#dianchenanti"><span class="toc-section-number">1.51</span> 电车难题</a></li>
+<li><a href="1-52-being-mortal.html#being-mortal"><span class="toc-section-number">1.52</span> Being Mortal</a></li>
+<li><a href="1-53-top-dog.html#top-dog"><span class="toc-section-number">1.53</span> Top Dog</a></li>
+<li class="has-sub"><a href="1-54-chaozhong.html#chaozhong"><span class="toc-section-number">1.54</span> 心理操纵术</a><ul>
+<li><a href="1-54-chaozhong.html#chaozhong1"><span class="toc-section-number">1.54.1</span> 赢家不会告诉你的</a></li>
+<li><a href="1-54-chaozhong.html#chaozhong2"><span class="toc-section-number">1.54.2</span> 苹果的滋味</a></li>
+</ul></li>
+<li><a href="1-55-xinli1.html#xinli1"><span class="toc-section-number">1.55</span> 希望感和绝望感</a></li>
+<li><a href="1-56-xinli2.html#xinli2"><span class="toc-section-number">1.56</span> 脆弱</a></li>
+<li><a href="1-57-xinli3.html#xinli3"><span class="toc-section-number">1.57</span> 各种效应</a></li>
+<li><a href="1-58-wangyangmingg.html#wangyangmingg"><span class="toc-section-number">1.58</span> 人生即修行</a></li>
+<li><a href="1-59-xinjing.html#xinjing"><span class="toc-section-number">1.59</span> 治心经</a></li>
+<li class="has-sub"><a href="1-60-xinli4.html#xinli4"><span class="toc-section-number">1.60</span> 心理学文章</a><ul>
+<li><a href="1-60-xinli4.html#what-makes-things-cool"><span class="toc-section-number">1.60.1</span> What makes things cool?</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="2-religion.html#religion"><span class="toc-section-number">2</span> Religion</a><ul>
+<li class="has-sub"><a href="2-1-the-tibetan-book-of-living-and-dying-sogal-rinpoche.html#the-tibetan-book-of-living-and-dying-西藏生死书sogal-rinpoche"><span class="toc-section-number">2.1</span> The Tibetan Book of Living and Dying [西藏生死书，Sogal Rinpoche]</a><ul>
+<li><a href="2-1-the-tibetan-book-of-living-and-dying-sogal-rinpoche.html#living"><span class="toc-section-number">2.1.1</span> Living</a></li>
+</ul></li>
+<li><a href="2-2-gravity-and-grace-simone-weil.html#gravity-and-grace-重负与神恩-simone-weil"><span class="toc-section-number">2.2</span> Gravity and Grace [重负与神恩, Simone Weil]</a></li>
+<li><a href="2-3-christianity-and-world-religions.html#christianity-and-world-religions"><span class="toc-section-number">2.3</span> Christianity and World Religions</a></li>
+<li><a href="2-4-the-case-for-faith.html#the-case-for-faith"><span class="toc-section-number">2.4</span> The Case for Faith</a></li>
+<li><a href="2-5-if-you-want-to-walk-on-water-youve-got-to-get-out-of-the-boat.html#if-you-want-to-walk-on-water-youve-got-to-get-out-of-the-boat"><span class="toc-section-number">2.5</span> If you want to walk on water, you’ve got to get out of the boat</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-society-and-culture.html#society-and-culture"><span class="toc-section-number">3</span> Society and Culture</a><ul>
+<li><a href="3-1-dongwujingshen.html#dongwujingshen"><span class="toc-section-number">3.1</span> 动物精神</a></li>
+<li><a href="3-2-the-100-year-life-living-and-working-in-an-age-of-longevity.html#the-100-year-life-living-and-working-in-an-age-of-longevity"><span class="toc-section-number">3.2</span> The 100-Year Life: Living and working in an age of longevity</a></li>
+<li><a href="3-3-empire-and-communications.html#empire-and-communications"><span class="toc-section-number">3.3</span> Empire and Communications</a></li>
+<li><a href="3-4-amusing-ourselves-to-death.html#amusing-ourselves-to-death"><span class="toc-section-number">3.4</span> Amusing ourselves to death</a></li>
+<li><a href="3-5-discipline-and-punish.html#discipline-and-punish"><span class="toc-section-number">3.5</span> Discipline and Punish</a></li>
+<li><a href="3-6-class.html#class"><span class="toc-section-number">3.6</span> Class</a></li>
+<li><a href="3-7-pingqiongdebenzhi.html#pingqiongdebenzhi"><span class="toc-section-number">3.7</span> 贫穷的本质</a></li>
+<li><a href="3-8-supper-better.html#supper-better"><span class="toc-section-number">3.8</span> Supper Better</a></li>
+<li><a href="3-9-the-clash-of-civilizations.html#the-clash-of-civilizations"><span class="toc-section-number">3.9</span> The Clash of Civilizations</a></li>
+<li><a href="3-10-chrysanthemum-and-sword.html#chrysanthemum-and-sword"><span class="toc-section-number">3.10</span> Chrysanthemum and Sword</a></li>
+<li><a href="3-11-connectography.html#connectography"><span class="toc-section-number">3.11</span> Connectography</a></li>
+<li class="has-sub"><a href="3-12-much-depends-on-dinner.html#much-depends-on-dinner"><span class="toc-section-number">3.12</span> Much Depends on Dinner</a><ul>
+<li><a href="index.html#introduction"><span class="toc-section-number">3.12.1</span> Introduction</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#corn"><span class="toc-section-number">3.12.2</span> Corn</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#salt"><span class="toc-section-number">3.12.3</span> Salt</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#ice-cream"><span class="toc-section-number">3.12.4</span> Ice-cream</a></li>
+<li><a href="3-12-much-depends-on-dinner.html#sugar-from-an-article"><span class="toc-section-number">3.12.5</span> Sugar (from an article)</a></li>
+</ul></li>
+<li><a href="3-13-eucoffeehouseculture.html#eucoffeehouseculture"><span class="toc-section-number">3.13</span> 咖啡馆里的欧洲文化</a></li>
+<li class="has-sub"><a href="3-14-world-culture.html#知道点世界文化-world-culture"><span class="toc-section-number">3.14</span> 知道点：世界文化 (World Culture)</a><ul>
+<li><a href="3-14-world-culture.html#古文明的脉络"><span class="toc-section-number">3.14.1</span> 古文明的脉络</a></li>
+</ul></li>
+<li><a href="3-15-out-of-control-kevin-kelly.html#out-of-control-失控-kevin-kelly"><span class="toc-section-number">3.15</span> Out of Control [失控, Kevin Kelly]</a></li>
+<li><a href="3-16-the-rational-optimist-.html#the-rational-optimist-理性乐观派"><span class="toc-section-number">3.16</span> The Rational Optimist [理性乐观派]</a></li>
+<li class="has-sub"><a href="3-17-the-inevitable.html#the-inevitable"><span class="toc-section-number">3.17</span> The Inevitable</a><ul>
+<li><a href="3-17-the-inevitable.html#becoming"><span class="toc-section-number">3.17.1</span> Becoming</a></li>
+<li><a href="3-17-the-inevitable.html#cognifying"><span class="toc-section-number">3.17.2</span> Cognifying</a></li>
+<li><a href="3-17-the-inevitable.html#flowing"><span class="toc-section-number">3.17.3</span> Flowing</a></li>
+<li><a href="3-17-the-inevitable.html#screening"><span class="toc-section-number">3.17.4</span> Screening</a></li>
+<li><a href="3-17-the-inevitable.html#accessing"><span class="toc-section-number">3.17.5</span> Accessing</a></li>
+<li><a href="3-17-the-inevitable.html#sharing"><span class="toc-section-number">3.17.6</span> Sharing</a></li>
+<li><a href="3-17-the-inevitable.html#filtering"><span class="toc-section-number">3.17.7</span> Filtering</a></li>
+<li><a href="3-17-the-inevitable.html#remixing"><span class="toc-section-number">3.17.8</span> Remixing</a></li>
+<li><a href="3-17-the-inevitable.html#interacting"><span class="toc-section-number">3.17.9</span> Interacting</a></li>
+<li><a href="3-17-the-inevitable.html#tracking"><span class="toc-section-number">3.17.10</span> Tracking</a></li>
+<li><a href="3-17-the-inevitable.html#questioning"><span class="toc-section-number">3.17.11</span> Questioning</a></li>
+<li><a href="3-17-the-inevitable.html#beginning"><span class="toc-section-number">3.17.12</span> Beginning</a></li>
+</ul></li>
+<li><a href="3-18-americancity.html#americancity"><span class="toc-section-number">3.18</span> 美国大城市的死于生</a></li>
+<li><a href="3-19-the-glass-cage.html#the-glass-cage"><span class="toc-section-number">3.19</span> The Glass Cage</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-self-development.html#self-development"><span class="toc-section-number">4</span> Self-development</a><ul>
+<li class="has-sub"><a href="4-1-learn-how-to-learn.html#learn-how-to-learn"><span class="toc-section-number">4.1</span> Learn how to learn</a><ul>
+<li><a href="4-1-learn-how-to-learn.html#how-to-read-a-book"><span class="toc-section-number">4.1.1</span> How to read a book?</a></li>
+<li><a href="4-1-learn-how-to-learn.html#make-friend-with-time"><span class="toc-section-number">4.1.2</span> Make friend with time</a></li>
+<li><a href="4-1-learn-how-to-learn.html#siweifangfa"><span class="toc-section-number">4.1.3</span> 思维方法</a></li>
+<li><a href="4-1-learn-how-to-learn.html#xiweifangfa2"><span class="toc-section-number">4.1.4</span> 拆掉思维里的墙</a></li>
+<li><a href="4-1-learn-how-to-learn.html#xuexi1"><span class="toc-section-number">4.1.5</span> 怎样成为高段位的学习者？</a></li>
+<li><a href="4-1-learn-how-to-learn.html#how-to-solve-it"><span class="toc-section-number">4.1.6</span> How to Solve It?</a></li>
+<li><a href="4-1-learn-how-to-learn.html#learning-how-to-learn-mooc"><span class="toc-section-number">4.1.7</span> Learning How to Learn [MOOC]</a></li>
+<li><a href="4-1-learn-how-to-learn.html#how-we-learn-如何学习"><span class="toc-section-number">4.1.8</span> How we learn? (如何学习)</a></li>
+<li><a href="4-1-learn-how-to-learn.html#anshijian1"><span class="toc-section-number">4.1.9</span> 暗时间</a></li>
+<li><a href="4-1-learn-how-to-learn.html#gaoxiaoxuexi"><span class="toc-section-number">4.1.10</span> 如何高效学习</a></li>
+<li><a href="4-1-learn-how-to-learn.html#xueduxuexi"><span class="toc-section-number">4.1.11</span> 阅读学习方法</a></li>
+<li><a href="4-1-learn-how-to-learn.html#haohaoxuexi"><span class="toc-section-number">4.1.12</span> 好好学习</a></li>
+<li><a href="4-1-learn-how-to-learn.html#yueqian"><span class="toc-section-number">4.1.13</span> 跃迁</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-2-emotion-management.html#emotion-management"><span class="toc-section-number">4.2</span> Emotion Management</a><ul>
+<li><a href="4-2-emotion-management.html#emotional-first-aid"><span class="toc-section-number">4.2.1</span> Emotional First Aid</a></li>
+<li><a href="4-2-emotion-management.html#how-to-keep-people-from-pushing-your-buttons"><span class="toc-section-number">4.2.2</span> How To Keep People From Pushing Your Buttons</a></li>
+<li><a href="4-2-emotion-management.html#others-sdothers"><span class="toc-section-number">4.2.3</span> Others {sdothers}</a></li>
+<li><a href="4-2-emotion-management.html#feeling-good"><span class="toc-section-number">4.2.4</span> Feeling Good</a></li>
+</ul></li>
+<li><a href="4-3-obsessive-love.html#obsessive-love"><span class="toc-section-number">4.3</span> Obsessive Love</a></li>
+<li><a href="4-4-sikaojishu.html#sikaojishu"><span class="toc-section-number">4.4</span> 思考的技术</a></li>
+<li><a href="4-5-renmaiguanli.html#renmaiguanli"><span class="toc-section-number">4.5</span> 系统化管理人脉</a></li>
+<li><a href="4-6-how-will-you-measure-your-life.html#how-will-you-measure-your-life"><span class="toc-section-number">4.6</span> How Will You Measure Your Life?</a></li>
+<li><a href="4-7-seeing-the-forest-for-the-trees.html#seeing-the-forest-for-the-trees"><span class="toc-section-number">4.7</span> Seeing the Forest for the Trees</a></li>
+<li class="has-sub"><a href="4-8-asking-the-right-questions.html#asking-the-right-questions"><span class="toc-section-number">4.8</span> Asking the right questions</a><ul>
+<li><a href="4-8-asking-the-right-questions.html#the-benefits-of-asking-the-right-questions"><span class="toc-section-number">4.8.1</span> The benefits of asking the right questions</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-are-the-issue-and-conclusion"><span class="toc-section-number">4.8.2</span> What are the issue and conclusion?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#reasons"><span class="toc-section-number">4.8.3</span> Reasons</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-words-of-phrases-are-ambiguous"><span class="toc-section-number">4.8.4</span> What words of phrases are ambiguous?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-are-the-value-and-descriptive-assumptions"><span class="toc-section-number">4.8.5</span> What are the value and descriptive assumptions?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#are-there-any-fallacies-in-the-reasoning"><span class="toc-section-number">4.8.6</span> Are there any fallacies in the reasoning?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#how-good-is-the-evidence"><span class="toc-section-number">4.8.7</span> How good is the evidence?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#are-there-rival-cause"><span class="toc-section-number">4.8.8</span> Are there rival cause?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#are-the-statistics-deceptive"><span class="toc-section-number">4.8.9</span> Are the statistics deceptive?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-significant-information-is-omitted"><span class="toc-section-number">4.8.10</span> What significant information is omitted?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#what-reasonable-conclusions-are-possible"><span class="toc-section-number">4.8.11</span> What reasonable conclusions are possible?</a></li>
+<li><a href="4-8-asking-the-right-questions.html#practice-and-review"><span class="toc-section-number">4.8.12</span> Practice and Review</a></li>
+</ul></li>
+<li><a href="4-9-question-power.html#question-power"><span class="toc-section-number">4.9</span> Question Power</a></li>
+<li class="has-sub"><a href="4-10-innovation.html#innovation"><span class="toc-section-number">4.10</span> Innovation</a><ul>
+<li><a href="4-10-innovation.html#the-ten-faces-of-innovation"><span class="toc-section-number">4.10.1</span> The Ten Faces of Innovation</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-11-emotion-management-1.html#emotion-management-1"><span class="toc-section-number">4.11</span> Emotion Management</a><ul>
+<li><a href="4-11-emotion-management-1.html#how-to-keep-people-from-pushing-your-buttons-1"><span class="toc-section-number">4.11.1</span> How To Keep People From Pushing Your Buttons</a></li>
+<li><a href="4-11-emotion-management-1.html#feeling-good-the-new-mood-therapy"><span class="toc-section-number">4.11.2</span> Feeling Good: The New Mood Therapy</a></li>
+<li><a href="4-11-emotion-management-1.html#emotional-first-aid-1"><span class="toc-section-number">4.11.3</span> Emotional First Aid</a></li>
+<li><a href="4-11-emotion-management-1.html#the-emotional-life-of-your-brain"><span class="toc-section-number">4.11.4</span> The Emotional Life of Your Brain</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-12-negotiation.html#negotiation"><span class="toc-section-number">4.12</span> Negotiation</a><ul>
+<li><a href="4-12-negotiation.html#negociation1"><span class="toc-section-number">4.12.1</span> 谈判思考的技术</a></li>
+<li><a href="4-12-negotiation.html#getting-more"><span class="toc-section-number">4.12.2</span> Getting More</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="5-statistics-data-science.html#statistics-data-science"><span class="toc-section-number">5</span> Statistics &amp; Data Science</a><ul>
+<li><a href="5-1-an-introduction-to-statistical-learning.html#an-introduction-to-statistical-learning"><span class="toc-section-number">5.1</span> An Introduction to Statistical Learning</a></li>
+<li><a href="5-2-asa-on-p-value.html#asa-on-p-value"><span class="toc-section-number">5.2</span> ASA on p-value</a></li>
+<li><a href="5-3-a-companys-5-levels-of-analytical-maturity.html#a-companys-5-levels-of-analytical-maturity"><span class="toc-section-number">5.3</span> A company’s 5 levels of analytical maturity</a></li>
+<li><a href="5-4-practical-text-analytics.html#practical-text-analytics"><span class="toc-section-number">5.4</span> Practical text analytics</a></li>
+<li><a href="5-5-data-science-team.html#data-science-team"><span class="toc-section-number">5.5</span> Data science team</a></li>
+<li><a href="5-6-hadoop-v-s-spark.html#hadoop-v.s.-spark"><span class="toc-section-number">5.6</span> Hadoop v.s. Spark</a></li>
+<li><a href="5-7-data-quality.html#data-quality"><span class="toc-section-number">5.7</span> Data Quality</a></li>
+</ul></li>
+<li class="has-sub"><a href="6-business-economics.html#business-economics"><span class="toc-section-number">6</span> Business &amp; Economics</a><ul>
+<li><a href="6-1-the-wealth-of-nations-adam-smith.html#the-wealth-of-nations-adam-smith"><span class="toc-section-number">6.1</span> The Wealth of Nations [Adam Smith]</a></li>
+<li class="has-sub"><a href="6-2-principles-of-economics-alfred-marshall.html#principles-of-economics-alfred-marshall"><span class="toc-section-number">6.2</span> Principles of Economics [Alfred Marshall]</a><ul>
+<li><a href="index.html#introduction"><span class="toc-section-number">6.2.1</span> Introduction</a></li>
+<li><a href="6-2-principles-of-economics-alfred-marshall.html#the-substance-of-economics"><span class="toc-section-number">6.2.2</span> The substance of economics</a></li>
+</ul></li>
+<li><a href="6-3-fishing-for-phools.html#fishing-for-phools"><span class="toc-section-number">6.3</span> Fishing for Phools</a></li>
+<li><a href="6-4-shareology.html#shareology"><span class="toc-section-number">6.4</span> Shareology</a></li>
+<li><a href="6-5-known.html#known"><span class="toc-section-number">6.5</span> Known</a></li>
+<li><a href="6-6-the-attention-merchants.html#the-attention-merchants"><span class="toc-section-number">6.6</span> The Attention Merchants</a></li>
+<li><a href="6-7-the-essential-drucker.html#the-essential-drucker"><span class="toc-section-number">6.7</span> The Essential Drucker</a></li>
+<li><a href="6-8-blockbuster.html#blockbuster"><span class="toc-section-number">6.8</span> Blockbuster</a></li>
+<li><a href="6-9-luxury-marketing.html#luxury-marketing"><span class="toc-section-number">6.9</span> Luxury Marketing</a></li>
+<li><a href="6-10-moments-of-truth.html#moments-of-truth"><span class="toc-section-number">6.10</span> Moments of Truth</a></li>
+<li><a href="6-11-seducing-the-subconscious.html#seducing-the-subconscious"><span class="toc-section-number">6.11</span> Seducing the Subconscious</a></li>
+<li><a href="6-12-yingxiao.html#yingxiao"><span class="toc-section-number">6.12</span> 不做无效的营销</a></li>
+<li class="has-sub"><a href="6-13-chanpin1.html#chanpin1"><span class="toc-section-number">6.13</span> 产品经理</a><ul>
+<li><a href="6-13-chanpin1.html#chanpin2"><span class="toc-section-number">6.13.1</span> 同理心</a></li>
+<li><a href="6-13-chanpin1.html#chanpin3"><span class="toc-section-number">6.13.2</span> 机会判断</a></li>
+<li><a href="6-13-chanpin1.html#chanpin4"><span class="toc-section-number">6.13.3</span> 系统能力</a></li>
+<li><a href="6-13-chanpin1.html#chanpin5"><span class="toc-section-number">6.13.4</span> 用户体验</a></li>
+<li><a href="6-13-chanpin1.html#chanpin7"><span class="toc-section-number">6.13.5</span> 创新模式</a></li>
+<li><a href="6-13-chanpin1.html#chanpin9"><span class="toc-section-number">6.13.6</span> 产品世界观</a></li>
+</ul></li>
+<li><a href="6-14-well-known-marketing-tools.html#well-known-marketing-tools"><span class="toc-section-number">6.14</span> Well-known marketing tools</a></li>
+<li class="has-sub"><a href="6-15-yinxiao.html#yinxiao"><span class="toc-section-number">6.15</span> 从广告驱动到SCi——市场营销</a><ul>
+<li><a href="6-15-yinxiao.html#customer-decision-journey"><span class="toc-section-number">6.15.1</span> Customer Decision Journey</a></li>
+</ul></li>
+</ul></li>
+<li><a href="7-medicine.html#medicine"><span class="toc-section-number">7</span> Medicine</a></li>
+<li class="has-sub"><a href="8-physics.html#physics"><span class="toc-section-number">8</span> Physics</a><ul>
+<li><a href="8-1-dasheji.html#dasheji"><span class="toc-section-number">8.1</span> 大设计</a></li>
+</ul></li>
+<li class="has-sub"><a href="9-proses-essays-and-poems.html#proses-essays-and-poems"><span class="toc-section-number">9</span> Proses, Essays and Poems</a><ul>
+<li><a href="9-1-the-thoughts-of-an-idle-fellow.html#the-thoughts-of-an-idle-fellow"><span class="toc-section-number">9.1</span> The Thoughts of An Idle Fellow</a></li>
+<li><a href="9-2-liuyu.html#liuyu"><span class="toc-section-number">9.2</span> 刘瑜作品笔记</a></li>
+<li><a href="9-3-pindanshehua.html#pindanshehua"><span class="toc-section-number">9.3</span> 在平淡和奢华之间摇摆</a></li>
+<li class="has-sub"><a href="9-4-yasetanyi.html#yasetanyi"><span class="toc-section-number">9.4</span> 雅舍谈艺</a><ul>
+<li><a href="9-4-yasetanyi.html#yinshiyishu"><span class="toc-section-number">9.4.1</span> 饮食的艺术</a></li>
+</ul></li>
+<li class="has-sub"><a href="9-5-shuihu.html#shuihu"><span class="toc-section-number">9.5</span> 闲看水浒</a><ul>
+<li><a href="9-5-shuihu.html#shuihu1"><span class="toc-section-number">9.5.1</span> 江湖庙堂路几重</a></li>
+<li><a href="9-5-shuihu.html#shuihu2"><span class="toc-section-number">9.5.2</span> 乱世生存的技巧</a></li>
+<li><a href="9-5-shuihu.html#shuihu3"><span class="toc-section-number">9.5.3</span> 避免黑暗伤害的智慧</a></li>
+<li><a href="9-5-shuihu.html#shuihu4"><span class="toc-section-number">9.5.4</span> 情欲的罪与罚</a></li>
+<li><a href="9-5-shuihu.html#shuihu5"><span class="toc-section-number">9.5.5</span> 英雄的末路选择</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="10-politics.html#politics"><span class="toc-section-number">10</span> Politics</a><ul>
+<li><a href="10-1-democracy-in-america-tocqueville.html#democracy-in-america-tocqueville"><span class="toc-section-number">10.1</span> Democracy in America [Tocqueville]</a></li>
+<li><a href="10-2-on-the-origin-of-human-inequality-.html#on-the-origin-of-human-inequality-论人类不平等的起源"><span class="toc-section-number">10.2</span> On the origin of human inequality (论人类不平等的起源)</a></li>
+<li><a href="10-3-the-machiavellian-enterprise-.html#the-machiavellian-enterprise-马基雅维利的事业"><span class="toc-section-number">10.3</span> The Machiavellian Enterprise [马基雅维利的事业]</a></li>
+<li><a href="10-4-power-.html#power-权力为什么只为某些人所拥有"><span class="toc-section-number">10.4</span> Power (权力为什么只为某些人所拥有)</a></li>
+<li><a href="10-5-other-politicsothers.html#other-politicsothers"><span class="toc-section-number">10.5</span> Other {politicsOthers}</a></li>
+</ul></li>
+<li class="has-sub"><a href="11-history.html#history"><span class="toc-section-number">11</span> History</a><ul>
+<li><a href="11-1-a-brief-history-of-humankind.html#a-brief-history-of-humankind"><span class="toc-section-number">11.1</span> A Brief History of Humankind</a></li>
+</ul></li>
+<li class="has-sub"><a href="12-art.html#art"><span class="toc-section-number">12</span> Art</a><ul>
+<li><a href="12-1-the-story-of-art-by-e-h-gombrich.html#the-story-of-art-by-e.h.-gombrich"><span class="toc-section-number">12.1</span> The Story of Art (By E.H. Gombrich)</a></li>
+</ul></li>
+<li class="has-sub"><a href="13-novels-and-plays.html#novels-and-plays"><span class="toc-section-number">13</span> Novels and Plays</a><ul>
+<li><a href="13-1-immortality-milan-kundera.html#immortality-不朽milan-kundera"><span class="toc-section-number">13.1</span> Immortality [不朽，Milan Kundera]</a></li>
+</ul></li>
+<li class="has-sub"><a href="14-jokes.html#jokes"><span class="toc-section-number">14</span> Jokes</a><ul>
+<li class="has-sub"><a href="14-1-cnjoke.html#cnjoke"><span class="toc-section-number">14.1</span> 中文笑话</a><ul>
+<li><a href="14-1-cnjoke.html#chickensoup"><span class="toc-section-number">14.1.1</span> 2017-12-9: 毒鸡汤</a></li>
+<li><a href="14-1-cnjoke.html#chickensoup2"><span class="toc-section-number">14.1.2</span> ～2016-4-5</a></li>
+<li><a href="14-1-cnjoke.html#chickensoup3"><span class="toc-section-number">14.1.3</span> 2016-4-6 ~ 2016-6-23</a></li>
+<li><a href="14-1-cnjoke.html#chickensoup4"><span class="toc-section-number">14.1.4</span> 2016-4-24 ~</a></li>
+</ul></li>
+<li class="has-sub"><a href="14-2-shenhuifu.html#shenhuifu"><span class="toc-section-number">14.2</span> 中文笑话－神回复</a><ul>
+<li><a href="14-2-shenhuifu.html#shenhuifu1"><span class="toc-section-number">14.2.1</span> ～2016-4-5</a></li>
+<li><a href="14-2-shenhuifu.html#shenhuifu2"><span class="toc-section-number">14.2.2</span> 2016-04-05 ~ 2018-09-08</a></li>
+</ul></li>
+<li><a href="14-3-english-jokes.html#english-jokes"><span class="toc-section-number">14.3</span> English Jokes</a></li>
+</ul></li>
+<li class="has-sub"><a href="15-beauty-and-health.html#beauty-and-health"><span class="toc-section-number">15</span> Beauty and Health</a><ul>
+<li><a href="15-1-chemicals-for-some-cosmetic-products.html#chemicals-for-some-cosmetic-products"><span class="toc-section-number">15.1</span> Chemicals for some cosmetic products</a></li>
+</ul></li>
+<li class="has-sub"><a href="16-other.html#other"><span class="toc-section-number">16</span> Other</a><ul>
+<li><a href="16-1-writing-a-womans-life.html#writing-a-womans-life"><span class="toc-section-number">16.1</span> Writing a woman’s life</a></li>
+<li><a href="16-2-whyart.html#whyart"><span class="toc-section-number">16.2</span> 数字时代为什么要学习人文学科</a></li>
+<li><a href="16-3-calmdown.html#calmdown"><span class="toc-section-number">16.3</span> 如何在负面情绪缠身时平静下来</a></li>
+<li><a href="16-4-colaborate.html#colaborate"><span class="toc-section-number">16.4</span> 合作</a></li>
+<li><a href="16-5-other-notes.html#other-notes"><span class="toc-section-number">16.5</span> Other Notes</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="learn-how-to-learn" class="section level2">
+<h2><span class="header-section-number">4.1</span> Learn how to learn</h2>
+<div id="how-to-read-a-book" class="section level3">
+<h3><span class="header-section-number">4.1.1</span> How to read a book?</h3>
+<ul>
+<li>我们为了理解一件事，并不需要知道和这件事相关的所有事情。太多的资讯就如同太少的资讯一样，都是一种对理解力的阻碍。……（当今铺天盖地的资讯使人们）直接将包装过后的观点装进自己的脑海中，就像录影机愿意接受录影带一样自然。</li>
+<li>我们需要主动阅读：为获得资讯而读，为求得理解而读。如果你对书的内容了解，那阅读就是获取资讯，理解力不一定增强。如果你并不了解这本书，此书包含了某些能增进你理解的东西。</li>
+<li>阅读的艺术包括了所有非辅助型自我发现学习的技巧，敏锐的观察，灵敏可靠的记忆，想象空间，训练有素的分析、审思能力，阅读也就是一种发现。</li>
+</ul>
+</div>
+<div id="make-friend-with-time" class="section level3">
+<h3><span class="header-section-number">4.1.2</span> Make friend with time</h3>
+<p>新知，纠错，重视这三种方式就是我们打磨概念最主要的工具。</p>
+<ul>
+<li>新知，就是学习一个新概念。当我们脑子里没有一个概念的时候，就倾向于不去想这个事情。</li>
+<li>纠错，就是改掉对一个概念的错误理解</li>
+<li>重视，把一个平时耳熟能详，已经平常到被你忽略的概念上升到一个新高度。</li>
+</ul>
+<p>三个容易被我们忽视或误解的概念：</p>
+<p>（1）第一个概念：时间管理</p>
+<p>时间管理这个概念本身就是个伪命题。时间是不可能被管理的，我们唯一能管理的就只能是自己。</p>
+<p>如何才能运用好积累的力量？</p>
+<p>首先要认清一个事实，速成没有可能。人们好像都特别急于看到结果，一方面的原因是我们天性追求即时满足，另一个原因是，现在的互联网世界把人们的生活都透明化了，没有比较就没有伤害。</p>
+<p>怎么跳出这个怪圈呢？</p>
+<p>认清自己的现状，接受自己的现状，一点一点的磨练自己，积累技能。</p>
+<p>用“换”可以“实现”速成。每当想到“我想要什么”的时候，马上提醒自己，我到底有什么，我愿意花多少成本来换，你的成本包括金钱，时间，精力，体力，人脉，名气，如果能直接兑换当然最好，如果不能直接兑换，那就靠积累的力量一点一点的赞资源。</p>
+<p>把时间当做朋友的心法就是接受现实，然后靠积累不断的让自己成长。</p>
+<p>（2）第二个概念：自我证明</p>
+<p>如果一个人本身就很优秀，是不用去证明的，别人自然能看到。</p>
+<p>为什么总是得不到别人的认可的2个原因:</p>
+<p>首先很可能的一个原因是自认为很优秀。</p>
+<blockquote>
+<p>案例1：“自利性偏差”现象。一个人对别人的认识比对自己的认识通常准确的多。心理学家早就发现这么一个普遍现象，当一个团队成功的时候，多数人都觉的是自己的功劳，但是当一个团队面临失败的时候，每个人都觉的是别人的错，都习惯性的把错误归咎于别人。</p>
+</blockquote>
+<blockquote>
+<p>案例2：大多数的司机都觉的自己的驾驶水平高于别人，哪怕一个新手也会觉的自己可以驾驭各种路况。</p>
+</blockquote>
+<p>其次，一个人一方面强，肯定其他方面就弱。</p>
+<p>（3）第三个概念：灵感</p>
+<p>灵感就是时间积累到一定程度的必然产物。</p>
+<blockquote>
+<p>案例1：“鸡尾酒会效应”，假设你参加一场鸡尾酒会，大家都手里拿着酒和自己对面的人聊天，这时候你会自动屏蔽周围人的声音，只关注自己的声音和你的聊天对象，但是如果周围人聊天的时候提到了你的名字，你只要听到了，你的注意力一定会被拉过去。一个孕妇怀孕了，她会突然发现满大街都是孕妇，一个人买了一辆白色的车，他会突然发现满大街都是白色的车。</p>
+</blockquote>
+<blockquote>
+<p>案例2: 台湾作家李敖说自己从来不看书的，只拆书，拿上一本书之后看到有用的资料就剪下来，全都放在细分好的文件夹里，当他写小说的时候，根据标题去找材料。</p>
+</blockquote>
+<p>总结：在这本书中李笑来给我们辨析了很多概念，从自我成长中遇到的问题开始说起，到如何管理自己的目标和行为，如何学习，如何思考和如何应用，一步一步的把我们脑海中常见的一些错误概念进行了纠错。</p>
+<p>启示：成功本质上都是一样的，先花相当的时间和精力锁定一个方向或是目标，确定它实现的可行性之后，运用心智的力量，在这个方向上投入更多的时间，再投入比更多再多一点的时间，把时间当做朋友，一路前行，当时间的陪伴足够久的时候，不知里面过程的人可能会说那是运气，那是天命，而明白积累的过程是不可避免的人知道，所有的回报都是必然。</p>
+<p>积累是解决成长问题的良药。不管你积累钱财，人脉，技能还是其他的什么东西，从接受现实开始，用沉着冷静的心态一点一点耐心的推进，不骄不躁，不紧不慢，不慌不急，用最稳的方式最快的成长，时间就是你的朋友。新的一年里，愿时间与你为伴，祝您好运。</p>
+<p>人们总说他们真正感兴趣的是别的事情。可事实上，那应该仅仅是因为他们还没开始做那件事情，所以还没有在那件事情上遭遇挫折而已。</p>
+<p>不是有兴趣才能做好，而是做好了才有兴趣。大多数事情需要熟能生巧。做的多了，自然擅长；擅长了，自然做得比人好；做得比人好，兴趣就大起来了，而后就更喜欢做，更擅长。</p>
+<p>所有学习上的成功都只靠两件事：策略和坚持，而坚持本身就应该是最重要的策略。</p>
+<p>没有什么比发现、培养、呵护、调整自己的心智力量更重要的事情了。</p>
+<p>著名心理学家维克托.弗兰克：“即使在极端恶劣的环境里，人们也会拥有一种最后的自由，那就是选择自己态度的自由。”</p>
+<p>我们自己的痛苦我们感同身受，而别人的痛苦我们很难做到感同身受。</p>
+<p><span color="blue">Hui: 朴素的真理，但我们还是时不时觉得自己家的经特别难念……人类真是愚昧，健忘，又短视。</span></p>
+<p>Dan Goleman提出“Emotional Intelligence”， 他曾做过著名的“Delaying gratification” 实验
+希望自己的欲望马上获得满足是大多数人的天性</p>
+<p>野心永远是少数人的天性</p>
+<p>“推迟满足”是心智成熟的人必备的能力，也是需要挣扎和锻炼才可以习得的能力 。</p>
+<p>把每天的时间开销记录下来，一方面可以培养自己的成就感，另一方面可以避免轻易地原谅自己。
+不要害怕修改，完成任何一个任务的过程中，修改都是不可或缺的。你在修改说明你在进步。很多人一生最终一事无成的原因，就是因为他们是脆弱的完美主义者，天真地希望自己可以在这个不完美的世界里完美地生存——所以注定以失败告终。</p>
+<p>养成任何一个哪怕是很小的习惯，都需要挣扎。然而，貌似痛苦的挣扎过程，在将来的某个时刻终归会变得其乐无穷。</p>
+<p>“浪费时间”这个说法是基于过程的，“成功失败”这个说法是基于结果的。对一个血肉之躯来说，最终的结果其实只有一个，就是死亡。失败从来都不是结果，因为绝大多数情况下，对大多数人来说，失败并不意味着死亡。人做事的时候，成也好、败也罢，通常还是要继续活下去。活下去，就意味着说还要不停地做很多事。</p>
+<p>获得知识得途径：</p>
+<ul>
+<li>体验</li>
+<li>试错（Trial and error）</li>
+<li>观察</li>
+<li>阅读</li>
+</ul>
+<p>面对无法亲身体验得知识，人们往往会心存恐惧，因为人们害怕未知。而群体面临无法体验得知识，往往会表现为疯狂。“很多时候人们的善良出自于软弱，而残暴不过来自于恐惧。”</p>
+<p>日常生活中几乎所有主要的“沟通障碍”本质上都是因为沟通双方无法让对方理解与他们的经验相悖的知识或者信息造成的。</p>
+<p>大脑中储存的信息要多到一定程度才有能力“融会贯通”。</p>
+<p>自学能力：阅读，写作，检索。</p>
+<p>很少有人仅凭天生的能力就可以拥有“神奇”的记忆力。“遗忘”是我们的自我保护功能。
+嫉妒的产生源自于对自己与他人之间差异的扭曲理解。大多数人一生无法摆脱由比较而产生的情绪，不管是正面的，还是负面的。……</p>
+<p>标记出并优先实施那些无需比较就可以获得欢乐和幸福的行动方案。时间会一如既往地分分钟钟、岁岁年年地流逝，但你会惊讶于你生活的变化。每一分钟，每一秒，每一天，每一年，时间的质量竟然会如此不同。</p>
+<p>最为常见的逻辑错误是“以偏概全”。某个经验在某个人身上灵验了，并不意味着说这个经验在所有的人身上都会起作用。…“努力行动”并不是唯一导致成功的原因。…另外一个更加隐蔽的逻辑错误是“单向成立”。很多论断只不过是“单向成立”的。</p>
+<p>接受自己和别人没有什么不同，至少没什么本质上的不同，是心智正常成长的重要前提之一。
+电影精彩的原因：1）艺术加工；2）时间压缩。
+浪费时间虚度年华的人有个共同特征——他们拼命想控制自己完全不能控制的，却在自己真正能掌控的地方彻底失败。</p>
+<p>往往只有优秀的人才拥有有效的人脉。…注重自身的质量，知道不给他人制造麻烦，独善其身是美的。常言道：“事多故人离”。</p>
+<p>证明自己给别人看恰恰是最浪费生命的一种行为。…所有傻逼都是自证的。</p>
+<p>你比比人强一点根本没用，真正有用的是你不仅比别人强，还要强出很多才行。…可是你知道如果你最终竟然在某一方面比别人强出许多的时候，你会面临什么境遇么？你身边的人不再在这方面跟你比较了，他们会自动放弃，然后跟你比你不如他们的地方！…无论你怎么做，你还是很难获得对方承认的，因为你的想法和做法并不能影响他们的判断。所以，想办法“获取证明”实在是没有意义的事情。… 长久的观察和思考，有益于锻炼自己心平气和的能力。…</p>
+<p>被别人左右，是一个人最可悲的状态之一。</p>
+<p>忘记自己的优点，成熟的人总是知道如何让别人舒服。</p>
+<p>1）人们普遍相信明天会拥有比今天更多的金钱；2) 人们普遍相信明天会有更多的时间。3) 人们对时间的曲解程度远远高于对金钱的曲解程度。</p>
+<p>之所以可以“显得”游刃有余，是因为之前做过太多的准备。…</p>
+<p>大多数的事情都需要提前准备，也都可以提前准备。</p>
+<p>我们大脑中的灰质(gray matter)储存的各种信息只有很少一部分是有序储存的。…</p>
+<p>随着信息输入越来越多，大脑就需要越来越多的灰质细胞(gray cells)。科学家们已经发现使用两种或者两种以上语言的人，有更多的灰质细胞(gray cells)。而颅腔的大小是有限的，于是gray cell的增加，最终会导致gray matter密度越来越高，于是gray cell之间就越有可能由神经元连接起来。于是就有可能产生我们所说的“融会贯通”的现象——那些原本可能貌似毫不相干的信息现在有机会被联系在一起了。 (Hui:这个科学上准确么？)</p>
+<p>我们“对特定信息的注意力”会使得我们“神奇地”捕捉到那些于“我们所关注的信息”相关的某些信息。
+反思能力，几乎是人类特有的。因为有这种能力才慢慢拥有了类比能力。而类比能力是一个人所拥有的理解能力高低之关键。…需要太长时间才可以获得的经验很难传递，就是因为缺乏现有的经验作为支撑。而想让一个孩子去真正理解“时间终究会越来越快”这样一个道理无比困难，就是因为他们不仅没有“类似的现有经验”，还恰好有相反的“现存经验”。几乎所有失败的青少年教育，都是因为粗暴简单而有愚昧地无视孩子们所拥有的“现存经验”和“现存经验的作用”而造成的。
+Henri Poincare: 混沌理论告诉我们，初始条件的一个极小的差异将会导致最终结果的一个极大差异。</p>
+<p>生活就是选择，而所谓的选择只不过是一个人所拥有的观念对之衡量后的结果。一个人所拥有的观念，说穿了，就是心智力的最终体现。
+苏东坡《留侯论》：古之所谓豪杰之士，必有过人之节，人情有所不能忍者。匹夫见辱，拔剑而起，挺身而斗，此不足为勇也；天下有大志者，卒然临之而不惊，无故加之而不怒，此其所挟持者大，而其志者远也。</p>
+</div>
+<div id="siweifangfa" class="section level3">
+<h3><span class="header-section-number">4.1.3</span> 思维方法</h3>
+<ul>
+<li>信息海啸中独善其身之法
+<ul>
+<li>沉浸能力：离开让你分心的事物，每天要有几个小时专注的时间</li>
+<li>放空能力：清理（焦虑，戾气，不需要的东西）＋输出（写出想法）</li>
+<li>精深能力：认真研究一些领域</li>
+</ul></li>
+</ul>
+<p>当你在面对一个复杂问题时，应该努力做到： 想到一些方法来努力将该难题下某些边缘性的信息元素过滤掉，把某些次要 的东西组块化缩减，然后用图形来展现核心的复杂关系，同时用 分格化来确保过程的周密性。这样可以克服工作记忆（working memory）资源 有限的问题。</p>
+<ul>
+<li>组块化：将多个信息单元压缩为一个信息单元（首字母略缩语） -在编程领域中，面向对象的思想是组块化思想的系统性实践，一个类显然就是一个组块，这种思想在编程领域是划时代的。
+<ul>
+<li>下面讨论的组块化特指思考者自己构思出组块的过程，而不包括调用已有知识组块的过程。
+<ol style="list-style-type: decimal">
+<li>同质信息合并</li>
+<li>屏蔽部分信息</li>
+<li>问题复杂性降低后将更多信息考虑进来（在一个更大的背景下）</li>
+</ol></li>
+<li>一个成功的组块化，往往要把某些信息抽象到一个更高的层次。</li>
+<li>Easy chunking: 基于对显而易见特征的归纳</li>
+<li>Hard chunking: 基于对深层共性的抽象</li>
+<li>组块化阅读的两个关键特征（不仅是阅读，这是我们思考的一种“元模式”）：
+<ol style="list-style-type: decimal">
+<li>只同时处理同一抽象层级的信息组块——这对工作记忆资源的占用是最小的。</li>
+<li>从最抽象的层级开始处理，渐次降低抽象层级——这能保证全局观
+处理多任务时，主流观点是按照重要性、紧迫性进行排序。换一种思路，根据不同任务的内在特征（涉及的知识和技能）进行组块化，然后将同一组块的任务进行集中处理。
+<span color="blue"> Hui: 我赞同这种将任务组块化的方法。其实紧迫和重要并不是绝对的。你衡量重要性的标准取决于格局和眼界。你是只看当下，只为了完成任务而完成任务，还是将整个人生看作一个整体，思考自己生命的意义，然后以能最大化人生意义的标准去衡量事物的重要性。是活在别人的眼中，还是活在神的眼中，结果得出的重要的事情可能大相径庭。</span></li>
+</ol></li>
+</ul></li>
+<li>图形化：可认为是一种信息外部化（最常见的是思维导图）。简单的信息只需要浅层加工，庞大，复杂的信息应采用图解的方法来加工学习。练习图解式的信息加工甚至可以帮助我们从仅仅是一个学习者转变为一个创作者。图形化方法在思考中的四大功能：
+<ol style="list-style-type: decimal">
+<li>信息外部缓存：将记忆外部化，把工作记忆中需要处理的部分信息外接到图纸上，这样就减轻了工作记忆的负担，提高思维效率。</li>
+<li>构筑探索空间：“Game Storming”一书中作者强调，创造性思考是一个先发散再收敛的过程。而在发散和收敛之间，有一个关键的“探索阶段”。为了更好地进行探索，思考者需要一些基本的工具。思考者可以加入许多信息节点（卡片或者便签纸等）。节点的特点是“模块化的、可移动的物件，它们可以打乱重洗、排序和重新分组”。</li>
+<li>支撑全局思考</li>
+<li>抽象信息直观化</li>
+</ol></li>
+<li>分格化（lattice）：这是一种穷举思想，避免人们因自己所能处理的信息有限而遗漏其他重要的信息和问题。 具体方法有checking list（清单降低了思考和行动的门槛，即便差别很大的东西，只要列入了同一个清单，就会具有形式上的统一感）、矩阵表和象限图等。分格化的作用是为思维过程引入了强制性，这种强制性包括强制拓展和强制分解两个部分。</li>
+</ul>
+<blockquote>
+<p>Edward de Bono [born 19 May 1933, a Maltese(馬耳他) physician, psychologist, author, inventor and consultant. He originated the term lateral thinking, wrote the book Six Thinking Hats and is a proponent of the teaching of thinking as a subject in schools.] 以铁球和凝胶(gel)来类比人类思维中的先入为主现象：一开始凝胶是平的，没有任何印记，然后一个铁球滚了过来，把凝胶压出一个凹陷后停在那里，然后第二个铁球滚过来时，其轨迹会受到之前铁球轨迹的影响，最终停在第一个铁球边上，之后的铁球也是如此…最后所有的铁球都会聚在一起，且大致不会偏离最初铁球所在的位置。</p>
+</blockquote>
+<p>这种先入为主效应时人类思维的固有特点，很多时候它能够让人们更好地适应环境，因为人们可以仅基于少量和初步的信息就作出猜测和推演。在解决一个复杂或者创造性的问题时，它的弊端就凸显出来了。那么我们该怎么突破自己思维所设定的框框呢？</p>
+<ol style="list-style-type: decimal">
+<li>抽象出尽可能完整的分解问题的维度</li>
+<li>对每一维度，通过取反、细分等操作，找出尽可能多的表现值，以构成维度矩阵</li>
+<li>在维度矩阵中，在不同维度的表现值之间尝试建立各种组合</li>
+</ol>
+<p>人的思维不是凝聚的，稳定的，而是跳跃、流动和易变的。一个具有高度可塑性的大脑在良好思维工具的辅佐下，在持续不断的行动的打磨中，会变得强大的超乎想象。</p>
+</div>
+<div id="xiweifangfa2" class="section level3">
+<h3><span class="header-section-number">4.1.4</span> 拆掉思维里的墙</h3>
+<ul>
+<li>如何获得安全感?</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><p>小范围内冒险一下。这很好的试探了思维的墙，看其是不是表面坚固实际虚弱。比如用买一平方米房子的钱安排一次旅游，在一个永远不去的小群体里做做不好意思的事。</p></li>
+<li><p>远离那些太容易获得的安全感。包括过于关心你的人，任意刷的信用卡，不犯错的任务，养老般的工作。</p></li>
+<li><p>珍爱生命，远离恐惧。少和那些负能量的人在一起。（选择能够激励自己的环境）</p></li>
+<li><p>做一个恐惧保险箱，把最恐惧的事情写在一张纸上，写10个，越详细越好，然后找一个安全的地方，或者信任的人保管，告诉自己，恐惧的事情随时可能会发生，但是我先要去做自己的事情，等做完之后再回来领取这个恐惧，这时候你就能放手去大干一场。回来的时候，你会发现，其实担心的事没多少会发生。</p></li>
+<li><p>做成功日志。每天写5条个人成果，任何小事都行。你开始在每天的细节中，用成就感逐渐击退恐惧感。面对恐惧，触底反弹。恐惧其实有三个层次：1）恐惧本身，2）是害怕失去背后的价值，3）真正的恐惧，觉得自己没有能力去应对这个失去。明白恐惧的结构，就能更好的应对。</p></li>
+</ol>
+<ul>
+<li>砌墙人</li>
+</ul>
+<p>思维里的墙不单是自己内心的恐惧感和安全感形成的。我们身边还有一批砌墙的人。真正改变命运的，不是心态，而是心智，要懂得超越自己的心智模式，应对这个万变的世界。</p>
+</div>
+<div id="xuexi1" class="section level3">
+<h3><span class="header-section-number">4.1.5</span> 怎样成为高段位的学习者？</h3>
+<ol style="list-style-type: decimal">
+<li>提问</li>
+</ol>
+<p>两种学习模式：</p>
+<ol style="list-style-type: decimal">
+<li>直接传递模式：学习过程是简单的，线性的，传递－接受模式。学习的目标只是用静态的知识把头脑装满。</li>
+<li>建构主义模式：更合理的模式，知识不是简单的吸收而来，而是主动建构而来，学习者必须充分调用已有知识，在一个主动性的目标指引下，在一个丰富的情境中，去探索甚至撞击那些接触到的知识，在经过一系列复杂的交互之后，把这些知识纳入到原有的知识体系之中。《变构模型——学习研究的新路径》 一个好问题让我们成为“建构者”，因为我们不仅在学习知识，还在建构答案，在努力回答问题的过程中，我们筛选、评判和整合新知识和旧知识，并把它们融汇成一个自洽的整体。为了找到问题的解，我们可能会寻访任何可能的线索，查阅可能的资料，而不受既定的观点的束缚。（Linda Darling-Hammond: inquiry-based learning, ask deep explanatory questions）问题可以帮助我们形成长期的、一贯的思考路径。我们不仅仅是临时就一个问题寻找解答，而是持续地去思考和尝试解答这个问题，这个过程可以几个月、几年甚至贯穿我们的一生。问题就像一个富有韧性的细线，帮我们把各种知识、经验、观念和方法串在一起。有研究比较了在物理学和历史学领域专家和新手在知识组织上的差异，发现专家的知识不仅仅是对相关领域的事实和公式的罗列，而是围绕核心概念或大观点（big idea）组织的，这些概念和观点引导他们去思考自己的领域。一个高段位的学习者必定是一个优秀的提问者，从阅读、观察和思考的过程中产生问题。</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>解码(Decode)</li>
+</ol>
+<p>对某一事实的了解应区分knowledge about 和 knowledge of两个层次。很多领域就像学画一样，需要一个漫长的临摹过程。除了基于样例的学习之外，解码之所以重要是因为我们常常需要面对各种各样全新的信息内容，如果不经解码这一过程，则不可能使其与我们原有的知识体系相整合。对信息材料的解码，其实就是内在知识重新建构的过程，因此也是一个创造性的过程。教育心理学家把在某一领域有专长的人分为：</p>
+<ol style="list-style-type: decimal">
+<li>Routing expertise：具有基本固定的知识系统，能高效地把接触到的信息材料按照已有的框架进行分析；因为这类专家接触的材料往往是一个固定的范围内的，如象牙塔内的学者，一生只看他所在学科的理论著作，那么他的知识体系就是固化的，他只能应对和解决在一个特定的理论范畴里的问题；</li>
+<li>Adaptive expertise：可以不断进化、扩充核心能力，扩展专业知识的广度和深度来迎合需求和兴趣的增长。这类专家主动涉猎超出领域范围的、非常规的、情境化的问题，不排斥各种新鲜的经验刺激，所以他们的知识系统能够不断扩展。</li>
+</ol>
+<p>解码是一个费时费力的过程，所以在有限的时间内，我们要尽量寻找最经典、最优秀的作品，进行深度解码。</p>
+<ol start="3" style="list-style-type: decimal">
+<li>操练</li>
+</ol>
+<p>你掌握了多少知识，并不取决于你记忆了多少知识以及知识的关联，而取决于你能调用多少知识及其关联。认知心理学已有大量研究表明，记忆提取的操作其实起到了memory modifier的作用，一个曾经被调用过的知识和从未被调用过的知识相比，在今后更有可能被再次调用。法国教育学家Andre Giordan提出allosteric learning model，这个模型用了一个生物化学的隐喻——allosteric protein。这种蛋白质的特点是它的形态和功能并不是内在稳定的，而是由于外部环境的促发条件所决定。他认为构成学习者思维独特性的并非是他所录入的观点序列，而是他有能力启动和调用的关联。 一个人头脑中储存的知识可以分为：</p>
+<ul>
+<li>陈述性知识（declarative knowledge）：有关事实或资料性的知识。不要将这种知识当做静态的东西，而是看作动态的、可运用的、可以用来完成某件事的技能来学习。</li>
+<li>程序性知识（procedural knowledge）：按一定程序操作从而获取的知识。可以通过技能的训练不断强化和完善</li>
+</ul>
+<p>在学校的学习是被动式的，满足于理解和记忆层面。虽然在学术研究中会有深入思考，但这种思考仍旧有很大的局限性，不是从理论到理论，就是从方法到方法，都没有跳到一个更大的视角，去反思这些知识的深层价值，没有去思考这些知识和我们自己的生活和思想的关联。一旦我们在应用的情景中去重新审视这些知识才会突然发现这些知识可以这样应用，发挥这些效力，可以当作这样一种技能。可能的三种操练知识的方法：</p>
+<ol style="list-style-type: decimal">
+<li>写作</li>
+</ol>
+<p>写作是一种典型的知识建构活动。在阅读时我们对信息的理解和纳入常常满足从一个浅表的层面去理解，但是在写作时，也就时信息输出时，我们必须去分析知识的深层结构，观察和调用知识和知识之间的深层关联，不然我们无法自如地将它们组织起来。因为一篇文章要被某人读懂、要把人说服，需要缜密的思维，清晰的表达和翔实的依据，这些都要求我们对知识的编码和组织达到一个相对高的水准才行。</p>
+<ol style="list-style-type: decimal">
+<li>游戏</li>
+</ol>
+<p>也可以称为“思想实验”。构造一个现实中并不存在的假象情景，然后运用所学的知识来设想事物在这个情景中的变化。在这样的操练中，思考者往往会得到比原先更为深刻的领悟。</p>
+<ol style="list-style-type: decimal">
+<li>设计</li>
+</ol>
+<p>调用已有知识，通过设计某一种解决方案来解决某个特定问题，迫使学习者综合性、创造性地调用知识。 （设计三国杀的例子）</p>
+<ol start="4" style="list-style-type: decimal">
+<li>融合</li>
+</ol>
+<p>学习高手常常会有意识地把不同领域甚至不同学科的知识摆在一块，然后尝试去分析、对比它们潜在关联。Charlie Munger将那种只会用单一学科知识思考的人称为“铁锤人” (To a man with a hammer, everything looks like a nail)。只有广泛涉猎不同学科的知识，把这些学科中的基本理论编程用一观察和分析现实对象的思维模型，才能最大程度上避免思维上的偏差和狭隘。这种多学科模型的方法，可以产生一种爆炸性的合力效应，让人获得不同寻常的智慧。融合有3类结果。</p>
+<ol style="list-style-type: decimal">
+<li>迁移
+Paul Granham: 著名的黑客将年少时学画的经验迁移到了他学习编程中。
+<ul>
+<li>画家学画的方法时直接动手去画，而黑客学习编程的方法也是在实践中学习。Paul初学编程时还是抱着书读，不过随后就放弃了，直接动手。</li>
+<li>画家学画需要临摹，从大师的作品中学习。而黑客则是通过研究优秀程序员的代码来学习编程，开源社区是他们最好的学校。</li>
+<li>一幅画是逐步完成的，先画轮廓、草图，然后填入细节，一步步臻于完美。在这一启发下，Paul领悟到编程语言的首要特点是允许malleable(动态扩展)。编程语言是用来帮助思考程序的，而不是用来表达你已经想好的程序。它应该是一支铅笔，而非钢笔。因此在编程中过早优化(premature optimization)是一件危险的事情。</li>
+</ul></li>
+<li><p>印证
+印证式迁移能够帮助探索规律。思考者已经拥有了丰富的、充足的、多元的思考材料，潜意识的作用是借用其强大的并行计算能力，把这些思考材料进行各种组合。你素材准备工作越充分，那么获得创造性成果的概率越大。交替运用意识和潜意识。</p></li>
+<li><p>互补
+互补式的知识融合，是指我们可以对同一个议题，找到完全不同的视角下的论述，把他们综合在一起，就可以得到对这一议题比较全面和深入的认识。 （iPhone的发明并不是解决了什么难题，而是让大家惊讶的发现原来我们可以用这样的方式和电子产品进行交互，本质上是一种观念的颠覆。）</p></li>
+</ol>
+<p>总的说来，将知识进行融合的关键是能够洞察出知识背后的深层结构。在表面上不相干的知识背后，发现潜在的相似性、互补性和启发性，找到知识与知识间隐含的联系。</p>
+</div>
+<div id="how-to-solve-it" class="section level3">
+<h3><span class="header-section-number">4.1.6</span> How to Solve It?</h3>
+<ol style="list-style-type: decimal">
+<li>Understand the problem</li>
+</ol>
+<ul>
+<li>What is the unknown?</li>
+<li>What are the data?</li>
+<li>What is the condition?</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Devise A Plan</li>
+</ol>
+<ul>
+<li>How the various items are connected?</li>
+<li>How the unknown is linked to the data?</li>
+<li>Is there any related problem?</li>
+</ul>
+<p>Mere remembering is not enough for a good idea, but we cannot have any good idea without recollecting some pertinent facts.</p>
+<ol style="list-style-type: decimal">
+<li>Carry Out Plan</li>
+</ol>
+<ul>
+<li>Check each step</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Replay</li>
+</ol>
+<ul>
+<li>Can you check the result?</li>
+<li>Can you derive the result differtly?</li>
+<li>Can you check the argument?</li>
+<li>Can you see it at a glance?</li>
+<li>Can you use the result, or the method for some other problem?</li>
+</ul>
+</div>
+<div id="learning-how-to-learn-mooc" class="section level3">
+<h3><span class="header-section-number">4.1.7</span> Learning How to Learn [MOOC]</h3>
+<div id="what-is-learning" class="section level4">
+<h4><span class="header-section-number">4.1.7.1</span> What is Learning?</h4>
+<ul>
+<li>Two modes:</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>focused mode: centered in the prefrontal cortex, involve thinking about things you are somewhat familiar with.</li>
+<li>diffuse mode: broad-ranging perspective, representative of the brain’s many neural resting state</li>
+</ol>
+<p>It often takes time for neural processing to take place, and time as well to build the new neural structures that allow us to learn something new. It’s through practice and repetition that we can help enhance and strengthen the neural structures we’re building as we’re learning something new. Practice and repetition is particularly important for more abstract topics.</p>
+<ul>
+<li>Tackle procrastination
+<ol style="list-style-type: decimal">
+<li>Pomodoro technique: brief 25 minute stretch of focused concentration, followed by a bit of mental relaxation.</li>
+<li>Keep a planner journal so you can easily track when you reach your goals and observe what does and doesn’t work.</li>
+<li>Commit yourself to certain routines and tasks each day.</li>
+<li>Write your planned tasks out the night before so your brain has time to dwell on your goals and help ensure success.</li>
+<li>Arrange your work into a series of small challenges.</li>
+<li><p>Get rewards [养成习惯的一个步骤]. Deliberately delay rewards until you’ve finished a task.   </p></li>
+<li><p>Watch for procrastination cues. Try putting yourself in new surroundings with few procrastination cues, such as the quiet section of a library. Gain trust in your new system. You want to work hard during times of focused concentration and also to trust your system enough so that when it comes time to relax, you actually relax without feelings of guilt or worry. Have back up plans for when you still procrastinate. No one is perfect after all. Eat your frogs first every day.</p></li>
+</ol></li>
+<li>Memory
+<ul>
+<li>Working memory</li>
+<li>Long term memory: storage warehouse.</li>
+</ul></li>
+<li>Learning
+<ul>
+<li>ILearning well often involves bit by bit, day by day building of solid neural scaffolds. This is why tackling procrastination is so incredibly important. It helps you build better memories. Because you start earlier. You want to keep up with your learning and avoid last minute cramming.</li>
+<li>Sleep is important in washing away the toxins that develop during our day’s activities. You want to avoid taking tests or doing anything difficult with little sleep the night before, because it’s like trying to think with poison on the brain.</li>
+<li>As importantly, exercise is surprisingly valuable in helping improve both our memory and our ability to learn.</li>
+</ul></li>
+</ul>
+</div>
+<div id="chunking" class="section level4">
+<h4><span class="header-section-number">4.1.7.2</span> Chunking</h4>
+<ul>
+<li>Chunks are pieces of information, neuroscientifically speaking, that are bound together through use and often through meaning. You can think of a chunk as a scintillating [scintillate vi. 发出火花；闪烁] network of neurons that compactly synthesizes key ideas or actions.</li>
+<li>Chunks can get bigger and more complex. But at the same time, they’re a single easy to access item that you can fit like a ribbon into the slot on your working memory.</li>
+<li>Chunks are best built with focused, undivided attention, understanding of the basic idea, and practice to help deepen your patterns and to help you gain big picture context.</li>
+<li>Simple recall, trying to remember the key points without looking at the page, is one of the best ways to help the chunking process along. It seems to help build neural hooks. They help you better understand the material. Also try recalling material in places that are different from where you originally learned the material, so it becomes more deeply ingrained and accessible</li>
+<li>Transfer is the idea that a chunk you’ve mastered in one area can often help you much more easily learn chunks of information in different areas that can share surprising commonalities.</li>
+<li>Interleave your learning by practicing your choice of different concepts, approach, and techniques all in one session. Chunks are very important, but they don’t necessarily build flexibility, which is also important in becoming an expert with the material you’re learning.</li>
+<li>Illusions of competence in learning
+<ul>
+<li>Learn to recognize when you’re fooling yourself about whether you’re actually learning the material.</li>
+<li>Test yourself frequently. Using little mini-tests to see whether you’re actually learning the material, or whether you’ve been fooling yourself, thinking you’re learning when you’re actually not.</li>
+<li>Recall is actually a form of mini-testing.</li>
+<li>Try to avoid depending too much on highlighting, which can fool you into thinking that the material is going into your brain when it actually isn’t.</li>
+<li>Mistakes are a good thing to make when you’re learning. They allow you to catch illusions of competence. Avoid practicing only the easy stuff, which can bring the illusion that you’ve mastered the material. Deliberately practice what you find more difficult to gain full mastery of the material.</li>
+</ul></li>
+<li>Einstellung [思维定势] is when your initial thought, an idea you’ve already had in mind, or a neural pattern you’ve already developed well and strengthened, prevents a better idea or solution from being found. Or keeps you from being flexible enough to accept new, better, or more appropriate solutions. The Law of Serendipity is helpful:
+<ol style="list-style-type: decimal">
+<li>In order to discover anything, you must be looking for something.</li>
+<li>If you wish to make an improved product, you must already be engaged in making an inferior one.</li>
+</ol></li>
+</ul>
+</div>
+<div id="renaissance-learning-and-unlocking-your-potential" class="section level4">
+<h4><span class="header-section-number">4.1.7.3</span> Renaissance Learning and Unlocking Your Potential</h4>
+<ul>
+<li>Metaphors and analogies aren’t just for art and literature. One of the best things you can do to not only remember, but more easily understand concepts in many different fields, is to create a metaphor or analogy for them.</li>
+<li>If you change your thoughts, you can really, truly change your life. It seems people can enhance the development of their neuronal circuits by practicing thoughts that use those neurons.</li>
+<li>Overconfidence in your results can result from using only one mode of thinking. Through sharing with others and hearing others’ opinions, you can more easily catch where your thinking has gone astray.</li>
+<li>Counterintuitive strategies such as the hard start jump to easy technique, can give your brain a chance to reflect on harder challenges even as you’re focusing on other more straightforward problems.</li>
+</ul>
+</div>
+</div>
+<div id="how-we-learn-如何学习" class="section level3">
+<h3><span class="header-section-number">4.1.8</span> How we learn? (如何学习)</h3>
+<p>本书深入浅出地解释了学习时，大脑的工作机制，包括记忆是如何形成和存储的，记忆的遗忘规律又是什么。在了解大脑工作原理的基础上，作者介绍了众多脑科学、心理认知学领域中，具有里程碑意义的研究成果，从中总结出了一系列颠覆传统认知的学习方法，帮你在同样的时间里，学得更快，记得更牢。</p>
+<p>一、记忆是如何形成、被存储和提取的？</p>
+<p>人的大脑中，用来记忆的核心部位有三个：内嗅皮层、海马体和新皮层。</p>
+<p>内嗅皮层类似一个过滤器，负责过滤涌入大脑的海量信息。</p>
+<p>海马体负责组合这些信息，把和这些新信息相关的神经细胞，通过神经突触连接起来，新记忆就这样构建起来了。</p>
+<p>新信息被打上“记忆”的标记后，就会存储到新皮层上，新皮层就是大脑最外面那层褶皱。 每次提取这些记忆的时候，这部分皮层细胞就会活跃起来，同时，跟记忆有关的神经细胞之间的突触就被加厚一次，每次神经突触被加厚，神经信号就会传递得更快些，记忆就这样被加深了。</p>
+<p>不过，海马体是一个编故事的高手。为了让每一段情节都合情合理，它要根据现有材料找出关系、做出判断，把松散的信息拼合成一个能让人理解的整体。海马体的这种“脑补”机制，到时我们在提取记忆的时候，总是出来一连串信息，没办法做到十分精确。</p>
+<p>二、遗忘是怎么回事，遗忘的规律是什么？</p>
+<p>作者认为，遗忘是大脑中很重要的一个功能，它能帮助过滤垃圾信息，使大脑专注在某一件事情上，只让跟这件事有关的信息被提取出来。 关于遗忘的规律，科研人员已经探索了一百多年： 19世纪80年代，柏林大学的教师赫尔曼·艾宾浩斯发明了著名的遗忘曲线。他提出，人们对新事物的记忆会随着时间的推移而不断减弱，而且最初几天遗忘的速度还特别快。 20世纪80年代，加州大学洛杉矶分校的比约克教授夫妇，提出了“记忆失用理论”。他们认为，人的记忆其实有两个纬度，一个是存储强度，一个是提取强度。存储强度不会随着时间减弱，而提取强度会随着时间慢慢减弱，但通过复习，提取强度和存储强度都是可以越用越高的。</p>
+<p>三、如何学习才更科学有效？</p>
+<ol style="list-style-type: decimal">
+<li>学习的时候多换几个场所，会帮你把学到的东西记得更牢。</li>
+</ol>
+<p>传统的学习观念认为，学习就要找一个固定的安静场所。 但是作者的建议恰恰相反：学习的时候多换几个场所，会帮你把学到的东西记得更牢。每当我们要提取记忆的时候，大脑总会冒出一连串信息，比如当时学习的场景。 研究人员就推断并实验证明：如果能还原到最初的学习环境里，记忆的效果会更好。但是，还原最初的学习场景是一件可遇而不可求的事，要想让记忆的提取能力越来越不被周围环境影响，把学到的东西记得越来越牢，就要改变一些习惯，比如多换几个学习场所。</p>
+<ol style="list-style-type: decimal">
+<li><p>交替学习，能快速提升辨别能力。</p>
+<p>交替学习的意思是把既相关又不相同的题材混合到一起来学习，和交替学习相对应的是集中学习。交替学习以前一直被用在音乐教育和体育训练中，比如，体育教练会让运动员交替进行力量训练和耐力训练，来保证运动员的局部肌肉有足够的恢复时间。</p>
+<p>后来，心理学家们发现，交替学习可以增强大脑的辨认能力，从而提高数学解题能力。在数学学习过程中，不同题型掺杂到一起，会迫使我们去分辨每道题属于哪种类型，把题型跟我们已知的解题方法相匹配，才能找到解决方法。</p>
+<p>比如说，很多人都觉得应用题太难，就是因为应用题很少会明确指出应该用什么概念，用哪个方法来解题，总搞得人措手不及。这时候，交替学习的好处就凸显了，它能让我们的大脑准备好随时面对意想不到的事情，快速分辨出这种情况应该用什么方法应对。</p></li>
+<li><p>脑科学家认为，睡眠可以巩固我们的学习成果。</p></li>
+</ol>
+<p>脑科学领域有一个主流共识，睡眠可以帮助大脑巩固记忆，还可以把一些分散的、看起没有关联的信息给联接起来，另辟蹊径地解决某个难题。(periodic table of elements) 现代睡眠之父、芝加哥大学教授柯莱特曼和他的学生阿瑟发现，人在睡觉的时候，大脑皮层还在活动，尤其在“快速眼动期”，大脑皮层的活动跟醒着的时候一样剧烈。这时候，大脑做了很多信息整理工作，深化和巩固我们醒着的时候学到的技艺，让碎片化知识形成更完整的“图景”。脑科学家甚至认为，睡觉本身就是学习。</p>
+</div>
+<div id="anshijian1" class="section level3">
+<h3><span class="header-section-number">4.1.9</span> 暗时间</h3>
+<p>提到的心理学相关书籍：</p>
+<ol style="list-style-type: decimal">
+<li>Think Straight About Psychology: 与“众”不同的心理学</li>
+<li>Nudge: 助推——我们如何做出最佳选择，Richard Thaler (经济学和心理学联姻)</li>
+<li>Made to Stick: 让创意更有黏性，研究创意点子之所以流行之本质原因</li>
+<li>The Social Animal: 社会性动物</li>
+<li>Searching for Memory: 找寻逝去的自我，讲大脑记忆原理</li>
+<li>The Tipping Point: 引爆点</li>
+<li>Blink: 决断2秒间</li>
+<li>Outliers: 异类</li>
+<li>Psychology of Judgment and Decision Making: 决策与判断</li>
+<li>Predictable Irrational</li>
+<li>Miskates were made, but not by Me: 错不在我</li>
+<li>Mean Genes</li>
+<li>Influence</li>
+<li>Sway: 摇摆</li>
+<li>Evolutionary Psychology: 进化心理学</li>
+<li>Asking the Right Questions</li>
+<li>Nonsense</li>
+<li>Crimes Against Logic</li>
+</ol>
+<ul>
+<li>善于利用思维时间的人，可以无形中比别人多出很多时间，从而能比别人多活很多年。思考得多得人往往心理年龄更大…讲临时得记忆变成硬编码的行为。……每个人的手表都走的一样快，但是每个人的生命却不是。衡量一个人生活了多少年应该用思维时间来计算。……用投入时间和效率的乘积来衡量。……看书并记住书中的东西只是记忆，并没有涉及推理，只有靠推理才能深入理解一个事物，这部分推理过程就是思维时间。……充分利用走路，买菜，洗脸，出游，吃饭，睡觉等所有这些时间进行思考，反刍和消化读过的东西，日积月累将产生庞大效应，无形中多出一大块生命。</li>
+</ul>
+<div id="anshijian2" class="section level4">
+<h4><span class="header-section-number">4.1.9.1</span> 设计自己的进度条</h4>
+<p>为什么要进度条？没有的话我们不知道什么时候能完成。可以分割任务，设计进度条。这需要你对整个目标的几个重大步骤有清晰的界定，能够对每个步骤的耗时作出靠谱的上界估计。（&lt;span color=“blue&gt;Hui:我觉得这个“靠谱估计”本身就非常难（Planning fallacy </span>））。</p>
+<p>学习新事物时总会遇到各种各样的困难，在面对未来不确定性时会过早退出。其实我们畏惧的不是困难本身，而是其所暗示的时间经济学意义。可以上网查下遇到相似问题的人，绝大多数时候你并不孤单，你踩过的坑里尽是前人的脚印。不要仅仅因为一时摸不着头绪，找不着出路就退出，问一问自己的决策是否基于足够的信息。</p>
+</div>
+<div id="anshijian3" class="section level4">
+<h4><span class="header-section-number">4.1.9.2</span> 学习密度和专注力</h4>
+<ul>
+<li>能够迅速进入专注和长期保持专注（抗干扰）是高效学习的两个最重要的习惯。抗干扰能力可以练习：
+<ul>
+<li>在有干扰的环境中看书</li>
+<li>利用碎片时间阅读思考，锻炼迅速集中／保持注意力</li>
+</ul></li>
+<li>只要在一个选择上专心致志地专研下去，最有必然能成为高手或者绝顶高手。不要做饿死在干草堆之间的驴子。如果你有钱不知道花在哪，先不做决定没问题，因为钱还是你的。但如果你有时间不知道花在哪，不行，因为过去的时间就不是你的了。所以面对纠结的选择不要回避决定，既然终归是个痛苦的决定，那就痛一回，好好思考和调查之后作出一个决定并坚持下去。</li>
+</ul>
+</div>
+<div id="anshijian4" class="section level4">
+<h4><span class="header-section-number">4.1.9.3</span> 为什么应该从现在开始写博客？</h4>
+<p>用博客的形式来记录下你有价值的思考，会带来很多好处，却没有任何明显的坏处。</p>
+<ol style="list-style-type: decimal">
+<li>书写是为了更好的思考。将一件事讲出来是最好的“学”，如果你讲不清楚，你还没有理解。为了让一个不明白的人明白，你必须知道从明白到不明白究竟要掌握哪些概念，这就迫使我们对大脑中整个知识体系寻根究底，把藏在水面之下的那些东西统统挖出来，把大脑中那些我们知道，但不知道自己知道的潜在概念或者假设都挖出来，把它们从内隐记忆拉扯到外显记忆中。不要担心太幼稚或者有漏洞被人笑话。<strong>人非圣贤，正是因为有漏洞才值得交流，得到改进。藏着掖着的想法永远不可能变得成熟</strong>。</li>
+</ol>
+<ul>
+<li><p>“我强烈感觉它是对的，但我说不出所以然来”，这时候往往是到大脑中翻箱倒柜，弄清来龙去脉，深入反思，纠正一直以来错误的潜在前提假设的时候。“我强烈感觉这个说法有问题但说不出哪有问题”，这也是一个极有意义的瞬间，它几乎总是意味着你对一个问题的认识有潜在的偏差，在你没有觉知的地方引入了一个潜在的假设、偷换了一个重要的概念。如果你选择经常总结自己的知识体系，并说出来给你的读者听，你就会发现自己创造了这样的机会。如果我们不反思，很多事情都感觉理所当然，但一开口说给人听常常会发现事情开始变得不那么明显。如果你只感觉到了答案，却不知道大脑得到这个答案之前做了哪些推理，你又怎么知道哪一环节出了问题呢？</p></li>
+<li><p>注意一下很多人的发言，如果你把他们的发言分为“前提”，“假设”，“逻辑”，“结论”这四个部分，你会发现一大堆只会不断下结论，摆立场却见不到这些结论前提，假设和个中逻辑。</p></li>
+<li><p>不要担心写不出来。不用急于求成，在一个主题上深入下去思考，总能挖到别人挖不倒的角落。你能让一个问题在大脑停留的时间越长，就越是能够发现新的东西。有时即使已经想通写下来，大脑仍旧会继续回味，没有撤出潜意识，可能之后在某种激发下会有新的感受。能把问题长时间停靠在潜意识中是一种技能，能够带来很大的好处。停留时间越长你越琢磨得透彻，比别人看到得就越多。如果你逼着自己将一些不成熟的想法写下来，看着自己写的内容，试着进一步拓展它们，就有可能在理性的道路上走得很远。</p></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>激励你持续学习和思考：如果没有持续学习和思考，很快你的博客就没有内容了。如何长期写一个价值博客？让自己成为持续思考的人，并只写你真正思考和总结之后的产物，其它一切会随之而来。</li>
+</ol>
+<blockquote>
+<p>只做你最感兴趣的事情，钱会随之而来。</p>
+</blockquote>
+<ol start="2" style="list-style-type: decimal">
+<li><p>学会持之以恒地做一件事情。很多人在生活中容易觉得迷失，不知道想要做什么，是因为没有一件能够持续地做的事情，用俗话说就是没有主心骨。用积极心理学的话来说就是没有一件能够创造流体验的事情，而书写自己的思想则是一件容易产生流体验的事情，在理性书写的时候，大脑逐渐进入推理分析模块，一切不愉快的情绪，烦躁感会逐渐消隐下去。</p></li>
+<li><p>一个长期的价值博客是一份很好的简历。</p></li>
+</ol>
+</div>
+<div id="anshijian5" class="section level4">
+<h4><span class="header-section-number">4.1.9.4</span> 时间和效率</h4>
+<ol style="list-style-type: decimal">
+<li><p>根据主题来查阅资料，而不是根据资料来查阅主题。避免见树不见林。获得针对同一个主题的不同观点（参见《如何阅读一本书》的主题阅读）</p></li>
+<li><p>学习一个东西之前先在大脑中累积充分的“疑惑”</p></li>
+<li><p>有选择的阅读：选择一本书中感兴趣的章节优先阅读；对书中技术性较弱密度较低的部分快速略读。</p></li>
+<li>利用时间碎片阅读：点滴时间汇聚成长尾！阅读不能停，要将这个习惯变成每天吃饭睡觉一样的事情。
+为什么看不懂：
+<ul>
+<li>看得不够使劲：书读百遍，其意自现</li>
+<li>涉及到你不懂的概念：这是技术性不理解，需要cross reference</li>
+<li>作者讲述的顺序不对，你接着看下去可能就懂了</li>
+</ul></li>
+</ol>
+</div>
+<div id="anshijian6" class="section level4">
+<h4><span class="header-section-number">4.1.9.5</span> 知识结构</h4>
+<ul>
+<li>抓住不变量
+<ul>
+<li>知识分为本质和非本质的</li>
+<li>要有基本的知识存量。不具备必要知识是无从思考的，如果你不知道某个工具的存在，遇到问题的时候很难想到需要使用这么样一个工具，本质知识就是使用得最为广泛的工具。</li>
+<li>熟悉你的工具，并非指熟悉所有细节，而是那些重要的，或者无法在需要用到的时候按需查找的知识。</li>
+<li>在学习新知识的时候，常常问自己这3个问题：本质是什么？第一原则是什么？该知道的结构是什么？</li>
+<li>分析问题和解决问题的方法也是本质知识，但需要很长时间的锻炼和反思。</li>
+</ul></li>
+</ul>
+</div>
+<div id="anshijian7" class="section level4">
+<h4><span class="header-section-number">4.1.9.6</span> 学习习惯</h4>
+<ul>
+<li><p>时常反省注意自己的思维过程。尤其当遇到无法理解或解决的问题，最需要将原先的思维过程回顾一遍，看看到底哪个环节被阻塞了妨碍了理解。问题到底出在哪里。并分析以后需要加强哪方面的思维习惯，才能够不在同样或类似的时候被绊住。将思维的大致脉络写下来是一个很好的习惯。</p></li>
+<li><p>养成反驳自己想法的习惯</p></li>
+<li><p>重视知识本质：底层知识，算法数据结构，基本的程序设计理论，良好的编码习惯，分析解决问题的能力，强大的学习能力和旺盛的求知欲，大脑思维方式永远不过时。</p></li>
+<li><p>重视提前累积的强大力量。计划订长一点，自然可以多获得准备时间。设想你若干年后会在做什么事情，需要哪些技能，现在就开始准备。你比别人往后多看一年，你就比别人领先一年时间来准备，这个差别是巨大的。一个5年计划可以让你获得从现在开始5年准备时间。5年中每天腾出半个到一个小时专心于某一件事，认准一个方向，每次走一点，其实不用5年，两年就会发现宏大的效应。</p></li>
+<li><p>抬起头来：人的思维非常容易见树不见林。时不时抬起头来审视一下自己正在做的事情，问一问它有什么价值，时不时你真正希望做的。你的时间就是你的资源，你投入这些资源来掌握知识，所以到底用来掌握哪些知识是一个很重要的问题。仅仅遵循兴趣是不够的，人会对很多次要的东西产生兴趣，并一头钻进去浪费好多时间。所以判断一个东西值不值得学习是很重要的。</p></li>
+<li><p>记忆机制 我们在记忆的时候将许多线索（场景，问题背景，甚至所处语言环境，空间位置）一并编码记忆，事后能否提取出这单记忆眼中取决于线索是否丰富、以及在回忆的时候是否重现了记忆时的线索。…理解记忆，知识中包含了精细的概念，逻辑，一般的解题原则，通用解题手法，背景知识，类似问题等等无数的记忆和提取的线索，而非孤立的，任意的文本序列。…缺乏线索的记忆就像记忆海洋中的孤岛，虽然在那里，但是难以访问。而富含线索的记忆则是罗马，条条大路通罗马。…环境，味道，声音都被作为提取线索和记忆编码在一块了。 我们甚至会把语言背景作为线索编码进记忆。例如：</p></li>
+</ul>
+<blockquote>
+<p>在一个著名的悲剧爱情故事中，双方因为家庭不同意最终双双殉情，故事主角是？In a famous love story, what were the names of two lovers who died because of family disapproval? 前一个问题答案可能是：梁山伯和祝英台；后一个问题的答案是：罗密欧和朱丽叶</p>
+</blockquote>
+<p>在回忆的时候若不能呈现当初记忆时候某些关键线索，就可能导致所谓的线索依赖性遗忘（cue-dependent forgetting），在线索依赖性遗忘中，你的大脑并非没有存放目标记忆，只是线索不对，无法提取出来而已。…由于记忆的提取很大程度上依赖于一些表象上的线索来提取的，因此这些表面不相似性便阻碍了我们在问题之间进行类比，阻碍了我们将在一个情境下掌握的道理运用到另一个情境下。</p>
+<p>大脑记忆的简化模型：
+- working memory：当前在意识、思考的区域。
+- long-term memory 我们的working memory容量有限，同时只能容纳约5个有意义的信息组块（COURSERA: learn how to learn）。我们记忆的这种工作方式对学习的启发：
+1. 事实性知识先于技能：事实性知识使得组块成为可能，扩大了我们工作记忆的容量（<span color="blue">Hui:虽然我们脑子能够处理的组块数目有限，但组块大小的改变能改变工作记忆的容量。</span>）假设A有10000个事实性知识，B有9000个事实性知识。假设两人每个月同样学习500个新知识，由于A背景知识充足，A能记住10%，B能记住9%。十个月后，知识差距就从1000扩大到1047。照这个趋势，A的知识存量只会越来越多，B很难追上，这就是知识的马太效应。
+1. 记忆是思考的残留物：你的记忆不是你想要记住或你尝试记住的事情，而是你所思考的事情。大脑总是避免思考，而学习是要对抗这个趋势。“必要难度”理论指出：记忆的储存和提取呈负相关。存入记忆容易，提取出来会不容易；反之如果存入吃力，提取会更牢。只有在工作记忆中进行深度加工过的知识，才能有效存储在长期记忆。</p>
+<blockquote>
+<p><span color="blue"> Hui:很多事物本质上是有相似性的，找到光怪陆离的表象下的实质是最重要的认知能力。</span></p>
+</blockquote>
+<p><strong>我们在从既有经验总结知识的时候，应利用适当的抽象来得出适用范围更广的知识；在遇到新问题时，同样应该对问题进行抽象，触及其本质，去除不相干因素避免干扰，从而有效提取之前抽象出来的知识。</strong>
+我们的记忆并不像电脑的存储设施那样忠实记录，忠实读取，而是在记录和读取的时候都是相当程度上“构建性”的，而构建所用的“素材”则是我们之前在生活中积累出来的经验。这也是为什么同一个故事经不同人口口相传之后会出现形形色色的版本的原因。</p>
+<ul>
+<li>如何有效地从日常经验中总结知识，以及如何能够真正学以致用。</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><p>创造机会回顾知识（讨论分享，整理笔记，书写：将一段时间学习的知识按照一个主题系统地“串”起来，大大地丰富了知识之间的关联，平添无数提取线索。）</p></li>
+<li><p>虚拟情境：努力设想自己处于别人的境地。你无法真正遍历每条人生路径看看会发生什么，你没有这样的时间资源，取而代之的是你只能通过别人的“替代经验”，自己的“虚拟经历”来获得尽量多的信息。</p></li>
+<li><p>抽象和推广：我们从大量经济决策中得到一条适用范围很广的规律——经济决策可以抽象为投入／回报比例的考量。这是知识获取阶段的抽象；如果不懂得看到问题本质，便很难利用之前推广出来的结论（如：投入／回报，风险估计等等），而是会被我们的原始大脑的一些可预期的非理性所控制（例如从众、从权威），成为正常的傻瓜。</p></li>
+<li><p>联系比较自身经历：将别人的经历或者通过阅读和观察得来的经历和自身的经历进行比较，常常能够得到非常有价值的结论。</p></li>
+</ol>
+<ul>
+<li>如何甄选知识？解决方案如下：</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>经验主义：理论好不好用，必须眼见为实，拿出大家都认可的证据，经得起实证检验。</li>
+<li>实用主义：理论要有实用价值。</li>
+<li>可证伪性：科学就是建立在经验主义基础上，以实用主义为原则筛选，可以被证伪的理论。波普尔《猜想与反驳》讨论证伪性。因为科学能够被证伪，才能发展，思维才能迭代。<span color="red">鸡汤理论的问题就在于不可证伪。这些不可证伪的理论有巨大的心理吸引力，因为它们符合任何人的认知，貌似完全正确，还能够解释一切。无论发生什么事情，你都能预先理解它，这不仅给你智力上的掌控感，而且让你拥有应对这个世界需要的安全感。</span></li>
+</ol>
+<p>甄别有价值的信息的能力，成为继资源、胆识、机遇之后获取信息不对称的的第4手，权重越来越高。</p>
+<p>因为知识的局限性而对事物的看法产生无法消除的偏见，有时候打破这种偏见的唯一途径就是开阔视野，多积累知识，以及和具有不同知识背景的人讨论。</p>
+</div>
+</div>
+<div id="gaoxiaoxuexi" class="section level3">
+<h3><span class="header-section-number">4.1.10</span> 如何高效学习</h3>
+<p>（来自得到，许岑）</p>
+<ul>
+<li>高效学习是以解决问题为导向，而非总是依靠兴趣。学了东西之后一定需要反馈：讲或者用，这样才真正学会了这个东西。</li>
+<li>练习不必顾全大局，针对不熟悉的细节反复练习</li>
+<li>碎片化学习是个趋势，必须掌握这个能力。碎片化学习需要带着问题去寻找碎片。最重要的是将这些碎片链接起来。</li>
+<li>将任务“严峻化”：可以定好给别人做报告</li>
+<li>设定小目标，形成惯性。</li>
+<li>购买昂贵的学习工具。东西少而精，就更容易专注。</li>
+<li>营造仪式感: 比如使用射灯营造舞台的感觉</li>
+<li>高质量睡眠：缺少睡眠很难专注；运动有助于睡眠。</li>
+<li>用文字，语音，录像制造反馈： (1) 写摘要：照着文本，用自己的话; (2)语音反馈：录音; (3) 肢体类反馈：录像</li>
+</ul>
+</div>
+<div id="xueduxuexi" class="section level3">
+<h3><span class="header-section-number">4.1.11</span> 阅读学习方法</h3>
+<p><strong>深度阅读</strong>：</p>
+<ul>
+<li>阅读姿态：尽可能让自己沉浸进去，把手机放远一点，躲到一个僻静的角落。沉浸到书里面去，进入心流状态。</li>
+<li>阅读选择：元知识</li>
+<li>阅读定力：对关心的主题不惜代价，需要信息上的穷举，没有遗漏。</li>
+<li>阅读野心：批判思维，平视的心态阅读而非仰视。 阅读又许多功能，最重要的是对生活、人生带来改变。是否用行动将其转化为价值，智慧是否得以增加，解决生活现实问题的能力是否提高，心态是否更加平和，与他人关系是否得到改善。</li>
+</ul>
+<p><strong>深度学习</strong>:</p>
+<ul>
+<li><strong>反复练习</strong>: 我们都知道大脑灰质，但大脑还有近50%由“白质”构成，即髓磷脂，也叫髓鞘质，它得以产生并包裹大脑神经元轴突的过程叫作神经髓鞘化。神经髓鞘化能使神经传导速度变快，好比由拨号变成宽带，对高级动作技巧和反应的学习来说至关重要。<br />
+神经髓鞘化会在两种情况下发生：小朋友在成长过程中自然获得；成人也可获得，但必须付出大量努力反复练习才行。 好消息是大脑的可塑性伴随我们一生，也就是说，什么时候学习都不晚，坏消息则是这并不容易。重搭大脑回路，需要大量、反复、有针对性的练习，这就需要我们：
+<ul>
+<li>反复练习: 形成肌肉记忆是成人学习的必由之路。</li>
+<li>正确练习: 仔细聆听反馈给你的信息，有针对性地调节练习方式同样重要 ——你不会想给大脑搭条错误的回路。</li>
+</ul></li>
+<li><strong>善用注意力剩余</strong>: 注意力是我们最宝贵的资源。时间碎片化对我们的消磨，主要就来自于在多件事中来回切换，注意力随之损耗，于是忙碌、焦灼，效率低下。我们试图多任务处理以获得效率，结果却适得其反。接受人脑的黏性，我们只能克制多任务处理的冲动，转而致力于两件事：
+<ul>
+<li>一个时间段只做一件事</li>
+<li>前后相邻的时间段尽量做相关的事情，专注做一件事，会形成注意力剩余，对做相关的事有用，不要浪费它。 把时间组块，把相关的工作组块，善用注意力剩余，事半功倍。</li>
+</ul></li>
+<li><strong>养成适合自己的工作节奏</strong>: 好习惯是最强大的，而坏习惯是最顽固的，所以要刻意养成好的工作习惯。习惯最有用之处就是自动克服拖延症，并把对工作的焦虑化解为一连串固定流程，不再需要耗费心理能量去启动，去克服。 下面这些模式都可行，看看哪个适合你：
+<ul>
+<li>隔绝模式：工作时与世隔绝，像僧侣一样；</li>
+<li>双模式：在两种模式中切换，既像僧侣一般与世隔绝，也有正常生活；</li>
+<li>节奏模式：定期，最好是每天，都固定做同一件事，形成节奏；</li>
+<li>记者模式：记者有截稿期，按需写作。</li>
+</ul></li>
+<li><strong>敢于关机</strong></li>
+<li><strong>干票大的</strong>: 把视线从眼前事务中抽出来，往远方看，当然也不要太远。给自己定下未来半年到一年要做成的一件大事，然后去完成它。高远目标－任务分解－针对性练习－反馈调整－朝下一个目标迭代提高，这是摆脱低效忙碌的终极大法。</li>
+</ul>
+</div>
+<div id="haohaoxuexi" class="section level3">
+<h3><span class="header-section-number">4.1.12</span> 好好学习</h3>
+<p>这是一本讲学习方法，讲如何管理自己知识的书。它将帮助你把零碎的知识打造成为高效的知识管理体系，构建你的学习竞争力，让所学知识真正变成你的资产，让学习成为财富积累的过程。</p>
+<p>一、什么是知识？</p>
+<p>1．信息和知识的区别: 只有那些能够改变你行动或者认知的信息才是知识，否则它只是信息。</p>
+<p>2．低水平的勤奋: 努力但效率很低，进步很慢的学习，就是低水平的勤奋。比如，有的人读了很多书，上了很多培训课，但是能力仍然提升不起来。</p>
+<p>二、如何高效学习</p>
+<p>1．两种学习效率</p>
+<p>（1）技术效率：不断学习解决具体场景下问题的学习方式。在技术效率层面去解决问题的水平比较低。</p>
+<p>（2）认知效率：在解决任务的时候，不仅掌握了解决的办法，还弄明白了这类问题背后的规律，这种努力方式就归类为提升认知效率。</p>
+<p>2．一个观点，两个假设</p>
+<p>关于学习方法的观点：多花时间去研究事物背后的规律，从规律入手进行学习，效率才会更高。这个观点是建立在两个假设基础之上。</p>
+<p>（1）假设一：世界上大部分领域，看似复杂的现象其实往往是由少数重要的规律决定的。也就是说假设复杂现象背后是简单的规律。本书也是建立在这个假设基础之上。</p>
+<p>（2）假设二：世界上各个事物之间的关系，不是简单的因果关系，而是彼此相互联系、互相影响的。</p>
+<p>3．临界知识</p>
+<p>通过学习和掌握少数重要但是影响广泛的规律，并以此建立的认知，应用在各个领域中，就能形成自己的跨界竞争优势。而这些能够在各个领域广泛应用的重要基本规律，被称为临界知识。 如果能够在学习的过程中优先主动地掌握临界知识，掌握事物背后重要的基本规律，那学习效率就会高得多。</p>
+<p>三、如何掌握临界知识</p>
+<p>1.基本原则</p>
+<p>掌握临界知识的基本原则是：要了解知识的可靠性和局限性。要确保这个规律是可靠，经过了广泛地验证，并且清楚这个规律的适用和不适用的领域。 优先使用“硬科学”的规律。所谓硬科学，是相对软科学而言。硬科学是指数学、物理、化学、生物学这样的学科，而软科学是指社会学这类的学科。</p>
+<p>2.三个底层方法</p>
+<p>（1）刻意练习</p>
+<p>如果你要掌握某一领域的知识，那么你可以去寻求这个领域一流的导师，然后学习他是怎么思考和解决问题的。坚持这样刻意练习，往往就能够更快速地发现和掌握问题背后的规律，理解一点就通达一点，从而极大地提高学习的效率。</p>
+<p>（2）反思</p>
+<p>总结不是反思。反思是对产生结果的原因进行分析，反思的实质是对假设进行校正。比如，反复思考研究当初做这个决策的依据是什么，为什么是这样，当初的假设正确吗？</p>
+<p>（3）以教为学</p>
+<p>3.三个学习技巧</p>
+<p>（1）记录：记录和写下来是不一样的。</p>
+<p>一个好的记录，要做到两点：第一点，要记录整个事情发展的过程；第二点，主动地记录看不见的关系，而不仅仅是记录流水账。</p>
+<p>（2）定期回顾：一方面的原因是，时间一久，我们很容易忘掉学的东西；另一方面，很多事情发生的原因和最后的结果之间时间间隔很长。如果不去回顾，往往没有意识到这两者之间其实是有联系的。</p>
+<p>（3）付费学习：一方面是指通过“买时间”来增加有效学习时间；另一方面是指，通过买“高质量的知识产品”或“向专家付费”获得咨询建议，来提高学习效率。</p>
+</div>
+<div id="yueqian" class="section level3">
+<h3><span class="header-section-number">4.1.13</span> 跃迁</h3>
+<p>身法：头部战略（价值高/低，自身竞争力优势高/低），资料源头，跨界联机学习(自己打磨一个知识模块，抛出去换别人的知识模块)，问题树取代知识树。</p>
+<p>心法：专注的站在头部区，保持开放的心态，迟钝让人更有定力
+2015</p>
+</div>
+</div>
+<p style="text-align: center;">
+<a href="4-self-development.html"><button class="btn btn-default">Previous</button></a>
+<a href="4-2-emotion-management.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>
