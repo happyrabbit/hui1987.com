@@ -185,6 +185,8 @@ wangyangmingg
 xinjing
 xinli4
 what-makes-things-cool
+a-guide-to-the-good-life
+introduction-1
 religion
 the-tibetan-book-of-living-and-dying-西藏生死书sogal-rinpoche
 living
@@ -211,7 +213,7 @@ the-clash-of-civilizations
 chrysanthemum-and-sword
 connectography
 much-depends-on-dinner
-introduction-1
+introduction-2
 corn
 salt
 ice-cream
@@ -300,7 +302,7 @@ data-quality
 business-economics
 the-wealth-of-nations-adam-smith
 principles-of-economics-alfred-marshall
-introduction-2
+introduction-3
 the-substance-of-economics
 fishing-for-phools
 shareology
