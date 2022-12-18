@@ -187,6 +187,7 @@ xinli4
 what-makes-things-cool
 a-guide-to-the-good-life
 introduction-1
+anger
 religion
 the-tibetan-book-of-living-and-dying-西藏生死书sogal-rinpoche
 living
@@ -331,6 +332,7 @@ medicine
 the-price-we-pay
 health-fair
 welcome-to-the-game
+improving-wisely
 chinese-medicine-中药
 素食保养
 艾叶-folium-artemisiae-argyi
